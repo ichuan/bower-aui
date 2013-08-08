@@ -1,4 +1,4 @@
-bower-aui
+Bower-aui
 =========
 
 Bower repo for the AUI (https://docs.atlassian.com/aui/latest/). Current version: `5.2.1-m1`（5.2.101）
@@ -7,7 +7,7 @@ Bower repo for the AUI (https://docs.atlassian.com/aui/latest/). Current version
 Versioning
 ===========
 
-Here is AUI version to bower version map:
+Since AUI not obey the [semver](http://semver.org/) versioning, here is AUI version to bower version map:
 
 * `5.0.1`    => `5.0.100`
 * `5.1`      => `5.1.0`
