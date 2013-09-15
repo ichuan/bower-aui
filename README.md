@@ -1,7 +1,7 @@
 Bower-aui
 =========
 
-Bower repo for the AUI (https://docs.atlassian.com/aui/latest/). Current version: `5.2.1-m1`（5.2.101）
+Bower repo for the AUI (https://docs.atlassian.com/aui/latest/). Current version: `5.3-m3`（5.3.3）
 
 
 Versioning
