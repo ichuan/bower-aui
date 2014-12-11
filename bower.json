@@ -1,5 +1,5 @@
 {
   "name": "ichuan-bower-aui",
-  "version": "5.3.3",
+  "version": "5.7.18",
   "main": ["js/aui-all.js", "css/aui-all.css"]
 }
