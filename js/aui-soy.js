@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.6
+ * @version v6.0.7
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
  */
-// .tmp/compiled-soy/atlassian-deps.js
-(typeof window === 'undefined' ? global : window).__a53df2df65b0ae7b4b04f07d8928a73f = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/atlassian-deps.js
+(typeof window === 'undefined' ? global : window).__2d36b5a2accbc13134e063bb92fe4243 = (function () {
   var module = {
     exports: {}
   };
@@ -31,8 +31,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/soyutils.js
-(typeof window === 'undefined' ? global : window).__c7f0d65a5fb853466c83cd0b8b82cf8e = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/soyutils.js
+(typeof window === 'undefined' ? global : window).__0609dbaf2509de6b6635371ba50a8ac2 = (function () {
   var module = {
     exports: {}
   };
@@ -5796,8 +5796,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/aui.js
-(typeof window === 'undefined' ? global : window).__e6e8b453903e65b16809f2a71873f682 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/aui.js
+(typeof window === 'undefined' ? global : window).__654340d9bd6f2ee29f110d4c7ca530aa = (function () {
   var module = {
     exports: {}
   };
@@ -5862,8 +5862,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/avatar.js
-(typeof window === 'undefined' ? global : window).__9d22df7541593b4d86613387110910ac = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/avatar.js
+(typeof window === 'undefined' ? global : window).__31bc153169670b80108c6364ff060c74 = (function () {
   var module = {
     exports: {}
   };
@@ -5893,8 +5893,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/badges.js
-(typeof window === 'undefined' ? global : window).__d31f281a2025c9f44381c53e5186b35c = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/badges.js
+(typeof window === 'undefined' ? global : window).__f60d11b5b3d6aa04e70cafc9f9ac996d = (function () {
   var module = {
     exports: {}
   };
@@ -5924,8 +5924,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/buttons.js
-(typeof window === 'undefined' ? global : window).__03c64869a9b592cb1b6adcc71c8d6e41 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/buttons.js
+(typeof window === 'undefined' ? global : window).__32a522175f5d93f4b52ad17b2a7b5ad5 = (function () {
   var module = {
     exports: {}
   };
@@ -6014,8 +6014,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/dialog2.js
-(typeof window === 'undefined' ? global : window).__c3e9394c661b8d56890453a06f3ec31f = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/dialog2.js
+(typeof window === 'undefined' ? global : window).__babc9e6a9c5303967732e54897303e0f = (function () {
   var module = {
     exports: {}
   };
@@ -6090,8 +6090,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/dropdown.js
-(typeof window === 'undefined' ? global : window).__6e3a7fa2dc6cd0f405730d126997feeb = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/dropdown.js
+(typeof window === 'undefined' ? global : window).__5507ef5d252ebbf3e415b6f40631ed14 = (function () {
   var module = {
     exports: {}
   };
@@ -6146,8 +6146,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/dropdown2.js
-(typeof window === 'undefined' ? global : window).__eeffe1213d8a3c1161023e531e0d3385 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/dropdown2.js
+(typeof window === 'undefined' ? global : window).__057201b1ba015ceb8a0ad93a77cac1b1 = (function () {
   var module = {
     exports: {}
   };
@@ -6261,8 +6261,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/expander.js
-(typeof window === 'undefined' ? global : window).__9f80ef85a2a9d6e966b169d413b1cafa = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/expander.js
+(typeof window === 'undefined' ? global : window).__e19a4a2da2c11b7cac93fd2639391772 = (function () {
   var module = {
     exports: {}
   };
@@ -6308,8 +6308,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/form.js
-(typeof window === 'undefined' ? global : window).__bc379a60ab5fa5921e706adee99ce083 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/form.js
+(typeof window === 'undefined' ? global : window).__f0f426e554bb2c08e952da5b5a6c96a4 = (function () {
   var module = {
     exports: {}
   };
@@ -6720,8 +6720,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/group.js
-(typeof window === 'undefined' ? global : window).__2491d7d57a2f7801b7fac97a9ec6cc8d = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/group.js
+(typeof window === 'undefined' ? global : window).__497160e1e89a99aed3949634337a6e17 = (function () {
   var module = {
     exports: {}
   };
@@ -6759,8 +6759,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/icons.js
-(typeof window === 'undefined' ? global : window).__9c1b7337681b51fdcaf9d08e89451a80 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/icons.js
+(typeof window === 'undefined' ? global : window).__99e9a39740de5a0f36427d36a6fa994c = (function () {
   var module = {
     exports: {}
   };
@@ -6790,8 +6790,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/inline-dialog2.js
-(typeof window === 'undefined' ? global : window).__194a9fd0ae14a072592c1deef136de6d = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/inline-dialog2.js
+(typeof window === 'undefined' ? global : window).__4890f142dcc021b4ebb06c02f9c159cd = (function () {
   var module = {
     exports: {}
   };
@@ -6829,8 +6829,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/labels.js
-(typeof window === 'undefined' ? global : window).__7e203be84c77a093634a30adb1404c0e = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/labels.js
+(typeof window === 'undefined' ? global : window).__622deed7cba6e8bf01d376c6b3217ccf = (function () {
   var module = {
     exports: {}
   };
@@ -6876,8 +6876,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/lozenges.js
-(typeof window === 'undefined' ? global : window).__d5dae2abe4b583c20a4ecdf7e3162990 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/lozenges.js
+(typeof window === 'undefined' ? global : window).__eeac2d86157ae7574dd1e5619c195f78 = (function () {
   var module = {
     exports: {}
   };
@@ -6907,8 +6907,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/message.js
-(typeof window === 'undefined' ? global : window).__1cda3f6491b733eed5044d14fd39352f = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/message.js
+(typeof window === 'undefined' ? global : window).__911c65b3d2d1bc7ec0bce46b32fc7fbe = (function () {
   var module = {
     exports: {}
   };
@@ -6990,8 +6990,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/navigation.js
-(typeof window === 'undefined' ? global : window).__142eeba3c8b5f31a0cd3c953cc9c340e = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/navigation.js
+(typeof window === 'undefined' ? global : window).__4cdd6abe25f84091d6fef49ce1f3cd7b = (function () {
   var module = {
     exports: {}
   };
@@ -7037,8 +7037,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/page.js
-(typeof window === 'undefined' ? global : window).__6c08a5cf1f2e92b97236babad5808ad6 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/page.js
+(typeof window === 'undefined' ? global : window).__4e76b1035727796c363c346c7040b4ab = (function () {
   var module = {
     exports: {}
   };
@@ -7167,8 +7167,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/panel.js
-(typeof window === 'undefined' ? global : window).__2bfffbec66d0768d2f7f46e7963427bd = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/panel.js
+(typeof window === 'undefined' ? global : window).__afca686d0d2d8c4f524ebc4bc31e3d26 = (function () {
   var module = {
     exports: {}
   };
@@ -7197,8 +7197,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/progress-tracker.js
-(typeof window === 'undefined' ? global : window).__3475d727e9b91f1423781e6284d7cbc9 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/progress-tracker.js
+(typeof window === 'undefined' ? global : window).__3d4cf277c9fb24ccb9833218ddb22e13 = (function () {
   var module = {
     exports: {}
   };
@@ -7272,8 +7272,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/sidebar.js
-(typeof window === 'undefined' ? global : window).__33aed7dbb90662f3568d927cfadac855 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/sidebar.js
+(typeof window === 'undefined' ? global : window).__e39597e2419a64a8d4b18d3c43c59628 = (function () {
   var module = {
     exports: {}
   };
@@ -7303,8 +7303,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/table.js
-(typeof window === 'undefined' ? global : window).__0797f013555fa4c8b6ea99b79447a802 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/table.js
+(typeof window === 'undefined' ? global : window).__a6223896799a4397f5076cdbced3af90 = (function () {
   var module = {
     exports: {}
   };
@@ -7333,8 +7333,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/tabs.js
-(typeof window === 'undefined' ? global : window).__3ba45eddbe385e289e50deff16d80d4e = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/tabs.js
+(typeof window === 'undefined' ? global : window).__826ee8c9fdf5202daa216df1a4bd2ba6 = (function () {
   var module = {
     exports: {}
   };
@@ -7387,8 +7387,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/toolbar.js
-(typeof window === 'undefined' ? global : window).__35620d0900fba76a29c47593fb08f5cd = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/toolbar.js
+(typeof window === 'undefined' ? global : window).__8cbd942838dbfd68f13c3cbd0d3c8879 = (function () {
   var module = {
     exports: {}
   };
@@ -7491,8 +7491,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/toolbar2.js
-(typeof window === 'undefined' ? global : window).__7354daa4f1caccec6f311bd6691c7717 = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/toolbar2.js
+(typeof window === 'undefined' ? global : window).__e5d2785e53304c49e4111aeb191408db = (function () {
   var module = {
     exports: {}
   };
@@ -7538,8 +7538,8 @@
   
   return module.exports;
 }).call(this);
-// .tmp/compiled-soy/trigger.js
-(typeof window === 'undefined' ? global : window).__d4bc2b8438f1b1f16cb3e32bc902e68f = (function () {
+// node_modules/@atlassian/aui/.tmp/compiled-soy/trigger.js
+(typeof window === 'undefined' ? global : window).__f6857208520f0e51ea729b174bc482ee = (function () {
   var module = {
     exports: {}
   };
@@ -7582,59 +7582,59 @@
     value: true
   });
   
-  __a53df2df65b0ae7b4b04f07d8928a73f;
+  __2d36b5a2accbc13134e063bb92fe4243;
   
-  __c7f0d65a5fb853466c83cd0b8b82cf8e;
+  __0609dbaf2509de6b6635371ba50a8ac2;
   
-  __e6e8b453903e65b16809f2a71873f682;
+  __654340d9bd6f2ee29f110d4c7ca530aa;
   
-  __9d22df7541593b4d86613387110910ac;
+  __31bc153169670b80108c6364ff060c74;
   
-  __d31f281a2025c9f44381c53e5186b35c;
+  __f60d11b5b3d6aa04e70cafc9f9ac996d;
   
-  __03c64869a9b592cb1b6adcc71c8d6e41;
+  __32a522175f5d93f4b52ad17b2a7b5ad5;
   
-  __c3e9394c661b8d56890453a06f3ec31f;
+  __babc9e6a9c5303967732e54897303e0f;
   
-  __6e3a7fa2dc6cd0f405730d126997feeb;
+  __5507ef5d252ebbf3e415b6f40631ed14;
   
-  __eeffe1213d8a3c1161023e531e0d3385;
+  __057201b1ba015ceb8a0ad93a77cac1b1;
   
-  __9f80ef85a2a9d6e966b169d413b1cafa;
+  __e19a4a2da2c11b7cac93fd2639391772;
   
-  __bc379a60ab5fa5921e706adee99ce083;
+  __f0f426e554bb2c08e952da5b5a6c96a4;
   
-  __2491d7d57a2f7801b7fac97a9ec6cc8d;
+  __497160e1e89a99aed3949634337a6e17;
   
-  __9c1b7337681b51fdcaf9d08e89451a80;
+  __99e9a39740de5a0f36427d36a6fa994c;
   
-  __194a9fd0ae14a072592c1deef136de6d;
+  __4890f142dcc021b4ebb06c02f9c159cd;
   
-  __7e203be84c77a093634a30adb1404c0e;
+  __622deed7cba6e8bf01d376c6b3217ccf;
   
-  __d5dae2abe4b583c20a4ecdf7e3162990;
+  __eeac2d86157ae7574dd1e5619c195f78;
   
-  __1cda3f6491b733eed5044d14fd39352f;
+  __911c65b3d2d1bc7ec0bce46b32fc7fbe;
   
-  __142eeba3c8b5f31a0cd3c953cc9c340e;
+  __4cdd6abe25f84091d6fef49ce1f3cd7b;
   
-  __6c08a5cf1f2e92b97236babad5808ad6;
+  __4e76b1035727796c363c346c7040b4ab;
   
-  __2bfffbec66d0768d2f7f46e7963427bd;
+  __afca686d0d2d8c4f524ebc4bc31e3d26;
   
-  __3475d727e9b91f1423781e6284d7cbc9;
+  __3d4cf277c9fb24ccb9833218ddb22e13;
   
-  __33aed7dbb90662f3568d927cfadac855;
+  __e39597e2419a64a8d4b18d3c43c59628;
   
-  __0797f013555fa4c8b6ea99b79447a802;
+  __a6223896799a4397f5076cdbced3af90;
   
-  __3ba45eddbe385e289e50deff16d80d4e;
+  __826ee8c9fdf5202daa216df1a4bd2ba6;
   
-  __35620d0900fba76a29c47593fb08f5cd;
+  __8cbd942838dbfd68f13c3cbd0d3c8879;
   
-  __7354daa4f1caccec6f311bd6691c7717;
+  __e5d2785e53304c49e4111aeb191408db;
   
-  __d4bc2b8438f1b1f16cb3e32bc902e68f;
+  __f6857208520f0e51ea729b174bc482ee;
   
   exports.default = window.aui;
   module.exports = exports['default'];

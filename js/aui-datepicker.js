@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.6
+ * @version v6.0.7
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -2270,13 +2270,12 @@
       "monthNames": [_i18n2.default.getText('ajs.datepicker.localisations.month-names.january'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.february'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.march'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.april'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.may'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.june'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.july'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.august'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.september'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.october'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.november'), _i18n2.default.getText('ajs.datepicker.localisations.month-names.december')],
       "showMonthAfterYear": _i18n2.default.getText('ajs.datepicker.localisations.show-month-after-year') === "true" ? true : false,
       "yearSuffix": _i18n2.default.getText('ajs.datepicker.localisations.year-suffix')
-  };
   
-  // -------------------------------------------------------------------------
-  // finally, integrate with jQuery for convenience --------------------------
-  // -------------------------------------------------------------------------
+      // -------------------------------------------------------------------------
+      // finally, integrate with jQuery for convenience --------------------------
+      // -------------------------------------------------------------------------
   
-  _jquery2.default.fn.datePicker = function (options) {
+  };_jquery2.default.fn.datePicker = function (options) {
       return new DatePicker(this, options);
   };
   

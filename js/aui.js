@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.6
+ * @version v6.0.7
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -5301,8 +5301,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/node_modules/tether/tether.js
-(typeof window === 'undefined' ? global : window).__c73084fddb2d02d92156231c79374859 = (function () {
+// node_modules/tether/tether.js
+(typeof window === 'undefined' ? global : window).__d3f759e90b4db8b7946f386ca7d85286 = (function () {
   var module = {
     exports: {}
   };
@@ -5352,7 +5352,7 @@
         exports = module.exports = rval;
       }
     };
-  }("__c73084fddb2d02d92156231c79374859");
+  }("__d3f759e90b4db8b7946f386ca7d85286");
   define.amd = true;
   
   /*! tether 0.6.5 */
@@ -6814,7 +6814,7 @@
   
   var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
   
-  var _tether = __c73084fddb2d02d92156231c79374859;
+  var _tether = __d3f759e90b4db8b7946f386ca7d85286;
   
   var _tether2 = _interopRequireDefault(_tether);
   
@@ -17213,9 +17213,9 @@
           handleObj.index = new TimedNumber(options.timer);
           handleObj.handler = function( event ) {
               // Don't fire in text-accepting inputs that we didn't directly bind to
-              // important to note that $.fn.prop is only available on jquery 1.6+
+              // important to note that jQuery.fn.prop is only available on jquery 1.6+
               if ( this !== event.target && (/textarea|select|input/i.test( event.target.nodeName ) ||
-                  $(event.target).prop('contenteditable') == 'true' )) {
+                  jQuery(event.target).prop('contenteditable') === 'true' )) {
                   return;
               }
   
@@ -17922,7 +17922,7 @@
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var version = '6.0.6';
+  var version = '6.0.7';
   
   (0, _globalize2.default)('version', version);
   
