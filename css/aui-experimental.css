@@ -1520,12 +1520,7 @@ disabled look for disabled choices in the results dropdown
   left: 0;
 }
 .aui-flag .aui-message {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-radius: 3px;
+  box-shadow: 0 20px 32px -8px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31);
   pointer-events: auto;
   width: 300px;
 }

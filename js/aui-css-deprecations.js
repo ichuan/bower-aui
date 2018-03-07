@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.2.1
+ * @version v7.3.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__9d424288987e16e2d1acc13d972b9856 = (function () {
+(typeof window === 'undefined' ? global : window).__29b7dfe7af9123bed5e9dac86351d06c = (function () {
   var module = {
     exports: {}
   };
@@ -14,9 +14,9 @@
   
   'use strict';
   
-  var _deprecation = __a63803ef753324d1437820e0aa5bed44;
+  var _deprecation = __4ddcc788b1704f76a51559fc0e0d2968;
   
-  var _amdify = __64481ccf85ca07d33a89f6a39e71d5aa;
+  var _amdify = __a94c70e97545519793c3abf603e0b37c;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
