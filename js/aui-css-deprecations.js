@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.6.1
+ * @version v7.6.2
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui/internal/deprecation/deprecated-adg2-icons.js
-(typeof window === 'undefined' ? global : window).__18ae227f677acb905d63a940f86daae7 = (function () {
+(typeof window === 'undefined' ? global : window).__dc9600e3b63d62ade7dac1430dd84b82 = (function () {
   var module = {
     exports: {}
   };
@@ -418,7 +418,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__29b7dfe7af9123bed5e9dac86351d06c = (function () {
+(typeof window === 'undefined' ? global : window).__ed2448fa18a8167102899bd4d250ba4b = (function () {
   var module = {
     exports: {}
   };
@@ -426,13 +426,13 @@
   
   'use strict';
   
-  var _deprecation = __4ddcc788b1704f76a51559fc0e0d2968;
+  var _deprecation = __1f642ac889edd28b9a56a069e947b2fa;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _deprecatedAdg2Icons = __18ae227f677acb905d63a940f86daae7;
+  var _deprecatedAdg2Icons = __dc9600e3b63d62ade7dac1430dd84b82;
   
   var _deprecatedAdg2Icons2 = _interopRequireDefault(_deprecatedAdg2Icons);
   

@@ -1837,6 +1837,7 @@ form.aui .textarea[data-aui-notification-success] {
   box-sizing: border-box;
   border-top: 1px solid #F4F5F7;
   display: flex;
+  flex-direction: row-reverse;
   flex-shrink: 0;
   justify-content: space-between;
   min-height: 40px;
@@ -1858,6 +1859,9 @@ form.aui .textarea[data-aui-notification-success] {
 }
 .aui-sidebar .aui-sidebar-footer .aui-button ~ .aui-button {
   margin-left: 0;
+}
+.aui-sidebar .aui-sidebar-footer > .aui-sidebar-toggle {
+  order: -1;
 }
 .aui-sidebar .aui-sidebar-footer > .aui-sidebar-toggle > .aui-icon {
   background: url(images/icons/sidebar/icon-toggle.svg) center center no-repeat;
@@ -1917,7 +1921,7 @@ form.aui .textarea[data-aui-notification-success] {
 }
 .aui-sidebar[aria-expanded="false"] .aui-sidebar-footer {
   overflow: hidden;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 .aui-sidebar[aria-expanded="false"] .aui-sidebar-footer > .aui-sidebar-toggle > .aui-icon {
   -webkit-transform: rotate(180deg);

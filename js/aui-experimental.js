@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.6.1
+ * @version v7.6.2
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui/polyfills/placeholder.js
-(typeof window === 'undefined' ? global : window).__452d3f8e5d643ab60faf3f564b8276d8 = (function () {
+(typeof window === 'undefined' ? global : window).__452c012824c4f20adbfded14b47404b9 = (function () {
   var module = {
     exports: {}
   };
@@ -14,11 +14,11 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -55,7 +55,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/banner.js
-(typeof window === 'undefined' ? global : window).__e7296db63088f504f190097510a8efb3 = (function () {
+(typeof window === 'undefined' ? global : window).__b00f8adb36779fe83c9d33aaa308158b = (function () {
   var module = {
     exports: {}
   };
@@ -67,21 +67,21 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __57bb8e7218df9c12a4337e92d4c02bd5;
+  var _animation = __972608b750af83d549897a1abcf4bf44;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _template = __916a0948cf0486bc703577fb47b747c1;
+  var _template = __bef1aeeb0caeb1bf87862664b33aff27;
   
   var _template2 = _interopRequireDefault(_template);
   
@@ -144,7 +144,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/button.js
-(typeof window === 'undefined' ? global : window).__133851082a1337b5710e5a2aa98258e9 = (function () {
+(typeof window === 'undefined' ? global : window).__da777ee9ec96120234c0118e0f7b1ae0 = (function () {
   var module = {
     exports: {}
   };
@@ -152,19 +152,19 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __bbcdfae479e60b56b982bbcdcc7a0191;
+  var _log = __89656e4711dc98e663b0f5fc5aa5d55c;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -240,7 +240,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/jquery/jquery.tipsy.js
-(typeof window === 'undefined' ? global : window).__dbb945ae8033589d400f8c63e7d01524 = (function () {
+(typeof window === 'undefined' ? global : window).__a029c405dac1fb6582068c64bf1bed7d = (function () {
   var module = {
     exports: {}
   };
@@ -590,7 +590,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/tooltip.js
-(typeof window === 'undefined' ? global : window).__6999efc8461cc8bcf32a985dbca81aa1 = (function () {
+(typeof window === 'undefined' ? global : window).__e2abdea43094d987ea6d5c4fe2bad2e5 = (function () {
   var module = {
     exports: {}
   };
@@ -598,11 +598,11 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __dbb945ae8033589d400f8c63e7d01524;
+  __a029c405dac1fb6582068c64bf1bed7d;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -675,7 +675,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/checkbox-multiselect.js
-(typeof window === 'undefined' ? global : window).__bf3c38e4a0e7481b849a297fccf30258 = (function () {
+(typeof window === 'undefined' ? global : window).__230cfd6da98a72dcb1a4e49355927824 = (function () {
   var module = {
     exports: {}
   };
@@ -687,25 +687,25 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __66a09fadeaffb2f1300bfa557f5294cd;
+  __9e5e72f366e8137a6aae7a341d51ef09;
   
-  __6999efc8461cc8bcf32a985dbca81aa1;
+  __e2abdea43094d987ea6d5c4fe2bad2e5;
   
-  __be3e01199078cdf5ded88dda6a8fbec9;
+  __b32f862918680df4e9f235eb6ba33e07;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _uniqueId = __6a8d9be203374eb86b4b050d0244b6f1;
+  var _uniqueId = __2ed8997ad95265d051e5f2efe4cc210e;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
@@ -1022,7 +1022,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/dialog2.js
-(typeof window === 'undefined' ? global : window).__3ac567a4ab4b829d5c6e6c81df33cbe8 = (function () {
+(typeof window === 'undefined' ? global : window).__911d1f07ed2b108bc88661b8741ee2c6 = (function () {
   var module = {
     exports: {}
   };
@@ -1034,23 +1034,23 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _layer = __06224e18e744dc8a44794ab29f247385;
+  var _layer = __52b7f300821764355c827c8cc415542c;
   
   var _layer2 = _interopRequireDefault(_layer);
   
-  var _widget = __2d1b5481970dd1547e294d829464e03f;
+  var _widget = __045396eb80ea30210d7d51a20e70f6a3;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -1153,7 +1153,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/expander.js
-(typeof window === 'undefined' ? global : window).__f165ad68f415362651d0d7f733fcdcea = (function () {
+(typeof window === 'undefined' ? global : window).__e37778bdbb6695f91e062fff776405d3 = (function () {
   var module = {
     exports: {}
   };
@@ -1161,7 +1161,7 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
@@ -1274,7 +1274,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/flag.js
-(typeof window === 'undefined' ? global : window).__7c68b94bd1e7e5a2f72d197f55d1d459 = (function () {
+(typeof window === 'undefined' ? global : window).__67047b36a24a49f31934ba943975ba90 = (function () {
   var module = {
     exports: {}
   };
@@ -1286,29 +1286,29 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __57bb8e7218df9c12a4337e92d4c02bd5;
+  var _animation = __972608b750af83d549897a1abcf4bf44;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __b925764b9e17cff61f648a86f18e6e25;
+  var _keyCode = __2d62fee3ee7452731a665cbfb7024e5c;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _template = __916a0948cf0486bc703577fb47b747c1;
+  var _template = __bef1aeeb0caeb1bf87862664b33aff27;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _customEvent = __16bf5f1d761138a726209288b7afb338;
+  var _customEvent = __44959752f7163e398ae3759b33c8e4c8;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
@@ -1433,7 +1433,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/form-notification.js
-(typeof window === 'undefined' ? global : window).__223d4ffbfb11c7b1196e30d8f0783cb8 = (function () {
+(typeof window === 'undefined' ? global : window).__f37cc84bc297fb52a3b097ec6e5039ff = (function () {
   var module = {
     exports: {}
   };
@@ -1441,25 +1441,25 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __dbb945ae8033589d400f8c63e7d01524;
+  __a029c405dac1fb6582068c64bf1bed7d;
   
-  var _log = __bbcdfae479e60b56b982bbcdcc7a0191;
+  var _log = __89656e4711dc98e663b0f5fc5aa5d55c;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _keyCode = __b925764b9e17cff61f648a86f18e6e25;
+  var _keyCode = __2d62fee3ee7452731a665cbfb7024e5c;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -1814,7 +1814,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/form-validation/validator-register.js
-(typeof window === 'undefined' ? global : window).__d1c8e25e9e01e4d366088e44abd86cd0 = (function () {
+(typeof window === 'undefined' ? global : window).__2f2850f1187b7597e519183d1a183f55 = (function () {
   var module = {
     exports: {}
   };
@@ -1826,15 +1826,15 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __bbcdfae479e60b56b982bbcdcc7a0191;
+  var _log = __89656e4711dc98e663b0f5fc5aa5d55c;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -1909,7 +1909,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/form-validation/basic-validators.js
-(typeof window === 'undefined' ? global : window).__22130538f5919f6e261036684b13c6f2 = (function () {
+(typeof window === 'undefined' ? global : window).__855b6ae44a2a3501eeed5e8a7053c6b9 = (function () {
   var module = {
     exports: {}
   };
@@ -1917,23 +1917,23 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _format = __a0d4f23ad4f9b40c6f8c8e4e6922c981;
+  var _format = __a846cb2e9185358b8e95949c71ee9783;
   
   var _format2 = _interopRequireDefault(_format);
   
-  var _i18n = __be3e01199078cdf5ded88dda6a8fbec9;
+  var _i18n = __b32f862918680df4e9f235eb6ba33e07;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _validatorRegister = __d1c8e25e9e01e4d366088e44abd86cd0;
+  var _validatorRegister = __2f2850f1187b7597e519183d1a183f55;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
   
@@ -2171,7 +2171,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/form-validation.js
-(typeof window === 'undefined' ? global : window).__bd4ecc7f267c4325495affa1d72b9196 = (function () {
+(typeof window === 'undefined' ? global : window).__6c25900a61f82fad4abfafe6b4500355 = (function () {
   var module = {
     exports: {}
   };
@@ -2183,31 +2183,31 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __223d4ffbfb11c7b1196e30d8f0783cb8;
+  __f37cc84bc297fb52a3b097ec6e5039ff;
   
-  __22130538f5919f6e261036684b13c6f2;
+  __855b6ae44a2a3501eeed5e8a7053c6b9;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _deprecation = __4ddcc788b1704f76a51559fc0e0d2968;
+  var _deprecation = __1f642ac889edd28b9a56a069e947b2fa;
   
   var deprecate = _interopRequireWildcard(_deprecation);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _validatorRegister = __d1c8e25e9e01e4d366088e44abd86cd0;
+  var _validatorRegister = __2f2850f1187b7597e519183d1a183f55;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
   
@@ -2587,7 +2587,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/constants.js
-(typeof window === 'undefined' ? global : window).__e378fd259e8cc11973d9809608fe9a5e = (function () {
+(typeof window === 'undefined' ? global : window).__05367ccbcc6ef14ebdea94a4b398d2b0 = (function () {
   var module = {
     exports: {}
   };
@@ -2608,7 +2608,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/label.js
-(typeof window === 'undefined' ? global : window).__7904d2f802801befa81e22aff0bd1fb6 = (function () {
+(typeof window === 'undefined' ? global : window).__da71abcaeb1e7a0a57ee8da7eb171d0f = (function () {
   var module = {
     exports: {}
   };
@@ -2620,19 +2620,19 @@
       value: true
   });
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _skatejsTemplateHtml = __9b18ba0583cb54ca87cfee562f9dc62a;
+  var _skatejsTemplateHtml = __60f9004acff7ea96c6041ea14d567c3a;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _enforcer = __65a8b3ca1b55232381cf1e189f6e2c47;
+  var _enforcer = __adfb153c96a54ca0e5e9bbf105d841b8;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _constants = __e378fd259e8cc11973d9809608fe9a5e;
+  var _constants = __05367ccbcc6ef14ebdea94a4b398d2b0;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2695,7 +2695,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/progress-indicator.js
-(typeof window === 'undefined' ? global : window).__ef3494fdb79b0ce378f14c1810d48a68 = (function () {
+(typeof window === 'undefined' ? global : window).__a5c0d236d6c0348db144c76caa5a819f = (function () {
   var module = {
     exports: {}
   };
@@ -2707,13 +2707,13 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __57bb8e7218df9c12a4337e92d4c02bd5;
+  var _animation = __972608b750af83d549897a1abcf4bf44;
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -2788,7 +2788,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/backbone/backbone.js
-(typeof window === 'undefined' ? global : window).__754d6596329027c6beeb095ab86facf5 = (function () {
+(typeof window === 'undefined' ? global : window).__e197fa31d1e4672b8dea2bf3a364bbb5 = (function () {
   var module = {
     exports: {}
   };
@@ -2796,10 +2796,10 @@
   var defineDependencies = {
     "module": module,
     "exports": exports,
-    "underscore": __b3f4465251fd1fb4828e20c3f041f71e,
-    "jquery": __77629c8e853846530dfdc3ccd3393ab6,
-    "underscore": __b3f4465251fd1fb4828e20c3f041f71e,
-    "jquery": __77629c8e853846530dfdc3ccd3393ab6
+    "underscore": __0a791235a48093f6af7f79cdeaaa24aa,
+    "jquery": __1eb48266f41b91e032ea4c8f591d9298,
+    "underscore": __0a791235a48093f6af7f79cdeaaa24aa,
+    "jquery": __1eb48266f41b91e032ea4c8f591d9298
   };
   var define = function defineReplacementWrapper(generatedModuleName) {
     return function defineReplacement(name, deps, func) {
@@ -2842,7 +2842,7 @@
         exports = module.exports = rval;
       }
     };
-  }("__754d6596329027c6beeb095ab86facf5");
+  }("__e197fa31d1e4672b8dea2bf3a364bbb5");
   define.amd = true;
   
   /*! THIS FILE HAS BEEN MODIFIED BY ATLASSIAN. Modified lines are marked below, search "ATLASSIAN" */
@@ -2869,8 +2869,8 @@
   
           // Next for Node.js or CommonJS. jQuery may not be needed as a module.
       } else if (typeof exports !== 'undefined') {
-          var _ = __b3f4465251fd1fb4828e20c3f041f71e, $;
-          try { $ = __77629c8e853846530dfdc3ccd3393ab6; } catch(e) {}
+          var _ = __0a791235a48093f6af7f79cdeaaa24aa, $;
+          try { $ = __1eb48266f41b91e032ea4c8f591d9298; } catch(e) {}
           factory(root, exports, _, $);
   
           // Finally, as a browser global.
@@ -2926,7 +2926,7 @@
     * // Require Underscore, if we're on the server, and it's not already present.
     * var _ = root._;
     *
-    * if (!_ && (typeof require !== 'undefined')) _ = __b3f4465251fd1fb4828e20c3f041f71e;
+    * if (!_ && (typeof require !== 'undefined')) _ = __0a791235a48093f6af7f79cdeaaa24aa;
     *
     /** END ATLASSIAN */
   
@@ -4483,7 +4483,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/backbone.js
-(typeof window === 'undefined' ? global : window).__07cdfb826f754040b351a0110fde6536 = (function () {
+(typeof window === 'undefined' ? global : window).__f6329d7c768ba02052f18ff58de3b3af = (function () {
   var module = {
     exports: {}
   };
@@ -4495,11 +4495,11 @@
       value: true
   });
   
-  var _underscore = __e622bd457fe11fb15e9fb452ca3772d0;
+  var _underscore = __2cccefaa94fbf28fe407d49180e63c13;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __754d6596329027c6beeb095ab86facf5;
+  var _backbone = __e197fa31d1e4672b8dea2bf3a364bbb5;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4515,7 +4515,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__bc3aa98a1624c420c64de6459784d4cc = (function () {
+(typeof window === 'undefined' ? global : window).__9f05e8620fd314ae5e1f94eb0400bc65 = (function () {
   var module = {
     exports: {}
   };
@@ -4527,15 +4527,15 @@
       value: true
   });
   
-  var _underscore = __e622bd457fe11fb15e9fb452ca3772d0;
+  var _underscore = __2cccefaa94fbf28fe407d49180e63c13;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4779,7 +4779,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/query-input.js
-(typeof window === 'undefined' ? global : window).__b12fa1032568f0d561e20a44ba70067a = (function () {
+(typeof window === 'undefined' ? global : window).__8a5ca25e13152a64ab429d4807c4623a = (function () {
   var module = {
     exports: {}
   };
@@ -4791,15 +4791,15 @@
       value: true
   });
   
-  var _underscore = __e622bd457fe11fb15e9fb452ca3772d0;
+  var _underscore = __2cccefaa94fbf28fe407d49180e63c13;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4832,7 +4832,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/class-names.js
-(typeof window === 'undefined' ? global : window).__118527544b71a67b452649071c2ae422 = (function () {
+(typeof window === 'undefined' ? global : window).__a01332b0bdbc1f82a4549b10113ee954 = (function () {
   var module = {
     exports: {}
   };
@@ -4870,7 +4870,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/custom-create-view.js
-(typeof window === 'undefined' ? global : window).__8d19d0bdd704aa4d4cdc512b60f140de = (function () {
+(typeof window === 'undefined' ? global : window).__0536d6fb6c1cba27b8e4b5b36326cf27 = (function () {
   var module = {
     exports: {}
   };
@@ -4882,7 +4882,7 @@
     value: true
   });
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4894,7 +4894,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/custom-edit-view.js
-(typeof window === 'undefined' ? global : window).__12a9dc86ab66cc22f78cf62feba9dd64 = (function () {
+(typeof window === 'undefined' ? global : window).__ca95f053e45b59bcb25f2cb777809a03 = (function () {
   var module = {
     exports: {}
   };
@@ -4906,7 +4906,7 @@
     value: true
   });
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4918,7 +4918,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/custom-read-view.js
-(typeof window === 'undefined' ? global : window).__dcca2723b4c5fed4e65377ddb5d32682 = (function () {
+(typeof window === 'undefined' ? global : window).__51c2755613f87dc11cfcfff0411ae0f9 = (function () {
   var module = {
     exports: {}
   };
@@ -4930,7 +4930,7 @@
     value: true
   });
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4942,7 +4942,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/data-keys.js
-(typeof window === 'undefined' ? global : window).__b1c52d9d29b34f181b3d58c504dec0ce = (function () {
+(typeof window === 'undefined' ? global : window).__89ed9ec063bbfced2124be9108d74657 = (function () {
   var module = {
     exports: {}
   };
@@ -4962,7 +4962,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/jquery/serializetoobject.js
-(typeof window === 'undefined' ? global : window).__aa7c1770abfd4c15bea861f799ad2035 = (function () {
+(typeof window === 'undefined' ? global : window).__272bc0902a6337777d6dc3c5e26e5b97 = (function () {
   var module = {
     exports: {}
   };
@@ -5026,7 +5026,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/events.js
-(typeof window === 'undefined' ? global : window).__229915fcac0b1d518ba82b8dccf17af7 = (function () {
+(typeof window === 'undefined' ? global : window).__31e54752d6b89f3dad53542ed52a508e = (function () {
   var module = {
     exports: {}
   };
@@ -5070,7 +5070,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/throbber.js
-(typeof window === 'undefined' ? global : window).__491c5885a1dc4d2077d5e87e221aa590 = (function () {
+(typeof window === 'undefined' ? global : window).__588d8e03dc0293d59103eaee785fcc9d = (function () {
   var module = {
     exports: {}
   };
@@ -5091,7 +5091,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/edit-row.js
-(typeof window === 'undefined' ? global : window).__ea66711b82bb656ccc7223576cc606c7 = (function () {
+(typeof window === 'undefined' ? global : window).__45933abe4b9059131a44509da77a946c = (function () {
   var module = {
     exports: {}
   };
@@ -5105,33 +5105,33 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __aa7c1770abfd4c15bea861f799ad2035;
+  __272bc0902a6337777d6dc3c5e26e5b97;
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __118527544b71a67b452649071c2ae422;
+  var _classNames = __a01332b0bdbc1f82a4549b10113ee954;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __b1c52d9d29b34f181b3d58c504dec0ce;
+  var _dataKeys = __89ed9ec063bbfced2124be9108d74657;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __229915fcac0b1d518ba82b8dccf17af7;
+  var _events = __31e54752d6b89f3dad53542ed52a508e;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __be3e01199078cdf5ded88dda6a8fbec9;
+  var _i18n = __b32f862918680df4e9f235eb6ba33e07;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __491c5885a1dc4d2077d5e87e221aa590;
+  var _throbber = __588d8e03dc0293d59103eaee785fcc9d;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -5607,7 +5607,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/entry-model.js
-(typeof window === 'undefined' ? global : window).__085efe8598a83df67ac0ec7155e156ad = (function () {
+(typeof window === 'undefined' ? global : window).__0700c4c34945de5005b9ddc7339e8e5e = (function () {
   var module = {
     exports: {}
   };
@@ -5621,21 +5621,21 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _events = __a8a2a7bb852460b812b29dc7b998d456;
+  var _events = __fd79e0d271efb8d7c8c1c2ab4265e303;
   
-  var _underscore = __e622bd457fe11fb15e9fb452ca3772d0;
+  var _underscore = __2cccefaa94fbf28fe407d49180e63c13;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _events2 = __229915fcac0b1d518ba82b8dccf17af7;
+  var _events2 = __31e54752d6b89f3dad53542ed52a508e;
   
   var _events3 = _interopRequireDefault(_events2);
   
@@ -5859,7 +5859,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table/row.js
-(typeof window === 'undefined' ? global : window).__8da0d4434ee98ffecf6e34940b133dfd = (function () {
+(typeof window === 'undefined' ? global : window).__60002a4827fe009ea3da5282172d6b9b = (function () {
   var module = {
     exports: {}
   };
@@ -5871,35 +5871,35 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _dialog = __8d4634fbee21b3e51cb6c1e2a1adb5ff;
+  var _dialog = __57700f37c457f52eb0e2c5bee30f0270;
   
   var dialog = _interopRequireWildcard(_dialog);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __118527544b71a67b452649071c2ae422;
+  var _classNames = __a01332b0bdbc1f82a4549b10113ee954;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __b1c52d9d29b34f181b3d58c504dec0ce;
+  var _dataKeys = __89ed9ec063bbfced2124be9108d74657;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __229915fcac0b1d518ba82b8dccf17af7;
+  var _events = __31e54752d6b89f3dad53542ed52a508e;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __be3e01199078cdf5ded88dda6a8fbec9;
+  var _i18n = __b32f862918680df4e9f235eb6ba33e07;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __491c5885a1dc4d2077d5e87e221aa590;
+  var _throbber = __588d8e03dc0293d59103eaee785fcc9d;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -6201,7 +6201,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/restful-table.js
-(typeof window === 'undefined' ? global : window).__d9778e9495b7a4889d0567cf2b8e1182 = (function () {
+(typeof window === 'undefined' ? global : window).__5d1097b0fbc23ed0e070a1c41b020fbd = (function () {
   var module = {
     exports: {}
   };
@@ -6213,63 +6213,63 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __bbcdfae479e60b56b982bbcdcc7a0191;
+  var _log = __89656e4711dc98e663b0f5fc5aa5d55c;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __118527544b71a67b452649071c2ae422;
+  var _classNames = __a01332b0bdbc1f82a4549b10113ee954;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _customCreateView = __8d19d0bdd704aa4d4cdc512b60f140de;
+  var _customCreateView = __0536d6fb6c1cba27b8e4b5b36326cf27;
   
   var _customCreateView2 = _interopRequireDefault(_customCreateView);
   
-  var _customEditView = __12a9dc86ab66cc22f78cf62feba9dd64;
+  var _customEditView = __ca95f053e45b59bcb25f2cb777809a03;
   
   var _customEditView2 = _interopRequireDefault(_customEditView);
   
-  var _customReadView = __dcca2723b4c5fed4e65377ddb5d32682;
+  var _customReadView = __51c2755613f87dc11cfcfff0411ae0f9;
   
   var _customReadView2 = _interopRequireDefault(_customReadView);
   
-  var _dataKeys = __b1c52d9d29b34f181b3d58c504dec0ce;
+  var _dataKeys = __89ed9ec063bbfced2124be9108d74657;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _editRow = __ea66711b82bb656ccc7223576cc606c7;
+  var _editRow = __45933abe4b9059131a44509da77a946c;
   
   var _editRow2 = _interopRequireDefault(_editRow);
   
-  var _entryModel = __085efe8598a83df67ac0ec7155e156ad;
+  var _entryModel = __0700c4c34945de5005b9ddc7339e8e5e;
   
   var _entryModel2 = _interopRequireDefault(_entryModel);
   
-  var _events = __229915fcac0b1d518ba82b8dccf17af7;
+  var _events = __31e54752d6b89f3dad53542ed52a508e;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _i18n = __be3e01199078cdf5ded88dda6a8fbec9;
+  var _i18n = __b32f862918680df4e9f235eb6ba33e07;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _row = __8da0d4434ee98ffecf6e34940b133dfd;
+  var _row = __60002a4827fe009ea3da5282172d6b9b;
   
   var _row2 = _interopRequireDefault(_row);
   
-  var _throbber = __491c5885a1dc4d2077d5e87e221aa590;
+  var _throbber = __588d8e03dc0293d59103eaee785fcc9d;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -7189,7 +7189,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/result-set.js
-(typeof window === 'undefined' ? global : window).__e9e07e92893b0b7f9f3e6e2ffe018c96 = (function () {
+(typeof window === 'undefined' ? global : window).__5ff1d95ff5a5315409371545229ec1af = (function () {
   var module = {
     exports: {}
   };
@@ -7201,11 +7201,11 @@
       value: true
   });
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -7263,7 +7263,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/results-list.js
-(typeof window === 'undefined' ? global : window).__1e2a7fafeebd870fc623ea9cf84e84eb = (function () {
+(typeof window === 'undefined' ? global : window).__4a6f21a91d280b668c2a89ddc251409e = (function () {
   var module = {
     exports: {}
   };
@@ -7275,19 +7275,19 @@
       value: true
   });
   
-  var _underscore = __e622bd457fe11fb15e9fb452ca3772d0;
+  var _underscore = __2cccefaa94fbf28fe407d49180e63c13;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _resultSet = __e9e07e92893b0b7f9f3e6e2ffe018c96;
+  var _resultSet = __5ff1d95ff5a5315409371545229ec1af;
   
   var _resultSet2 = _interopRequireDefault(_resultSet);
   
@@ -7371,7 +7371,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/select/option.js
-(typeof window === 'undefined' ? global : window).__9635740841d5de6fc1070a95b24a5161 = (function () {
+(typeof window === 'undefined' ? global : window).__d3c4c4baa503793eb0fb51dba4e52f13 = (function () {
   var module = {
     exports: {}
   };
@@ -7383,11 +7383,11 @@
       value: true
   });
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _escapeHtml = __8106a911fd0030e07f16b2767ac9f548;
+  var _escapeHtml = __243168c81594cda3be4f65d33a9d270e;
   
   var _escapeHtml2 = _interopRequireDefault(_escapeHtml);
   
@@ -7422,7 +7422,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/select/suggestion-model.js
-(typeof window === 'undefined' ? global : window).__2b6275390f681ad9cb41cbbc6712cb3a = (function () {
+(typeof window === 'undefined' ? global : window).__05b7608755ea44ddb850601bcf89e917 = (function () {
   var module = {
     exports: {}
   };
@@ -7434,7 +7434,7 @@
       value: true
   });
   
-  var _backbone = __07cdfb826f754040b351a0110fde6536;
+  var _backbone = __f6329d7c768ba02052f18ff58de3b3af;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -7451,7 +7451,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/select/suggestions-model.js
-(typeof window === 'undefined' ? global : window).__1288846ede15fbf7e700f826a71a60c0 = (function () {
+(typeof window === 'undefined' ? global : window).__d44a067131559823665cbdaa0349fd17 = (function () {
   var module = {
     exports: {}
   };
@@ -7534,7 +7534,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/select/suggestions-view.js
-(typeof window === 'undefined' ? global : window).__93aa20046b4aad30a18c95a624221d6b = (function () {
+(typeof window === 'undefined' ? global : window).__0175ff7c1a8ab9b05a97df51ef68a826 = (function () {
   var module = {
     exports: {}
   };
@@ -7546,17 +7546,17 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __be3e01199078cdf5ded88dda6a8fbec9;
+  __b32f862918680df4e9f235eb6ba33e07;
   
-  var _alignment = __640a50a417a578824aa17827db8c9d2f;
+  var _alignment = __405bb22a32a8d5cc9d3ba61dde0c0619;
   
   var _alignment2 = _interopRequireDefault(_alignment);
   
-  var _layer = __06224e18e744dc8a44794ab29f247385;
+  var _layer = __52b7f300821764355c827c8cc415542c;
   
   var _layer2 = _interopRequireDefault(_layer);
   
@@ -7656,7 +7656,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/select/template.js
-(typeof window === 'undefined' ? global : window).__e2c1f657d183d1b538d81a87ba0b4760 = (function () {
+(typeof window === 'undefined' ? global : window).__c397505203484660e0169f195943f0a5 = (function () {
   var module = {
     exports: {}
   };
@@ -7668,7 +7668,7 @@
       value: true
   });
   
-  var _skatejsTemplateHtml = __9b18ba0583cb54ca87cfee562f9dc62a;
+  var _skatejsTemplateHtml = __60f9004acff7ea96c6041ea14d567c3a;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
@@ -7680,7 +7680,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/select.js
-(typeof window === 'undefined' ? global : window).__c7e0d50b6a65bf58a28e1b310881043e = (function () {
+(typeof window === 'undefined' ? global : window).__81d143f7fd6ac71898b8ff6acd6704de = (function () {
   var module = {
     exports: {}
   };
@@ -7692,69 +7692,69 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __133851082a1337b5710e5a2aa98258e9;
+  __da777ee9ec96120234c0118e0f7b1ae0;
   
-  __be3e01199078cdf5ded88dda6a8fbec9;
+  __b32f862918680df4e9f235eb6ba33e07;
   
-  __313e15322266d7b6cc6ffb039891d9ce;
+  __2f7740873277a0e3667812d143228609;
   
-  var _option = __9635740841d5de6fc1070a95b24a5161;
+  var _option = __d3c4c4baa503793eb0fb51dba4e52f13;
   
   var _option2 = _interopRequireDefault(_option);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _customEvent = __16bf5f1d761138a726209288b7afb338;
+  var _customEvent = __44959752f7163e398ae3759b33c8e4c8;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __b925764b9e17cff61f648a86f18e6e25;
+  var _keyCode = __2d62fee3ee7452731a665cbfb7024e5c;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _progressiveDataSet = __bc3aa98a1624c420c64de6459784d4cc;
+  var _progressiveDataSet = __9f05e8620fd314ae5e1f94eb0400bc65;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _state = __6b822d4c87bd59d8adf46df64b0f24c7;
+  var _state = __063fa9aecb152bc6b30f2cb2ae59ab37;
   
   var _state2 = _interopRequireDefault(_state);
   
-  var _suggestionModel = __2b6275390f681ad9cb41cbbc6712cb3a;
+  var _suggestionModel = __05b7608755ea44ddb850601bcf89e917;
   
   var _suggestionModel2 = _interopRequireDefault(_suggestionModel);
   
-  var _suggestionsModel = __1288846ede15fbf7e700f826a71a60c0;
+  var _suggestionsModel = __d44a067131559823665cbdaa0349fd17;
   
   var _suggestionsModel2 = _interopRequireDefault(_suggestionsModel);
   
-  var _suggestionsView = __93aa20046b4aad30a18c95a624221d6b;
+  var _suggestionsView = __0175ff7c1a8ab9b05a97df51ef68a826;
   
   var _suggestionsView2 = _interopRequireDefault(_suggestionsView);
   
-  var _template = __e2c1f657d183d1b538d81a87ba0b4760;
+  var _template = __c397505203484660e0169f195943f0a5;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _uniqueId = __6a8d9be203374eb86b4b050d0244b6f1;
+  var _uniqueId = __2ed8997ad95265d051e5f2efe4cc210e;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _constants = __e378fd259e8cc11973d9809608fe9a5e;
+  var _constants = __05367ccbcc6ef14ebdea94a4b398d2b0;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -8290,7 +8290,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/jquery/plugins/jquery.select2.js
-(typeof window === 'undefined' ? global : window).__b2190710f2822b5d7286528d3eaff37f = (function () {
+(typeof window === 'undefined' ? global : window).__1511d041ed10442542296a8d1484da45 = (function () {
   var module = {
     exports: {}
   };
@@ -11555,7 +11555,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/select2.js
-(typeof window === 'undefined' ? global : window).__dfd5f5c723e08e5f95e38718fe4f73eb = (function () {
+(typeof window === 'undefined' ? global : window).__b0176ef9399333294e5a2fec33c46da7 = (function () {
   var module = {
     exports: {}
   };
@@ -11563,11 +11563,11 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __b2190710f2822b5d7286528d3eaff37f;
+  __1511d041ed10442542296a8d1484da45;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -11615,7 +11615,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/raf/raf.js
-(typeof window === 'undefined' ? global : window).__c814de1f9f57536916ee97e53618b317 = (function () {
+(typeof window === 'undefined' ? global : window).__a36b44206b6c362b256a7c26f275ef5d = (function () {
   var module = {
     exports: {}
   };
@@ -11666,7 +11666,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/has-touch.js
-(typeof window === 'undefined' ? global : window).__2bddeae7bba6bcfe91954e333e4fbeb4 = (function () {
+(typeof window === 'undefined' ? global : window).__7c430be55ccc49a3ad6a44c37d05e65a = (function () {
   var module = {
     exports: {}
   };
@@ -11685,7 +11685,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/is-input.js
-(typeof window === 'undefined' ? global : window).__5440f08d566da1cac4a925f4a02d99bd = (function () {
+(typeof window === 'undefined' ? global : window).__aed6a6429a145cf2df9b64adb98d0d81 = (function () {
   var module = {
     exports: {}
   };
@@ -11706,7 +11706,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/internal/mediaQuery.js
-(typeof window === 'undefined' ? global : window).__2f005a42739e074aa33083fd59d18ccb = (function () {
+(typeof window === 'undefined' ? global : window).__43e9617a096f7cec4fa1fd5f12caa1ac = (function () {
   var module = {
     exports: {}
   };
@@ -11742,7 +11742,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/sidebar.js
-(typeof window === 'undefined' ? global : window).__810b6deefd6627f937e4a4d2fae0520a = (function () {
+(typeof window === 'undefined' ? global : window).__ce3f981c0663c59d89ac257d5a5983e0 = (function () {
   var module = {
     exports: {}
   };
@@ -11754,53 +11754,53 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __dbb945ae8033589d400f8c63e7d01524;
+  __a029c405dac1fb6582068c64bf1bed7d;
   
-  __c814de1f9f57536916ee97e53618b317;
+  __a36b44206b6c362b256a7c26f275ef5d;
   
-  __be3e01199078cdf5ded88dda6a8fbec9;
+  __b32f862918680df4e9f235eb6ba33e07;
   
-  var _clone = __dcc3fd3e77e47fb48e5c0c44ee208201;
+  var _clone = __1d7e8e3ff26406f85b064e0194b2d7de;
   
   var _clone2 = _interopRequireDefault(_clone);
   
-  var _deprecation = __4ddcc788b1704f76a51559fc0e0d2968;
+  var _deprecation = __1f642ac889edd28b9a56a069e947b2fa;
   
   var deprecate = _interopRequireWildcard(_deprecation);
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _hasTouch = __2bddeae7bba6bcfe91954e333e4fbeb4;
+  var _hasTouch = __7c430be55ccc49a3ad6a44c37d05e65a;
   
   var _hasTouch2 = _interopRequireDefault(_hasTouch);
   
-  var _isInput = __5440f08d566da1cac4a925f4a02d99bd;
+  var _isInput = __aed6a6429a145cf2df9b64adb98d0d81;
   
   var _isInput2 = _interopRequireDefault(_isInput);
   
-  var _keyCode = __b925764b9e17cff61f648a86f18e6e25;
+  var _keyCode = __2d62fee3ee7452731a665cbfb7024e5c;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _mediaQuery = __2f005a42739e074aa33083fd59d18ccb;
+  var _mediaQuery = __43e9617a096f7cec4fa1fd5f12caa1ac;
   
   var _mediaQuery2 = _interopRequireDefault(_mediaQuery);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _uniqueId = __6a8d9be203374eb86b4b050d0244b6f1;
+  var _uniqueId = __2ed8997ad95265d051e5f2efe4cc210e;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _widget = __2d1b5481970dd1547e294d829464e03f;
+  var _widget = __045396eb80ea30210d7d51a20e70f6a3;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -11869,9 +11869,25 @@
       return this;
   };
   
-  Sidebar.prototype.setPosition = function (scrollTop) {
-      scrollTop = scrollTop || window.pageYOffset;
+  Sidebar.prototype.setTopPosition = function () {
+      var scrollTop = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.pageYOffset;
+  
       this.$wrapper.toggleClass('aui-is-docked', scrollTop > sidebarOffset(this.$el));
+      return this;
+  };
+  
+  Sidebar.prototype.setPosition = deprecate.fn(Sidebar.prototype.setTopPosition, 'Sidebar.setPosition', {
+      removeInVersion: '8.0.0',
+      sinceVersion: '7.6.1',
+      alternativeName: 'Sidebar.setTopPosition'
+  });
+  
+  Sidebar.prototype.setLeftPosition = function () {
+      var scrollLeft = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.pageXOffset;
+  
+      if (this.$wrapper.hasClass('aui-is-docked')) {
+          this.$wrapper.css({ left: -scrollLeft });
+      }
       return this;
   };
   
@@ -12010,11 +12026,13 @@
       }
   };
   
-  Sidebar.prototype.reflow = function reflow(scrollTop, viewportHeight, viewportWidth, scrollHeight) {
-      scrollTop = scrollTop === undefined ? window.pageYOffset : scrollTop;
-      viewportHeight = viewportHeight === undefined ? document.documentElement.clientHeight : viewportHeight;
-      scrollHeight = scrollHeight === undefined ? document.documentElement.scrollHeight : scrollHeight;
-      viewportWidth = viewportWidth === undefined ? window.innerWidth : viewportWidth;
+  Sidebar.prototype.reflow = function reflow() {
+      var scrollTop = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.pageYOffset;
+      var viewportHeight = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : document.documentElement.clientHeight;
+      var viewportWidth = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : window.innerWidth;
+      var scrollHeight = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : document.documentElement.scrollHeight;
+      var scrollLeft = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : window.pageXOffset;
+  
   
       // Header height needs to be checked because in Stash it changes when the CSS "transform: translate3d" is changed.
       // If you called reflow() after this change then nothing happened because the scrollTop and viewportHeight hadn't changed.
@@ -12032,8 +12050,12 @@
           var isTrackpadBounce = scrollTop !== this._previousScrollTop && (scrollTop < 0 || scrollTop + viewportHeight > scrollHeight);
           if (!isTouch && (isInitialPageLoad || !isTrackpadBounce)) {
               this.setHeight(scrollTop, viewportHeight, offsetTop);
-              this.setPosition(scrollTop);
+              this.setTopPosition(scrollTop);
           }
+      }
+  
+      if (scrollLeft !== this._previousScrollLeft) {
+          this.setLeftPosition(scrollLeft);
       }
   
       var isResponsive = this.$el.attr('data-aui-responsive') !== 'false';
@@ -12048,6 +12070,7 @@
       this._previousViewportHeight = viewportHeight;
       this._previousViewportWidth = viewportWidth;
       this._previousOffsetTop = offsetTop;
+      this._previousScrollLeft = scrollLeft;
       return this;
   };
   
@@ -12504,7 +12527,7 @@
   return module.exports;
 }).call(this);
 // src/js-vendor/jquery/jquery.tablesorter.js
-(typeof window === 'undefined' ? global : window).__f1a3fa76609e6d40a55157a38f5d9723 = (function () {
+(typeof window === 'undefined' ? global : window).__125c1568ab4a0b5982334e6f77fbe54b = (function () {
   var module = {
     exports: {}
   };
@@ -14409,7 +14432,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/tables-sortable.js
-(typeof window === 'undefined' ? global : window).__118945205868b7541cf0a75d6522abd5 = (function () {
+(typeof window === 'undefined' ? global : window).__18b16540aaba294ee4f9a0fab255695a = (function () {
   var module = {
     exports: {}
   };
@@ -14421,13 +14444,13 @@
       value: true
   });
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __f1a3fa76609e6d40a55157a38f5d9723;
+  __125c1568ab4a0b5982334e6f77fbe54b;
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -14542,7 +14565,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/tipsy.js
-(typeof window === 'undefined' ? global : window).__4887de1a729bad7b23da6129072d68ee = (function () {
+(typeof window === 'undefined' ? global : window).__0cd926ee8ba8bb941c555f1dc50970c3 = (function () {
   var module = {
     exports: {}
   };
@@ -14550,12 +14573,12 @@
   
   'use strict';
   
-  __dbb945ae8033589d400f8c63e7d01524;
+  __a029c405dac1fb6582068c64bf1bed7d;
   
   return module.exports;
 }).call(this);
 // src/js/aui/toggle.js
-(typeof window === 'undefined' ? global : window).__f243ae302e1f6512eaf4fb7ada716add = (function () {
+(typeof window === 'undefined' ? global : window).__0bc98e827b2c793b0fe2c7e4bbf950c6 = (function () {
   var module = {
     exports: {}
   };
@@ -14563,33 +14586,33 @@
   
   'use strict';
   
-  __313e15322266d7b6cc6ffb039891d9ce;
+  __2f7740873277a0e3667812d143228609;
   
-  __6999efc8461cc8bcf32a985dbca81aa1;
+  __e2abdea43094d987ea6d5c4fe2bad2e5;
   
-  var _attributes = __8f74d35e1223c8eb9f34b79717e74706;
+  var _attributes = __7bd55e70125581ac112df87c1153d4aa;
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _enforcer = __65a8b3ca1b55232381cf1e189f6e2c47;
+  var _enforcer = __adfb153c96a54ca0e5e9bbf105d841b8;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _keyCode = __b925764b9e17cff61f648a86f18e6e25;
+  var _keyCode = __2d62fee3ee7452731a665cbfb7024e5c;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _skatejsTemplateHtml = __9b18ba0583cb54ca87cfee562f9dc62a;
+  var _skatejsTemplateHtml = __60f9004acff7ea96c6041ea14d567c3a;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _constants = __e378fd259e8cc11973d9809608fe9a5e;
+  var _constants = __05367ccbcc6ef14ebdea94a4b398d2b0;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -14803,7 +14826,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/trigger.js
-(typeof window === 'undefined' ? global : window).__6575f5dae6f74a5f7933cb7c2b4fcebb = (function () {
+(typeof window === 'undefined' ? global : window).__092046800882bdc6ad3945523bfe3f59 = (function () {
   var module = {
     exports: {}
   };
@@ -14811,15 +14834,15 @@
   
   'use strict';
   
-  var _jquery = __77629c8e853846530dfdc3ccd3393ab6;
+  var _jquery = __1eb48266f41b91e032ea4c8f591d9298;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
+  var _skate = __c78625c2aff08e683738b7980cffc672;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -14883,7 +14906,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui/truncating-progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__ca2b25ca788dc66f3403f1141687f275 = (function () {
+(typeof window === 'undefined' ? global : window).__a36280056d6a8ce081a3584c2368f69f = (function () {
   var module = {
     exports: {}
   };
@@ -14895,11 +14918,11 @@
       value: true
   });
   
-  var _globalize = __77af00e80ac034b223816679459a4692;
+  var _globalize = __b613df58051c78dae364b2cf48254285;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _progressiveDataSet = __bc3aa98a1624c420c64de6459784d4cc;
+  var _progressiveDataSet = __9f05e8620fd314ae5e1f94eb0400bc65;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
@@ -14969,7 +14992,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-experimental.js
-(typeof window === 'undefined' ? global : window).__150b2bcd52fe83736fc6bc2287e90b75 = (function () {
+(typeof window === 'undefined' ? global : window).__caddfd5c8f16e28cb1dc35b269d035c4 = (function () {
   var module = {
     exports: {}
   };
@@ -14981,55 +15004,55 @@
     value: true
   });
   
-  __452d3f8e5d643ab60faf3f564b8276d8;
+  __452c012824c4f20adbfded14b47404b9;
   
-  __e7296db63088f504f190097510a8efb3;
+  __b00f8adb36779fe83c9d33aaa308158b;
   
-  __133851082a1337b5710e5a2aa98258e9;
+  __da777ee9ec96120234c0118e0f7b1ae0;
   
-  __bf3c38e4a0e7481b849a297fccf30258;
+  __230cfd6da98a72dcb1a4e49355927824;
   
-  __3ac567a4ab4b829d5c6e6c81df33cbe8;
+  __911d1f07ed2b108bc88661b8741ee2c6;
   
-  __f165ad68f415362651d0d7f733fcdcea;
+  __e37778bdbb6695f91e062fff776405d3;
   
-  __7c68b94bd1e7e5a2f72d197f55d1d459;
+  __67047b36a24a49f31934ba943975ba90;
   
-  __bd4ecc7f267c4325495affa1d72b9196;
+  __6c25900a61f82fad4abfafe6b4500355;
   
-  __7904d2f802801befa81e22aff0bd1fb6;
+  __da71abcaeb1e7a0a57ee8da7eb171d0f;
   
-  __ef3494fdb79b0ce378f14c1810d48a68;
+  __a5c0d236d6c0348db144c76caa5a819f;
   
-  __bc3aa98a1624c420c64de6459784d4cc;
+  __9f05e8620fd314ae5e1f94eb0400bc65;
   
-  __b12fa1032568f0d561e20a44ba70067a;
+  __8a5ca25e13152a64ab429d4807c4623a;
   
-  __d9778e9495b7a4889d0567cf2b8e1182;
+  __5d1097b0fbc23ed0e070a1c41b020fbd;
   
-  __e9e07e92893b0b7f9f3e6e2ffe018c96;
+  __5ff1d95ff5a5315409371545229ec1af;
   
-  __1e2a7fafeebd870fc623ea9cf84e84eb;
+  __4a6f21a91d280b668c2a89ddc251409e;
   
-  __c7e0d50b6a65bf58a28e1b310881043e;
+  __81d143f7fd6ac71898b8ff6acd6704de;
   
-  __dfd5f5c723e08e5f95e38718fe4f73eb;
+  __b0176ef9399333294e5a2fec33c46da7;
   
-  __810b6deefd6627f937e4a4d2fae0520a;
+  __ce3f981c0663c59d89ac257d5a5983e0;
   
-  __313e15322266d7b6cc6ffb039891d9ce;
+  __2f7740873277a0e3667812d143228609;
   
-  __118945205868b7541cf0a75d6522abd5;
+  __18b16540aaba294ee4f9a0fab255695a;
   
-  __4887de1a729bad7b23da6129072d68ee;
+  __0cd926ee8ba8bb941c555f1dc50970c3;
   
-  __f243ae302e1f6512eaf4fb7ada716add;
+  __0bc98e827b2c793b0fe2c7e4bbf950c6;
   
-  __6999efc8461cc8bcf32a985dbca81aa1;
+  __e2abdea43094d987ea6d5c4fe2bad2e5;
   
-  __6575f5dae6f74a5f7933cb7c2b4fcebb;
+  __092046800882bdc6ad3945523bfe3f59;
   
-  __ca2b25ca788dc66f3403f1141687f275;
+  __a36280056d6a8ce081a3584c2368f69f;
   
   exports.default = window.AJS;
   module.exports = exports['default'];
