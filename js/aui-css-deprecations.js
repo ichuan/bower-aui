@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.6.2
+ * @version v7.6.3
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
@@ -410,6 +410,9 @@
   }, {
       newName: 'like',
       oldName: 'like-small'
+  }, {
+      newName: 'submodule',
+      oldName: 'devtools-submodule'
   }];
   
   exports.default = deprecatedIcons;
