@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.1
+ * @version v7.0.0
  * @link https://docs.atlassian.com/aui/latest/
- * @license Apache-2.0
- * @author [object Object]
+ * @license SEE LICENSE IN LICENSE.md
+ * @author Atlassian Pty Ltd.
  */
-// node_modules/@atlassian/aui/src/js-vendor/jquery/jquery-ui/jquery.ui.datepicker.js
-(typeof window === 'undefined' ? global : window).__22e5f9dde23e62a30d105e8bdc75fa42 = (function () {
+// src/js-vendor/jquery/jquery-ui/jquery.ui.datepicker.js
+(typeof window === 'undefined' ? global : window).__65123b4f6ce584105bdf773f693dc0c6 = (function () {
   var module = {
     exports: {}
   };
@@ -1870,8 +1870,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/date-picker.js
-(typeof window === 'undefined' ? global : window).__6fbbfaa987b189547da2206cf1ac829b = (function () {
+// src/js/aui/date-picker.js
+(typeof window === 'undefined' ? global : window).__a76473f1b4906e92e18477cbde531681 = (function () {
   var module = {
     exports: {}
   };
@@ -1883,31 +1883,31 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __22e5f9dde23e62a30d105e8bdc75fa42;
+  __65123b4f6ce584105bdf773f693dc0c6;
   
-  var _log = __8139e9a1368a0224fc430963d21930c8;
+  var _log = __08bb0918fa5401abb7a74174997c1895;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _browser = __5e83f2691a9745a1c96cce360720d675;
+  var _browser = __821e5f0a6f1633652215c99f420337f2;
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _inlineDialog = __c1cf6dc594e57ddb907bd3313fe8b424;
+  var _inlineDialog = __613f23f198b9d81e4526c974af535579;
   
   var _inlineDialog2 = _interopRequireDefault(_inlineDialog);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
+  var _i18n = __7d913becba6f4d29d83198796761a83b;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
@@ -2288,8 +2288,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui-datepicker.js
-(typeof window === 'undefined' ? global : window).__e55d7b5702e9366c1484f97e4df3a4f0 = (function () {
+// src/js/aui-datepicker.js
+(typeof window === 'undefined' ? global : window).__bec865d9f6b649a708f1b4714812bbc2 = (function () {
   var module = {
     exports: {}
   };
@@ -2301,33 +2301,9 @@
     value: true
   });
   
-  __6fbbfaa987b189547da2206cf1ac829b;
+  __a76473f1b4906e92e18477cbde531681;
   
   exports.default = window.AJS;
-  module.exports = exports['default'];
-  
-  return module.exports;
-}).call(this);
-// src/js/aui-datepicker.js
-(typeof window === 'undefined' ? global : window).__46c1423a9ca58e2c6453a47331096c93 = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _auiDatepicker = __e55d7b5702e9366c1484f97e4df3a4f0;
-  
-  var _auiDatepicker2 = _interopRequireDefault(_auiDatepicker);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = _auiDatepicker2.default;
   module.exports = exports['default'];
   
   return module.exports;

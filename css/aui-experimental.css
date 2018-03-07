@@ -478,7 +478,7 @@ a.aui-expander-trigger.aui-expander-reveal-text {
 }
 /* ----- table loading styles ----- */
 span.aui-restfultable-throbber {
-  background: url(wait.gif) center center no-repeat;
+  background: url('images/wait.gif') center center no-repeat;
   display: inline-block;
   height: 16px;
   text-align: left;

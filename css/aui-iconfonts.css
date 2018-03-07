@@ -1,7 +1,3 @@
-/** white / black / grey colours */
-/** colours */
-/** link visited */
-/** restful table */
 /**
 * Basic icon styles. Allows you to easily render sprite icons.
 *
@@ -937,6 +933,10 @@ form.aui .icon-inline-help,
 .aui-iconfont-user-large:before {
   content: "\f1f2";
 }
+/** white / black / grey colours */
+/** colours */
+/** link visited */
+/** restful table */
 /* Fonts and line heights */
 /* Primary Colors */
 /* Secondary Colors */

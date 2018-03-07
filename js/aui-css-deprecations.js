@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.1
+ * @version v7.0.0
  * @link https://docs.atlassian.com/aui/latest/
- * @license Apache-2.0
- * @author [object Object]
+ * @license SEE LICENSE IN LICENSE.md
+ * @author Atlassian Pty Ltd.
  */
-// node_modules/@atlassian/aui/src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__c22be8db3ffbf664504662dab34dad38 = (function () {
+// src/js/aui-css-deprecations.js
+(typeof window === 'undefined' ? global : window).__7d5fcc53af5c897183a913c9a214f27a = (function () {
   var module = {
     exports: {}
   };
@@ -14,9 +14,9 @@
   
   'use strict';
   
-  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  var _deprecation = __a24ffbd7fbacf7af40b817e3b49e7738;
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -90,26 +90,14 @@
       }
   }
   
-  (0, _amdify2.default)('aui/css-deprecation-warnings');
-  
-  return module.exports;
-}).call(this);
-// src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__bfcf5eb3acc9872a89a083ccaa354528 = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  'use strict';
-  
-  __c22be8db3ffbf664504662dab34dad38;
-  
-  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  // 6.1.0
+  // -----
   
   (0, _deprecation.css)(['.aui-header-logo-atlassian', '.aui-header-logo-aui', '.aui-header-logo-bamboo', '.aui-header-logo-bitbucket', '.aui-header-logo-stash', '.aui-header-logo-clover', '.aui-header-logo-confluence', '.aui-header-logo-crowd', '.aui-header-logo-crucible', '.aui-header-logo-fecru', '.aui-header-logo-fisheye', '.aui-header-logo-hipchat', '.aui-header-logo-jira', '.aui-header-logo-jira-core', '.aui-header-logo-jira-software', '.aui-header-logo-jira-service-desk', '.aui-header-logo-answer', '.aui-header-logo-community', '.aui-header-logo-developers', '.aui-header-logo-expert', '.aui-header-logo-partner-program', '.aui-header-logo-marketplace', '.aui-header-logo-support', '.aui-header-logo-university', '.aui-header-logo-cloud'], {
       displayName: 'Atlassian Brand Logos'
   });
+  
+  (0, _amdify2.default)('aui/css-deprecation-warnings');
   
   return module.exports;
 }).call(this);

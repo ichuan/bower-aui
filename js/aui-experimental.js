@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.1
+ * @version v7.0.0
  * @link https://docs.atlassian.com/aui/latest/
- * @license Apache-2.0
- * @author [object Object]
+ * @license SEE LICENSE IN LICENSE.md
+ * @author Atlassian Pty Ltd.
  */
-// node_modules/@atlassian/aui/src/js/aui/polyfills/placeholder.js
-(typeof window === 'undefined' ? global : window).__c2529721e056b137d5dc332217e3a9a0 = (function () {
+// src/js/aui/polyfills/placeholder.js
+(typeof window === 'undefined' ? global : window).__14c0d13e53feac9b17e1bfe5f4f76f99 = (function () {
   var module = {
     exports: {}
   };
@@ -14,11 +14,11 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -54,8 +54,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/banner.js
-(typeof window === 'undefined' ? global : window).__86c5d8458771884814420d1e592e5434 = (function () {
+// src/js/aui/banner.js
+(typeof window === 'undefined' ? global : window).__445a00be3c22647b2b543f1a235c5b90 = (function () {
   var module = {
     exports: {}
   };
@@ -67,21 +67,21 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
+  var _animation = __9e4ee213bf6adae70ad143e052da7145;
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _template = __c33b5453d0277383a3121d7d42efa93d;
+  var _template = __7fd73238d7346a4747dafa9e0f7b93d3;
   
   var _template2 = _interopRequireDefault(_template);
   
@@ -143,8 +143,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/button.js
-(typeof window === 'undefined' ? global : window).__ba22a6a0f9889bb04a6764c4bc4865a0 = (function () {
+// src/js/aui/button.js
+(typeof window === 'undefined' ? global : window).__8064e214a673d8805702bc7b1b4e66fa = (function () {
   var module = {
     exports: {}
   };
@@ -152,19 +152,19 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __8139e9a1368a0224fc430963d21930c8;
+  var _log = __08bb0918fa5401abb7a74174997c1895;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -239,8 +239,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.tipsy.js
-(typeof window === 'undefined' ? global : window).__cc64a0d7c308ad5954e00f06c2bcc6ed = (function () {
+// src/js-vendor/jquery/jquery.tipsy.js
+(typeof window === 'undefined' ? global : window).__c1388e4a540eb50d2ee87718dfe2de49 = (function () {
   var module = {
     exports: {}
   };
@@ -589,8 +589,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/tooltip.js
-(typeof window === 'undefined' ? global : window).__65bf2e9d62756879a7805c63dea11935 = (function () {
+// src/js/aui/tooltip.js
+(typeof window === 'undefined' ? global : window).__9f0d7dfa5102ae1668b3b3e919eaa4d1 = (function () {
   var module = {
     exports: {}
   };
@@ -598,11 +598,11 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __cc64a0d7c308ad5954e00f06c2bcc6ed;
+  __c1388e4a540eb50d2ee87718dfe2de49;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -674,8 +674,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/checkbox-multiselect.js
-(typeof window === 'undefined' ? global : window).__de170d5d90568334e1ab26d28697cb93 = (function () {
+// src/js/aui/checkbox-multiselect.js
+(typeof window === 'undefined' ? global : window).__25d9da654ed66b5c448e5e3378f5bbac = (function () {
   var module = {
     exports: {}
   };
@@ -687,25 +687,25 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __71933b3476b0bdf1f1eaaf188014d1aa;
+  __76bcbbacc3ae435389809e8cf8db1d69;
   
-  __65bf2e9d62756879a7805c63dea11935;
+  __9f0d7dfa5102ae1668b3b3e919eaa4d1;
   
-  __ff21a71b857b101095156bf4ff8b27ac;
+  __7d913becba6f4d29d83198796761a83b;
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
+  var _uniqueId = __f0960e5c4a09cc8a91ba62e529fccd5c;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
@@ -1021,8 +1021,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/dialog2.js
-(typeof window === 'undefined' ? global : window).__abec049fae3e0e24b94d659c3600ba01 = (function () {
+// src/js/aui/dialog2.js
+(typeof window === 'undefined' ? global : window).__c3a8a56e3fae5ecf4d2fd53f7e7f7f3b = (function () {
   var module = {
     exports: {}
   };
@@ -1034,23 +1034,23 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _layer = __b16464bbf0aa314bacb753553ada098e;
+  var _layer = __5da059428b70b6242895added2c6cd67;
   
   var _layer2 = _interopRequireDefault(_layer);
   
-  var _widget = __ecaadce486e7be7002d8453fc51f9873;
+  var _widget = __7cb905db2deef72e52f697c0544d48e1;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -1152,8 +1152,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/expander.js
-(typeof window === 'undefined' ? global : window).__bdcd8cba16e83e973cb8146ddb843c38 = (function () {
+// src/js/aui/expander.js
+(typeof window === 'undefined' ? global : window).__f4e75e843d06134e20bcbc4f85b64eff = (function () {
   var module = {
     exports: {}
   };
@@ -1161,17 +1161,16 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var $document = (0, _jquery2.default)(document),
-  
+  var $document = (0, _jquery2.default)(document);
   
   //convenience function because this needs to be run for all the events.
-  getExpanderProperties = function getExpanderProperties(event) {
+  var getExpanderProperties = function getExpanderProperties(event) {
       var properties = {};
   
       properties.$trigger = (0, _jquery2.default)(event.currentTarget);
@@ -1184,8 +1183,9 @@
       properties.replaceSelector = properties.$trigger.data('replace-selector');
   
       return properties;
-  },
-      replaceText = function replaceText(properties) {
+  };
+  
+  var replaceText = function replaceText(properties) {
       if (properties.replaceText) {
           var $replaceElement = properties.replaceSelector ? properties.$trigger.find(properties.replaceSelector) : properties.$trigger;
   
@@ -1193,6 +1193,7 @@
           $replaceElement.text(properties.replaceText);
       }
   };
+  
   //events that the expander listens to
   var EXPANDER_EVENTS = {
       'aui-expander-invoke': function auiExpanderInvoke(event) {
@@ -1272,8 +1273,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/flag.js
-(typeof window === 'undefined' ? global : window).__b50249c6901293cd03d256e40a6d0941 = (function () {
+// src/js/aui/flag.js
+(typeof window === 'undefined' ? global : window).__92303fbdec4e9351ab7bfa899fdf6d6a = (function () {
   var module = {
     exports: {}
   };
@@ -1285,29 +1286,29 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
+  var _animation = __9e4ee213bf6adae70ad143e052da7145;
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _template = __c33b5453d0277383a3121d7d42efa93d;
+  var _template = __7fd73238d7346a4747dafa9e0f7b93d3;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _customEvent = __2e94b36d616dffee0a6f911bf22a83ae;
+  var _customEvent = __6e00461d70569841385cf3932717f8f1;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
@@ -1431,8 +1432,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/form-notification.js
-(typeof window === 'undefined' ? global : window).__1e855e59e13e8847a5ed5441e3fd1919 = (function () {
+// src/js/aui/form-notification.js
+(typeof window === 'undefined' ? global : window).__3e5730d0958628561737c7f84490124f = (function () {
   var module = {
     exports: {}
   };
@@ -1440,25 +1441,25 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __cc64a0d7c308ad5954e00f06c2bcc6ed;
+  __c1388e4a540eb50d2ee87718dfe2de49;
   
-  var _log = __8139e9a1368a0224fc430963d21930c8;
+  var _log = __08bb0918fa5401abb7a74174997c1895;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -1812,8 +1813,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/form-validation/validator-register.js
-(typeof window === 'undefined' ? global : window).__cb2668f6be8871c04f859d8f8e5a8ab1 = (function () {
+// src/js/aui/form-validation/validator-register.js
+(typeof window === 'undefined' ? global : window).__28020048931d75f7c70f1f1216a4af3a = (function () {
   var module = {
     exports: {}
   };
@@ -1825,15 +1826,15 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __8139e9a1368a0224fc430963d21930c8;
+  var _log = __08bb0918fa5401abb7a74174997c1895;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -1907,8 +1908,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/form-validation/basic-validators.js
-(typeof window === 'undefined' ? global : window).__fd675ae360bd5d9c547d27c9176b93ea = (function () {
+// src/js/aui/form-validation/basic-validators.js
+(typeof window === 'undefined' ? global : window).__21b50388bd5ba9f1eecf2eb2f09ff697 = (function () {
   var module = {
     exports: {}
   };
@@ -1916,23 +1917,23 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _format = __0d2ce34ae8c23f21d43215f7cc5928d7;
+  var _format = __2e1d5193416757b15f604b944ce41df7;
   
   var _format2 = _interopRequireDefault(_format);
   
-  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
+  var _i18n = __7d913becba6f4d29d83198796761a83b;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _validatorRegister = __cb2668f6be8871c04f859d8f8e5a8ab1;
+  var _validatorRegister = __28020048931d75f7c70f1f1216a4af3a;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
   
@@ -2169,8 +2170,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/form-validation.js
-(typeof window === 'undefined' ? global : window).__2635f44381995ca51e130dad1479fffd = (function () {
+// src/js/aui/form-validation.js
+(typeof window === 'undefined' ? global : window).__878582db7b9e3fb70d40119beeebe567 = (function () {
   var module = {
     exports: {}
   };
@@ -2182,31 +2183,31 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __1e855e59e13e8847a5ed5441e3fd1919;
+  __3e5730d0958628561737c7f84490124f;
   
-  __fd675ae360bd5d9c547d27c9176b93ea;
+  __21b50388bd5ba9f1eecf2eb2f09ff697;
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  var _deprecation = __a24ffbd7fbacf7af40b817e3b49e7738;
   
   var deprecate = _interopRequireWildcard(_deprecation);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _validatorRegister = __cb2668f6be8871c04f859d8f8e5a8ab1;
+  var _validatorRegister = __28020048931d75f7c70f1f1216a4af3a;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
   
@@ -2585,8 +2586,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/constants.js
-(typeof window === 'undefined' ? global : window).__b2cfc977d45980ce4c29f90ea86d5180 = (function () {
+// src/js/aui/internal/constants.js
+(typeof window === 'undefined' ? global : window).__70cda6c77fd52c8a137ac08d80e58f57 = (function () {
   var module = {
     exports: {}
   };
@@ -2606,8 +2607,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/label.js
-(typeof window === 'undefined' ? global : window).__bb2eb5d964bbb49080eaffc7a1d17cbf = (function () {
+// src/js/aui/label.js
+(typeof window === 'undefined' ? global : window).__0d06f59b03af9cfcfbc3adc1e45a91c9 = (function () {
   var module = {
     exports: {}
   };
@@ -2619,19 +2620,19 @@
       value: true
   });
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
+  var _skatejsTemplateHtml = __dbfa1f4c1a30b3e1cc85ca85d4eb4dc0;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _enforcer = __da99b881b3bdaf63767de8d2780ca44c;
+  var _enforcer = __b07e67a6cdefbaf3b228a10ff64ac591;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
+  var _constants = __70cda6c77fd52c8a137ac08d80e58f57;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2693,8 +2694,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/progress-indicator.js
-(typeof window === 'undefined' ? global : window).__d3ebcf189654ce92803791fd3e76baad = (function () {
+// src/js/aui/progress-indicator.js
+(typeof window === 'undefined' ? global : window).__1f63b059a06d1f87468d4d2b4d9c9a54 = (function () {
   var module = {
     exports: {}
   };
@@ -2706,13 +2707,13 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
+  var _animation = __9e4ee213bf6adae70ad143e052da7145;
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -2786,8 +2787,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/backbone/backbone.js
-(typeof window === 'undefined' ? global : window).__7f5160581b44ef9ed6fba14191814689 = (function () {
+// src/js-vendor/backbone/backbone.js
+(typeof window === 'undefined' ? global : window).__374b519ab00484534af0c2ab412e6b4a = (function () {
   var module = {
     exports: {}
   };
@@ -2795,10 +2796,10 @@
   var defineDependencies = {
     "module": module,
     "exports": exports,
-    "underscore": __309cc7b5b5b5e38c9aaa43f19c161b66,
-    "jquery": __02fa0d2334b5d2f9701871403ba9d89a,
-    "underscore": __309cc7b5b5b5e38c9aaa43f19c161b66,
-    "jquery": __02fa0d2334b5d2f9701871403ba9d89a
+    "underscore": __f46500ec89001b433ec688da54548669,
+    "jquery": __f16f951866b0843f3a9410f009d53bda,
+    "underscore": __f46500ec89001b433ec688da54548669,
+    "jquery": __f16f951866b0843f3a9410f009d53bda
   };
   var define = function defineReplacementWrapper(generatedModuleName) {
     return function defineReplacement(name, deps, func) {
@@ -2841,7 +2842,7 @@
         exports = module.exports = rval;
       }
     };
-  }("__7f5160581b44ef9ed6fba14191814689");
+  }("__374b519ab00484534af0c2ab412e6b4a");
   define.amd = true;
   
   /*! THIS FILE HAS BEEN MODIFIED BY ATLASSIAN. Modified lines are marked below, search "ATLASSIAN" */
@@ -2868,8 +2869,8 @@
   
           // Next for Node.js or CommonJS. jQuery may not be needed as a module.
       } else if (typeof exports !== 'undefined') {
-          var _ = __309cc7b5b5b5e38c9aaa43f19c161b66, $;
-          try { $ = __02fa0d2334b5d2f9701871403ba9d89a; } catch(e) {}
+          var _ = __f46500ec89001b433ec688da54548669, $;
+          try { $ = __f16f951866b0843f3a9410f009d53bda; } catch(e) {}
           factory(root, exports, _, $);
   
           // Finally, as a browser global.
@@ -2925,7 +2926,7 @@
     * // Require Underscore, if we're on the server, and it's not already present.
     * var _ = root._;
     *
-    * if (!_ && (typeof require !== 'undefined')) _ = __309cc7b5b5b5e38c9aaa43f19c161b66;
+    * if (!_ && (typeof require !== 'undefined')) _ = __f46500ec89001b433ec688da54548669;
     *
     /** END ATLASSIAN */
   
@@ -4481,8 +4482,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/backbone.js
-(typeof window === 'undefined' ? global : window).__a0f8accf3e15b29165e7a143e435af91 = (function () {
+// src/js/aui/backbone.js
+(typeof window === 'undefined' ? global : window).__45e54112ad5a27158bec7c5cb7fcb0be = (function () {
   var module = {
     exports: {}
   };
@@ -4494,11 +4495,11 @@
       value: true
   });
   
-  var _underscore = __17253d01a5dbb7811399698870024390;
+  var _underscore = __59bddfa8abeabee8df0864d1081c6264;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __7f5160581b44ef9ed6fba14191814689;
+  var _backbone = __374b519ab00484534af0c2ab412e6b4a;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4513,8 +4514,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__f1c85bac91549fc7b83aaa27ba2694e9 = (function () {
+// src/js/aui/progressive-data-set.js
+(typeof window === 'undefined' ? global : window).__bb14c921306bc4dc51631d95136b373a = (function () {
   var module = {
     exports: {}
   };
@@ -4526,15 +4527,15 @@
       value: true
   });
   
-  var _underscore = __17253d01a5dbb7811399698870024390;
+  var _underscore = __59bddfa8abeabee8df0864d1081c6264;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4777,8 +4778,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/query-input.js
-(typeof window === 'undefined' ? global : window).__441c338a795b16645d3af32425aefa8e = (function () {
+// src/js/aui/query-input.js
+(typeof window === 'undefined' ? global : window).__f898fd7b5d2bc24589f1c1af31ede90c = (function () {
   var module = {
     exports: {}
   };
@@ -4790,15 +4791,15 @@
       value: true
   });
   
-  var _underscore = __17253d01a5dbb7811399698870024390;
+  var _underscore = __59bddfa8abeabee8df0864d1081c6264;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4830,8 +4831,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/class-names.js
-(typeof window === 'undefined' ? global : window).__6cb6ba98d240ad8a464e632755835025 = (function () {
+// src/js/aui/restful-table/class-names.js
+(typeof window === 'undefined' ? global : window).__dba0a448ad092598be7a2bbbd61b9ff5 = (function () {
   var module = {
     exports: {}
   };
@@ -4868,8 +4869,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/custom-create-view.js
-(typeof window === 'undefined' ? global : window).__32dbabf183ece2a8f2812e96fdcf2494 = (function () {
+// src/js/aui/restful-table/custom-create-view.js
+(typeof window === 'undefined' ? global : window).__ac9e4e26b8b2b9232837c07375ecf788 = (function () {
   var module = {
     exports: {}
   };
@@ -4881,7 +4882,7 @@
     value: true
   });
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4892,8 +4893,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/custom-edit-view.js
-(typeof window === 'undefined' ? global : window).__1c6e1281c2c05202a8e43057ade05a58 = (function () {
+// src/js/aui/restful-table/custom-edit-view.js
+(typeof window === 'undefined' ? global : window).__6c74d69825935bf66609efe9827f2294 = (function () {
   var module = {
     exports: {}
   };
@@ -4905,7 +4906,7 @@
     value: true
   });
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4916,8 +4917,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/custom-read-view.js
-(typeof window === 'undefined' ? global : window).__5034e307049b45a668379b8f49ea940f = (function () {
+// src/js/aui/restful-table/custom-read-view.js
+(typeof window === 'undefined' ? global : window).__be3040b550e2afc2c3e3ca18fa8f1041 = (function () {
   var module = {
     exports: {}
   };
@@ -4929,7 +4930,7 @@
     value: true
   });
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4940,8 +4941,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/data-keys.js
-(typeof window === 'undefined' ? global : window).__92c78d58c645de42693045d4d3a79c1c = (function () {
+// src/js/aui/restful-table/data-keys.js
+(typeof window === 'undefined' ? global : window).__e4e830affb45ca0576fb1c4aaea7a11e = (function () {
   var module = {
     exports: {}
   };
@@ -4960,8 +4961,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/jquery/serializetoobject.js
-(typeof window === 'undefined' ? global : window).__19de5a4e8be2c6def66eba17e3819f1c = (function () {
+// src/js-vendor/jquery/serializetoobject.js
+(typeof window === 'undefined' ? global : window).__60430825061bb07d95deaed2967b1eb8 = (function () {
   var module = {
     exports: {}
   };
@@ -5024,8 +5025,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/events.js
-(typeof window === 'undefined' ? global : window).__a8a27edcadbb3291524b9ea43b8af4ce = (function () {
+// src/js/aui/restful-table/events.js
+(typeof window === 'undefined' ? global : window).__da91ae0597d80230eb5b4a5bdbf8ab0d = (function () {
   var module = {
     exports: {}
   };
@@ -5068,8 +5069,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/throbber.js
-(typeof window === 'undefined' ? global : window).__efbadfd39f308c3a3e14a83c069d73fd = (function () {
+// src/js/aui/restful-table/throbber.js
+(typeof window === 'undefined' ? global : window).__969512705707ecf869c20c36e18e2bf5 = (function () {
   var module = {
     exports: {}
   };
@@ -5089,8 +5090,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/edit-row.js
-(typeof window === 'undefined' ? global : window).__6f6f93a6db384de956b5a3dcf20cd8cf = (function () {
+// src/js/aui/restful-table/edit-row.js
+(typeof window === 'undefined' ? global : window).__6cea148808992435b6c060d5a8f26ade = (function () {
   var module = {
     exports: {}
   };
@@ -5104,33 +5105,33 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __19de5a4e8be2c6def66eba17e3819f1c;
+  __60430825061bb07d95deaed2967b1eb8;
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __6cb6ba98d240ad8a464e632755835025;
+  var _classNames = __dba0a448ad092598be7a2bbbd61b9ff5;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
+  var _dataKeys = __e4e830affb45ca0576fb1c4aaea7a11e;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
+  var _events = __da91ae0597d80230eb5b4a5bdbf8ab0d;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
+  var _i18n = __7d913becba6f4d29d83198796761a83b;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
+  var _throbber = __969512705707ecf869c20c36e18e2bf5;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -5605,8 +5606,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/entry-model.js
-(typeof window === 'undefined' ? global : window).__a957adf541e8046f4ec7d811fa0eec56 = (function () {
+// src/js/aui/restful-table/entry-model.js
+(typeof window === 'undefined' ? global : window).__4bea2e2f6302a2efa56aa0ad28d6ce0d = (function () {
   var module = {
     exports: {}
   };
@@ -5620,21 +5621,21 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _events = __bb9149f2450e3877631316cdb451280f;
+  var _events = __a362b0cce72fbfcef314d047a6ec1c68;
   
-  var _underscore = __17253d01a5dbb7811399698870024390;
+  var _underscore = __59bddfa8abeabee8df0864d1081c6264;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _events2 = __a8a27edcadbb3291524b9ea43b8af4ce;
+  var _events2 = __da91ae0597d80230eb5b4a5bdbf8ab0d;
   
   var _events3 = _interopRequireDefault(_events2);
   
@@ -5670,12 +5671,11 @@
       save: function save(attributes, options) {
           options = options || {};
   
-          var instance = this,
-              Model,
-              syncModel,
-              error = options.error,
-              // we override, so store original
-          success = options.success;
+          var instance = this;
+          var Model;
+          var syncModel;
+          var error = options.error; // we override, so store original
+          var success = options.success;
   
           // override error handler to provide some defaults
           options.error = function (model, xhr) {
@@ -5738,9 +5738,9 @@
       destroy: function destroy(options) {
           options = options || {};
   
-          var instance = this,
-              url = this.url(),
-              data;
+          var instance = this;
+          var url = this.url();
+          var data;
   
           if (options.data) {
               data = _jquery2.default.param(options.data);
@@ -5858,8 +5858,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table/row.js
-(typeof window === 'undefined' ? global : window).__12a7ed474d5246bbe7870b97be386295 = (function () {
+// src/js/aui/restful-table/row.js
+(typeof window === 'undefined' ? global : window).__08b1df2e0163e1744b9a211c9fe45d77 = (function () {
   var module = {
     exports: {}
   };
@@ -5871,35 +5871,35 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _dialog = __8c25237a63a4b0e116ea899da18a16d3;
+  var _dialog = __7e7d259ba36fa356dbe90589e6c47789;
   
   var dialog = _interopRequireWildcard(_dialog);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __6cb6ba98d240ad8a464e632755835025;
+  var _classNames = __dba0a448ad092598be7a2bbbd61b9ff5;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
+  var _dataKeys = __e4e830affb45ca0576fb1c4aaea7a11e;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
+  var _events = __da91ae0597d80230eb5b4a5bdbf8ab0d;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
+  var _i18n = __7d913becba6f4d29d83198796761a83b;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
+  var _throbber = __969512705707ecf869c20c36e18e2bf5;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -6200,8 +6200,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/restful-table.js
-(typeof window === 'undefined' ? global : window).__c5e3bf15f76fa7bfc2443017a9e6dfb3 = (function () {
+// src/js/aui/restful-table.js
+(typeof window === 'undefined' ? global : window).__97a3481ad0c2f92121be478619870f01 = (function () {
   var module = {
     exports: {}
   };
@@ -6213,63 +6213,63 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __8139e9a1368a0224fc430963d21930c8;
+  var _log = __08bb0918fa5401abb7a74174997c1895;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __6cb6ba98d240ad8a464e632755835025;
+  var _classNames = __dba0a448ad092598be7a2bbbd61b9ff5;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _customCreateView = __32dbabf183ece2a8f2812e96fdcf2494;
+  var _customCreateView = __ac9e4e26b8b2b9232837c07375ecf788;
   
   var _customCreateView2 = _interopRequireDefault(_customCreateView);
   
-  var _customEditView = __1c6e1281c2c05202a8e43057ade05a58;
+  var _customEditView = __6c74d69825935bf66609efe9827f2294;
   
   var _customEditView2 = _interopRequireDefault(_customEditView);
   
-  var _customReadView = __5034e307049b45a668379b8f49ea940f;
+  var _customReadView = __be3040b550e2afc2c3e3ca18fa8f1041;
   
   var _customReadView2 = _interopRequireDefault(_customReadView);
   
-  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
+  var _dataKeys = __e4e830affb45ca0576fb1c4aaea7a11e;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _editRow = __6f6f93a6db384de956b5a3dcf20cd8cf;
+  var _editRow = __6cea148808992435b6c060d5a8f26ade;
   
   var _editRow2 = _interopRequireDefault(_editRow);
   
-  var _entryModel = __a957adf541e8046f4ec7d811fa0eec56;
+  var _entryModel = __4bea2e2f6302a2efa56aa0ad28d6ce0d;
   
   var _entryModel2 = _interopRequireDefault(_entryModel);
   
-  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
+  var _events = __da91ae0597d80230eb5b4a5bdbf8ab0d;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
+  var _i18n = __7d913becba6f4d29d83198796761a83b;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _row = __12a7ed474d5246bbe7870b97be386295;
+  var _row = __08b1df2e0163e1744b9a211c9fe45d77;
   
   var _row2 = _interopRequireDefault(_row);
   
-  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
+  var _throbber = __969512705707ecf869c20c36e18e2bf5;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -6626,8 +6626,9 @@
           return new RowsAwareCollection([], {
               comparator: function comparator(row) {
                   // sort models in collection based on dom ordering
-                  var index,
-                      currentTableRows = this.tableRows !== undefined ? this.tableRows : instance.getRows();
+                  var index;
+  
+                  var currentTableRows = this.tableRows !== undefined ? this.tableRows : instance.getRows();
                   currentTableRows.some(function (item, i) {
                       if (item.model.id === row.id) {
                           index = i;
@@ -6858,14 +6859,12 @@
        * @return {Array}
        */
       getRows: function getRows() {
-  
-          var instance = this,
-              views = [];
+          var instance = this;
+          var views = [];
   
           this.$tbody.find('.' + this.classNames.READ_ONLY).each(function () {
-  
-              var $row = (0, _jquery2.default)(this),
-                  view = $row.data(instance.dataKeys.ROW_VIEW);
+              var $row = (0, _jquery2.default)(this);
+              var view = $row.data(instance.dataKeys.ROW_VIEW);
   
               if (view) {
                   views.push(view);
@@ -6884,11 +6883,10 @@
        * @return {jQuery}
        */
       _renderRow: function _renderRow(model, index) {
-  
-          var instance = this,
-              $rows = this.$tbody.find('.' + this.classNames.READ_ONLY),
-              $row,
-              view;
+          var instance = this;
+          var $rows = this.$tbody.find('.' + this.classNames.READ_ONLY);
+          var $row;
+          var view;
   
           view = new this._rowClass({
               model: model,
@@ -7190,8 +7188,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/result-set.js
-(typeof window === 'undefined' ? global : window).__3253a94b3187c508715567de7b3d976c = (function () {
+// src/js/aui/result-set.js
+(typeof window === 'undefined' ? global : window).__f4c24f11ae4d1474e08fd98db46f7099 = (function () {
   var module = {
     exports: {}
   };
@@ -7203,11 +7201,11 @@
       value: true
   });
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -7264,8 +7262,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/results-list.js
-(typeof window === 'undefined' ? global : window).__c01675a5756b387d4597631183424a16 = (function () {
+// src/js/aui/results-list.js
+(typeof window === 'undefined' ? global : window).__c9c36008d2cf8cad3b542314c331e0c7 = (function () {
   var module = {
     exports: {}
   };
@@ -7277,19 +7275,19 @@
       value: true
   });
   
-  var _underscore = __17253d01a5dbb7811399698870024390;
+  var _underscore = __59bddfa8abeabee8df0864d1081c6264;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _resultSet = __3253a94b3187c508715567de7b3d976c;
+  var _resultSet = __f4c24f11ae4d1474e08fd98db46f7099;
   
   var _resultSet2 = _interopRequireDefault(_resultSet);
   
@@ -7372,531 +7370,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/spin/spin.js
-(typeof window === 'undefined' ? global : window).__b0bead4f53ba672725336d6e7298cf51 = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  var defineDependencies = {
-    "module": module,
-    "exports": exports
-  };
-  var define = function defineReplacementWrapper(generatedModuleName) {
-    return function defineReplacement(name, deps, func) {
-      var root = (typeof window === 'undefined' ? global : window);
-      var defineGlobal = root.define;
-      var rval;
-      var type;
-  
-      func = [func, deps, name].filter(function (cur) {
-        return typeof cur === 'function';
-      })[0];
-      deps = [deps, name, []].filter(Array.isArray)[0];
-      rval = func.apply(null, deps.map(function (value) {
-        return defineDependencies[value];
-      }));
-      type = typeof rval;
-  
-      // Support existing AMD libs.
-      if (typeof defineGlobal === 'function') {
-        // Almond always expects a name so resolve one (#29).
-        defineGlobal(typeof name === 'string' ? name : generatedModuleName, deps, func);
-      }
-  
-      // Some processors like Babel don't check to make sure that the module value
-      // is not a primitive before calling Object.defineProperty() on it. We ensure
-      // it is an instance so that it can.
-      if (type === 'string') {
-        rval = String(rval);
-      } else if (type === 'number') {
-        rval = Number(rval);
-      } else if (type === 'boolean') {
-        rval = Boolean(rval);
-      }
-  
-      // Reset the exports to the defined module. This is how we convert AMD to
-      // CommonJS and ensures both can either co-exist, or be used separately. We
-      // only set it if it is not defined because there is no object representation
-      // of undefined, thus calling Object.defineProperty() on it would fail.
-      if (rval !== undefined) {
-        exports = module.exports = rval;
-      }
-    };
-  }("__b0bead4f53ba672725336d6e7298cf51");
-  define.amd = true;
-  
-  //fgnass.github.com/spin.js#v1.3.3
-  /*
-      Modified by Atlassian
-   */
-  
-  /**
-   * Copyright (c) 2011-2013 Felix Gnass
-   * Licensed under the MIT license
-   */
-  (function(root, factory) {
-  
-    /* CommonJS */
-    if (typeof exports == 'object')  module.exports = factory()
-  
-    /* AMD module */
-    // ATLASSIAN - don't check define.amd for products who deleted it.
-    else if (typeof define == 'function') define('aui/internal/spin', factory)
-  
-    /* Browser global */
-    // ATLASSIAN - always expose Spinner globally
-    root.Spinner = factory()
-  }
-  (this, function() {
-  
-    var prefixes = ['webkit', 'Moz', 'ms', 'O'] /* Vendor prefixes */
-      , animations = {} /* Animation rules keyed by their name */
-      , useCssAnimations /* Whether to use CSS animations or setTimeout */
-  
-    /**
-     * Utility function to create elements. If no tag name is given,
-     * a DIV is created. Optionally properties can be passed.
-     */
-    function createEl(tag, prop) {
-      var el = document.createElement(tag || 'div')
-        , n
-  
-      for(n in prop) el[n] = prop[n]
-      return el
-    }
-  
-    /**
-     * Appends children and returns the parent.
-     */
-    function ins(parent /* child1, child2, ...*/) {
-      for (var i=1, n=arguments.length; i<n; i++)
-        parent.appendChild(arguments[i])
-  
-      return parent
-    }
-  
-    /**
-     * Insert a new stylesheet to hold the @keyframe or VML rules.
-     */
-    var sheet = (function() {
-      var el = createEl('style', {type : 'text/css'})
-      ins(document.getElementsByTagName('head')[0], el)
-      return el.sheet || el.styleSheet
-    }())
-  
-    /**
-     * Creates an opacity keyframe animation rule and returns its name.
-     * Since most mobile Webkits have timing issues with animation-delay,
-     * we create separate rules for each line/segment.
-     */
-    function addAnimation(alpha, trail, i, lines) {
-      var name = ['opacity', trail, ~~(alpha*100), i, lines].join('-')
-        , start = 0.01 + i/lines * 100
-        , z = Math.max(1 - (1-alpha) / trail * (100-start), alpha)
-        , prefix = useCssAnimations.substring(0, useCssAnimations.indexOf('Animation')).toLowerCase()
-        , pre = prefix && '-' + prefix + '-' || ''
-  
-      if (!animations[name]) {
-        sheet.insertRule(
-          '@' + pre + 'keyframes ' + name + '{' +
-          '0%{opacity:' + z + '}' +
-          start + '%{opacity:' + alpha + '}' +
-          (start+0.01) + '%{opacity:1}' +
-          (start+trail) % 100 + '%{opacity:' + alpha + '}' +
-          '100%{opacity:' + z + '}' +
-          '}', sheet.cssRules.length)
-  
-        animations[name] = 1
-      }
-  
-      return name
-    }
-  
-    /**
-     * Tries various vendor prefixes and returns the first supported property.
-     */
-    function vendor(el, prop) {
-      var s = el.style
-        , pp
-        , i
-  
-      prop = prop.charAt(0).toUpperCase() + prop.slice(1)
-      for(i=0; i<prefixes.length; i++) {
-        pp = prefixes[i]+prop
-        if(s[pp] !== undefined) return pp
-      }
-      if(s[prop] !== undefined) return prop
-    }
-  
-    /**
-     * Sets multiple style properties at once.
-     */
-    function css(el, prop) {
-      for (var n in prop)
-        el.style[vendor(el, n)||n] = prop[n]
-  
-      return el
-    }
-  
-    /**
-     * Fills in default values.
-     */
-    function merge(obj) {
-      for (var i=1; i < arguments.length; i++) {
-        var def = arguments[i]
-        for (var n in def)
-          if (obj[n] === undefined) obj[n] = def[n]
-      }
-      return obj
-    }
-  
-    /**
-     * Returns the absolute page-offset of the given element.
-     */
-    function pos(el) {
-      var o = { x:el.offsetLeft, y:el.offsetTop }
-      while((el = el.offsetParent))
-        // ATLASSIAN - AUI-3542 - add border width to the calculation of o.x and o.y
-        o.x+=el.offsetLeft+el.clientLeft, o.y+=el.offsetTop+el.clientTop
-  
-      return o
-    }
-  
-    /**
-     * Returns the line color from the given string or array.
-     */
-    function getColor(color, idx) {
-      return typeof color == 'string' ? color : color[idx % color.length]
-    }
-  
-    // Built-in defaults
-  
-    var defaults = {
-      lines: 12,            // The number of lines to draw
-      length: 7,            // The length of each line
-      width: 5,             // The line thickness
-      radius: 10,           // The radius of the inner circle
-      rotate: 0,            // Rotation offset
-      corners: 1,           // Roundness (0..1)
-      color: '#000',        // #rgb or #rrggbb
-      direction: 1,         // 1: clockwise, -1: counterclockwise
-      speed: 1,             // Rounds per second
-      trail: 100,           // Afterglow percentage
-      opacity: 1/4,         // Opacity of the lines
-      fps: 20,              // Frames per second when using setTimeout()
-      zIndex: 2e9,          // Use a high z-index by default
-      className: 'spinner', // CSS class to assign to the element
-      top: 'auto',          // center vertically
-      left: 'auto',         // center horizontally
-      position: 'relative'  // element position
-    }
-  
-    /** The constructor */
-    function Spinner(o) {
-      if (typeof this == 'undefined') return new Spinner(o)
-      this.opts = merge(o || {}, Spinner.defaults, defaults)
-    }
-  
-    // Global defaults that override the built-ins:
-    Spinner.defaults = {}
-  
-    merge(Spinner.prototype, {
-  
-      /**
-       * Adds the spinner to the given target element. If this instance is already
-       * spinning, it is automatically removed from its previous target b calling
-       * stop() internally.
-       */
-      spin: function(target) {
-        this.stop()
-  
-        var self = this
-          , o = self.opts
-          , el = self.el = css(createEl(0, {className: o.className}), {position: o.position, width: 0, zIndex: o.zIndex})
-          , mid = o.radius+o.length+o.width
-          , ep // element position
-          , tp // target position
-  
-        if (target) {
-          target.insertBefore(el, target.firstChild||null)
-          tp = pos(target)
-          ep = pos(el)
-          css(el, {
-            left: (o.left == 'auto' ? tp.x-ep.x + (target.offsetWidth >> 1) : parseInt(o.left, 10) + mid) + 'px',
-            top: (o.top == 'auto' ? tp.y-ep.y + (target.offsetHeight >> 1) : parseInt(o.top, 10) + mid)  + 'px'
-          })
-        }
-  
-        el.setAttribute('role', 'progressbar')
-        self.lines(el, self.opts)
-  
-        if (!useCssAnimations) {
-          // No CSS animation support, use setTimeout() instead
-          var i = 0
-            , start = (o.lines - 1) * (1 - o.direction) / 2
-            , alpha
-            , fps = o.fps
-            , f = fps/o.speed
-            , ostep = (1-o.opacity) / (f*o.trail / 100)
-            , astep = f/o.lines
-  
-          ;(function anim() {
-            i++;
-            for (var j = 0; j < o.lines; j++) {
-              alpha = Math.max(1 - (i + (o.lines - j) * astep) % f * ostep, o.opacity)
-  
-              self.opacity(el, j * o.direction + start, alpha, o)
-            }
-            self.timeout = self.el && setTimeout(anim, ~~(1000/fps))
-          })()
-        }
-        return self
-      },
-  
-      /**
-       * Stops and removes the Spinner.
-       */
-      stop: function() {
-        var el = this.el
-        if (el) {
-          clearTimeout(this.timeout)
-          if (el.parentNode) el.parentNode.removeChild(el)
-          this.el = undefined
-        }
-        return this
-      },
-  
-      /**
-       * Internal method that draws the individual lines. Will be overwritten
-       * in VML fallback mode below.
-       */
-      lines: function(el, o) {
-        var i = 0
-          , start = (o.lines - 1) * (1 - o.direction) / 2
-          , seg
-  
-        function fill(color, shadow) {
-          return css(createEl(), {
-            position: 'absolute',
-            width: (o.length+o.width) + 'px',
-            height: o.width + 'px',
-            background: color,
-            boxShadow: shadow,
-            transformOrigin: 'left',
-            transform: 'rotate(' + ~~(360/o.lines*i+o.rotate) + 'deg) translate(' + o.radius+'px' +',0)',
-            borderRadius: (o.corners * o.width>>1) + 'px'
-          })
-        }
-  
-        for (; i < o.lines; i++) {
-          seg = css(createEl(), {
-            position: 'absolute',
-            top: 1+~(o.width/2) + 'px',
-            transform: o.hwaccel ? 'translate3d(0,0,0)' : '',
-            opacity: o.opacity,
-            animation: useCssAnimations && addAnimation(o.opacity, o.trail, start + i * o.direction, o.lines) + ' ' + 1/o.speed + 's linear infinite'
-          })
-  
-          if (o.shadow) ins(seg, css(fill('#000', '0 0 4px ' + '#000'), {top: 2+'px'}))
-          ins(el, ins(seg, fill(getColor(o.color, i), '0 0 1px rgba(0,0,0,.1)')))
-        }
-        return el
-      },
-  
-      /**
-       * Internal method that adjusts the opacity of a single line.
-       * Will be overwritten in VML fallback mode below.
-       */
-      opacity: function(el, i, val) {
-        if (i < el.childNodes.length) el.childNodes[i].style.opacity = val
-      }
-  
-    })
-  
-  
-    function initVML() {
-  
-      /* Utility function to create a VML tag */
-      function vml(tag, attr) {
-        return createEl('<' + tag + ' xmlns="urn:schemas-microsoft.com:vml" class="spin-vml">', attr)
-      }
-  
-      // No CSS transforms but VML support, add a CSS rule for VML elements:
-      sheet.addRule('.spin-vml', 'behavior:url(#default#VML)')
-  
-      Spinner.prototype.lines = function(el, o) {
-        var r = o.length+o.width
-          , s = 2*r
-  
-        function grp() {
-          return css(
-            vml('group', {
-              coordsize: s + ' ' + s,
-              coordorigin: -r + ' ' + -r
-            }),
-            { width: s, height: s }
-          )
-        }
-  
-        var margin = -(o.width+o.length)*2 + 'px'
-          , g = css(grp(), {position: 'absolute', top: margin, left: margin})
-          , i
-  
-        function seg(i, dx, filter) {
-          ins(g,
-            ins(css(grp(), {rotation: 360 / o.lines * i + 'deg', left: ~~dx}),
-              ins(css(vml('roundrect', {arcsize: o.corners}), {
-                  width: r,
-                  height: o.width,
-                  left: o.radius,
-                  top: -o.width>>1,
-                  filter: filter
-                }),
-                vml('fill', {color: getColor(o.color, i), opacity: o.opacity}),
-                vml('stroke', {opacity: 0}) // transparent stroke to fix color bleeding upon opacity change
-              )
-            )
-          )
-        }
-  
-        if (o.shadow)
-          for (i = 1; i <= o.lines; i++)
-            seg(i, -2, 'progid:DXImageTransform.Microsoft.Blur(pixelradius=2,makeshadow=1,shadowopacity=.3)')
-  
-        for (i = 1; i <= o.lines; i++) seg(i)
-        return ins(el, g)
-      }
-  
-      Spinner.prototype.opacity = function(el, i, val, o) {
-        var c = el.firstChild
-        o = o.shadow && o.lines || 0
-        if (c && i+o < c.childNodes.length) {
-          c = c.childNodes[i+o]; c = c && c.firstChild; c = c && c.firstChild
-          if (c) c.opacity = val
-        }
-      }
-    }
-  
-    var probe = css(createEl('group'), {behavior: 'url(#default#VML)'})
-  
-    if (!vendor(probe, 'transform') && probe.adj) initVML()
-    else useCssAnimations = vendor(probe, 'animation')
-  
-    return Spinner
-  
-  }));
-  
-  
-  return module.exports;
-}).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.spin.js
-(typeof window === 'undefined' ? global : window).__d8ff3af7054b670547578cbb83ac113e = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  /*
-   * Ideas from https://gist.github.com/its-florida/1290439 are acknowledged and used here.
-   * Resulting file is heavily modified from that gist so is licensed under AUI's license.
-   *
-   * You can now create a spinner using any of the variants below:
-   *
-   * $("#el").spin(); // Produces default Spinner using the text color of #el.
-   * $("#el").spin("small"); // Produces a 'small' Spinner using the text color of #el.
-   * $("#el").spin("large", { ... }); // Produces a 'large' Spinner with your custom settings.
-   * $("#el").spin({ ... }); // Produces a Spinner using your custom settings.
-   *
-   * $("#el").spin(false); // Kills the spinner.
-   * $("#el").spinStop(); // Also kills the spinner.
-   *
-   */
-  (function($) {
-      $.fn.spin = function(optsOrPreset, opts) {
-          var preset, options;
-  
-          if (typeof optsOrPreset === 'string') {
-              if (! optsOrPreset in $.fn.spin.presets) {
-                  throw new Error("Preset '" + optsOrPreset + "' isn't defined");
-              }
-              preset = $.fn.spin.presets[optsOrPreset];
-              options = opts || {};
-          } else {
-              if (opts) {
-                  throw new Error('Invalid arguments. Accepted arguments:\n' +
-                      '$.spin([String preset[, Object options]]),\n' +
-                      '$.spin(Object options),\n' +
-                      '$.spin(Boolean shouldSpin)');
-              }
-              preset = $.fn.spin.presets.small;
-              options = $.isPlainObject(optsOrPreset) ? optsOrPreset : {};
-          }
-  
-          if (window.Spinner) {
-              return this.each(function() {
-                  var $this = $(this),
-                      data = $this.data();
-  
-                  if (data.spinner) {
-                      data.spinner.stop();
-                      delete data.spinner;
-                  }
-  
-                  if (optsOrPreset === false) { // just stop it spinning.
-                      return;
-                  }
-  
-                  options = $.extend({ color: $this.css('color') }, preset, options);
-                  data.spinner = new Spinner(options).spin(this);
-              });
-          } else {
-              throw "Spinner class not available.";
-          }
-      };
-      $.fn.spin.presets = {
-          "small": { lines: 12, length: 3, width: 2, radius: 3, trail: 60, speed: 1.5 },
-          "medium": { lines: 12, length: 5, width: 3, radius: 8, trail: 60, speed: 1.5 },
-          "large": { lines: 12, length: 8, width: 4, radius: 10, trail: 60, speed: 1.5 }
-      };
-  
-      $.fn.spinStop = function() {
-          if (window.Spinner) {
-              return this.each(function() {
-                  var $this = $(this),
-                      data = $this.data();
-  
-                  if (data.spinner) {
-                      data.spinner.stop();
-                      delete data.spinner;
-                  }
-  
-              });
-          } else {
-              throw "Spinner class not available.";
-          }
-      };
-  })(jQuery);
-  
-  return module.exports;
-}).call(this);
-// node_modules/@atlassian/aui/src/js/aui/spin.js
-(typeof window === 'undefined' ? global : window).__e0a09f3ee5af5c6a891a000b0e664556 = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  'use strict';
-  
-  __b0bead4f53ba672725336d6e7298cf51;
-  
-  __d8ff3af7054b670547578cbb83ac113e;
-  
-  return module.exports;
-}).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/select/option.js
-(typeof window === 'undefined' ? global : window).__66873f486bab0e75e472d0d0bcf053d7 = (function () {
+// src/js/aui/internal/select/option.js
+(typeof window === 'undefined' ? global : window).__4fc5d4a8762c05c25213860c6d2a995a = (function () {
   var module = {
     exports: {}
   };
@@ -7908,11 +7383,11 @@
       value: true
   });
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _escapeHtml = __9429d2be869371d3ad2b23dcd7686108;
+  var _escapeHtml = __0b76dc6d97f1b23b0fade2a154635a58;
   
   var _escapeHtml2 = _interopRequireDefault(_escapeHtml);
   
@@ -7946,8 +7421,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/select/suggestion-model.js
-(typeof window === 'undefined' ? global : window).__4a26aa2a39d925726ccc2b585adc0d7d = (function () {
+// src/js/aui/internal/select/suggestion-model.js
+(typeof window === 'undefined' ? global : window).__765f068f1423614f2121c5960e2b81bf = (function () {
   var module = {
     exports: {}
   };
@@ -7959,7 +7434,7 @@
       value: true
   });
   
-  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
+  var _backbone = __45e54112ad5a27158bec7c5cb7fcb0be;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -7975,8 +7450,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/select/suggestions-model.js
-(typeof window === 'undefined' ? global : window).__771c421e3b16ab7d7c1aebed0c4d3565 = (function () {
+// src/js/aui/internal/select/suggestions-model.js
+(typeof window === 'undefined' ? global : window).__f31ac14e91bda56ea2d1d3ea2fd2c38d = (function () {
   var module = {
     exports: {}
   };
@@ -8058,8 +7533,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/select/suggestions-view.js
-(typeof window === 'undefined' ? global : window).__9140d8f8d637e720a6ac5d96e732ad03 = (function () {
+// src/js/aui/internal/select/suggestions-view.js
+(typeof window === 'undefined' ? global : window).__8a507c78350e2472f375f017c5589171 = (function () {
   var module = {
     exports: {}
   };
@@ -8071,17 +7546,17 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __ff21a71b857b101095156bf4ff8b27ac;
+  __7d913becba6f4d29d83198796761a83b;
   
-  var _alignment = __670509c3f39577904eaf81675f28b1a5;
+  var _alignment = __3a9b4d329665484487a68236106a241d;
   
   var _alignment2 = _interopRequireDefault(_alignment);
   
-  var _layer = __b16464bbf0aa314bacb753553ada098e;
+  var _layer = __5da059428b70b6242895added2c6cd67;
   
   var _layer2 = _interopRequireDefault(_layer);
   
@@ -8180,8 +7655,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/select/template.js
-(typeof window === 'undefined' ? global : window).__8f881de1614be8062f6a161bbb68468e = (function () {
+// src/js/aui/internal/select/template.js
+(typeof window === 'undefined' ? global : window).__65ef8859eeb5503f34e757fedac60dec = (function () {
   var module = {
     exports: {}
   };
@@ -8193,7 +7668,7 @@
       value: true
   });
   
-  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
+  var _skatejsTemplateHtml = __dbfa1f4c1a30b3e1cc85ca85d4eb4dc0;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
@@ -8204,8 +7679,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/select.js
-(typeof window === 'undefined' ? global : window).__fa8e9894e9fa2d4a0a3f4a619cdac6dc = (function () {
+// src/js/aui/select.js
+(typeof window === 'undefined' ? global : window).__e16b2be8f179efdd371e5f55bda9b046 = (function () {
   var module = {
     exports: {}
   };
@@ -8217,69 +7692,69 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __ba22a6a0f9889bb04a6764c4bc4865a0;
+  __8064e214a673d8805702bc7b1b4e66fa;
   
-  __ff21a71b857b101095156bf4ff8b27ac;
+  __7d913becba6f4d29d83198796761a83b;
   
-  __e0a09f3ee5af5c6a891a000b0e664556;
+  __e7718ebc64c516e9474ebe35dcc7f952;
   
-  var _option = __66873f486bab0e75e472d0d0bcf053d7;
+  var _option = __4fc5d4a8762c05c25213860c6d2a995a;
   
   var _option2 = _interopRequireDefault(_option);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _customEvent = __2e94b36d616dffee0a6f911bf22a83ae;
+  var _customEvent = __6e00461d70569841385cf3932717f8f1;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _progressiveDataSet = __f1c85bac91549fc7b83aaa27ba2694e9;
+  var _progressiveDataSet = __bb14c921306bc4dc51631d95136b373a;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _state = __ed9b9aac7079f8ce29349f1a2c1b9701;
+  var _state = __c2c1b87089617961099cb61f2787697e;
   
   var _state2 = _interopRequireDefault(_state);
   
-  var _suggestionModel = __4a26aa2a39d925726ccc2b585adc0d7d;
+  var _suggestionModel = __765f068f1423614f2121c5960e2b81bf;
   
   var _suggestionModel2 = _interopRequireDefault(_suggestionModel);
   
-  var _suggestionsModel = __771c421e3b16ab7d7c1aebed0c4d3565;
+  var _suggestionsModel = __f31ac14e91bda56ea2d1d3ea2fd2c38d;
   
   var _suggestionsModel2 = _interopRequireDefault(_suggestionsModel);
   
-  var _suggestionsView = __9140d8f8d637e720a6ac5d96e732ad03;
+  var _suggestionsView = __8a507c78350e2472f375f017c5589171;
   
   var _suggestionsView2 = _interopRequireDefault(_suggestionsView);
   
-  var _template = __8f881de1614be8062f6a161bbb68468e;
+  var _template = __65ef8859eeb5503f34e757fedac60dec;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
+  var _uniqueId = __f0960e5c4a09cc8a91ba62e529fccd5c;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
+  var _constants = __70cda6c77fd52c8a137ac08d80e58f57;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -8814,8 +8289,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/jquery/plugins/jquery.select2.js
-(typeof window === 'undefined' ? global : window).__541108ffa7d92ccfa7bbf8536d20dbb0 = (function () {
+// src/js-vendor/jquery/plugins/jquery.select2.js
+(typeof window === 'undefined' ? global : window).__7efbcae4855017c299fe61f5c081cff2 = (function () {
   var module = {
     exports: {}
   };
@@ -12079,8 +11554,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/select2.js
-(typeof window === 'undefined' ? global : window).__0d8267f32c62ec811936d03ae0ef7267 = (function () {
+// src/js/aui/select2.js
+(typeof window === 'undefined' ? global : window).__3a5f71f29448e4fa3ce4377ed8e52547 = (function () {
   var module = {
     exports: {}
   };
@@ -12088,11 +11563,11 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __541108ffa7d92ccfa7bbf8536d20dbb0;
+  __7efbcae4855017c299fe61f5c081cff2;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -12139,8 +11614,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/raf/raf.js
-(typeof window === 'undefined' ? global : window).__5ca5c5ddaacf5652a879cfec07ca5db7 = (function () {
+// src/js-vendor/raf/raf.js
+(typeof window === 'undefined' ? global : window).__f4535456980685d4d7faa0dc8c877d2e = (function () {
   var module = {
     exports: {}
   };
@@ -12190,8 +11665,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/has-touch.js
-(typeof window === 'undefined' ? global : window).__2d5f094064a34a526c3e143503c89b91 = (function () {
+// src/js/aui/internal/has-touch.js
+(typeof window === 'undefined' ? global : window).__1bd9508e376b93c25f5b17392be9b75a = (function () {
   var module = {
     exports: {}
   };
@@ -12209,8 +11684,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/is-input.js
-(typeof window === 'undefined' ? global : window).__bd483f5e8ad6ed1962e7a119675a0b66 = (function () {
+// src/js/aui/internal/is-input.js
+(typeof window === 'undefined' ? global : window).__5bb0e7e109811ba88f6f8ac25abcdfbe = (function () {
   var module = {
     exports: {}
   };
@@ -12230,8 +11705,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/internal/mediaQuery.js
-(typeof window === 'undefined' ? global : window).__233c61f178d7afeb305a2369d3ca4c77 = (function () {
+// src/js/aui/internal/mediaQuery.js
+(typeof window === 'undefined' ? global : window).__6626ec50e40a4179ba1a9b0fa4659863 = (function () {
   var module = {
     exports: {}
   };
@@ -12266,8 +11741,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/sidebar.js
-(typeof window === 'undefined' ? global : window).__35ff1875ff47a73afe1c7cfa63c3b7f7 = (function () {
+// src/js/aui/sidebar.js
+(typeof window === 'undefined' ? global : window).__74016628ec6da2d0c853a44982c128b4 = (function () {
   var module = {
     exports: {}
   };
@@ -12279,53 +11754,53 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __cc64a0d7c308ad5954e00f06c2bcc6ed;
+  __c1388e4a540eb50d2ee87718dfe2de49;
   
-  __5ca5c5ddaacf5652a879cfec07ca5db7;
+  __f4535456980685d4d7faa0dc8c877d2e;
   
-  __ff21a71b857b101095156bf4ff8b27ac;
+  __7d913becba6f4d29d83198796761a83b;
   
-  var _clone = __8a777f37cbfa8f7456cf8bf6fd300c3f;
+  var _clone = __12683f577b6101f942b173c3d5b8f4d8;
   
   var _clone2 = _interopRequireDefault(_clone);
   
-  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  var _deprecation = __a24ffbd7fbacf7af40b817e3b49e7738;
   
   var deprecate = _interopRequireWildcard(_deprecation);
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _hasTouch = __2d5f094064a34a526c3e143503c89b91;
+  var _hasTouch = __1bd9508e376b93c25f5b17392be9b75a;
   
   var _hasTouch2 = _interopRequireDefault(_hasTouch);
   
-  var _isInput = __bd483f5e8ad6ed1962e7a119675a0b66;
+  var _isInput = __5bb0e7e109811ba88f6f8ac25abcdfbe;
   
   var _isInput2 = _interopRequireDefault(_isInput);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _mediaQuery = __233c61f178d7afeb305a2369d3ca4c77;
+  var _mediaQuery = __6626ec50e40a4179ba1a9b0fa4659863;
   
   var _mediaQuery2 = _interopRequireDefault(_mediaQuery);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
+  var _uniqueId = __f0960e5c4a09cc8a91ba62e529fccd5c;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _widget = __ecaadce486e7be7002d8453fc51f9873;
+  var _widget = __7cb905db2deef72e52f697c0544d48e1;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -13028,8 +12503,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.tablesorter.js
-(typeof window === 'undefined' ? global : window).__7cd6e2eeea92fd33dd52da951526a304 = (function () {
+// src/js-vendor/jquery/jquery.tablesorter.js
+(typeof window === 'undefined' ? global : window).__8e4075c71df5f71964c20d8276b11ee5 = (function () {
   var module = {
     exports: {}
   };
@@ -14933,8 +14408,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/tables-sortable.js
-(typeof window === 'undefined' ? global : window).__7884db8256ff887adf7897ec0b66d820 = (function () {
+// src/js/aui/tables-sortable.js
+(typeof window === 'undefined' ? global : window).__6524b606bfda2a55ad14b215a37db0fb = (function () {
   var module = {
     exports: {}
   };
@@ -14946,13 +14421,13 @@
       value: true
   });
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __7cd6e2eeea92fd33dd52da951526a304;
+  __8e4075c71df5f71964c20d8276b11ee5;
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -15066,8 +14541,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/tipsy.js
-(typeof window === 'undefined' ? global : window).__d14f0f297335aefa47f50a724842247b = (function () {
+// src/js/aui/tipsy.js
+(typeof window === 'undefined' ? global : window).__78c483641fe87fedd30548a7a4c4099c = (function () {
   var module = {
     exports: {}
   };
@@ -15075,12 +14550,12 @@
   
   'use strict';
   
-  __cc64a0d7c308ad5954e00f06c2bcc6ed;
+  __c1388e4a540eb50d2ee87718dfe2de49;
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/toggle.js
-(typeof window === 'undefined' ? global : window).__be71d4c22d5f8ec8e24cf5cbfc949106 = (function () {
+// src/js/aui/toggle.js
+(typeof window === 'undefined' ? global : window).__107bdcb6ec6247614ae877a4a86802a8 = (function () {
   var module = {
     exports: {}
   };
@@ -15088,33 +14563,33 @@
   
   'use strict';
   
-  __e0a09f3ee5af5c6a891a000b0e664556;
+  __e7718ebc64c516e9474ebe35dcc7f952;
   
-  __65bf2e9d62756879a7805c63dea11935;
+  __9f0d7dfa5102ae1668b3b3e919eaa4d1;
   
-  var _attributes = __82e760f4580e37eda172e78ba0378f6d;
+  var _attributes = __c20c7809f498dfeae6c332cd2d6a4ee5;
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _enforcer = __da99b881b3bdaf63767de8d2780ca44c;
+  var _enforcer = __b07e67a6cdefbaf3b228a10ff64ac591;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  var _keyCode = __8c82b5da3be0e77a31be91d64b04dfdc;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
+  var _skatejsTemplateHtml = __dbfa1f4c1a30b3e1cc85ca85d4eb4dc0;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
+  var _constants = __70cda6c77fd52c8a137ac08d80e58f57;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -15327,8 +14802,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/trigger.js
-(typeof window === 'undefined' ? global : window).__ea2e55215adfd7d713f5dd9cd22093bf = (function () {
+// src/js/aui/trigger.js
+(typeof window === 'undefined' ? global : window).__19595701fb34385a170e55adefdfd3f0 = (function () {
   var module = {
     exports: {}
   };
@@ -15336,15 +14811,15 @@
   
   'use strict';
   
-  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
+  var _jquery = __f16f951866b0843f3a9410f009d53bda;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __8f23956215d754ca94df621efa6b0438;
+  var _amdify = __4602471e97b997bed014889c44e6505a;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __da172e72afc5a7088e3034df761062a6;
+  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -15407,8 +14882,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui/truncating-progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__2a380e6e7039c86b428d8010745343d0 = (function () {
+// src/js/aui/truncating-progressive-data-set.js
+(typeof window === 'undefined' ? global : window).__d2e5cfd81b2e852df90583e56a4bab03 = (function () {
   var module = {
     exports: {}
   };
@@ -15420,11 +14895,11 @@
       value: true
   });
   
-  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
+  var _globalize = __12813e8d06d5f73554cb6da5ec909498;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _progressiveDataSet = __f1c85bac91549fc7b83aaa27ba2694e9;
+  var _progressiveDataSet = __bb14c921306bc4dc51631d95136b373a;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
@@ -15493,8 +14968,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui-experimental.js
-(typeof window === 'undefined' ? global : window).__92bb2ab650fe75c101f95c7eb1533456 = (function () {
+// src/js/aui-experimental.js
+(typeof window === 'undefined' ? global : window).__0c424c6d94238cf98b9155481747b3a1 = (function () {
   var module = {
     exports: {}
   };
@@ -15506,81 +14981,57 @@
     value: true
   });
   
-  __c2529721e056b137d5dc332217e3a9a0;
+  __14c0d13e53feac9b17e1bfe5f4f76f99;
   
-  __86c5d8458771884814420d1e592e5434;
+  __445a00be3c22647b2b543f1a235c5b90;
   
-  __ba22a6a0f9889bb04a6764c4bc4865a0;
+  __8064e214a673d8805702bc7b1b4e66fa;
   
-  __de170d5d90568334e1ab26d28697cb93;
+  __25d9da654ed66b5c448e5e3378f5bbac;
   
-  __abec049fae3e0e24b94d659c3600ba01;
+  __c3a8a56e3fae5ecf4d2fd53f7e7f7f3b;
   
-  __bdcd8cba16e83e973cb8146ddb843c38;
+  __f4e75e843d06134e20bcbc4f85b64eff;
   
-  __b50249c6901293cd03d256e40a6d0941;
+  __92303fbdec4e9351ab7bfa899fdf6d6a;
   
-  __2635f44381995ca51e130dad1479fffd;
+  __878582db7b9e3fb70d40119beeebe567;
   
-  __bb2eb5d964bbb49080eaffc7a1d17cbf;
+  __0d06f59b03af9cfcfbc3adc1e45a91c9;
   
-  __d3ebcf189654ce92803791fd3e76baad;
+  __1f63b059a06d1f87468d4d2b4d9c9a54;
   
-  __f1c85bac91549fc7b83aaa27ba2694e9;
+  __bb14c921306bc4dc51631d95136b373a;
   
-  __441c338a795b16645d3af32425aefa8e;
+  __f898fd7b5d2bc24589f1c1af31ede90c;
   
-  __c5e3bf15f76fa7bfc2443017a9e6dfb3;
+  __97a3481ad0c2f92121be478619870f01;
   
-  __3253a94b3187c508715567de7b3d976c;
+  __f4c24f11ae4d1474e08fd98db46f7099;
   
-  __c01675a5756b387d4597631183424a16;
+  __c9c36008d2cf8cad3b542314c331e0c7;
   
-  __fa8e9894e9fa2d4a0a3f4a619cdac6dc;
+  __e16b2be8f179efdd371e5f55bda9b046;
   
-  __0d8267f32c62ec811936d03ae0ef7267;
+  __3a5f71f29448e4fa3ce4377ed8e52547;
   
-  __35ff1875ff47a73afe1c7cfa63c3b7f7;
+  __74016628ec6da2d0c853a44982c128b4;
   
-  __e0a09f3ee5af5c6a891a000b0e664556;
+  __e7718ebc64c516e9474ebe35dcc7f952;
   
-  __7884db8256ff887adf7897ec0b66d820;
+  __6524b606bfda2a55ad14b215a37db0fb;
   
-  __d14f0f297335aefa47f50a724842247b;
+  __78c483641fe87fedd30548a7a4c4099c;
   
-  __be71d4c22d5f8ec8e24cf5cbfc949106;
+  __107bdcb6ec6247614ae877a4a86802a8;
   
-  __65bf2e9d62756879a7805c63dea11935;
+  __9f0d7dfa5102ae1668b3b3e919eaa4d1;
   
-  __ea2e55215adfd7d713f5dd9cd22093bf;
+  __19595701fb34385a170e55adefdfd3f0;
   
-  __2a380e6e7039c86b428d8010745343d0;
+  __d2e5cfd81b2e852df90583e56a4bab03;
   
   exports.default = window.AJS;
-  module.exports = exports['default'];
-  
-  return module.exports;
-}).call(this);
-// src/js/aui-experimental.js
-(typeof window === 'undefined' ? global : window).__f60ffcf7fb94c84ef0707703add84c8f = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _auiExperimental = __92bb2ab650fe75c101f95c7eb1533456;
-  
-  var _auiExperimental2 = _interopRequireDefault(_auiExperimental);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = _auiExperimental2.default;
   module.exports = exports['default'];
   
   return module.exports;

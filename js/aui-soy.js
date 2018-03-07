@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.1
+ * @version v7.0.0
  * @link https://docs.atlassian.com/aui/latest/
- * @license Apache-2.0
- * @author [object Object]
+ * @license SEE LICENSE IN LICENSE.md
+ * @author Atlassian Pty Ltd.
  */
-// node_modules/@atlassian/aui/.tmp/compiled-soy/atlassian-deps.js
-(typeof window === 'undefined' ? global : window).__7370d4d8dc016de7133a750a6ba08425 = (function () {
+// .tmp/compiled-soy/atlassian-deps.js
+(typeof window === 'undefined' ? global : window).__4771c55a4764dccc7bf486345d2bbd2e = (function () {
   var module = {
     exports: {}
   };
@@ -31,8 +31,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/soyutils.js
-(typeof window === 'undefined' ? global : window).__b4fccc98d9f9288402063b660507e61a = (function () {
+// .tmp/compiled-soy/soyutils.js
+(typeof window === 'undefined' ? global : window).__456d1a0c7709a590b492ccfcd54848d4 = (function () {
   var module = {
     exports: {}
   };
@@ -5796,8 +5796,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/aui.js
-(typeof window === 'undefined' ? global : window).__cc63fcd8c036f4dbee0e6ad07538ba93 = (function () {
+// .tmp/compiled-soy/aui.js
+(typeof window === 'undefined' ? global : window).__76b5bdd16f3191396cfd623727c05448 = (function () {
   var module = {
     exports: {}
   };
@@ -5862,8 +5862,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/avatar.js
-(typeof window === 'undefined' ? global : window).__ff1828d96f4a55f33636289f9fb5066c = (function () {
+// .tmp/compiled-soy/avatar.js
+(typeof window === 'undefined' ? global : window).__f2aa6415c423617e80a3a0339e610b69 = (function () {
   var module = {
     exports: {}
   };
@@ -5893,8 +5893,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/badges.js
-(typeof window === 'undefined' ? global : window).__912f37764c1b10b92dca9b9b0698bbc0 = (function () {
+// .tmp/compiled-soy/badges.js
+(typeof window === 'undefined' ? global : window).__0c3c1addf06a6208331ad9313aafe05e = (function () {
   var module = {
     exports: {}
   };
@@ -5924,8 +5924,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/buttons.js
-(typeof window === 'undefined' ? global : window).__d345217ece82b68ea78eaba111938358 = (function () {
+// .tmp/compiled-soy/buttons.js
+(typeof window === 'undefined' ? global : window).__e0d159aba3cfdc52f5936d649c14b544 = (function () {
   var module = {
     exports: {}
   };
@@ -6014,8 +6014,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/dialog2.js
-(typeof window === 'undefined' ? global : window).__07d991b7c9dfab7cd21e0876145c4b59 = (function () {
+// .tmp/compiled-soy/dialog2.js
+(typeof window === 'undefined' ? global : window).__0f8ad7fd2138084b9c7260d53bb5987d = (function () {
   var module = {
     exports: {}
   };
@@ -6090,8 +6090,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/dropdown.js
-(typeof window === 'undefined' ? global : window).__cfdee922eb92c9266d710b242cf90018 = (function () {
+// .tmp/compiled-soy/dropdown.js
+(typeof window === 'undefined' ? global : window).__e25d3edbd7091b817ca62daf9123a80e = (function () {
   var module = {
     exports: {}
   };
@@ -6146,8 +6146,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/dropdown2.js
-(typeof window === 'undefined' ? global : window).__64ff6df84080619cea4cc7d3f83ce124 = (function () {
+// .tmp/compiled-soy/dropdown2.js
+(typeof window === 'undefined' ? global : window).__9094576fe94bcc02b0faf93b1d7a6066 = (function () {
   var module = {
     exports: {}
   };
@@ -6261,8 +6261,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/expander.js
-(typeof window === 'undefined' ? global : window).__fb5ae7b6c33ecf744c5e3d7fd597aaf6 = (function () {
+// .tmp/compiled-soy/expander.js
+(typeof window === 'undefined' ? global : window).__f691ae24a1fc439a98042e2998aa0307 = (function () {
   var module = {
     exports: {}
   };
@@ -6308,8 +6308,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/form.js
-(typeof window === 'undefined' ? global : window).__ddab5c27d571a2838fab1335148f42c0 = (function () {
+// .tmp/compiled-soy/form.js
+(typeof window === 'undefined' ? global : window).__219c5e8c0c4041c611981926345afbb3 = (function () {
   var module = {
     exports: {}
   };
@@ -6720,8 +6720,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/group.js
-(typeof window === 'undefined' ? global : window).__9bb7ee6f367f17ef2ea7488e5e44bd19 = (function () {
+// .tmp/compiled-soy/group.js
+(typeof window === 'undefined' ? global : window).__91acabe01c920310ffdb729290106736 = (function () {
   var module = {
     exports: {}
   };
@@ -6759,8 +6759,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/icons.js
-(typeof window === 'undefined' ? global : window).__b1777d91fdd3ca3b0840826b0320bf4d = (function () {
+// .tmp/compiled-soy/icons.js
+(typeof window === 'undefined' ? global : window).__77d24a7c888a25fbb5b2fe452bc3df75 = (function () {
   var module = {
     exports: {}
   };
@@ -6790,8 +6790,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/inline-dialog2.js
-(typeof window === 'undefined' ? global : window).__888c6d0c6a1b9b832d5a662c16e9cdd4 = (function () {
+// .tmp/compiled-soy/inline-dialog2.js
+(typeof window === 'undefined' ? global : window).__f8c4142cbdbd9f9b71bdc33c3ae6bbd2 = (function () {
   var module = {
     exports: {}
   };
@@ -6829,8 +6829,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/labels.js
-(typeof window === 'undefined' ? global : window).__7a8ab8fdc4dc4ed95a9b0e83fb8e6fa5 = (function () {
+// .tmp/compiled-soy/labels.js
+(typeof window === 'undefined' ? global : window).__f73f359d311cc36e1dc8207d2cab3909 = (function () {
   var module = {
     exports: {}
   };
@@ -6876,8 +6876,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/lozenges.js
-(typeof window === 'undefined' ? global : window).__0f4608fbf316399c114bfe6cbe30f441 = (function () {
+// .tmp/compiled-soy/lozenges.js
+(typeof window === 'undefined' ? global : window).__69a63c3782b5038628e47f1f9f6bc5ba = (function () {
   var module = {
     exports: {}
   };
@@ -6907,8 +6907,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/message.js
-(typeof window === 'undefined' ? global : window).__3da081d6eaa76745c95664a9b959e5a9 = (function () {
+// .tmp/compiled-soy/message.js
+(typeof window === 'undefined' ? global : window).__ba586f61641b149c8578cfabe1577ffd = (function () {
   var module = {
     exports: {}
   };
@@ -6990,8 +6990,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/navigation.js
-(typeof window === 'undefined' ? global : window).__21924d82b6437e81624bc6b5fb12ac8a = (function () {
+// .tmp/compiled-soy/navigation.js
+(typeof window === 'undefined' ? global : window).__685f3de5d5ca3908e6433d9600fbdb42 = (function () {
   var module = {
     exports: {}
   };
@@ -7037,8 +7037,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/page.js
-(typeof window === 'undefined' ? global : window).__51f3a5cbafa721cd8f2291e383dbbdcb = (function () {
+// .tmp/compiled-soy/page.js
+(typeof window === 'undefined' ? global : window).__6a28d8409b9139ea851fd25fb7542b10 = (function () {
   var module = {
     exports: {}
   };
@@ -7167,8 +7167,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/panel.js
-(typeof window === 'undefined' ? global : window).__c4cf828b1ce5cb023db3cbd79a726f13 = (function () {
+// .tmp/compiled-soy/panel.js
+(typeof window === 'undefined' ? global : window).__f0d0df5423f4d97c16eee4591c5b3d63 = (function () {
   var module = {
     exports: {}
   };
@@ -7197,8 +7197,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/progress-tracker.js
-(typeof window === 'undefined' ? global : window).__861bb20a2cf6529945cb239c3f1016a5 = (function () {
+// .tmp/compiled-soy/progress-tracker.js
+(typeof window === 'undefined' ? global : window).__2451a469fde6c6443930b3bc5c572b7d = (function () {
   var module = {
     exports: {}
   };
@@ -7272,8 +7272,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/sidebar.js
-(typeof window === 'undefined' ? global : window).__736dd55a31168ebc71f178ff3ebaaf3f = (function () {
+// .tmp/compiled-soy/sidebar.js
+(typeof window === 'undefined' ? global : window).__196d7cca022db5d0b74a77a006c74272 = (function () {
   var module = {
     exports: {}
   };
@@ -7303,8 +7303,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/table.js
-(typeof window === 'undefined' ? global : window).__1a7ebf8b0703b8088f3d62cf8ffc36a7 = (function () {
+// .tmp/compiled-soy/table.js
+(typeof window === 'undefined' ? global : window).__a9eb2122e0ea99901a5c0a1c4e45d27a = (function () {
   var module = {
     exports: {}
   };
@@ -7333,8 +7333,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/tabs.js
-(typeof window === 'undefined' ? global : window).__0a4a2df3a4c8eb8985499066a31b3360 = (function () {
+// .tmp/compiled-soy/tabs.js
+(typeof window === 'undefined' ? global : window).__5bd7242806ac4209898b57994ff63e9a = (function () {
   var module = {
     exports: {}
   };
@@ -7387,8 +7387,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/toolbar.js
-(typeof window === 'undefined' ? global : window).__333e7af0bb7be44fe87bc4e0364ba6b5 = (function () {
+// .tmp/compiled-soy/toolbar.js
+(typeof window === 'undefined' ? global : window).__0c1ee01796152beadabd99806f2d0c4f = (function () {
   var module = {
     exports: {}
   };
@@ -7491,8 +7491,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/toolbar2.js
-(typeof window === 'undefined' ? global : window).__d59a925f194bc43d30c505189fa10250 = (function () {
+// .tmp/compiled-soy/toolbar2.js
+(typeof window === 'undefined' ? global : window).__c574438ba28e17894ad47a8c96045c71 = (function () {
   var module = {
     exports: {}
   };
@@ -7538,8 +7538,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/.tmp/compiled-soy/trigger.js
-(typeof window === 'undefined' ? global : window).__d9a036ac444660730c9b256fa69cac2c = (function () {
+// .tmp/compiled-soy/trigger.js
+(typeof window === 'undefined' ? global : window).__da0839e9fbc08eb2e55c838160d93bb2 = (function () {
   var module = {
     exports: {}
   };
@@ -7569,8 +7569,8 @@
   
   return module.exports;
 }).call(this);
-// node_modules/@atlassian/aui/src/js/aui-soy.js
-(typeof window === 'undefined' ? global : window).__650ba1a479cd52cd52d1bcb7b3aac221 = (function () {
+// src/js/aui-soy.js
+(typeof window === 'undefined' ? global : window).__c0ae37bd88949732120cfb4f1285044b = (function () {
   var module = {
     exports: {}
   };
@@ -7582,85 +7582,61 @@
     value: true
   });
   
-  __7370d4d8dc016de7133a750a6ba08425;
+  __4771c55a4764dccc7bf486345d2bbd2e;
   
-  __b4fccc98d9f9288402063b660507e61a;
+  __456d1a0c7709a590b492ccfcd54848d4;
   
-  __cc63fcd8c036f4dbee0e6ad07538ba93;
+  __76b5bdd16f3191396cfd623727c05448;
   
-  __ff1828d96f4a55f33636289f9fb5066c;
+  __f2aa6415c423617e80a3a0339e610b69;
   
-  __912f37764c1b10b92dca9b9b0698bbc0;
+  __0c3c1addf06a6208331ad9313aafe05e;
   
-  __d345217ece82b68ea78eaba111938358;
+  __e0d159aba3cfdc52f5936d649c14b544;
   
-  __07d991b7c9dfab7cd21e0876145c4b59;
+  __0f8ad7fd2138084b9c7260d53bb5987d;
   
-  __cfdee922eb92c9266d710b242cf90018;
+  __e25d3edbd7091b817ca62daf9123a80e;
   
-  __64ff6df84080619cea4cc7d3f83ce124;
+  __9094576fe94bcc02b0faf93b1d7a6066;
   
-  __fb5ae7b6c33ecf744c5e3d7fd597aaf6;
+  __f691ae24a1fc439a98042e2998aa0307;
   
-  __ddab5c27d571a2838fab1335148f42c0;
+  __219c5e8c0c4041c611981926345afbb3;
   
-  __9bb7ee6f367f17ef2ea7488e5e44bd19;
+  __91acabe01c920310ffdb729290106736;
   
-  __b1777d91fdd3ca3b0840826b0320bf4d;
+  __77d24a7c888a25fbb5b2fe452bc3df75;
   
-  __888c6d0c6a1b9b832d5a662c16e9cdd4;
+  __f8c4142cbdbd9f9b71bdc33c3ae6bbd2;
   
-  __7a8ab8fdc4dc4ed95a9b0e83fb8e6fa5;
+  __f73f359d311cc36e1dc8207d2cab3909;
   
-  __0f4608fbf316399c114bfe6cbe30f441;
+  __69a63c3782b5038628e47f1f9f6bc5ba;
   
-  __3da081d6eaa76745c95664a9b959e5a9;
+  __ba586f61641b149c8578cfabe1577ffd;
   
-  __21924d82b6437e81624bc6b5fb12ac8a;
+  __685f3de5d5ca3908e6433d9600fbdb42;
   
-  __51f3a5cbafa721cd8f2291e383dbbdcb;
+  __6a28d8409b9139ea851fd25fb7542b10;
   
-  __c4cf828b1ce5cb023db3cbd79a726f13;
+  __f0d0df5423f4d97c16eee4591c5b3d63;
   
-  __861bb20a2cf6529945cb239c3f1016a5;
+  __2451a469fde6c6443930b3bc5c572b7d;
   
-  __736dd55a31168ebc71f178ff3ebaaf3f;
+  __196d7cca022db5d0b74a77a006c74272;
   
-  __1a7ebf8b0703b8088f3d62cf8ffc36a7;
+  __a9eb2122e0ea99901a5c0a1c4e45d27a;
   
-  __0a4a2df3a4c8eb8985499066a31b3360;
+  __5bd7242806ac4209898b57994ff63e9a;
   
-  __333e7af0bb7be44fe87bc4e0364ba6b5;
+  __0c1ee01796152beadabd99806f2d0c4f;
   
-  __d59a925f194bc43d30c505189fa10250;
+  __c574438ba28e17894ad47a8c96045c71;
   
-  __d9a036ac444660730c9b256fa69cac2c;
+  __da0839e9fbc08eb2e55c838160d93bb2;
   
   exports.default = window.aui;
-  module.exports = exports['default'];
-  
-  return module.exports;
-}).call(this);
-// src/js/aui-soy.js
-(typeof window === 'undefined' ? global : window).__9c0be71f8c31a364777e742dcf99aa9e = (function () {
-  var module = {
-    exports: {}
-  };
-  var exports = module.exports;
-  
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _auiSoy = __650ba1a479cd52cd52d1bcb7b3aac221;
-  
-  var _auiSoy2 = _interopRequireDefault(_auiSoy);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = _auiSoy2.default;
   module.exports = exports['default'];
   
   return module.exports;
