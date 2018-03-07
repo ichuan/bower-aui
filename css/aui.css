@@ -259,6 +259,20 @@ abbr {
   border-bottom: 1px #707070 dotted;
   cursor: help;
 }
+@font-face {
+  font-family: "Atlassian Icons";
+  src: url('fonts/atlassian-icons.eot');
+  src: url('fonts/atlassian-icons.eot?#iefix') format('embedded-opentype'), url('fonts/atlassian-icons.woff') format('woff'), url('fonts/atlassian-icons.ttf') format('truetype'), url('fonts/atlassian-icons.svg#atlassian-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adgs Icons";
+  src: url('fonts/adgs-icons.eot');
+  src: url('fonts/adgs-icons.eot?#iefix') format('embedded-opentype'), url('fonts/adgs-icons.woff') format('woff'), url('fonts/adgs-icons.ttf') format('truetype'), url('fonts/adgs-icons.svg#adgs-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .aui-avatar {
   box-sizing: border-box;
   display: inline-block;
@@ -5444,20 +5458,6 @@ form.aui aui-select[data-aui-notification-success] .text {
 * UTF+E800 - UTF+EBFF - JIRA
 * UTF+EC00 - UTF+EFFF - Dev Tools
 */
-@font-face {
-  font-family: "Adgs Icons";
-  src: url('fonts/adgs-icons.eot');
-  src: url('fonts/adgs-icons.eot?#iefix') format('embedded-opentype'), url('fonts/adgs-icons.woff') format('woff'), url('fonts/adgs-icons.ttf') format('truetype'), url('fonts/adgs-icons.svg#adgs-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Adgs Icons";
-  src: url('fonts/adgs-icons.eot');
-  src: url('fonts/adgs-icons.eot?#iefix') format('embedded-opentype'), url('fonts/adgs-icons.woff') format('woff'), url('fonts/adgs-icons.ttf') format('truetype'), url('fonts/adgs-icons.svg#adgs-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 .aui-iconfont-add:before {
   content: "\f101";
 }
@@ -6184,20 +6184,6 @@ form.aui aui-select[data-aui-notification-success] .text {
 .aui-iconfont-user-large:before {
   content: "\f1f2";
 }
-@font-face {
-  font-family: "Atlassian Icons";
-  src: url('fonts/atlassian-icons.eot');
-  src: url('fonts/atlassian-icons.eot?#iefix') format('embedded-opentype'), url('fonts/atlassian-icons.woff') format('woff'), url('fonts/atlassian-icons.ttf') format('truetype'), url('fonts/atlassian-icons.svg#atlassian-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Atlassian Icons";
-  src: url('fonts/atlassian-icons.eot');
-  src: url('fonts/atlassian-icons.eot?#iefix') format('embedded-opentype'), url('fonts/atlassian-icons.woff') format('woff'), url('fonts/atlassian-icons.ttf') format('truetype'), url('fonts/atlassian-icons.svg#atlassian-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 .aui-iconfont-autocomplete-date::before,
 .aui-iconfont-blogroll::before,
 .aui-iconfont-devtools-browse-up::before,
@@ -6215,7 +6201,6 @@ form.aui aui-select[data-aui-notification-success] .text {
 .aui-iconfont-file-zip::before,
 .aui-iconfont-page-blogpost::before,
 .aui-iconfont-page-template::before,
-.aui-iconfont-nav-children::before,
 .aui-iconfont-macro-default::before,
 .aui-iconfont-macro-gallery::before,
 .aui-iconfont-macro-status::before,
@@ -6260,9 +6245,12 @@ form.aui aui-select[data-aui-notification-success] .text {
 .aui-iconfont-devtools-repository-locked::before,
 .aui-iconfont-devtools-side-diff::before,
 .aui-iconfont-devtools-submodule::before,
+.aui-iconfont-table-cut-row::before,
+.aui-iconfont-table-copy-row::before,
+.aui-iconfont-table-paste-row::before,
+.aui-iconfont-table-cut-column::before,
 .aui-iconfont-table-copy-column::before,
 .aui-iconfont-table-paste-column::before,
-.aui-iconfont-table-cut-column::before,
 .aui-iconfont-maximise-small::before,
 .aui-iconfont-minimise-small::before,
 .aui-iconfont-more-small::before,
