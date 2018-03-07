@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.8
+ * @version v6.0.9
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]

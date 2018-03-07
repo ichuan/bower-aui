@@ -1,7 +1,7 @@
 Bower-aui
 =========
 
-Bower repo for the AUI (https://docs.atlassian.com/aui/getting-started.html). Current version: `6.0.8`
+Bower repo for the AUI (https://docs.atlassian.com/aui/getting-started.html). Current version: `6.0.9`
 
 
 Versioning

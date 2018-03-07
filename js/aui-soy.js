@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.8
+ * @version v6.0.9
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -6493,12 +6493,12 @@
   
   
   aui.form.select = function(opt_data, opt_ignored) {
-    var output = '<select' + ((opt_data.id) ? ' id="' + soy.$$escapeHtml(opt_data.id) + '"' : '') + ' name="' + ((opt_data.name) ? soy.$$escapeHtml(opt_data.name) : soy.$$escapeHtml(opt_data.id)) + '" class="' + soy.$$escapeHtml(opt_data.isMultiple ? 'multi-select' : 'select') + aui.renderExtraClasses(opt_data) + '"' + ((opt_data.size) ? ' size="' + soy.$$escapeHtml(opt_data.size) + '"' : '') + ((opt_data.isDisabled) ? ' disabled' : '') + ((opt_data.isAutofocus) ? ' autofocus' : '') + ((opt_data.isMultiple) ? ' multiple' : '') + aui.renderExtraAttributes(opt_data) + aui.form.renderValidationArguments(opt_data) + aui.form.renderInfoMessage(opt_data) + aui.form.renderFieldComponentAttribute(opt_data) + aui.form.renderTooltipArguments(opt_data) + '>';
-    var optionList375 = opt_data.options;
-    var optionListLen375 = optionList375.length;
-    for (var optionIndex375 = 0; optionIndex375 < optionListLen375; optionIndex375++) {
-      var optionData375 = optionList375[optionIndex375];
-      output += aui.form.optionOrOptgroup(soy.$$augmentMap(optionData375, {defaultValue: opt_data.value}));
+    var output = '<select' + ((opt_data.id) ? ' id="' + soy.$$escapeHtml(opt_data.id) + '"' : '') + ' name="' + ((opt_data.name) ? soy.$$escapeHtml(opt_data.name) : soy.$$escapeHtml(opt_data.id)) + '" class="' + soy.$$escapeHtml(opt_data.isMultiple ? 'multi-select' : 'select') + aui.renderExtraClasses(opt_data) + '"' + ((opt_data.size) ? ' size="' + soy.$$escapeHtml(opt_data.size) + '"' : '') + ((opt_data.isDisabled) ? ' disabled' : '') + ((opt_data.isAutofocus) ? ' autofocus' : '') + ((opt_data.isMultiple) ? ' multiple' : '') + aui.renderExtraAttributes(opt_data) + aui.form.renderValidationArguments(opt_data) + aui.form.renderInfoMessage(opt_data) + aui.form.renderFieldComponentAttribute(opt_data) + aui.form.renderTooltipArguments(opt_data) + '>' + ((opt_data.defaultOption) ? aui.form.optionOrOptgroup(soy.$$augmentMap(opt_data.defaultOption, {defaultValue: opt_data.value})) : '');
+    var optionList379 = opt_data.options;
+    var optionListLen379 = optionList379.length;
+    for (var optionIndex379 = 0; optionIndex379 < optionListLen379; optionIndex379++) {
+      var optionData379 = optionList379[optionIndex379];
+      output += aui.form.optionOrOptgroup(soy.$$augmentMap(optionData379, {defaultValue: opt_data.value}));
     }
     output += '</select>';
     return output;
@@ -6512,11 +6512,11 @@
     var output = '';
     if (opt_data.options) {
       output += '<optgroup label="' + soy.$$escapeHtml(opt_data.text) + '"' + ((opt_data.disabled) ? ' disabled' : '') + '>';
-      var optionList390 = opt_data.options;
-      var optionListLen390 = optionList390.length;
-      for (var optionIndex390 = 0; optionIndex390 < optionListLen390; optionIndex390++) {
-        var optionData390 = optionList390[optionIndex390];
-        output += aui.form.optionOrOptgroup(soy.$$augmentMap(optionData390, {defaultValue: opt_data.defaultValue}));
+      var optionList394 = opt_data.options;
+      var optionListLen394 = optionList394.length;
+      for (var optionIndex394 = 0; optionIndex394 < optionListLen394; optionIndex394++) {
+        var optionData394 = optionList394[optionIndex394];
+        output += aui.form.optionOrOptgroup(soy.$$augmentMap(optionData394, {defaultValue: opt_data.defaultValue}));
       }
       output += '</optgroup>';
     } else {
@@ -6540,19 +6540,19 @@
   aui.form.field = function(opt_data, opt_ignored) {
     opt_data = opt_data || {};
     var output = '';
-    var isCheckboxOrRadio__soy424 = opt_data.type == 'checkbox' || opt_data.type == 'radio';
-    var fieldWidthClass__soy425 = opt_data.fieldWidth ? opt_data.fieldWidth + '-field ' : '';
-    var fieldClasses__soy426 = fieldWidthClass__soy425 + (opt_data.extraFieldClasses ? opt_data.extraFieldClasses : '');
-    output += '<div class="' + ((isCheckboxOrRadio__soy424) ? soy.$$escapeHtml(opt_data.type) : 'field-group') + aui.renderExtraClasses(opt_data) + '"' + aui.renderExtraAttributes(opt_data) + '>' + ((opt_data.labelContent && ! isCheckboxOrRadio__soy424) ? aui.form.label({forField: opt_data.id, isRequired: opt_data.isRequired, content: opt_data.labelContent}) : '');
+    var isCheckboxOrRadio__soy428 = opt_data.type == 'checkbox' || opt_data.type == 'radio';
+    var fieldWidthClass__soy429 = opt_data.fieldWidth ? opt_data.fieldWidth + '-field ' : '';
+    var fieldClasses__soy430 = fieldWidthClass__soy429 + (opt_data.extraFieldClasses ? opt_data.extraFieldClasses : '');
+    output += '<div class="' + ((isCheckboxOrRadio__soy428) ? soy.$$escapeHtml(opt_data.type) : 'field-group') + aui.renderExtraClasses(opt_data) + '"' + aui.renderExtraAttributes(opt_data) + '>' + ((opt_data.labelContent && ! isCheckboxOrRadio__soy428) ? aui.form.label({forField: opt_data.id, isRequired: opt_data.isRequired, content: opt_data.labelContent}) : '');
     switch (opt_data.type) {
       case 'textarea':
-        output += aui.form.textarea({id: opt_data.id, name: opt_data.name, value: opt_data.value, rows: opt_data.rows, cols: opt_data.cols, autocomplete: opt_data.autocomplete, placeholderText: opt_data.placeholderText, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy426, icon: opt_data.icon, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
+        output += aui.form.textarea({id: opt_data.id, name: opt_data.name, value: opt_data.value, rows: opt_data.rows, cols: opt_data.cols, autocomplete: opt_data.autocomplete, placeholderText: opt_data.placeholderText, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy430, icon: opt_data.icon, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
         break;
       case 'select':
-        output += aui.form.select({id: opt_data.id, name: opt_data.name, value: opt_data.value, options: opt_data.options, isMultiple: opt_data.isMultiple, size: opt_data.size, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy426, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
+        output += aui.form.select({id: opt_data.id, name: opt_data.name, value: opt_data.value, options: opt_data.options, isMultiple: opt_data.isMultiple, size: opt_data.size, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy430, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
         break;
       case 'value':
-        output += aui.form.value({id: opt_data.id, content: '' + soy.$$escapeHtml(opt_data.value), extraClasses: fieldClasses__soy426});
+        output += aui.form.value({id: opt_data.id, content: '' + soy.$$escapeHtml(opt_data.value), extraClasses: fieldClasses__soy430});
         break;
       case 'text':
       case 'password':
@@ -6566,16 +6566,16 @@
       case 'button':
       case 'submit':
       case 'reset':
-        output += aui.form.input({id: opt_data.id, name: opt_data.name, type: opt_data.type, value: opt_data.value, maxLength: opt_data.maxLength, size: opt_data.size, autocomplete: opt_data.autocomplete, placeholderText: opt_data.placeholderText, isChecked: opt_data.isChecked, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy426, icon: opt_data.icon, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
+        output += aui.form.input({id: opt_data.id, name: opt_data.name, type: opt_data.type, value: opt_data.value, maxLength: opt_data.maxLength, size: opt_data.size, autocomplete: opt_data.autocomplete, placeholderText: opt_data.placeholderText, isChecked: opt_data.isChecked, isDisabled: opt_data.isDisabled ? true : false, isAutofocus: opt_data.isAutofocus, extraClasses: fieldClasses__soy430, icon: opt_data.icon, validationArguments: opt_data.validationArguments, infoMessage: opt_data.infoMessage, tooltipArguments: opt_data.tooltipArguments});
         break;
     }
-    output += ((opt_data.labelContent && isCheckboxOrRadio__soy424) ? aui.form.label({forField: opt_data.id, isRequired: opt_data.isRequired, content: opt_data.labelContent}) : '') + ((opt_data.descriptionText || opt_data.descriptionContent) ? aui.form.fieldDescription({text: opt_data.descriptionText, content: opt_data.descriptionContent}) : '');
+    output += ((opt_data.labelContent && isCheckboxOrRadio__soy428) ? aui.form.label({forField: opt_data.id, isRequired: opt_data.isRequired, content: opt_data.labelContent}) : '') + ((opt_data.descriptionText || opt_data.descriptionContent) ? aui.form.fieldDescription({text: opt_data.descriptionText, content: opt_data.descriptionContent}) : '');
     if (opt_data.errorTexts) {
-      var errorList512 = opt_data.errorTexts;
-      var errorListLen512 = errorList512.length;
-      for (var errorIndex512 = 0; errorIndex512 < errorListLen512; errorIndex512++) {
-        var errorData512 = errorList512[errorIndex512];
-        output += aui.form.fieldError({message: errorData512});
+      var errorList516 = opt_data.errorTexts;
+      var errorListLen516 = errorList516.length;
+      for (var errorIndex516 = 0; errorIndex516 < errorListLen516; errorIndex516++) {
+        var errorData516 = errorList516[errorIndex516];
+        output += aui.form.fieldError({message: errorData516});
       }
     }
     output += '</div>';
@@ -6644,15 +6644,15 @@
   
   
   aui.form.checkboxField = function(opt_data, opt_ignored) {
-    var param557 = '' + ((opt_data.isMatrix) ? '<div class="matrix">' : '');
-    var fieldList561 = opt_data.fields;
-    var fieldListLen561 = fieldList561.length;
-    for (var fieldIndex561 = 0; fieldIndex561 < fieldListLen561; fieldIndex561++) {
-      var fieldData561 = fieldList561[fieldIndex561];
-      param557 += aui.form.field(soy.$$augmentMap(fieldData561, {type: 'checkbox', labelContent: '' + soy.$$escapeHtml(fieldData561.labelText), extraFieldClasses: opt_data.extraFieldClasses}));
+    var param561 = '' + ((opt_data.isMatrix) ? '<div class="matrix">' : '');
+    var fieldList565 = opt_data.fields;
+    var fieldListLen565 = fieldList565.length;
+    for (var fieldIndex565 = 0; fieldIndex565 < fieldListLen565; fieldIndex565++) {
+      var fieldData565 = fieldList565[fieldIndex565];
+      param561 += aui.form.field(soy.$$augmentMap(fieldData565, {type: 'checkbox', labelContent: '' + soy.$$escapeHtml(fieldData565.labelText), extraFieldClasses: opt_data.extraFieldClasses}));
     }
-    param557 += ((opt_data.isMatrix) ? '</div>' : '') + ((opt_data.descriptionText || opt_data.descriptionContent || opt_data.errorTexts && opt_data.errorTexts.length) ? aui.form.field({descriptionText: opt_data.descriptionText, descriptionContent: opt_data.descriptionContent, errorTexts: opt_data.errorTexts, isDisabled: false}) : '');
-    var output = '' + aui.form.fieldset({legendContent: opt_data.legendContent + (opt_data.isRequired ? '<span class="aui-icon icon-required"></span>' : ''), isGroup: true, id: opt_data.id, extraClasses: opt_data.extraClasses, extraAttributes: opt_data.extraAttributes, content: param557});
+    param561 += ((opt_data.isMatrix) ? '</div>' : '') + ((opt_data.descriptionText || opt_data.descriptionContent || opt_data.errorTexts && opt_data.errorTexts.length) ? aui.form.field({descriptionText: opt_data.descriptionText, descriptionContent: opt_data.descriptionContent, errorTexts: opt_data.errorTexts, isDisabled: false}) : '');
+    var output = '' + aui.form.fieldset({legendContent: opt_data.legendContent + (opt_data.isRequired ? '<span class="aui-icon icon-required"></span>' : ''), isGroup: true, id: opt_data.id, extraClasses: opt_data.extraClasses, extraAttributes: opt_data.extraAttributes, content: param561});
     return output;
   };
   if (goog.DEBUG) {
@@ -6661,15 +6661,15 @@
   
   
   aui.form.radioField = function(opt_data, opt_ignored) {
-    var param585 = '' + ((opt_data.isMatrix) ? '<div class="matrix">' : '');
-    var fieldList589 = opt_data.fields;
-    var fieldListLen589 = fieldList589.length;
-    for (var fieldIndex589 = 0; fieldIndex589 < fieldListLen589; fieldIndex589++) {
-      var fieldData589 = fieldList589[fieldIndex589];
-      param585 += aui.form.field(soy.$$augmentMap(fieldData589, {type: 'radio', name: opt_data.name ? opt_data.name : opt_data.id, labelContent: '' + soy.$$escapeHtml(fieldData589.labelText), extraFieldClasses: opt_data.extraFieldClasses}));
+    var param589 = '' + ((opt_data.isMatrix) ? '<div class="matrix">' : '');
+    var fieldList593 = opt_data.fields;
+    var fieldListLen593 = fieldList593.length;
+    for (var fieldIndex593 = 0; fieldIndex593 < fieldListLen593; fieldIndex593++) {
+      var fieldData593 = fieldList593[fieldIndex593];
+      param589 += aui.form.field(soy.$$augmentMap(fieldData593, {type: 'radio', name: opt_data.name ? opt_data.name : opt_data.id, labelContent: '' + soy.$$escapeHtml(fieldData593.labelText), extraFieldClasses: opt_data.extraFieldClasses}));
     }
-    param585 += ((opt_data.isMatrix) ? '</div>' : '') + ((opt_data.descriptionText || opt_data.descriptionContent || opt_data.errorTexts && opt_data.errorTexts.length) ? aui.form.field({descriptionText: opt_data.descriptionText, descriptionContent: opt_data.descriptionContent, errorTexts: opt_data.errorTexts, isDisabled: false}) : '');
-    var output = '' + aui.form.fieldset({legendContent: opt_data.legendContent + (opt_data.isRequired ? '<span class="aui-icon icon-required"></span>' : ''), isGroup: true, id: opt_data.id, extraClasses: opt_data.extraClasses, extraAttributes: opt_data.extraAttributes, content: param585});
+    param589 += ((opt_data.isMatrix) ? '</div>' : '') + ((opt_data.descriptionText || opt_data.descriptionContent || opt_data.errorTexts && opt_data.errorTexts.length) ? aui.form.field({descriptionText: opt_data.descriptionText, descriptionContent: opt_data.descriptionContent, errorTexts: opt_data.errorTexts, isDisabled: false}) : '');
+    var output = '' + aui.form.fieldset({legendContent: opt_data.legendContent + (opt_data.isRequired ? '<span class="aui-icon icon-required"></span>' : ''), isGroup: true, id: opt_data.id, extraClasses: opt_data.extraClasses, extraAttributes: opt_data.extraAttributes, content: param589});
     return output;
   };
   if (goog.DEBUG) {
