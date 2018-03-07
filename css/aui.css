@@ -2661,23 +2661,37 @@ div.shim {
   content: "\f11b";
 }
 @media all and (max-height: 700px) {
-  .aui-dialog2-large .aui-dialog2-content,
-  .aui-dialog2-xlarge .aui-dialog2-content {
-    min-height: 186px;
-  }
   .aui-dialog2-large,
   .aui-dialog2-xlarge {
-    min-height: 138px;
+    min-height: 200px;
+  }
+  .aui-dialog2-large.aui-layer,
+  .aui-dialog2-xlarge.aui-layer {
+    bottom: 100px;
+  }
+  .aui-dialog2-large .aui-dialog2-content,
+  .aui-dialog2-xlarge .aui-dialog2-content {
+    height: calc(100vh - 314px);
+    max-height: none;
+    min-height: 86px;
   }
 }
 @media all and (max-height: 500px) {
-  .aui-dialog2-medium .aui-dialog2-content,
-  .aui-dialog2-large .aui-dialog2-content,
-  .aui-dialog2-xlarge .aui-dialog2-content {
+  .aui-dialog2-medium {
+    min-height: 200px;
+  }
+  .aui-dialog2-medium.aui-layer {
+    bottom: 100px;
+  }
+  .aui-dialog2-medium .aui-dialog2-content {
+    height: calc(100vh - 314px);
+    max-height: none;
     min-height: 86px;
   }
-  .aui-dialog2-medium {
-    min-height: 138px;
+}
+@media all and (max-height: 400px) {
+  .aui-dialog2.aui-layer {
+    bottom: auto;
   }
 }
 @media all and (max-width: 1000px) {

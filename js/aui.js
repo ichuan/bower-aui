@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.3.3
+ * @version v7.3.4
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
@@ -18481,7 +18481,7 @@
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var version = '7.3.3';
+  var version = '7.3.4';
   
   (0, _globalize2.default)('version', version);
   

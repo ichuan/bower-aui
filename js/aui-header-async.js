@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.3.3
+ * @version v7.3.4
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
