@@ -139,16 +139,16 @@ h1,
   font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0;
-  margin: 30px 0 0 0;
   text-transform: none;
+  margin: 30px 0 0 0;
 }
 h2 {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0;
-  margin: 30px 0 0 0;
   text-transform: none;
+  margin: 30px 0 0 0;
 }
 h3,
 .aui-page-header-hero .aui-page-header-main p,
@@ -157,32 +157,32 @@ h3,
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0;
-  margin: 30px 0 0 0;
   text-transform: none;
+  margin: 30px 0 0 0;
 }
 h4 {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0;
-  margin: 20px 0 0 0;
   text-transform: none;
+  margin: 20px 0 0 0;
 }
 h5 {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.42857143;
   letter-spacing: 0;
-  margin: 20px 0 0 0;
   text-transform: none;
+  margin: 20px 0 0 0;
 }
 h6 {
   font-size: 12px;
   font-weight: 600;
   line-height: 1.66666667;
   letter-spacing: 0;
-  margin: 20px 0 0 0;
   text-transform: uppercase;
+  margin: 20px 0 0 0;
 }
 h1:first-child,
 h2:first-child,
@@ -1508,6 +1508,16 @@ aui-header {
   display: inline-block;
   font-size: 14px;
   margin-bottom: 5px;
+}
+.aui-nav-actions-list > li + li::before {
+  content: "";
+  border-radius: 2px;
+  width: 2px;
+  height: 2px;
+  background-color: #7A869A;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
   margin-right: 10px;
 }
 /**
@@ -1791,7 +1801,7 @@ a:active {
 }
 .aui-page-focused .aui-page-panel,
 .aui-page-notification .aui-page-panel {
-  border-radius: 5px;
+  border-radius: 3px;
   border-width: 1px;
 }
 .aui-page-fixed .aui-page-panel-inner,
@@ -2304,7 +2314,7 @@ div.shim {
   box-shadow: 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31);
   background: #FFFFFF;
   border: 1px solid #EBECF0;
-  border-radius: 5px;
+  border-radius: 3px;
   overflow: hidden;
 }
 .aui-dialog .dialog-blanket {
@@ -2327,10 +2337,12 @@ div.shim {
   white-space: nowrap;
 }
 .aui-dialog h2.dialog-title {
-  color: #172B4D;
-  font-weight: normal;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #172B4D;
 }
 /* dialog navigation styles */
 .aui-dialog .dialog-page-menu {
@@ -2492,9 +2504,7 @@ div.shim {
   box-shadow: 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31);
   background-color: #FFFFFF;
   box-sizing: border-box;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
+  border-radius: 3px;
   left: 0;
   margin-left: auto;
   margin-right: auto;
@@ -2559,24 +2569,31 @@ div.shim {
   max-height: calc(100vh - 314px);
 }
 .aui-dialog2-content:last-child {
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 3px 3px;
 }
 .aui-dialog2-header {
   border-bottom: 2px solid #EBECF0;
   box-sizing: border-box;
   height: 62px;
   padding: 15px 20px;
-  align-items: center;
-  border-radius: 5px 5px 0 0;
+  border-radius: 3px 3px 0 0;
   color: #172B4D;
-  display: flex;
+  display: table;
   font-weight: normal;
-  justify-content: space-between;
   padding: 0 20px;
   width: 100%;
 }
-.aui-dialog2-header-actions {
-  flex: 1;
+.aui-dialog2-header > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.aui-dialog2-header h2,
+.aui-dialog2-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
 }
 .aui-dialog2[data-aui-modal="true"] .aui-dialog2-header-close {
   display: none;
@@ -2586,7 +2603,7 @@ div.shim {
   box-sizing: border-box;
   height: 52px;
   padding: 10px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 3px 3px;
   padding: 10px 20px;
   width: 100%;
 }
@@ -2595,22 +2612,19 @@ div.shim {
   padding: 0;
 }
 .aui-dialog2-footer-hint {
-  color: #172B4D;
+  color: #505F79;
   line-height: 32px;
 }
 .aui-dialog2-footer-hint,
 .aui-dialog2-header-main {
-  color: #172B4D;
   overflow: hidden;
   padding-right: 10px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .aui-dialog2-header-main {
+  color: #172B4D;
   max-width: 400px;
-}
-.aui-dialog2-header-secondary {
-  flex: 1;
 }
 .aui-dialog2-header-secondary,
 .aui-dialog2-header-close,
@@ -2621,12 +2635,9 @@ div.shim {
   float: right;
 }
 .aui-dialog2-header-close {
-  align-items: center;
   cursor: pointer;
   color: #505F79;
-  display: flex;
   height: 20px;
-  justify-content: center;
   line-height: 100%;
   padding-left: 5px;
   text-align: right;
@@ -2671,46 +2682,74 @@ div.shim {
 }
 @media all and (max-width: 1000px) {
   .aui-dialog2-xlarge.aui-layer {
-    height: 100%;
-    width: 100%;
+    box-shadow: none;
+    height: 100vh;
+    width: 100vw;
     top: 0;
   }
   .aui-dialog2-xlarge .aui-dialog2-content {
-    flex: 1;
-    max-height: 100%;
+    height: calc(100vh - 114px);
+    max-height: none;
   }
 }
 @media all and (max-width: 820px) {
   .aui-dialog2-large.aui-layer {
-    height: 100%;
-    width: 100%;
+    box-shadow: none;
+    height: 100vh;
+    width: 100vw;
     top: 0;
   }
   .aui-dialog2-large .aui-dialog2-content {
-    flex: 1;
-    max-height: 100%;
+    height: calc(100vh - 114px);
+    max-height: none;
   }
 }
 @media all and (max-width: 620px) {
   .aui-dialog2-medium.aui-layer {
-    height: 100%;
-    width: 100%;
+    box-shadow: none;
+    height: 100vh;
+    width: 100vw;
     top: 0;
   }
   .aui-dialog2-medium .aui-dialog2-content {
-    flex: 1;
-    max-height: 100%;
+    height: calc(100vh - 114px);
+    max-height: none;
   }
 }
 @media all and (max-width: 420px) {
   .aui-dialog2-small.aui-layer {
-    height: 100%;
-    width: 100%;
+    box-shadow: none;
+    height: 100vh;
+    width: 100vw;
     top: 0;
   }
   .aui-dialog2-small .aui-dialog2-content {
+    height: calc(100vh - 114px);
+    max-height: none;
+  }
+}
+@supports (display: flex) {
+  .aui-dialog2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .aui-dialog2-content {
     flex: 1;
-    max-height: 100%;
+  }
+  .aui-dialog2-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .aui-dialog2-header > .aui-dialog2-header-secondary,
+  .aui-dialog2-header > .aui-dialog2-header-actions {
+    display: block;
+    flex: 1;
+  }
+  .aui-dialog2-header-close {
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 /**
@@ -4101,7 +4140,7 @@ aui-inline-dialog .contents,
   background: #fff;
   border: 1px solid #DFE1E6;
   border-radius: 3px;
-  box-shadow: 0 3px 6px rgpa(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   padding: 20px;
 }
@@ -4519,7 +4558,7 @@ aui-message {
 }
 .aui-message .aui-icon.icon-close {
   background-image: none;
-  color: #707070;
+  color: #505F79;
   text-indent: inherit;
 }
 .aui-message .aui-icon.icon-close::before {
