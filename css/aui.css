@@ -2814,7 +2814,7 @@ div.shim {
   font-style: normal;
   speak: none;
   color: inherit;
-  content: "\f256";
+  content: "\f500";
   font-size: 16px;
   height: 16px;
   left: 0;
@@ -6744,7 +6744,7 @@ form.aui aui-select[data-aui-notification-success] .text {
   content: "\f1ee";
 }
 .aui-iconfont-radio::before {
-  content: "\f256";
+  content: "\f500";
 }
 .aui-iconfont-activity::before {
   content: "\f1f3";
