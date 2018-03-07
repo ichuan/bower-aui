@@ -5032,6 +5032,7 @@ aui-tabs {
   border-color: transparent;
   color: #42526E;
   text-decoration: none;
+  border-radius: 0;
   display: inline-block;
   margin: 0;
   padding: 4px 10px;
@@ -5065,8 +5066,8 @@ aui-tabs {
 .toolbar-group .toolbar-item:first-of-type input[type="reset"],
 .toolbar-group .toolbar-item:first-of-type input[type="submit"],
 .toolbar-group .toolbar-item:first-of-type .toolbar-trigger {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3.01px;
+  border-bottom-left-radius: 3.01px;
 }
 .toolbar-group .toolbar-item.toolbar-splitbutton .aui-dd-trigger {
   border-top-left-radius: 0;
@@ -5079,8 +5080,8 @@ aui-tabs {
 .toolbar-group .toolbar-item:last-of-type input[type="reset"],
 .toolbar-group .toolbar-item:last-of-type input[type="submit"],
 .toolbar-group .toolbar-item:last-of-type .toolbar-trigger {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3.01px;
+  border-bottom-right-radius: 3.01px;
 }
 .toolbar-group .toolbar-splitbutton:last-of-type .toolbar-trigger {
   border-top-right-radius: 0;
@@ -5118,10 +5119,6 @@ aui-tabs {
   color: #42526E;
   border-color: transparent;
 }
-.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active {
-  background: rgba(9, 30, 66, 0.08);
-  color: #0052CC;
-}
 .aui-toolbar .toolbar-group button:focus,
 .aui-toolbar .toolbar-group .toolbar-trigger:focus,
 .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus {
@@ -5153,7 +5150,17 @@ aui-tabs {
 }
 .aui-toolbar .toolbar-group .active .toolbar-trigger,
 .aui-toolbar .aui-dd-parent a.aui-dd-trigger.active {
-  background: #344563;
+  background-image: none;
+  background-color: #344563;
+  border-color: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.aui-toolbar .toolbar-group .aui-dropdown2-trigger.toolbar-trigger.active,
+.aui-toolbar .toolbar-group .active .aui-dropdown2-trigger.toolbar-trigger {
+  background-image: none;
+  background-color: #344563;
+  border-color: transparent;
   color: #FFFFFF;
   text-decoration: none;
 }
