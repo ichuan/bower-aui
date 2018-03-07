@@ -2129,6 +2129,9 @@ form.aui .textarea[data-aui-notification-success] {
 }
 .aui-sidebar[aria-expanded="false"] .aui-page-header-inner .aui-page-header-image,
 .aui-sidebar-submenu[aria-expanded="false"] .aui-page-header-inner .aui-page-header-image {
+  align-content: center;
+  display: flex;
+  justify-content: center;
   position: relative;
   width: auto;
 }
@@ -2143,7 +2146,6 @@ form.aui .textarea[data-aui-notification-success] {
 .aui-sidebar-submenu[aria-expanded="false"] .aui-page-header .aui-avatar .aui-avatar-inner {
   height: 32px;
   width: 32px;
-  margin: 0 0 0 12px;
 }
 .aui-sidebar[aria-expanded="false"] .aui-page-header .aui-avatar .aui-avatar-inner > img,
 .aui-sidebar-submenu[aria-expanded="false"] .aui-page-header .aui-avatar .aui-avatar-inner > img {
@@ -2222,7 +2224,7 @@ form.aui .textarea[data-aui-notification-success] {
 .aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions:focus:after,
 .aui-sidebar[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions.active:after,
 .aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions.active:after {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-color: #DFE1E6;
 }
 .aui-sidebar[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions ~ .aui-sidebar-group-tier-one,
@@ -2580,6 +2582,5 @@ aui-toggle[disabled] .aui-toggle-cross {
   -webkit-transform: translateX(32px);
   transform: translateX(32px);
 }
-/* 30px - using ems so the fields increase in line with user specified font-sizes */
 
 /*# sourceMappingURL=aui-experimental.css.map */

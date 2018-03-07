@@ -1,4 +1,3 @@
-/* 30px - using ems so the fields increase in line with user specified font-sizes */
 /**
  * RESET
  */
@@ -260,117 +259,117 @@ abbr {
   border-bottom: 1px #707070 dotted;
   cursor: help;
 }
-/* AUI avatar component */
 .aui-avatar {
   box-sizing: border-box;
   display: inline-block;
+  position: relative;
   vertical-align: text-bottom;
 }
 .aui-avatar-inner {
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 100%;
+  overflow: hidden;
 }
 .aui-avatar img {
-  border-radius: 3px;
   display: block;
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
-.aui-avatar-xsmall,
-.aui-avatar-xsmall .aui-avatar-inner {
-  height: 16px;
-  width: 16px;
-}
-.aui-avatar-small,
-.aui-avatar-small .aui-avatar-inner {
-  height: 24px;
-  width: 24px;
-}
-.aui-avatar-medium,
-.aui-avatar-medium .aui-avatar-inner {
-  height: 32px;
-  width: 32px;
-}
-.aui-avatar-large,
-.aui-avatar-large .aui-avatar-inner {
-  height: 48px;
-  width: 48px;
-}
-.aui-avatar-xlarge,
-.aui-avatar-xlarge .aui-avatar-inner {
-  height: 64px;
-  width: 64px;
-}
-.aui-avatar-xxlarge,
-.aui-avatar-xxlarge .aui-avatar-inner {
-  height: 96px;
-  width: 96px;
-}
-.aui-avatar-xxxlarge,
-.aui-avatar-xxxlarge .aui-avatar-inner {
-  height: 128px;
-  width: 128px;
-}
-/* Forces larger images to downscale in IE11. */
-.aui-avatar-xsmall .aui-avatar-inner img {
-  max-height: 16px;
-  max-width: 16px;
-}
-.aui-avatar-small .aui-avatar-inner img {
-  max-height: 24px;
-  max-width: 24px;
-}
-.aui-avatar-medium .aui-avatar-inner img {
-  max-height: 32px;
-  max-width: 32px;
-}
-.aui-avatar-large .aui-avatar-inner img {
-  max-height: 48px;
-  max-width: 48px;
-}
-.aui-avatar-xlarge .aui-avatar-inner img {
-  max-height: 64px;
-  max-width: 64px;
-}
-.aui-avatar-xxlarge .aui-avatar-inner img {
-  max-height: 96px;
-  max-width: 96px;
-}
-.aui-avatar-xxxlarge .aui-avatar-inner img {
-  max-height: 128px;
-  max-width: 128px;
-}
-.aui-avatar-xxlarge img,
-.aui-avatar-xxxlarge img {
-  border-radius: 5px;
-}
-/* Project avatars - circular and different sizes */
-.aui-avatar-project {
-  background-color: #fff;
-  box-shadow: 0 0 0 1px #DFE1E6;
-  position: relative;
-}
-.aui-avatar-project,
-.aui-avatar-project img {
-  border-radius: 100%;
-}
-.aui-avatar-project img {
   height: auto;
+  margin: 0 auto;
   max-height: 100%;
   max-width: 100%;
   width: auto;
 }
-/* The below style aims to minimise any "halo" caused by the antialiasing of the image */
-.aui-avatar-project:before {
-  border-radius: 100%;
-  border: 1px solid #DFE1E6;
-  bottom: -1px;
-  content: "";
-  left: -1px;
-  position: absolute;
-  right: -1px;
-  top: -1px;
+.aui-avatar.aui-avatar-xsmall,
+.aui-avatar.aui-avatar-xsmall .aui-avatar-inner {
+  height: 16px;
+  max-width: 16px;
+  max-height: 16px;
+  width: 16px;
+}
+.aui-avatar.aui-avatar-small,
+.aui-avatar.aui-avatar-small .aui-avatar-inner {
+  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  width: 24px;
+}
+.aui-avatar.aui-avatar-medium,
+.aui-avatar.aui-avatar-medium .aui-avatar-inner {
+  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+  width: 32px;
+}
+.aui-avatar.aui-avatar-large,
+.aui-avatar.aui-avatar-large .aui-avatar-inner {
+  height: 48px;
+  max-width: 48px;
+  max-height: 48px;
+  width: 48px;
+}
+.aui-avatar.aui-avatar-xlarge,
+.aui-avatar.aui-avatar-xlarge .aui-avatar-inner {
+  height: 64px;
+  max-width: 64px;
+  max-height: 64px;
+  width: 64px;
+}
+.aui-avatar.aui-avatar-xxlarge,
+.aui-avatar.aui-avatar-xxlarge .aui-avatar-inner {
+  height: 96px;
+  max-width: 96px;
+  max-height: 96px;
+  width: 96px;
+}
+.aui-avatar.aui-avatar-xxxlarge,
+.aui-avatar.aui-avatar-xxxlarge .aui-avatar-inner {
+  height: 128px;
+  max-width: 128px;
+  max-height: 128px;
+  width: 128px;
+}
+.aui-avatar-project.aui-avatar-xxxlarge {
+  border-radius: 12px;
+}
+.aui-avatar-project.aui-avatar-xxxlarge .aui-avatar-inner {
+  border-radius: 12px;
+}
+.aui-avatar-project.aui-avatar-xxlarge {
+  border-radius: 6px;
+}
+.aui-avatar-project.aui-avatar-xxlarge .aui-avatar-inner {
+  border-radius: 6px;
+}
+.aui-avatar-project.aui-avatar-xlarge {
+  border-radius: 6px;
+}
+.aui-avatar-project.aui-avatar-xlarge .aui-avatar-inner {
+  border-radius: 6px;
+}
+.aui-avatar-project.aui-avatar-large {
+  border-radius: 3px;
+}
+.aui-avatar-project.aui-avatar-large .aui-avatar-inner {
+  border-radius: 3px;
+}
+.aui-avatar-project.aui-avatar-medium {
+  border-radius: 3px;
+}
+.aui-avatar-project.aui-avatar-medium .aui-avatar-inner {
+  border-radius: 3px;
+}
+.aui-avatar-project.aui-avatar-small {
+  border-radius: 2px;
+}
+.aui-avatar-project.aui-avatar-small .aui-avatar-inner {
+  border-radius: 2px;
+}
+.aui-avatar-project.aui-avatar-xsmall {
+  border-radius: 2px;
+}
+.aui-avatar-project.aui-avatar-xsmall .aui-avatar-inner {
+  border-radius: 2px;
 }
 /*! AUI Badge */
 aui-badge,
@@ -402,8 +401,8 @@ aui-badge.aui-badge-primary,
   color: #0052CC;
   font-weight: 600;
 }
-.aui-header a:active > aui-badge,
-.aui-header a:active > .aui-badge,
+.aui-header a > aui-badge,
+.aui-header a > .aui-badge,
 .aui-button-primary > aui-badge,
 .aui-button-primary > .aui-badge,
 .aui-dropdown2.aui-style-default .active > aui-badge,
@@ -447,7 +446,7 @@ a.aui-button,
   text-decoration: none;
   display: inline-block;
   height: 2.14285714em;
-  line-height: 1.42857143;
+  line-height: 1.36363636em;
   margin: 0;
   padding: 4px 10px;
   vertical-align: baseline;
@@ -773,37 +772,6 @@ a.aui-button:focus {
 .aui-button[disabled]:active .aui-icon {
   color: #A5ADBA;
 }
-.aui-header .aui-nav .aui-button,
-.aui-header .aui-nav .aui-button-primary {
-  margin: 5px 0 0 10px;
-}
-.aui-header .aui-nav .aui-button.aui-button-split-main {
-  margin-right: 0;
-}
-.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:hover,
-.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:focus,
-.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:active,
-.aui-header .aui-nav .aui-button.aui-button-split-more {
-  margin-left: 0;
-}
-.aui-header .aui-nav .aui-button-primary,
-.aui-header .aui-nav .aui-button-primary:link,
-.aui-header .aui-nav .aui-button-primary:visited {
-  background-color: #0052CC;
-  border: 0;
-  color: #DEEBFF;
-  line-height: 1.57142857;
-}
-.aui-header .aui-nav .aui-button.aui-button-primary:focus,
-.aui-header .aui-nav .aui-button.aui-button-primary:hover {
-  background-color: rgba(9, 30, 66, 0.48);
-  color: #DEEBFF;
-}
-.aui-header .aui-nav .aui-button.aui-button-primary:active,
-.aui-header .aui-nav .aui-button.aui-button-primary.active {
-  background-color: #0052CC;
-  background-image: none;
-}
 .aui-button[busy],
 .aui-button.aui-button-primary[busy] {
   color: rgba(0, 0, 0, 0) !important;
@@ -909,120 +877,6 @@ aui-header {
 .aui-header a > .aui-avatar-small {
   margin: -5px 0;
   /* (24px Small Avatar height - 14px font size (line-height 1 in the header)) / 2 */
-}
-/**
- * Buttons in header
- */
-.aui-header a.aui-button {
-  line-height: 1.42857142857143;
-}
-.aui-header .aui-button.aui-button-primary {
-  background: #0052CC;
-  border: 0;
-  margin: 5px 10px 0 10px;
-  padding: 4px 10px;
-  /* Make sure the correct padding applies (overrides the above padding: 13px 10px; for .aui-header a if ordering is missed up*/
-}
-.aui-header .aui-button.aui-button-primary.active {
-  padding-bottom: 4px;
-  /* header doesn't need the button/dropdown integration padding change because it has no border */
-}
-.aui-header .aui-button.aui-button-primary:focus,
-.aui-header .aui-button.aui-button-primary:hover {
-  color: #DEEBFF;
-  background: rgba(9, 30, 66, 0.48);
-}
-.aui-header .aui-button.aui-button-primary:active {
-  background: #0052CC;
-}
-/**
- * Quick search for header
- */
-.aui-header .aui-quicksearch {
-  padding: 0 10px;
-  position: relative;
-}
-.aui-header .aui-quicksearch input[type='text'] {
-  background: rgba(9, 30, 66, 0.48);
-  border: none;
-  border-radius: 3px;
-  box-shadow: none;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.6);
-  height: 2.143em;
-  /* 30px effective - need height in ems so that user-specified font-sizes apply */
-  font-family: inherit;
-  font-size: inherit;
-  margin: 5px 0;
-  padding: 2px 26px 2px 10px;
-  vertical-align: baseline;
-  width: 170px;
-  /* Placeholder styling
-         * - You have to one rule per vendor because user agents are required to ignore a rule with an unknown selector.
-         *   Since WebKit doesn’t know the proprietary Mozilla selector and vice versa, you have to include them separately.
-         *   See http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css#answer-2610741
-         */
-}
-.aui-header .aui-quicksearch input[type='text'][type='text']:focus {
-  background: rgba(0, 0, 0, 0.25);
-  color: #fff;
-  outline: none;
-}
-.aui-header .aui-quicksearch input[type='text']::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-.aui-header .aui-quicksearch input[type='text']::-moz-placeholder {
-  /* Firefox 19+ */
-  color: rgba(255, 255, 255, 0.6);
-}
-.aui-header .aui-quicksearch input[type='text']:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-.aui-header .aui-quicksearch input[type='text']:focus::-webkit-input-placeholder {
-  color: #fff;
-}
-.aui-header .aui-quicksearch input[type='text']:focus::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #fff;
-}
-.aui-header .aui-quicksearch input[type='text']:focus:-ms-input-placeholder {
-  color: #fff;
-}
-.aui-header .aui-quicksearch:after {
-  color: rgba(255, 255, 255, 0.6);
-  content: "\f18c";
-  font-family: "Atlassian Icons";
-  height: 16px;
-  margin-top: 10px;
-  position: absolute;
-  right: 16px;
-  top: 0;
-  width: 16px;
-}
-.aui-header .aui-quicksearch input {
-  -moz-appearance: textfield;
-  -webkit-appearance: textfield;
-  background: rgba(9, 30, 66, 0.48);
-  border: none;
-  border-radius: 5em;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.3);
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.6);
-  font-family: inherit;
-  font-size: inherit;
-  height: 1.71428571428571em;
-  /* 24px effective - need height in ems so that user-specified font-sizes apply */
-  line-height: 1.42857142857143;
-  /* 20px effective */
-  margin: 8px 0;
-  padding: 2px 10px;
-  vertical-align: baseline;
-  width: 170px;
-}
-.aui-header .aui-quicksearch input:focus {
-  background-color: #fff;
-  outline: none;
 }
 /** font-awesome icons */
 .aui-iconfont-edit:before {
@@ -1843,19 +1697,10 @@ a:active {
  */
 #content > .aui-tabs {
   margin: 20px;
-  background: transparent;
 }
 #content > .aui-tabs > .tabs-pane {
-  padding: 20px;
-}
-#content > .aui-tabs.horizontal-tabs > .tabs-pane {
-  border: 1px solid #DFE1E6;
-  border-radius: 3px;
-  background: #fff;
-}
-#content > .aui-tabs.horizontal-tabs > .tabs-menu {
-  display: table;
-  /* stops a gap appearing */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /**
  * AUI Forms inside of a focused page
@@ -1891,14 +1736,18 @@ a:active {
   position: relative;
   text-align: center;
 }
-.aui-page-notification-details-header-expander::before {
+.aui-page-notification-details-header-expander {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.aui-page-notification-details-header-expander::before,
+.aui-page-notification-details-header-expander::after {
   border-top: 1px solid #DFE1E6;
   content: '';
   display: block;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
+  flex: 1;
 }
 .aui-page-notification-details-header-expander .aui-expander-trigger {
   background-color: rgba(9, 30, 66, 0.04);
@@ -2071,8 +1920,8 @@ html.aui-responsive #footer .footer-body > ul > li {
 }
 /* collapse the cell to fit its content */
 .aui-page-header-image {
-  white-space: nowrap;
   width: 1px;
+  white-space: nowrap;
 }
 .aui-page-header-main {
   vertical-align: middle;
@@ -4788,47 +4637,34 @@ table.aui .aui-button-link {
   height: auto;
   border: 0;
 }
-/*! AUI Tabs */
 aui-tabs {
   display: block;
 }
-/* temp override */
 .aui-tabs {
-  font-size: 14px;
-  line-height: 1.46;
-  /* 20px equiv line-height */
+  display: flex;
 }
-/* Functional style */
 .aui-tabs > .tabs-pane {
   display: none;
 }
 .aui-tabs > .tabs-pane.active-pane {
   display: block;
 }
-/* Common styles - Vertical and Horizontal */
 .aui-tabs > .tabs-menu > .menu-item > a,
 .aui-tabs > .tabs-menu > .menu-item > a strong {
   background: transparent;
-  font-weight: normal;
+  cursor: pointer;
+  font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
-  cursor: pointer;
-  /* set explicitly to avoid ie bug */
-}
-.aui-tabs > .tabs-menu > .menu-item.active-tab > a,
-.aui-tabs > .tabs-menu > .menu-item.active-tab > a strong {
-  font-weight: bold;
 }
 .aui-tabs > .tabs-menu .menu-item a,
 .aui-tabs > .tabs-menu .menu-item a:link,
 .aui-tabs > .tabs-menu .menu-item a:visited {
-  background: #e9e9e9;
-  color: #172B4D;
+  color: #42526E;
 }
 .aui-tabs > .tabs-menu .menu-item a:focus,
 .aui-tabs > .tabs-menu .menu-item a:hover {
-  background: #fff;
-  color: #172B4D;
+  color: #4C9AFF;
 }
 .aui-tabs > .tabs-menu .menu-item.active-tab a,
 .aui-tabs > .tabs-menu .menu-item.active-tab a:link,
@@ -4836,123 +4672,118 @@ aui-tabs {
 .aui-tabs > .tabs-menu .menu-item.active-tab a:focus,
 .aui-tabs > .tabs-menu .menu-item.active-tab a:hover,
 .aui-tabs > .tabs-menu .menu-item.active-tab a:active {
-  background: #fff;
-  color: #172B4D;
+  color: #0052CC;
 }
-/* Vertical Tabs - PDL colours but spacing still to be tweaked */
-.aui-tabs.vertical-tabs > .tabs-menu {
+.aui-tabs > .tabs-menu .menu-item.active-tab a::after {
+  background: #0052CC;
+  z-index: 1;
+}
+.aui-tabs.vertical-tabs {
+  flex-flow: row nowrap;
+}
+.aui-tabs.vertical-tabs > .tabs-menu,
+.aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a {
   position: relative;
-  float: left;
+}
+.aui-tabs.vertical-tabs > .tabs-menu::after,
+.aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a::after {
+  bottom: 5px;
+  content: "";
+  height: initial;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 2px;
+}
+.aui-tabs.vertical-tabs > .tabs-menu {
   width: 11em;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item,
-.aui-tabs.vertical-tabs > .tabs-menu > .aui-responsive-tabs-trigger {
-  border: 1px solid #DFE1E6;
-  border-right: none;
-  margin: -1px 0 0 0;
-}
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item:first-child {
-  margin-top: 1em;
-}
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item.active-tab {
-  margin-left: -0.5em;
-  margin-right: -1px;
-}
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item.active-tab > a > strong {
-  padding: 4px 10px;
+.aui-tabs.vertical-tabs > .tabs-menu::after {
+  background: #EBECF0;
 }
 .aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a {
   display: block;
+  text-align: right;
   text-decoration: none;
   overflow: hidden;
-  padding: 3px 10px 4px 10px;
+  padding: 5px 12px 5px 10px;
 }
 .aui-tabs.vertical-tabs > .tabs-menu > .menu-item strong {
   padding-right: 0;
 }
 .aui-tabs.vertical-tabs > .tabs-pane {
-  background: #fff;
-  border: 1px solid #DFE1E6;
-  border-radius: 3px;
-  margin: 0 0 0 11em;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.aui-tabs.horizontal-tabs {
+  flex-direction: column;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a {
   position: relative;
 }
-/* Horizontal Tabs */
-.aui-tabs.horizontal-tabs > .tabs-menu ~ .tabs-pane {
-  border-top: 1px solid #DFE1E6;
+.aui-tabs.horizontal-tabs > .tabs-menu::after,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a::after {
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  width: initial;
 }
 .aui-tabs.horizontal-tabs > .tabs-menu {
-  display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
   margin: 0;
   padding: 0;
-  vertical-align: top;
-  width: 100%;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu::after {
+  background: #EBECF0;
+}
+.aui-tabs.horizontal-tabs > .tabs-pane {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 .aui-tabs.horizontal-tabs[data-aui-responsive]:not([data-aui-responsive="false"]) > .tabs-menu {
   font-size: 0;
+  flex-wrap: nowrap;
   margin: 0 0 -1px 0;
   overflow: hidden;
   white-space: nowrap;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item {
-  background: #eee;
-  display: block;
-  float: left;
-  margin: 0;
-}
 .aui-tabs.horizontal-tabs[data-aui-responsive]:not([data-aui-responsive="false"]) > .tabs-menu > .menu-item {
-  border-bottom: 1px solid #DFE1E6;
   display: inline-block;
   float: none;
   font-size: 14px;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item:first-child {
-  margin-left: 20px;
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item {
+  margin: 0;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item:first-child a {
-  border-top-left-radius: 3px;
-  border-left: 1px solid #DFE1E6;
-}
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item:last-child a {
-  border-top-right-radius: 3px;
-}
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .menu-item > a:focus,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .menu-item > a:hover,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .menu-item > a:active {
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item a,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item a:focus,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item a:hover,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item a:active {
   display: block;
-  border-right: 1px solid #DFE1E6;
-  border-top: 1px solid #DFE1E6;
-  padding: 5px 10px 4px 10px;
+  padding: 5px 10px;
   text-decoration: none;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab,
-.aui-tabs.horizontal-tabs[data-aui-responsive] > .tabs-menu > .menu-item.active-tab,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .active-tab:focus,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .active-tab:hover,
-.aui-tabs.aui-tabs-disabled.horizontal-tabs > .tabs-menu > .active-tab:active {
-  border-bottom: 1px solid #fff;
-  margin-bottom: -1px;
-  position: relative;
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:link,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:visited,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:focus,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:hover,
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:active {
+  color: #0052CC;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu > .active-tab > a,
-.aui-tabs.horizontal-tabs > .tabs-menu > .active-tab > a strong {
-  font-weight: normal;
-}
-/* Disabled/Page Tabs */
 .aui-tabs.aui-tabs-disabled > .tabs-menu > .menu-item > a {
   cursor: default;
 }
-/* reloadable tabs (active tab has different cursor affordance) */
-.active-tab.reloadable-tab a,
-.active-tab.reloadable-tab a strong {
-  cursor: pointer !important;
-}
-/* legacy tabs override - deprecated, to be remove in aui 5.0 */
 .aui-tabs.vertical-tabs.aui-legacystyle2011 > .tabs-menu .menu-item strong {
   text-overflow: clip;
 }
@@ -4964,6 +4795,10 @@ aui-tabs {
 }
 .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.hidden {
   display: none;
+}
+.aui-tabs .active-tab.reloadable-tab a,
+.aui-tabs .active-tab.reloadable-tab a strong {
+  cursor: pointer !important;
 }
 .aui-toolbar {
   clear: both;
@@ -5382,58 +5217,108 @@ form.aui aui-select[data-aui-notification-error] .text {
 form.aui aui-select[data-aui-notification-success] .text {
   border-color: #00875A;
 }
+/**
+ * Quick search for header
+ */
 .aui-header .aui-quicksearch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   position: relative;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.6);
 }
-.aui-header .aui-quicksearch input[type='text'] {
+.aui-header .aui-quicksearch input {
   background: rgba(9, 30, 66, 0.48);
+  border: none;
   border-radius: 3px;
   box-shadow: none;
-  color: rgba(255, 255, 255, 0.6);
-  height: 30px;
-  margin: 5px 0;
-  padding-right: 26px;
-  /* Placeholder styling
-         * - You have to one rule per vendor because user agents are required to ignore a rule with an unknown selector.
-         *   Since WebKit doesn’t know the proprietary Mozilla selector and vice versa, you have to include them separately.
-         *   See http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css#answer-2610741
-         */
+  box-sizing: border-box;
+  color: inherit;
+  height: 2.143em;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 5px 0 0 0;
+  padding: 0 26px 1px 10px;
+  vertical-align: baseline;
+  width: 170px;
 }
-.aui-header .aui-quicksearch input[type='text'][type='text']:focus {
+.aui-header .aui-quicksearch input:focus {
   background: rgba(9, 30, 66, 0.48);
   color: #DEEBFF;
+  outline: none;
 }
-.aui-header .aui-quicksearch input[type='text']::-webkit-input-placeholder {
+.aui-header .aui-quicksearch input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-.aui-header .aui-quicksearch input[type='text']::-moz-placeholder {
-  /* Firefox 19+ */
+.aui-header .aui-quicksearch input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-.aui-header .aui-quicksearch input[type='text']:-ms-input-placeholder {
+.aui-header .aui-quicksearch input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-.aui-header .aui-quicksearch input[type='text']:focus::-webkit-input-placeholder {
+.aui-header .aui-quicksearch input:focus::-webkit-input-placeholder {
   color: #DEEBFF;
 }
-.aui-header .aui-quicksearch input[type='text']:focus::-moz-placeholder {
-  /* Firefox 19+ */
+.aui-header .aui-quicksearch input:focus::-moz-placeholder {
   color: #DEEBFF;
 }
-.aui-header .aui-quicksearch input[type='text']:focus:-ms-input-placeholder {
+.aui-header .aui-quicksearch input:focus:-ms-input-placeholder {
   color: #DEEBFF;
 }
-.aui-header .aui-quicksearch:after {
-  color: rgba(255, 255, 255, 0.6);
+.aui-header .aui-quicksearch input[type] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.aui-header .aui-quicksearch::after {
+  align-self: center;
+  pointer-events: none;
+  margin-left: -26px;
+  margin-right: 10px;
   content: "\f18d";
+  color: inherit;
   font-family: "Atlassian Icons";
   height: 16px;
-  margin-top: 11px;
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 0;
   width: 16px;
+}
+.aui-header .aui-nav .aui-button,
+.aui-header .aui-nav .aui-button-primary {
+  border: 0;
+  line-height: 1.57142857;
+  margin: 5px 0 0 10px;
+  padding: 4px 10px;
+}
+.aui-header .aui-nav .aui-button.aui-button-split-main {
+  margin-right: 0;
+}
+.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button,
+.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:hover,
+.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:focus,
+.aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:active,
+.aui-header .aui-nav .aui-button.aui-button-split-more {
+  margin-left: 1px;
+}
+.aui-header .aui-nav .aui-button,
+.aui-header .aui-nav .aui-button:link,
+.aui-header .aui-nav .aui-button:visited {
+  color: #DEEBFF;
+}
+.aui-header .aui-nav .aui-button-primary,
+.aui-header .aui-nav .aui-button-primary:link,
+.aui-header .aui-nav .aui-button-primary:visited {
+  background-color: #0065FF;
+  color: #DEEBFF;
+}
+.aui-header .aui-nav .aui-button.aui-button-primary:focus,
+.aui-header .aui-nav .aui-button.aui-button-primary:hover {
+  background-color: #2684FF;
+  color: #DEEBFF;
+}
+.aui-header .aui-nav .aui-button.aui-button-primary:active,
+.aui-header .aui-nav .aui-button.aui-button-primary.active {
+  background-color: #0065FF;
+  background-image: none;
+  padding-bottom: 4px;
 }
 .aui-header .aui-header-logo-atlassian .aui-header-logo-device {
   background-image: url("images/logos/aui-header-logo-atlassian.png");

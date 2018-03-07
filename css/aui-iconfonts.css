@@ -928,6 +928,5 @@ form.aui .icon-inline-help,
 .aui-iconfont-user-large:before {
   content: "\f1f2";
 }
-/* 30px - using ems so the fields increase in line with user specified font-sizes */
 
 /*# sourceMappingURL=aui-iconfonts.css.map */
