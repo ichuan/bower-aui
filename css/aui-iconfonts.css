@@ -184,10 +184,6 @@ form.aui .icon-inline-help,
   vertical-align: baseline;
   width: 0;
 }
-.aui-button[aria-disabled="true"] .aui-icon,
-.aui-button[disabled] .aui-icon {
-  color: rgba(112, 112, 112, 0.5);
-}
 /*
 * Icon Font
 * - use when you need to change the colour of the icon via CSS - eg on hover or to match Look and Feel customisations

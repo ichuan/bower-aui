@@ -1192,7 +1192,6 @@ disabled look for disabled choices in the results dropdown
   padding: 5px;
 }
 .aui-select2-drop {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   /* re-instated style from core select2 style */
 }
@@ -1200,7 +1199,6 @@ disabled look for disabled choices in the results dropdown
   border: 1px solid #DFE1E6;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   margin-top: 0;
 }
 .aui-select2-drop .select2-result-unselectable > .select2-result-label {
@@ -1231,7 +1229,7 @@ disabled look for disabled choices in the results dropdown
 }
 .aui-select2-drop .select2-search input,
 .aui-select2-drop {
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
   /* make border color consistent with AUI button border color */
 }
 .aui-select2-drop .select2-search input {
@@ -1297,7 +1295,7 @@ disabled look for disabled choices in the results dropdown
   /* "left" + "margin-left" required because of webkit not working properly with "right" */
   margin-left: -18px;
   margin-top: -2px;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
   top: 50%;
   width: 0;
@@ -1348,7 +1346,6 @@ disabled look for disabled choices in the results dropdown
   border: 1px solid #DFE1E6;
   border-radius: 3.01px;
   /* 3.01 for IE10 */
-  box-shadow: none;
   color: #172B4D;
   display: inline-block;
   font-size: 14px;
@@ -1361,7 +1358,7 @@ disabled look for disabled choices in the results dropdown
   text-decoration: none;
 }
 .aui-select2-container .select2-choices .select2-search-choice-focus {
-  border-color: #707070;
+  border-color: transparent;
 }
 .aui-select2-container .select2-choice abbr {
   padding-top: 10px;
@@ -1397,10 +1394,10 @@ disabled look for disabled choices in the results dropdown
 .aui-select2-container.select2-container a.select2-choice,
 .aui-select2-container.select2-container .select2-choice:visited {
   box-sizing: border-box;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
+  background: rgba(9, 30, 66, 0.04);
+  border: 1px solid transparent;
   border-radius: 3.01px;
-  color: inherit;
+  color: #42526E;
   cursor: pointer;
   display: inline-block;
   filter: none;
@@ -1414,26 +1411,30 @@ disabled look for disabled choices in the results dropdown
   margin: 0;
   padding: 4px 10px;
   text-decoration: none;
-  text-shadow: 0 1px 0 white;
+  text-shadow: none;
   vertical-align: top;
   white-space: nowrap;
 }
-.aui-select2-container.select2-container .select2-choice:focus,
-.aui-select2-container.select2-container .select2-choice:hover,
-.aui-select2-container.select2-container.select2-container-active .select2-choice {
-  background: #f5f5f5;
-  border-color: #999;
-  color: #000;
+.aui-select2-container.select2-container .select2-choice:hover {
+  background: rgba(9, 30, 66, 0.08);
+  border-color: transparent;
+  box-shadow: none;
+  color: #42526E;
   text-decoration: none;
 }
-.aui-select2-container.select2-container .select2-choice:active,
-.aui-select2-container.select2-container.select2-dropdown-open .select2-choice {
-  background-image: none;
-  background-color: #f5f5f5;
-  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+.aui-select2-container.select2-container.select2-container-active .select2-choice,
+.aui-select2-container.select2-container .select2-choice:active {
+  background: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
+  box-shadow: none;
   filter: none;
   text-shadow: none;
   text-decoration: none;
+}
+.aui-select2-container.select2-container.select2-container-active .select2-choice::after,
+.aui-select2-container.select2-container .select2-choice:active::after {
+  border-top-color: #0052CC;
 }
 .aui-select2-container.select2-container.select2-dropdown-open .select2-choice,
 .aui-select2-container.select2-container.select2-dropdown-open .select2-choices {
@@ -1932,7 +1933,7 @@ form.aui .textarea[data-aui-notification-success] {
 .aui-sidebar .aui-sidebar-footer > .aui-sidebar-toggle:focus,
 .aui-sidebar-submenu .aui-sidebar-footer > .aui-sidebar-toggle:focus {
   background: rgba(9, 30, 66, 0.04) none;
-  color: #707070;
+  color: #42526E;
   text-shadow: none;
 }
 .aui-sidebar .aui-sidebar-footer > .aui-sidebar-settings-button:active,
@@ -2569,11 +2570,11 @@ aui-toggle[disabled] .aui-toggle-cross {
   transition: opacity 250ms ease-in-out;
 }
 .aui-toggle-tick {
-  color: #fff;
+  color: #FFFFFF;
   left: 8px;
 }
 .aui-toggle-cross {
-  color: #fff;
+  color: #FFFFFF;
   right: 8px;
 }
 .aui-toggle-input:checked:enabled + .aui-toggle-view,

@@ -427,154 +427,138 @@ aui-badge.aui-badge-primary,
   top: -1px;
   /* slight tweak to position them in specific contexts */
 }
-/* AUI BUTTONS
- * Note hover/disabled styles set directly as they are not precisely the same as
- * if we used straight opacity.
- */
-/* Basic Button Style */
 .aui-button,
 a.aui-button,
 .aui-button:visited {
   box-sizing: border-box;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
+  transition: background-color 0.1s ease-out;
   border-radius: 3.01px;
-  color: #172B4D;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
-  display: inline-block;
   font-family: inherit;
   font-size: 14px;
   font-variant: normal;
   font-weight: normal;
+  background-image: none;
+  background-color: rgba(9, 30, 66, 0.04);
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
+  display: inline-block;
   height: 2.14285714em;
-  /* 30px - using ems so the fields increase in line with user specified font-sizes */
   line-height: 1.42857143;
-  /* 20px */
   margin: 0;
   padding: 4px 10px;
-  text-decoration: none;
   vertical-align: baseline;
   white-space: nowrap;
 }
 .aui-button.aui-button-light,
 a.aui-button.aui-button-light,
 .aui-button:visited.aui-button-light {
-  background: #fff;
+  background-color: #FFFFFF;
 }
 .aui-button ~ .aui-button {
   margin-left: 10px;
 }
-/* Ensure underlines not added by link styles */
 a.aui-button:hover,
 a.aui-button:active,
 a.aui-button:focus {
   text-decoration: none;
 }
-/* Firefox doesn't add OS focus border if there is a button outline, so we add one ourselves */
-form.aui .button:focus,
-form.aui .cancel:focus,
-.aui-button:focus {
-  outline: 1px dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: 1px;
-}
-/* Control button height in Firefox. See http://www.experimentgarden.com/2010/11/firefox-buttontext-height-and-padding.html */
-.aui-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
 .aui-button:focus,
 .aui-button:hover,
 .aui-button-subtle.aui-button:focus,
 .aui-button-subtle.aui-button:hover {
-  background: #e9e9e9;
-  border-color: #999;
-  color: #000;
+  background-color: rgba(9, 30, 66, 0.08);
+  border-color: transparent;
+  color: #42526E;
   text-decoration: none;
 }
 .aui-button.aui-button-subtle:active,
 .aui-button.aui-button-subtle.active {
-  border-color: #999;
+  background-image: none;
+  background-color: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
+  text-decoration: none;
 }
 .aui-button:active,
+.aui-button-subtle.aui-button:active {
+  background-image: none;
+  background-color: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
+  text-decoration: none;
+}
 .aui-button.active,
 .aui-header .aui-button-split-more.active,
-.aui-button-subtle.aui-button:active,
 .aui-button-subtle.aui-button.active {
-  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
   background-image: none;
-  background: #f5f5f5;
+  background-color: #344563;
+  border-color: transparent;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .aui-buttons .aui-button.aui-button-split-main:not(:active) {
   border-right-color: transparent;
 }
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):hover + .aui-button-split-more:before,
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):active + .aui-button-split-more:before,
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):focus + .aui-button-split-more:before {
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):hover + .aui-button-split-more::before,
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):active + .aui-button-split-more::before,
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):focus + .aui-button-split-more::before {
   visibility: hidden;
 }
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:hover:before,
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:active:before,
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:focus:before {
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:hover::before,
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:active::before,
+.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:focus::before {
   visibility: hidden;
-}
-.aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary):hover + .aui-button-split-more {
-  border-left: 1px solid #999;
-  margin-left: -2px;
 }
 .aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more {
   margin-left: -1px;
 }
 .aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more:focus,
 .aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more:hover {
-  margin-left: -2px;
+  margin-left: -1px;
 }
-.aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more.aui-dropdown2-trigger:before {
-  content: '';
-  border-left: 1px solid #DFE1E6;
-  bottom: 4px;
-  display: block;
-  left: -1px;
-  position: absolute;
-  top: 4px;
-}
-.aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more.aui-dropdown2-trigger.aui-button-primary:before {
-  border-color: #fff;
-}
-/* Primary Buttons */
 .aui-button.aui-button-primary,
 .aui-button.aui-button-primary:visited {
-  background: #0052CC;
+  background-image: none;
+  background-color: #0052CC;
   border-color: transparent;
-  color: #fff;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  /* for chrome on mac */
+  color: #FFFFFF;
+  text-decoration: none;
 }
 .aui-button.aui-button-primary:hover,
 .aui-button.aui-button-primary:focus {
-  background: #0065FF;
+  background-color: #0065FF;
   border-color: transparent;
-  color: #fff;
-}
-.aui-button.aui-button-primary:active {
-  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
-  background-image: none;
-  background: #0052CC;
+  color: #FFFFFF;
   text-decoration: none;
 }
-/* Link style buttons - used for destructive/cancel actions ONLY */
+.aui-button.aui-button-primary.active {
+  background-image: none;
+  background-color: #344563;
+  border-color: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.aui-button.aui-button-primary:active {
+  background-image: none;
+  background-color: #0052CC;
+  border-color: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .aui-button.aui-button-link,
 .aui-button.aui-button-link:visited,
 .aui-button.aui-button-text,
 .aui-button.aui-button-text:visited {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
   color: #0052CC;
-  padding: 4px 0;
+  cursor: pointer;
   text-decoration: none;
-  box-shadow: none;
+  padding: 4px 0;
 }
 .aui-button.aui-button-link:focus,
 .aui-button.aui-button-link:hover,
@@ -590,10 +574,18 @@ form.aui .cancel:focus,
 .aui-buttons .aui-button.aui-button-text:hover,
 .aui-buttons .aui-button.aui-button-text:active,
 .aui-buttons .aui-button.aui-button-text[aria-pressed="true"] {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
-  box-shadow: none;
+}
+.aui-button.aui-button-link:hover,
+.aui-button.aui-button-text:hover {
+  color: #0065FF;
   text-decoration: underline;
+}
+.aui-button.aui-button-link:active,
+.aui-button.aui-button-text:active {
+  color: #0747A6;
+  text-decoration: none;
 }
 .aui-button.aui-button-text,
 .aui-button.aui-button-text:visited {
@@ -603,11 +595,10 @@ form.aui .cancel:focus,
   line-height: normal;
   padding: 0;
 }
-/* Subtle/hybrid/entity action/mugger buttons */
 .aui-button.aui-button-subtle {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
-  color: #707070;
+  color: #42526E;
 }
 .aui-buttons .aui-button.aui-button-subtle {
   border-radius: 3.01px;
@@ -615,25 +606,20 @@ form.aui .cancel:focus,
 .aui-button.aui-button-subtle .aui-icon {
   margin-right: 1px;
 }
-/* when a button label is present next to an aui-icon (eg sidebar config) */
 .aui-button > .aui-icon + .aui-button-label {
   margin-left: 4px;
 }
-/* Compact Buttons */
 .aui-button.aui-button-compact {
   font-size: 12px;
   height: 2.16666666666667em;
-  /* 26px with 12px font-size */
   padding: 2px 8px;
   line-height: 1.66666666666667;
 }
-/* End Compact Buttons */
-/* aui-buttons groups buttons together into one button lozenge. */
 .aui-buttons {
   display: inline-block;
   font-size: 0;
 }
-.aui-buttons:after {
+.aui-buttons::after {
   clear: both;
   content: "";
   display: table;
@@ -653,11 +639,10 @@ form.aui .cancel:focus,
 .aui-buttons + .aui-buttons {
   margin-left: 10px;
 }
-/* Grouped buttons go into toolbar style */
 .aui-buttons .aui-button:not(.aui-button-primary):not(.aui-button-link):focus,
 .aui-buttons .aui-button:not(.aui-button-primary):not(.aui-button-link):hover,
 .aui-buttons .aui-button:not(.aui-button-primary):not(.aui-button-link):active {
-  border-color: #999;
+  border-color: transparent;
 }
 .aui-buttons .aui-button[disabled],
 .aui-buttons .aui-button[disabled]:hover,
@@ -667,39 +652,38 @@ form.aui .cancel:focus,
 .aui-buttons .aui-button[aria-disabled="true"]:hover,
 .aui-buttons .aui-button[aria-disabled="true"]:focus,
 .aui-buttons .aui-button[aria-disabled="true"]:active {
-  border-color: #ddd;
+  border-color: transparent;
 }
-/* Grouped Primary Buttons */
 .aui-buttons .aui-button ~ .aui-button {
   border-left-width: 0;
-  padding-left: 11px;
+  margin-left: 2px;
 }
-.aui-buttons .aui-button ~ .aui-button:hover,
-.aui-buttons .aui-button ~ .aui-button:focus,
-.aui-buttons .aui-button ~ .aui-button:active {
-  border-width: 1px;
-  margin-left: -1px;
+.aui-buttons .aui-button:hover,
+.aui-buttons .aui-button:focus,
+.aui-buttons .aui-button:active {
   position: relative;
 }
-/* Selected buttons - NOT supported for free-standing primary buttons
-ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
+.aui-buttons .aui-button:focus {
+  z-index: 1;
+}
 .aui-button[aria-pressed="true"],
 .aui-buttons .aui-button[aria-pressed="true"],
 .aui-buttons .aui-button[aria-pressed="true"].aui-button-primary,
 .aui-buttons .aui-button[aria-pressed="true"].aui-button-subtle {
-  background: #ccc;
+  color: #FFFFFF;
+  background-color: #344563;
 }
 .aui-button[aria-pressed="true"].aui-button-subtle,
+.aui-button[aria-pressed="true"].aui-button-link,
 .aui-buttons .aui-button[aria-pressed="true"].aui-button-subtle {
-  color: #172B4D;
-  border-color: #ccc;
+  color: #42526E;
+  border-color: transparent;
+  background: transparent;
 }
 .aui-buttons .aui-button[aria-pressed="true"]:active {
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
-  background: #f5f5f5;
+  color: #42526E;
+  background-color: #DEEBFF;
 }
-/* Disabled states (keep last to avoid excessive selector weight)
----------------------------------------------------------------------- */
 .aui-button[disabled],
 .aui-button[disabled]:hover,
 .aui-button[disabled]:focus,
@@ -709,13 +693,11 @@ ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
 .aui-button[aria-disabled="true"]:focus,
 .aui-button[aria-disabled="true"]:active,
 .aui-button[aria-disabled="true"][aria-pressed] {
-  background: #f5f5f5;
-  border-color: #ddd;
-  box-shadow: none;
-  color: #999;
+  background-color: #F4F5F7;
+  border-color: transparent;
+  color: #A5ADBA;
   cursor: default;
 }
-/* Subtle buttons have their own disabled state*/
 .aui-button.aui-button-subtle[disabled],
 .aui-button.aui-button-subtle[aria-disabled="true"] {
   border: 0;
@@ -729,10 +711,10 @@ ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
 .aui-button.aui-button-primary[aria-disabled="true"]:hover,
 .aui-button.aui-button-primary[aria-disabled="true"]:focus,
 .aui-button.aui-button-primary[aria-disabled="true"]:active {
-  background: #9cbad9;
+  background-color: #F4F5F7;
   border-color: transparent;
-  box-shadow: none;
-  color: #fff;
+  color: #A5ADBA;
+  cursor: default;
 }
 .aui-button.aui-button-link[disabled],
 .aui-button.aui-button-link[disabled]:hover,
@@ -750,35 +732,47 @@ ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
 .aui-button.aui-button-text[aria-disabled="true"]:hover,
 .aui-button.aui-button-text[aria-disabled="true"]:focus,
 .aui-button.aui-button-text[aria-disabled="true"]:active {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
-  color: #999;
+  color: #A5ADBA;
   text-decoration: none;
 }
-/* Cross-component integration
----------------------------------------------------------------------- */
-/* Icons Integration
---------------------- */
 .aui-button.aui-button-compact .aui-icon {
   margin-top: -1px;
-  /* icon is 1px off, adjust it so it is centered */
-}
-/* Icon Colours
----------- */
-.aui-button.aui-button-primary .aui-icon {
-  color: #fff;
 }
 .aui-button .aui-icon {
-  color: #707070;
+  color: #42526E;
 }
-.aui-button[disabled] .aui-icon {
-  color: #cccccc;
+.aui-button:hover .aui-icon {
+  color: #42526E;
 }
-.aui-button[disabled].aui-button-primary .aui-icon {
-  color: #fff;
+.aui-button:active .aui-icon {
+  color: #0052CC;
 }
-/* App Header Buttons and Split Button
----------- */
+.aui-button.active .aui-icon {
+  color: #FFFFFF;
+}
+.aui-button.aui-button-primary .aui-icon {
+  color: #FFFFFF;
+}
+.aui-button.aui-button-link .aui-icon {
+  color: #0052CC;
+}
+.aui-button.aui-button-link:hover .aui-icon {
+  color: #0065FF;
+}
+.aui-button.aui-button-link.active .aui-icon,
+.aui-button.aui-button-link:active .aui-icon {
+  color: #0747A6;
+}
+.aui-button[aria-disabled="true"] .aui-icon,
+.aui-button[disabled] .aui-icon,
+.aui-button[aria-disabled="true"]:hover .aui-icon,
+.aui-button[disabled]:hover .aui-icon,
+.aui-button[aria-disabled="true"]:active .aui-icon,
+.aui-button[disabled]:active .aui-icon {
+  color: #A5ADBA;
+}
 .aui-header .aui-nav .aui-button,
 .aui-header .aui-nav .aui-button-primary {
   margin: 5px 0 0 10px;
@@ -786,7 +780,6 @@ ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
 .aui-header .aui-nav .aui-button.aui-button-split-main {
   margin-right: 0;
 }
-/* long selector set required to avoid a jump in non-hover focus */
 .aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:hover,
 .aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:focus,
 .aui-header .aui-nav .aui-buttons .aui-button ~ .aui-button:active,
@@ -796,21 +789,19 @@ ARIA usage from http://www.paciellogroup.com/blog/misc/ARIA/togglebutton.html */
 .aui-header .aui-nav .aui-button-primary,
 .aui-header .aui-nav .aui-button-primary:link,
 .aui-header .aui-nav .aui-button-primary:visited {
-  background: #0052CC;
-  box-shadow: none;
+  background-color: #0052CC;
   border: 0;
   color: #DEEBFF;
   line-height: 1.57142857;
 }
 .aui-header .aui-nav .aui-button.aui-button-primary:focus,
 .aui-header .aui-nav .aui-button.aui-button-primary:hover {
-  background: rgba(9, 30, 66, 0.48);
+  background-color: rgba(9, 30, 66, 0.48);
   color: #DEEBFF;
 }
 .aui-header .aui-nav .aui-button.aui-button-primary:active,
 .aui-header .aui-nav .aui-button.aui-button-primary.active {
-  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
-  background: #0052CC;
+  background-color: #0052CC;
   background-image: none;
 }
 .aui-button[busy],
@@ -1632,11 +1623,16 @@ a {
   color: #0052CC;
   text-decoration: none;
 }
-a:focus,
-a:hover,
-a:active {
+a:hover {
   color: #0065FF;
   text-decoration: underline;
+}
+a:focus,
+a:active {
+  text-decoration: none;
+}
+a:active {
+  color: #0747A6;
 }
 #footer .footer-body {
   color: #707070;
@@ -1895,7 +1891,7 @@ a:active {
   top: 50%;
 }
 .aui-page-notification-details-header-expander .aui-expander-trigger {
-  background-color: #f5f5f5;
+  background-color: rgba(9, 30, 66, 0.04);
   display: inline-block;
   padding: 10px;
   position: relative;
@@ -2098,7 +2094,6 @@ html.aui-responsive #footer .footer-body > ul > li {
 .aui-page-header-image .aui-avatar {
   vertical-align: top;
 }
-/*! AUI Toolbar2 */
 .aui-toolbar2 {
   box-sizing: border-box;
   margin: 0;
@@ -2411,54 +2406,55 @@ div.shim {
 }
 .aui-dialog .dialog-button-panel button.button-panel-button {
   box-sizing: border-box;
-  background: #fff;
-  border: 1px solid #ccc;
+  transition: background-color 0.1s ease-out;
   border-radius: 3.01px;
-  color: #172B4D;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
-  display: inline-block;
+  font-family: inherit;
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-variant: normal;
+  font-weight: normal;
+  background-image: none;
+  background-color: rgba(9, 30, 66, 0.04);
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
   line-height: 20px;
   padding: 4px 10px;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
   vertical-align: baseline;
 }
-.aui-dialog .dialog-button-panel button.button-panel-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-.aui-dialog .dialog-button-panel button.button-panel-button:focus,
-.aui-dialog .dialog-button-panel button.button-panel-button:hover {
-  background: #e9e9e9;
-  border-color: #999;
-  color: #000;
+.aui-dialog .dialog-button-panel button.button-panel-button:hover,
+.aui-dialog .dialog-button-panel button.button-panel-button:focus {
+  background-color: rgba(9, 30, 66, 0.08);
+  border-color: transparent;
+  color: #42526E;
   text-decoration: none;
 }
 .aui-dialog .dialog-button-panel button.button-panel-button:active {
-  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
-  background: #f5f5f5;
-  text-shadow: none;
+  background-image: none;
+  background-color: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
   text-decoration: none;
 }
 .aui-dialog .dialog-button-panel a.button-panel-link {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
   color: #0052CC;
+  cursor: pointer;
+  text-decoration: none;
   display: inline-block;
   padding: 5px 0;
-  text-decoration: none;
-  text-shadow: none;
 }
 .aui-dialog .dialog-button-panel a.button-panel-link:focus,
-.aui-dialog .dialog-button-panel a.button-panel-link:hover,
-.aui-dialog .dialog-button-panel a.button-panel-link:active {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
+.aui-dialog .dialog-button-panel a.button-panel-link:hover {
+  color: #0065FF;
   text-decoration: underline;
+}
+.aui-dialog .dialog-button-panel a.button-panel-link:active {
+  color: #0747A6;
+  text-decoration: none;
 }
 .aui-dialog .dialog-button-panel button.button-panel-button,
 .aui-dialog .dialog-button-panel a.button-panel-link {
@@ -2906,8 +2902,8 @@ div.shim {
   border: 1px solid #DFE1E6;
   margin-top: 10px;
 }
-.aui-dropdown2.aui-dropdown2-tailed:before,
-.aui-dropdown2.aui-dropdown2-tailed:after {
+.aui-dropdown2.aui-dropdown2-tailed::before,
+.aui-dropdown2.aui-dropdown2-tailed::after {
   border-color: transparent;
   border-style: outset outset solid outset;
   border-width: 8px;
@@ -2918,11 +2914,11 @@ div.shim {
   position: absolute;
   width: 0;
 }
-.aui-dropdown2.aui-dropdown2-tailed:before {
+.aui-dropdown2.aui-dropdown2-tailed::before {
   border-bottom-color: #DFE1E6;
   margin-bottom: 1px;
 }
-.aui-dropdown2.aui-dropdown2-tailed:after {
+.aui-dropdown2.aui-dropdown2-tailed::after {
   border-bottom-color: #fff;
 }
 /* basic in-page dropdown trigger style DEPRECATED as of 4.2 */
@@ -2972,7 +2968,7 @@ div.shim {
 .aui-dropdown2-sub-trigger {
   position: relative;
 }
-.aui-dropdown2-sub-trigger:after {
+.aui-dropdown2-sub-trigger::after {
   border: 5px solid transparent;
   border-left-color: #172B4D;
   content: "";
@@ -2985,12 +2981,13 @@ div.shim {
   top: 50%;
   width: 0;
 }
-.aui-dropdown2-sub-trigger.active:after,
-.aui-dropdown2-sub-trigger.aui-dropdown2-active:after {
+.aui-dropdown2-sub-trigger.active::after,
+.aui-dropdown2-sub-trigger.aui-dropdown2-active::after {
   border-left-color: #fff;
 }
-.aui-dropdown2-sub-trigger.disabled:after,
-.aui-dropdown2-sub-trigger.aui-dropdown2-disabled:after {
+.aui-dropdown2-sub-trigger[disabled]::after,
+.aui-dropdown2-sub-trigger.disabled::after,
+.aui-dropdown2-sub-trigger.aui-dropdown2-disabled::after {
   border-left-color: #999;
 }
 .aui-dropdown2.aui-dropdown2-sub-menu,
@@ -3051,21 +3048,21 @@ div.shim {
 }
 .aui-buttons .aui-button.aui-button-subtle.aui-dropdown2-trigger.active,
 .aui-button.aui-button-subtle.aui-dropdown2-trigger.active {
-  border-color: #DFE1E6;
+  border-color: transparent;
 }
 .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover {
-  border-color: #999;
+  border-color: transparent;
 }
 /* Compact Dropdown2 Trigger */
 .aui-button.aui-button-compact.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless) {
   padding-right: 21px !important;
   /* 8px (arrow width) + 8px (right padding) + 5 (margin between arrow and logo) */
 }
-.aui-button.aui-button-compact.aui-dropdown2-trigger:after {
+.aui-button.aui-button-compact.aui-dropdown2-trigger::after {
   margin-left: -16px;
   /*  Override the margin-left from below for to compensate for the smaller padding-right */
 }
-.aui-button.aui-button-compact.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+.aui-button.aui-button-compact.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
   top: 11px;
   /* position the top of the arrow in the middle - 26px (height) / 2 (halfway) - 2 (arrow height) */
 }
@@ -3076,7 +3073,7 @@ div.shim {
   /* increase the padding to cater for the lack of border so the button doesn't change size */
 }
 /* End Compact Dropdown2 Trigger */
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
   border: 4px solid transparent;
   content: "";
   height: 0;
@@ -3085,28 +3082,49 @@ div.shim {
   margin-left: -18px;
   /* push the arrow back inside the button */
   margin-top: -2px;
-  opacity: 0.8;
   position: absolute;
   top: 50%;
   width: 0;
 }
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after,
-.aui-buttons .aui-button.aui-button-primary.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
-  border-top-color: #172B4D;
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
+  border-top-color: #42526E;
 }
-.aui-button.aui-button-primary.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
-  border-top-color: #fff;
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):active::after {
+  border-top-color: #0052CC;
 }
-.aui-button.aui-button-primary.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary:after {
-  border-top-color: #fff;
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).active::after {
+  border-top-color: #FFFFFF;
 }
-.aui-button.aui-dropdown2-trigger:hover:after,
-.aui-button.aui-dropdown2-trigger.active:after {
-  opacity: 1;
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)[disabled]::after {
+  border-top-color: #A5ADBA;
 }
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary::after {
+  border-top-color: #FFFFFF;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary::after,
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary:active::after,
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary.active::after {
+  border-top-color: #FFFFFF;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary[disabled]::after {
+  border-top-color: #A5ADBA;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link::after {
+  border-top-color: #0052CC;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link:hover::after {
+  border-top-color: #0065FF;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link:active::after,
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link.active::after {
+  border-top-color: #0747A6;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link[disabled]::after {
+  border-top-color: #A5ADBA;
+}
+.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
   margin-top: 0;
-  /* make sure no margins intefere with the positioning*/
+  /* make sure no margins interfere with the positioning*/
   top: 13px;
   /* position the top of the arrow in the middle - 30px (height) / 2 (halfway) - 2 (arrow height)*/
 }
@@ -3115,15 +3133,15 @@ div.shim {
 .aui-button.aui-dropdown2-trigger > .aui-icon-dropdown {
   display: none;
 }
-/* INPUT does not play with :after - dropdown2 does not support arrow styles for INPUT buttons */
+/* INPUT does not play with ::after - dropdown2 does not support arrow styles for INPUT buttons */
 /* We cannot position arrows on aui-button-text because we don't know what size they will be all the time */
 input.aui-button.aui-dropdown2-trigger,
 .aui-button.aui-button-text.aui-dropdown2-trigger {
   padding-right: 10px !important;
   /* someone used important now we're all doomed */
 }
-input.aui-button.aui-dropdown2-trigger:after,
-.aui-button.aui-button-text.aui-dropdown2-trigger:after {
+input.aui-button.aui-dropdown2-trigger::after,
+.aui-button.aui-button-text.aui-dropdown2-trigger::after {
   display: none;
 }
 /* Dropdown2-only / Split Button
@@ -3136,40 +3154,6 @@ input.aui-button.aui-dropdown2-trigger:after,
   text-align: left;
   text-indent: -9999em;
 }
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more.active:hover:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more.active:hover:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more.active:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more.active:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more:focus:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more:focus:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more:hover:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more:hover:before {
-  border-left-color: #999;
-  /* dark border for hover. */
-  bottom: -1px;
-  /* -1 to pull it out over the border */
-  top: -1px;
-  /* -1 to pull it out over the border */
-}
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more.active:hover.aui-button-primary:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more.active:hover.aui-button-primary:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more.active.aui-button-primary:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more.active.aui-button-primary:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more:focus.aui-button-primary:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more:focus.aui-button-primary:before,
-.aui-button.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more:hover.aui-button-primary:before,
-.aui-button.aui-dropdown2-trigger.aui-button-split-more:hover.aui-button-primary:before {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
-}
-.aui-header .aui-button-primary.aui-button-split-main:hover + .aui-button.aui-dropdown2-trigger.aui-button-split-more:before,
-.aui-header .aui-button-primary.aui-dropdown2-trigger.aui-button-split-more.active:hover:before,
-.aui-header .aui-button-primary.aui-dropdown2-trigger.aui-button-split-more.active:before,
-.aui-header .aui-button-primary.aui-dropdown2-trigger.aui-button-split-more:hover:before,
-.aui-header .aui-button-primary.aui-dropdown2-trigger.aui-button-split-more:before {
-  border-color: #1f4d7d;
-  bottom: 0;
-  top: 0;
-}
 /**
  * Dropdown2 triggers in header
  */
@@ -3180,26 +3164,18 @@ input.aui-button.aui-dropdown2-trigger:after,
   color: #DEEBFF;
   background-color: rgba(9, 30, 66, 0.48);
 }
-/* Icons in Dropdown2 triggers and links in header */
-.aui-header .aui-dropdown2-trigger.active .aui-icon,
-.aui-header a:focus .aui-icon,
-.aui-header a:hover .aui-icon,
-.aui-header a:active .aui-icon {
-  opacity: 1;
-}
 /* In case showIcon is not set to false for header dropdown triggers */
 .aui-header .aui-dropdown2-trigger .aui-icon-dropdown {
   display: none;
 }
 /* Styling the dropdown2 triggers differently in the header to avoid inline-block spacing issues with other icons */
-.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
   border: 4px solid transparent;
   border-top-color: #DEEBFF;
   content: "";
   height: 0;
   margin-left: -18px;
   margin-top: -2px;
-  opacity: 0.8;
   left: 100%;
   /* "left" + "margin-left" required because of webkit not working properly with "right" */
   position: absolute;
@@ -3207,11 +3183,7 @@ input.aui-button.aui-dropdown2-trigger:after,
   top: 50%;
   width: 0;
 }
-.aui-header .aui-dropdown2-trigger:hover:after,
-.aui-header .aui-dropdown2-trigger.active:after {
-  opacity: 1;
-}
-.aui-header .aui-button.aui-dropdown2-trigger:after {
+.aui-header .aui-button.aui-dropdown2-trigger::after {
   margin-top: 0;
 }
 /**
@@ -3636,24 +3608,50 @@ form.aui.top-label .buttons-container {
 /* Basic Button Style */
 form.aui .button {
   box-sizing: border-box;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
+  transition: background-color 0.1s ease-out;
   border-radius: 3.01px;
-  color: #172B4D;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: inherit;
   font-size: 14px;
   font-variant: normal;
   font-weight: normal;
+  background-image: none;
+  background-color: rgba(9, 30, 66, 0.04);
+  border-color: transparent;
+  color: #42526E;
   height: 2.14285714em;
   line-height: 1.4285714285714;
   margin: 0;
   padding: 4px 10px;
   text-decoration: none;
-  text-shadow: 0 1px 0 white;
   vertical-align: baseline;
   white-space: nowrap;
+}
+form.aui .button:focus,
+form.aui .button:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
+}
+form.aui .button:active,
+form.aui .button.active {
+  background-image: none;
+  background-color: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
+  text-decoration: none;
+}
+form.aui .button[disabled],
+form.aui .button[disabled]:hover,
+form.aui .button[disabled]:focus,
+form.aui .button[disabled]:active {
+  background-color: #F4F5F7;
+  border-color: transparent;
+  color: #A5ADBA;
+  cursor: default;
 }
 form.aui .cancel {
   cursor: pointer;
@@ -3680,37 +3678,6 @@ form.aui .buttons-container .aui-button + .aui-button {
 form.aui .buttons-container .aui-button + .aui-button-link {
   margin-left: 9px;
   /* 1px diff due to border */
-}
-/* Control button height in Firefox. See http://www.experimentgarden.com/2010/11/firefox-buttontext-height-and-padding.html */
-form.aui .button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-form.aui .button:focus,
-form.aui .button:hover {
-  background-color: #f5f5f5;
-  border-color: #999;
-  color: #000;
-  text-decoration: none;
-}
-form.aui .button:active,
-form.aui .button.active {
-  background-image: none;
-  background-color: #f5f5f5;
-  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
-  text-shadow: none;
-  text-decoration: none;
-}
-form.aui .button[disabled],
-form.aui .button[disabled]:hover,
-form.aui .button[disabled]:focus,
-form.aui .button[disabled]:active {
-  background-color: #f5f5f5;
-  border-color: #ddd;
-  box-shadow: none;
-  color: #999;
-  cursor: default;
-  text-shadow: none;
 }
 /* Message Interops */
 form.aui .aui-message + .field-group,
@@ -3966,10 +3933,6 @@ form.aui .icon-inline-help,
   position: relative;
   vertical-align: baseline;
   width: 0;
-}
-.aui-button[aria-disabled="true"] .aui-icon,
-.aui-button[disabled] .aui-icon {
-  color: rgba(112, 112, 112, 0.5);
 }
 /*! AUI Inline Dialog */
 aui-inline-dialog {
@@ -4742,11 +4705,12 @@ aui-message:first-child,
 #header .aui-message.closeable .icon-close {
   top: 10px;
 }
-/*! AUI Tables */
-/* Note child combinators are used to ensure nested non-AUI tables don't receive any AUI styles. */
 table.aui {
   border-collapse: collapse;
   width: 100%;
+  /* Interactive Tables */
+  /* End Interactive Tables */
+  /* stripes - deprecated */
 }
 table.aui table.aui {
   margin: 0;
@@ -4802,21 +4766,25 @@ table.aui > tfoot > tr > td > ul.menu > li {
   margin: 0 10px 0 0;
   width: auto;
 }
-/* Interactive Tables */
 table.aui.aui-table-interactive > tbody > tr:hover {
   background: #f5f5f5;
 }
-/* End Interactive Tables */
-/* stripes - deprecated */
 table.aui.aui-zebra tr {
   border-bottom: 0;
 }
 table.aui.aui-zebra > thead > tr:nth-child(even),
 table.aui.aui-zebra > tbody > tr:nth-child(even),
 table.aui.aui-zebra > tfoot > tr:nth-child(even),
-table.aui-zebra > tbody > tr:nth-child(even) > th {
+table.aui.aui-zebra > tbody > tr:nth-child(even) > th {
   background: #f5f5f5;
   color: #172B4D;
+}
+table.aui .aui-button-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: inherit;
+  height: auto;
+  border: 0;
 }
 /*! AUI Tabs */
 aui-tabs {
@@ -5050,14 +5018,23 @@ aui-tabs {
 .aui-toolbar .toolbar-group .toolbar-trigger,
 .aui-toolbar .aui-dd-parent a.aui-dd-trigger {
   box-sizing: border-box;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
-  color: #172B4D;
+  transition: background-color 0.1s ease-out;
+  border-radius: 3.01px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-variant: normal;
+  font-weight: normal;
+  background-image: none;
+  background-color: rgba(9, 30, 66, 0.04);
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
   display: inline-block;
   margin: 0;
   padding: 4px 10px;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
   vertical-align: baseline;
   /* and now the styles to overcome aui-dropdown1 */
   height: auto;
@@ -5065,11 +5042,6 @@ aui-tabs {
   width: auto;
   /* to make split buttons work */
   float: left;
-}
-.toolbar-item + .toolbar-item .toolbar-trigger,
-.toolbar-item + .toolbar-item a.aui-dd-trigger {
-  border-left-width: 0;
-  padding-left: 11px;
 }
 .aui-toolbar .toolbar-group button.toolbar-trigger,
 .aui-toolbar .toolbar-group input.toolbar-trigger {
@@ -5118,6 +5090,14 @@ aui-tabs {
 .toolbar-group .toolbar-item:first-of-type button {
   border-left-width: 1px;
 }
+.aui-toolbar {
+  /* hover/focus controls */
+  /* Note .dropdown-text and .dropdown-icon used by both Dropdown and Dropdown2 */
+  /* disabled controls */
+  /* Prevent border highlighting and use normal cursor when disabled.
+       .active classes are to counter a clash with dropdown states. */
+  /* prevent disabled split buttons jumping if dropdown clicked */
+}
 .aui-toolbar .toolbar-group .aui-dropdown {
   border: 1px solid #999;
 }
@@ -5125,23 +5105,33 @@ aui-tabs {
   border: 0;
   border-radius: 0;
 }
-/* hover/focus controls */
-.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active,
-.aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger,
-.aui-toolbar .toolbar-group .toolbar-trigger:focus,
-.aui-toolbar .toolbar-group .toolbar-trigger:hover,
 .aui-toolbar .toolbar-group button:focus,
-.aui-toolbar .toolbar-group button:hover,
+.aui-toolbar .toolbar-group .toolbar-trigger:focus,
 .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus,
-.aui-toolbar .aui-dd-parent .aui-dd-trigger:hover,
-.aui-toolbar .toolbar-group .active .toolbar-trigger:hover {
-  background: #e9e9e9;
+.aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger,
+.aui-toolbar .toolbar-group button:hover,
+.aui-toolbar .toolbar-group .toolbar-trigger:hover,
+.aui-toolbar .aui-dd-parent .aui-dd-trigger:hover {
   border-width: 1px;
-  border-color: #999;
-  margin-left: -1px;
-  color: #000;
   position: relative;
   text-decoration: none;
+  color: #42526E;
+  border-color: transparent;
+}
+.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active {
+  background: rgba(9, 30, 66, 0.08);
+  color: #0052CC;
+}
+.aui-toolbar .toolbar-group button:focus,
+.aui-toolbar .toolbar-group .toolbar-trigger:focus,
+.aui-toolbar .aui-dd-parent .aui-dd-trigger:focus {
+  background: rgba(9, 30, 66, 0.08);
+}
+.aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger,
+.aui-toolbar .toolbar-group button:hover,
+.aui-toolbar .toolbar-group .toolbar-trigger:hover,
+.aui-toolbar .aui-dd-parent .aui-dd-trigger:hover {
+  background: rgba(9, 30, 66, 0.08);
 }
 .aui-toolbar .toolbar-item:first-child .toolbar-trigger:hover,
 .aui-toolbar .toolbar-item:first-child .aui-dropdown2-trigger.toolbar-trigger.active,
@@ -5156,20 +5146,20 @@ aui-tabs {
 .aui-toolbar .toolbar-item:first-child.active .toolbar-trigger:hover {
   margin-left: 0;
 }
-.aui-toolbar .aui-dropdown2-trigger.active,
-.aui-toolbar .aui-dd-parent a.aui-dd-trigger.active,
-.aui-toolbar .toolbar-group .active .toolbar-trigger,
 .aui-toolbar .toolbar-group .toolbar-trigger:active {
-  background: #f5f5f5;
-  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1);
-  text-shadow: none;
+  background: #DEEBFF;
+  color: #0052CC;
+  text-decoration: none;
+}
+.aui-toolbar .toolbar-group .active .toolbar-trigger,
+.aui-toolbar .aui-dd-parent a.aui-dd-trigger.active {
+  background: #344563;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .aui-toolbar .toolbar-group .toolbar-item-link .toolbar-trigger:active {
   background: none;
-  box-shadow: none;
 }
-/* Note .dropdown-text and .dropdown-icon used by both Dropdown and Dropdown2 */
 .aui-toolbar .icon-dropdown {
   background: transparent url('data:image/png;base64,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') 0 0 no-repeat;
   display: inline-block;
@@ -5207,7 +5197,7 @@ aui-tabs {
   border-left-width: 0;
 }
 .aui-toolbar .toolbar-splitbutton > .aui-dd-parent.active > .toolbar-trigger {
-  border-left-color: #999;
+  border-left-color: transparent;
 }
 .aui-toolbar .toolbar-splitbutton > .aui-dd-parent > .aui-dd-trigger {
   min-width: 0;
@@ -5216,15 +5206,12 @@ aui-tabs {
   padding-right: 2px;
   width: 9px;
 }
-/* disabled controls */
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"],
 .aui-toolbar .toolbar-group.disabled .toolbar-trigger,
 .aui-toolbar .toolbar-item.disabled .toolbar-trigger,
 .aui-toolbar .toolbar-trigger.disabled {
-  color: #999;
+  color: #A5ADBA;
 }
-/* Prevent border highlighting and use normal cursor when disabled.
-   .active classes are to counter a clash with dropdown states. */
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:focus,
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:hover,
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:active,
@@ -5241,26 +5228,23 @@ aui-tabs {
 .aui-toolbar .toolbar-group .toolbar-trigger.disabled:focus,
 .aui-toolbar .toolbar-group .toolbar-trigger.disabled:hover,
 .aui-toolbar .toolbar-group .toolbar-trigger.disabled:active {
-  background: #f5f5f5;
-  border-color: #ddd;
-  box-shadow: none;
-  color: #999;
+  background: #F4F5F7;
+  border-color: transparent;
+  color: #A5ADBA;
   cursor: default;
-  text-shadow: none;
 }
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:focus,
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:hover,
 .aui-toolbar .aui-dropdown2-trigger[aria-disabled="true"]:active {
   border-color: transparent;
-  color: #999;
+  color: #A5ADBA;
 }
 .aui-toolbar .toolbar-group.disabled .toolbar-item:first-child .toolbar-trigger,
 .aui-toolbar .toolbar-group .disabled.toolbar-item:first-child .toolbar-trigger,
 .aui-toolbar .toolbar-group .toolbar-item:first-child .disabled.toolbar-trigger {
   border-left-width: 1px;
-  border-left-color: #ddd;
+  border-left-color: transparent;
 }
-/* prevent disabled split buttons jumping if dropdown clicked */
 .aui-toolbar .toolbar-group.disabled .toolbar-item .aui-dd-trigger,
 .aui-toolbar .toolbar-group .disabled.toolbar-item .aui-dd-trigger,
 .aui-toolbar .toolbar-group .toolbar-item .disabled.aui-dd-trigger {
@@ -5354,6 +5338,7 @@ aui-select input.text {
 form.aui aui-select button.aui-button,
 aui-select button.aui-button {
   background-clip: padding-box;
+  border-color: #ccc;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   bottom: 0;
@@ -5768,25 +5753,20 @@ form.aui.long-label .field-group .ffi {
   padding: 0 5px;
 }
 .ffi:before {
-  background: #f2f2f2;
-  background: -webkit-linear-gradient(top, #fff 0, #f2f2f2 100%);
-  background: linear-gradient(to bottom, #fff 0, #f2f2f2 100%);
+  background: rgba(9, 30, 66, 0.04);
   border-left-color: #DFE1E6;
-  color: #172B4D;
+  color: #42526E;
   padding: 0 10px;
-  text-shadow: 0 3px 6px #fff;
 }
 .ffi:hover:before {
-  background: #f7f7f7;
-  background: -webkit-linear-gradient(top, #fff 0, #f7f7f7 100%);
-  background: linear-gradient(to bottom, #fff 0, #f7f7f7 100%);
-  color: #000;
-  text-shadow: 0 3px 6px #fff;
+  background: rgba(9, 30, 66, 0.08);
+  color: #42526E;
 }
 .ffi:active:before,
 .ffi:active:hover:before {
-  background-color: #f2f2f2;
+  background-color: #DEEBFF;
   background-image: none;
+  color: #0052CC;
   text-decoration: none;
   text-shadow: none;
 }
@@ -5801,11 +5781,10 @@ form.aui.long-label .field-group .ffi {
 .ffi.is-disabled:hover:before,
 .ffi.is-disabled:active:before,
 .ffi.is-disabled:active:hover:before {
-  background: -webkit-linear-gradient(top, #fff 0, #f2f2f2 100%);
-  background: linear-gradient(to bottom, #fff 0, #f2f2f2 100%);
+  background-color: #F4F5F7;
   border-color: #DFE1E6;
   box-shadow: none;
-  color: #999;
+  color: #A5ADBA;
   text-shadow: none;
 }
 .ffi.is-disabled:after {
