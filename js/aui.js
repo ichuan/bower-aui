@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.7
+ * @version v6.0.8
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -15619,15 +15619,17 @@
   var FADEOUT_RESTORE_DURATION = 100;
   
   var MESSAGE_TEMPLATE = '<div class="aui-message aui-message-{type} {closeable} {shadowed} {fadeout}">' + '<p class="title">' + '<strong>{title}</strong>' + '</p>' + '{body}<!-- .aui-message -->' + '</div>';
+  var MESSAGE_WITHOUT_TITLE_TEMPLATE = '<div class="aui-message aui-message-{type} {closeable} {shadowed} {fadeout}">' + '{body}<!-- .aui-message -->' + '</div>';
   
   function createMessageConstructor(type) {
       /**
        *
        * @param context
        * @param {Object} obj - message configuration
-       * @param {boolean} [obj.id] - ID to add to the message
-       * @param {boolean} obj.body - Content of the message
-       * @param {boolean} [obj.closeable]
+       * @param {String} [obj.id] - ID to add to the message.
+       * @param {String} [obj.title] - Plain-text title of the message. If provided, will appear above the message body.
+       * @param {String} obj.body - Content of the message. Can be HTML content.
+       * @param {boolean} [obj.closeable] - If true, the message can be manually closed by the end-user via the UI.
        * @param {boolean} [obj.shadowed]
        * @param {boolean} [obj.fadeout]
        * @param {boolean} [obj.duration]
@@ -15646,7 +15648,8 @@
           // shadowed no longer does anything but left in so it doesn't break
           obj.shadowed = obj.shadowed !== null && obj.shadowed !== false;
   
-          var $message = renderMessageElement(this.template, obj, type);
+          var title = (obj.title || '').toString().trim();
+          var $message = renderMessageElement(title ? this.template : this.templateAlt, obj, type);
           insertMessageIntoContext($message, obj.insert, context);
   
           // Attach the optional extra behaviours
@@ -15757,6 +15760,7 @@
       makeCloseable: makeCloseable,
       makeFadeout: makeFadeout,
       template: MESSAGE_TEMPLATE,
+      templateAlt: MESSAGE_WITHOUT_TITLE_TEMPLATE,
       createMessage: createMessageConstructor
   };
   
@@ -17922,7 +17926,7 @@
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var version = '6.0.7';
+  var version = '6.0.8';
   
   (0, _globalize2.default)('version', version);
   
