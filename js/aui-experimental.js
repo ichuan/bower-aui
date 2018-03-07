@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.0
+ * @version v6.1.1
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -8593,7 +8593,12 @@
           if (selectCanBeEmpty) {
               deselect(element);
           } else {
-              element._input.value = getSelectedLabel(element);
+              var selection = getSelectedLabel(element);
+              if (typeof selection === 'undefined') {
+                  deselect(element);
+              } else {
+                  element._input.value = selection;
+              }
           }
       }
   }

@@ -1,6 +1,6 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.1.0
+ * @version v6.1.1
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
@@ -17944,7 +17944,7 @@
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var version = '6.1.0';
+  var version = '6.1.1';
   
   (0, _globalize2.default)('version', version);
   
