@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.0.1
+ * @version v7.1.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // .tmp/compiled-soy/atlassian-deps.js
-(typeof window === 'undefined' ? global : window).__84ae494f37712a2d90e55e018cfb8916 = (function () {
+(typeof window === 'undefined' ? global : window).__9e9dd665adc9464ab65448bfd5a3d4df = (function () {
   var module = {
     exports: {}
   };
@@ -32,7 +32,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/soyutils.js
-(typeof window === 'undefined' ? global : window).__e737d03402ba32b66c8cbfa9b9936efb = (function () {
+(typeof window === 'undefined' ? global : window).__0af28ae85637fa4e15ad239cbcedaa4b = (function () {
   var module = {
     exports: {}
   };
@@ -5797,7 +5797,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/aui.js
-(typeof window === 'undefined' ? global : window).__9b4648c9c27b27c639abb8b21974c125 = (function () {
+(typeof window === 'undefined' ? global : window).__fb9db0c1e46d2c0a215bfc94e4d5de62 = (function () {
   var module = {
     exports: {}
   };
@@ -5863,7 +5863,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/avatar.js
-(typeof window === 'undefined' ? global : window).__ba8ea698f0da83f767f6f08b2121165c = (function () {
+(typeof window === 'undefined' ? global : window).__dc60b2355811a307e92e3469386c9872 = (function () {
   var module = {
     exports: {}
   };
@@ -5894,7 +5894,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/badges.js
-(typeof window === 'undefined' ? global : window).__84a307dbec3f803dbbd23a921b6822ba = (function () {
+(typeof window === 'undefined' ? global : window).__9ea424983c4fae6da31b06461aabc875 = (function () {
   var module = {
     exports: {}
   };
@@ -5914,7 +5914,7 @@
   
   
   aui.badges.badge = function(opt_data, opt_ignored) {
-    return '<' + soy.$$escapeHtml(opt_data.tagName ? opt_data.tagName : 'span') + ((opt_data.id) ? ' id="' + soy.$$escapeHtml(opt_data.id) + '"' : '') + ' class="aui-badge' + aui.renderExtraClasses(opt_data) + '"' + aui.renderExtraAttributes(opt_data) + '>' + soy.$$escapeHtml(opt_data.text) + '</' + soy.$$escapeHtml(opt_data.tagName ? opt_data.tagName : 'span') + '>';
+    return '<aui-badge' + ((opt_data.id) ? ' id="' + soy.$$escapeHtml(opt_data.id) + '"' : '') + ' class="' + aui.renderExtraClasses(opt_data) + '"' + aui.renderExtraAttributes(opt_data) + '>' + soy.$$escapeHtml(opt_data.text) + '</aui-badge>';
   };
   if (goog.DEBUG) {
     aui.badges.badge.soyTemplateName = 'aui.badges.badge';
@@ -5925,7 +5925,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/buttons.js
-(typeof window === 'undefined' ? global : window).__030c6e9d270baa470289366a077329ff = (function () {
+(typeof window === 'undefined' ? global : window).__fdc4f70020f03bcff428dd2de1f459e3 = (function () {
   var module = {
     exports: {}
   };
@@ -6015,7 +6015,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dialog2.js
-(typeof window === 'undefined' ? global : window).__927ecba85bb3d1d44ee987f2d841164a = (function () {
+(typeof window === 'undefined' ? global : window).__e5929381691e1b4d7808e375dcea02a4 = (function () {
   var module = {
     exports: {}
   };
@@ -6091,7 +6091,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dropdown.js
-(typeof window === 'undefined' ? global : window).__ab15f983a5741e603c04f5108a1be27a = (function () {
+(typeof window === 'undefined' ? global : window).__37b774780f5b268935b86f60e8a31e4d = (function () {
   var module = {
     exports: {}
   };
@@ -6147,7 +6147,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dropdown2.js
-(typeof window === 'undefined' ? global : window).__4b1681554b43eb477d99c23b50894070 = (function () {
+(typeof window === 'undefined' ? global : window).__bf51870c5509ec895293b4780925a1ed = (function () {
   var module = {
     exports: {}
   };
@@ -6262,7 +6262,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/expander.js
-(typeof window === 'undefined' ? global : window).__393961cc686e3a69288c7c5c225e9d6a = (function () {
+(typeof window === 'undefined' ? global : window).__695877efcb3c5dcbf23fbfcb9e31d60b = (function () {
   var module = {
     exports: {}
   };
@@ -6309,7 +6309,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/form.js
-(typeof window === 'undefined' ? global : window).__836615b3ed8812fb907e2a6c9745de94 = (function () {
+(typeof window === 'undefined' ? global : window).__2565a9b12eb4dbd8671867cee3b74980 = (function () {
   var module = {
     exports: {}
   };
@@ -6721,7 +6721,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/group.js
-(typeof window === 'undefined' ? global : window).__7aca0a697bff8e4f7aa231501fbf2286 = (function () {
+(typeof window === 'undefined' ? global : window).__8b6c6892ac359ef8a4aae8d82859673c = (function () {
   var module = {
     exports: {}
   };
@@ -6760,7 +6760,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/icons.js
-(typeof window === 'undefined' ? global : window).__2f79d877e7b764d828161d4eeb368e4b = (function () {
+(typeof window === 'undefined' ? global : window).__964c6fb5876009ce9f7e8e35e9f7a500 = (function () {
   var module = {
     exports: {}
   };
@@ -6791,7 +6791,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/inline-dialog2.js
-(typeof window === 'undefined' ? global : window).__97ef5dbd66d3b5b3c3a39d0b72963fcc = (function () {
+(typeof window === 'undefined' ? global : window).__c032244dcacf2562f34bac53bb3b2520 = (function () {
   var module = {
     exports: {}
   };
@@ -6830,7 +6830,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/labels.js
-(typeof window === 'undefined' ? global : window).__1acd1fa12c76f2ed75b00c0c1d30090c = (function () {
+(typeof window === 'undefined' ? global : window).__28920d62a00982d64624e374163a5949 = (function () {
   var module = {
     exports: {}
   };
@@ -6877,7 +6877,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/lozenges.js
-(typeof window === 'undefined' ? global : window).__a41d0500bc2e212232521e12e9cbe36f = (function () {
+(typeof window === 'undefined' ? global : window).__ca52cc7344ad68428871389b9a8c1200 = (function () {
   var module = {
     exports: {}
   };
@@ -6908,7 +6908,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/message.js
-(typeof window === 'undefined' ? global : window).__cb07a51ef0398a3b357f07a036a476e1 = (function () {
+(typeof window === 'undefined' ? global : window).__7474a676e6f56ccdd627b76f51b1f919 = (function () {
   var module = {
     exports: {}
   };
@@ -6991,7 +6991,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/navigation.js
-(typeof window === 'undefined' ? global : window).__b2d5405a737c8c4f889caab766294a0e = (function () {
+(typeof window === 'undefined' ? global : window).__5a2fbba2197a17c53240bd0de2270737 = (function () {
   var module = {
     exports: {}
   };
@@ -7011,7 +7011,7 @@
   
   
   aui.navigation.item = function(opt_data, opt_ignored) {
-    return '<li class="' + ((opt_data.isSelected || opt_data.key && opt_data.selectedItemKey == opt_data.key) ? 'aui-nav-selected' : '') + aui.renderExtraClasses(opt_data) + '"' + ((opt_data.isCollapsible && opt_data.children && opt_data.children.length > 0) ? 'aria-expanded="' + ((opt_data.isCollapsed) ? 'false' : 'true') + '"' : '') + aui.renderExtraAttributes(opt_data) + '>' + ((opt_data.children && opt_data.children.length > 0 && opt_data.isCollapsible) ? '<a href="#" class="aui-nav-subtree-toggle">' + aui.icons.icon({icon: opt_data.isCollapsed ? 'collapsed' : 'expanded', size: 'small', useIconFont: true}) + '</a>' : '') + '<a class="aui-nav-item" href="' + soy.$$escapeHtml(opt_data.href) + '">' + ((opt_data.iconClass && ! opt_data.isChild) ? aui.icons.icon({icon: opt_data.iconClass, size: 'small', useIconFont: true}) : '') + ((opt_data.count == 0 || opt_data.count) ? '<span class="aui-badge">' + soy.$$escapeHtml(opt_data.count) + '</span>' : '') + '<span class="aui-nav-item-label">' + soy.$$escapeHtml(opt_data.label) + '</span></a>' + ((opt_data.children && opt_data.children.length > 0) ? aui.navigation.nav({items: opt_data.children, selectedItemKey: opt_data.selectedItemKey, isChild: true}) : '') + '</li>';
+    return '<li class="' + ((opt_data.isSelected || opt_data.key && opt_data.selectedItemKey == opt_data.key) ? 'aui-nav-selected' : '') + aui.renderExtraClasses(opt_data) + '"' + ((opt_data.isCollapsible && opt_data.children && opt_data.children.length > 0) ? 'aria-expanded="' + ((opt_data.isCollapsed) ? 'false' : 'true') + '"' : '') + aui.renderExtraAttributes(opt_data) + '>' + ((opt_data.children && opt_data.children.length > 0 && opt_data.isCollapsible) ? '<a href="#" class="aui-nav-subtree-toggle">' + aui.icons.icon({icon: opt_data.isCollapsed ? 'collapsed' : 'expanded', size: 'small', useIconFont: true}) + '</a>' : '') + '<a class="aui-nav-item" href="' + soy.$$escapeHtml(opt_data.href) + '">' + ((opt_data.iconClass && ! opt_data.isChild) ? aui.icons.icon({icon: opt_data.iconClass, size: 'small', useIconFont: true}) : '') + ((opt_data.count == 0 || opt_data.count) ? '<aui-badge>' + soy.$$escapeHtml(opt_data.count) + '</aui-badge>' : '') + '<span class="aui-nav-item-label">' + soy.$$escapeHtml(opt_data.label) + '</span></a>' + ((opt_data.children && opt_data.children.length > 0) ? aui.navigation.nav({items: opt_data.children, selectedItemKey: opt_data.selectedItemKey, isChild: true}) : '') + '</li>';
   };
   if (goog.DEBUG) {
     aui.navigation.item.soyTemplateName = 'aui.navigation.item';
@@ -7038,7 +7038,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/page.js
-(typeof window === 'undefined' ? global : window).__9d8fa43f2ed5c43cea46bce4d6420db0 = (function () {
+(typeof window === 'undefined' ? global : window).__f2f8f97c642b2e4067a6a4f71f1170c6 = (function () {
   var module = {
     exports: {}
   };
@@ -7168,7 +7168,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/panel.js
-(typeof window === 'undefined' ? global : window).__fe97a064e0310db63d975f20d2b35986 = (function () {
+(typeof window === 'undefined' ? global : window).__95eed5173e628dfb726f2dbfe7d1cd47 = (function () {
   var module = {
     exports: {}
   };
@@ -7198,7 +7198,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/progress-tracker.js
-(typeof window === 'undefined' ? global : window).__1b478d889d82ec18c5ee93ba50a98a3c = (function () {
+(typeof window === 'undefined' ? global : window).__a98ca9634c36b9fa75d267d72d64c030 = (function () {
   var module = {
     exports: {}
   };
@@ -7273,7 +7273,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/sidebar.js
-(typeof window === 'undefined' ? global : window).__0d986f17c02be56f9921b9f5149586fe = (function () {
+(typeof window === 'undefined' ? global : window).__3ae4fcfc252b81ea8b5f01573f5df561 = (function () {
   var module = {
     exports: {}
   };
@@ -7304,7 +7304,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/table.js
-(typeof window === 'undefined' ? global : window).__11bb00ead24bf8307f79be34b11db367 = (function () {
+(typeof window === 'undefined' ? global : window).__42f58ecb0a677443a3e880f0ec5b4dbd = (function () {
   var module = {
     exports: {}
   };
@@ -7334,7 +7334,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/tabs.js
-(typeof window === 'undefined' ? global : window).__c73eebb187733b4b8b33709725de8b7c = (function () {
+(typeof window === 'undefined' ? global : window).__13367d781c9a9f2f765d477005cceb07 = (function () {
   var module = {
     exports: {}
   };
@@ -7388,7 +7388,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/toolbar.js
-(typeof window === 'undefined' ? global : window).__30dce2ae7496ca697776c6f839a75301 = (function () {
+(typeof window === 'undefined' ? global : window).__fb5b2231699ca1fe668ca610d1964032 = (function () {
   var module = {
     exports: {}
   };
@@ -7492,7 +7492,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/toolbar2.js
-(typeof window === 'undefined' ? global : window).__72fbae9ebca5a70974c56554cbd526c3 = (function () {
+(typeof window === 'undefined' ? global : window).__305251236d3f245399c9de01026b49e8 = (function () {
   var module = {
     exports: {}
   };
@@ -7539,7 +7539,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/trigger.js
-(typeof window === 'undefined' ? global : window).__e69cd45db3763fb58ec11f395bf1ae38 = (function () {
+(typeof window === 'undefined' ? global : window).__6b2b63ffe5d0a3ce250c58d13f3bb836 = (function () {
   var module = {
     exports: {}
   };
@@ -7570,7 +7570,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-soy.js
-(typeof window === 'undefined' ? global : window).__a30e192bc47a125806de84ea018260cf = (function () {
+(typeof window === 'undefined' ? global : window).__3ff5976e3dfc390d3fdfb2d61349069e = (function () {
   var module = {
     exports: {}
   };
@@ -7582,59 +7582,59 @@
     value: true
   });
   
-  __84ae494f37712a2d90e55e018cfb8916;
+  __9e9dd665adc9464ab65448bfd5a3d4df;
   
-  __e737d03402ba32b66c8cbfa9b9936efb;
+  __0af28ae85637fa4e15ad239cbcedaa4b;
   
-  __9b4648c9c27b27c639abb8b21974c125;
+  __fb9db0c1e46d2c0a215bfc94e4d5de62;
   
-  __ba8ea698f0da83f767f6f08b2121165c;
+  __dc60b2355811a307e92e3469386c9872;
   
-  __84a307dbec3f803dbbd23a921b6822ba;
+  __9ea424983c4fae6da31b06461aabc875;
   
-  __030c6e9d270baa470289366a077329ff;
+  __fdc4f70020f03bcff428dd2de1f459e3;
   
-  __927ecba85bb3d1d44ee987f2d841164a;
+  __e5929381691e1b4d7808e375dcea02a4;
   
-  __ab15f983a5741e603c04f5108a1be27a;
+  __37b774780f5b268935b86f60e8a31e4d;
   
-  __4b1681554b43eb477d99c23b50894070;
+  __bf51870c5509ec895293b4780925a1ed;
   
-  __393961cc686e3a69288c7c5c225e9d6a;
+  __695877efcb3c5dcbf23fbfcb9e31d60b;
   
-  __836615b3ed8812fb907e2a6c9745de94;
+  __2565a9b12eb4dbd8671867cee3b74980;
   
-  __7aca0a697bff8e4f7aa231501fbf2286;
+  __8b6c6892ac359ef8a4aae8d82859673c;
   
-  __2f79d877e7b764d828161d4eeb368e4b;
+  __964c6fb5876009ce9f7e8e35e9f7a500;
   
-  __97ef5dbd66d3b5b3c3a39d0b72963fcc;
+  __c032244dcacf2562f34bac53bb3b2520;
   
-  __1acd1fa12c76f2ed75b00c0c1d30090c;
+  __28920d62a00982d64624e374163a5949;
   
-  __a41d0500bc2e212232521e12e9cbe36f;
+  __ca52cc7344ad68428871389b9a8c1200;
   
-  __cb07a51ef0398a3b357f07a036a476e1;
+  __7474a676e6f56ccdd627b76f51b1f919;
   
-  __b2d5405a737c8c4f889caab766294a0e;
+  __5a2fbba2197a17c53240bd0de2270737;
   
-  __9d8fa43f2ed5c43cea46bce4d6420db0;
+  __f2f8f97c642b2e4067a6a4f71f1170c6;
   
-  __fe97a064e0310db63d975f20d2b35986;
+  __95eed5173e628dfb726f2dbfe7d1cd47;
   
-  __1b478d889d82ec18c5ee93ba50a98a3c;
+  __a98ca9634c36b9fa75d267d72d64c030;
   
-  __0d986f17c02be56f9921b9f5149586fe;
+  __3ae4fcfc252b81ea8b5f01573f5df561;
   
-  __11bb00ead24bf8307f79be34b11db367;
+  __42f58ecb0a677443a3e880f0ec5b4dbd;
   
-  __c73eebb187733b4b8b33709725de8b7c;
+  __13367d781c9a9f2f765d477005cceb07;
   
-  __30dce2ae7496ca697776c6f839a75301;
+  __fb5b2231699ca1fe668ca610d1964032;
   
-  __72fbae9ebca5a70974c56554cbd526c3;
+  __305251236d3f245399c9de01026b49e8;
   
-  __e69cd45db3763fb58ec11f395bf1ae38;
+  __6b2b63ffe5d0a3ce250c58d13f3bb836;
   
   exports.default = window.aui;
   module.exports = exports['default'];

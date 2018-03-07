@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.0.1
+ * @version v7.1.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__29b7dfe7af9123bed5e9dac86351d06c = (function () {
+(typeof window === 'undefined' ? global : window).__0ad81dccf83a8a5882b53c0d975cdbdb = (function () {
   var module = {
     exports: {}
   };
@@ -14,9 +14,9 @@
   
   'use strict';
   
-  var _deprecation = __4ddcc788b1704f76a51559fc0e0d2968;
+  var _deprecation = __121a5803faed03f7e3028f1c056cea85;
   
-  var _amdify = __a94c70e97545519793c3abf603e0b37c;
+  var _amdify = __9cf9d88dd807393feadcae400062c8b4;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -95,6 +95,16 @@
   
   (0, _deprecation.css)(['.aui-header-logo-atlassian', '.aui-header-logo-aui', '.aui-header-logo-bamboo', '.aui-header-logo-bitbucket', '.aui-header-logo-stash', '.aui-header-logo-clover', '.aui-header-logo-confluence', '.aui-header-logo-crowd', '.aui-header-logo-crucible', '.aui-header-logo-fecru', '.aui-header-logo-fisheye', '.aui-header-logo-hipchat', '.aui-header-logo-jira', '.aui-header-logo-jira-core', '.aui-header-logo-jira-software', '.aui-header-logo-jira-service-desk', '.aui-header-logo-answer', '.aui-header-logo-community', '.aui-header-logo-developers', '.aui-header-logo-expert', '.aui-header-logo-partner-program', '.aui-header-logo-marketplace', '.aui-header-logo-support', '.aui-header-logo-university', '.aui-header-logo-cloud'], {
       displayName: 'Atlassian Brand Logos'
+  });
+  
+  // 7.1.0
+  // -----
+  
+  (0, _deprecation.css)('.aui-badge', {
+      displayName: 'AUI Badge CSS class',
+      alternativeName: 'aui-badge',
+      sinceVersion: '7.1.0',
+      extraInfo: 'The badge pattern is best used as a web component instead of a CSS class'
   });
   
   (0, _amdify2.default)('aui/css-deprecation-warnings');

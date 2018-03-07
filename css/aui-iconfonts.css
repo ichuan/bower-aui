@@ -140,7 +140,6 @@ form.aui .icon-range,
   /* icon-range.png */
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAARklEQVR4AWMoIBGANFgXr8dEd7EBcjSQ5aT/YAA0gCCDXA0Q911wMSeIUGwA8gkyyNWAsJRyJ6F5mmQNhJ2EFtN0ijgSAQD0WQfB7IGD0QAAAABJRU5ErkJggg==');
 }
-form.aui .icon-required,
 .aui-icon-required {
   /* icon-required.png */
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARUlEQVR4AWOAgQsu5v8ZSAIIjaVAbA4yAEqXkmpAMxDfABkApZtJNYARiHtABkBpRlIN0AbiK0AcBMQrQHyGkQdGwSgAAPtCJnBUV/TSAAAAAElFTkSuQmCC');
@@ -174,7 +173,7 @@ form.aui .icon-inline-help,
 */
 .aui-icon-dropdown {
   border: 4px solid transparent;
-  border-top-color: #333;
+  border-top-color: #172B4D;
   content: "";
   display: inline-block;
   height: 0;
@@ -933,13 +932,6 @@ form.aui .icon-inline-help,
 .aui-iconfont-user-large:before {
   content: "\f1f2";
 }
-/** white / black / grey colours */
-/** colours */
-/** link visited */
-/** restful table */
-/* Fonts and line heights */
-/* Primary Colors */
-/* Secondary Colors */
-/* Derivative Colors */
-/* Fonts and line heights */
 /* 30px - using ems so the fields increase in line with user specified font-sizes */
+
+/*# sourceMappingURL=aui-iconfonts.css.map */
