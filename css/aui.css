@@ -512,12 +512,10 @@ a.aui-button:focus {
 .aui-buttons .aui-button.aui-button-split-main:not(.aui-button-primary) + .aui-button-split-more:focus::before {
   visibility: hidden;
 }
-.aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more {
-  margin-left: -1px;
-}
+.aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more,
 .aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more:focus,
 .aui-buttons .aui-button.aui-button-split-main + .aui-button-split-more:hover {
-  margin-left: -1px;
+  margin-left: 0;
 }
 .aui-button.aui-button-primary,
 .aui-button.aui-button-primary:visited {
@@ -877,49 +875,6 @@ aui-header {
 .aui-header a > .aui-avatar-small {
   margin: -5px 0;
   /* (24px Small Avatar height - 14px font size (line-height 1 in the header)) / 2 */
-}
-/** font-awesome icons */
-.aui-iconfont-edit:before {
-  content: "\f044";
-  /** fa-edit */
-}
-.aui-iconfont-view:before {
-  content: "\f06e";
-  /** fa-eye */
-}
-.aui-iconfont-success:before {
-  content: "\f00c";
-}
-.aui-iconfont-help:before {
-  content: "\f059";
-  /** fa-question-circle */
-}
-.aui-iconfont-more:before {
-  content: "\f141";
-  /** fa-ellipsis-h */
-}
-.aui-iconfont-configure:before {
-  content: "\f013";
-  /** fa-cog */
-}
-.aui-iconfont-error:before {
-  content: "\f06a";
-  /** fa-exclamation-circle */
-}
-.aui-iconfont-appswitcher:before {
-  content: "\f142";
-  /** fa-ellipsis-v */
-}
-.aui-iconfont-expanded:before {
-  content: "\f0d7";
-  /** fa-caret-down */
-}
-.aui-iconfont-time:before {
-  content: "\f017";
-  /** fa-clock-o */
-}
-.aui-iconfont-warning:before {
-  content: "\f071";
 }
 /*! AUI Lozenge */
 .aui-lozenge {
@@ -1310,31 +1265,24 @@ aui-header {
 .aui-navgroup-horizontal .aui-dropdown2-trigger .aui-icon-dropdown {
   display: none;
 }
-.aui-navgroup-horizontal .aui-dropdown2-trigger {
-  padding-right: 23px !important;
-  /* 8px (arrow width) + 10px (right padding) + 5px (margin between arrow and logo) */
-  position: relative;
-}
-.aui-navgroup-horizontal .aui-nav > li a.aui-dropdown2-trigger:after {
-  border: 4px solid transparent;
-  content: "";
-  height: 0;
-  left: 100%;
-  /* "left" + "margin-left" required because of webkit not working properly with "right" */
-  margin-left: -18px;
-  margin-top: -3px;
-  /* Align top of arrow with top of x height */
-  opacity: 0.8;
+.aui-navgroup-horizontal .aui-dropdown2-trigger::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f15b";
+  font-size: 16px;
+  height: 16px;
+  line-height: 1;
+  margin-top: -8px;
   position: absolute;
+  right: 4px;
   top: 50%;
-  width: 0;
-}
-.aui-navgroup-horizontal .aui-nav > li a.aui-dropdown2-trigger:after {
-  border-top-color: #172B4D;
-}
-.aui-navgroup-horizontal .aui-nav > li a.aui-dropdown2-trigger:hover:after,
-.aui-navgroup-horizontal .aui-nav > li a.aui-dropdown2-trigger.active:after {
-  opacity: 1;
+  text-indent: 0;
+  width: 16px;
 }
 /* Breadcrumbs in navbar */
 .aui-navgroup-horizontal .aui-nav-breadcrumbs > li,
@@ -2708,6 +2656,9 @@ div.shim {
 .aui-dropdown2.aui-style-default a:hover {
   text-decoration: none;
 }
+.aui-dropdown2.aui-style-default a:focus {
+  z-index: 1;
+}
 .aui-dropdown2.aui-style-default .aui-dropdown2-radio:not([aria-disabled="true"]),
 .aui-dropdown2.aui-style-default .aui-dropdown2-checkbox:not([aria-disabled="true"]) {
   cursor: pointer;
@@ -2744,34 +2695,48 @@ div.shim {
   text-indent: -99999px;
 }
 /* Checkbox items */
-.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked {
-  /* black tick */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAARklEQVR4AWMYysCKIR6/9CeGHwwyqILMDFpI0r8YAtF1LWT4zGCNKY0AAUDhzwzpCGlsSr4xfAVL4wSxQAWB+L0nNgBBCgAIERPkFiFDsgAAAABJRU5ErkJggg==');
-}
-.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked:hover,
-.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked.aui-dropdown2-active {
-  /* white tick */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAASUlEQVR4AWMYwuC/1f94/NKf/v/4L4MqyPxfC0n61/9AdF0L/3/+b40pjVAQABT+/D8dIY1Nybf/X2HS2JXEAhUE4vee2ACEKQBagDbBsEzisQAAAABJRU5ErkJggg==');
-}
-.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked.aui-dropdown2-disabled,
-.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked.aui-dropdown2-disabled.aui-dropdown2-active {
-  /* grey tick */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAT0lEQVR4AWMYwuCU1Zl4vNKnP53+cUIGRXAV8wktJOlfJwPRdJ1eePrzaWsMaQQ4E3D6F1BJOkIam5Jvp7+iSqNbE3v6K1AaH7goNgBhCgCP+y953/+bowAAAABJRU5ErkJggg==');
+.aui-dropdown2.aui-style-default .aui-dropdown2-checkbox.aui-dropdown2-checked::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: inherit;
+  content: "\f194";
+  font-size: 16px;
+  height: 16px;
+  left: 0;
+  line-height: 1;
+  margin-top: -8px;
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+  width: 16px;
+  margin-left: 8px;
 }
 /* Radio items */
-.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked {
-  /* checked */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAALElEQVR4AWMYaoBNrV3tORC2M7BhlQdK/4fCduwKnsMVPCeogKAVhB05tAAAMmMgObCgTXMAAAAASUVORK5CYII=');
-}
-.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked:hover,
-.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked.aui-dropdown2-active {
-  /* checked hover/focus */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAALUlEQVR4AWMYYuA/2//2/8+BsP0/G1YFQAkYaMeu4DlcwXOCCghaQdiRQwsAAFixP1V4DeDZAAAAAElFTkSuQmCC');
-}
-.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked.aui-dropdown2-disabled,
-.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked.aui-dropdown2-disabled.aui-dropdown2-active {
-  /* checked disabled and checked disabled hover/focus */
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAM0lEQVR4AWMYYmAV28H2A88PPD/YvooNq4KD7Qf/Q2E7VgVAvVAFB54TVEDQCsKOHFoAAO6tNjk82BlWAAAAAElFTkSuQmCC');
+.aui-dropdown2.aui-style-default .aui-dropdown2-radio.aui-dropdown2-checked::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: inherit;
+  content: "\f256";
+  font-size: 16px;
+  height: 16px;
+  left: 0;
+  line-height: 1;
+  margin-top: -8px;
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+  width: 16px;
+  margin-left: 8px;
 }
 .aui-dropdown2.aui-dropdown2-tailed {
   border: 1px solid #DFE1E6;
@@ -2897,8 +2862,7 @@ div.shim {
   color: #999;
 }
 .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless) {
-  padding-right: 23px !important;
-  /* 8px (arrow width) + 10px (right padding) + 5px (margin between arrow and logo) */
+  padding-right: 24px !important;
   position: relative;
 }
 /* Dropdown2 button integration
@@ -2908,18 +2872,12 @@ div.shim {
   /* square off bottom corners */
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  border-bottom-width: 0;
-  /* avoid double border when the dropdown is active - increase padding to cater for this reduction */
-  padding-bottom: 5px;
-  /* increase the padding to cater for the lack of border so the button doesn't change size */
 }
 .aui-button-link.aui-dropdown2-trigger.active:first-child,
 .aui-button-link.aui-dropdown2-trigger.active,
 .aui-button-text.aui-dropdown2-trigger.active:first-child,
 .aui-button-text.aui-dropdown2-trigger.active {
-  border-bottom-width: 1px;
   box-shadow: none;
-  padding-bottom: 5px;
 }
 .aui-buttons .aui-button.aui-button-subtle.aui-dropdown2-trigger.active,
 .aui-button.aui-button-subtle.aui-dropdown2-trigger.active {
@@ -2937,10 +2895,6 @@ div.shim {
   margin-left: -16px;
   /*  Override the margin-left from below for to compensate for the smaller padding-right */
 }
-.aui-button.aui-button-compact.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
-  top: 11px;
-  /* position the top of the arrow in the middle - 26px (height) / 2 (halfway) - 2 (arrow height) */
-}
 /* adjust padding for smaller height */
 .aui-button.aui-dropdown2-trigger.aui-button-compact.active:first-child:not(.aui-dropdown2-trigger-arrowless),
 .aui-button.aui-dropdown2-trigger.aui-button-compact.active:not(.aui-dropdown2-trigger-arrowless) {
@@ -2949,59 +2903,23 @@ div.shim {
 }
 /* End Compact Dropdown2 Trigger */
 .aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
-  border: 4px solid transparent;
-  content: "";
-  height: 0;
-  left: 100%;
-  /* "left" + "margin-left" required because of webkit not working properly with "right" */
-  margin-left: -18px;
-  /* push the arrow back inside the button */
-  margin-top: -2px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f15b";
+  font-size: 16px;
+  height: 16px;
+  line-height: 1;
+  margin-top: -8px;
   position: absolute;
+  right: 4px;
   top: 50%;
-  width: 0;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
-  border-top-color: #42526E;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):active::after {
-  border-top-color: #0052CC;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).active::after {
-  border-top-color: #FFFFFF;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)[disabled]::after {
-  border-top-color: #A5ADBA;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary::after {
-  border-top-color: #FFFFFF;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary::after,
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary:active::after,
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary.active::after {
-  border-top-color: #FFFFFF;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-primary[disabled]::after {
-  border-top-color: #A5ADBA;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link::after {
-  border-top-color: #0052CC;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link:hover::after {
-  border-top-color: #0065FF;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link:active::after,
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link.active::after {
-  border-top-color: #0747A6;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless).aui-button-link[disabled]::after {
-  border-top-color: #A5ADBA;
-}
-.aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
-  margin-top: 0;
-  /* make sure no margins interfere with the positioning*/
-  top: 13px;
-  /* position the top of the arrow in the middle - 30px (height) / 2 (halfway) - 2 (arrow height)*/
+  text-indent: 0;
+  width: 16px;
 }
 /* suppress old icon pattern for dropdown widget so we don't get double arrows */
 .aui-button.aui-dropdown2-trigger > .icon-dropdown,
@@ -3024,9 +2942,9 @@ input.aui-button.aui-dropdown2-trigger::after,
 .aui-buttons .aui-button.aui-dropdown2-trigger.aui-button-split-more,
 .aui-buttons .aui-button.aui-dropdown2-trigger.aui-button-split-more.active {
   /* don't touch vertical padding or things jump around, jump around, jump up jump up and get down */
-  padding-left: 5px;
-  padding-right: 10px;
-  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+  width: 24px;
   text-indent: -9999em;
 }
 /**
@@ -3045,21 +2963,23 @@ input.aui-button.aui-dropdown2-trigger::after,
 }
 /* Styling the dropdown2 triggers differently in the header to avoid inline-block spacing issues with other icons */
 .aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
-  border: 4px solid transparent;
-  border-top-color: #DEEBFF;
-  content: "";
-  height: 0;
-  margin-left: -18px;
-  margin-top: -2px;
-  left: 100%;
-  /* "left" + "margin-left" required because of webkit not working properly with "right" */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f15b";
+  font-size: 16px;
+  height: 16px;
+  line-height: 1;
+  margin-top: -8px;
   position: absolute;
-  text-indent: -99999px;
+  right: 4px;
   top: 50%;
-  width: 0;
-}
-.aui-header .aui-button.aui-dropdown2-trigger::after {
-  margin-top: 0;
+  text-indent: 0;
+  width: 16px;
 }
 /**
  * Dropdown2 web components
@@ -3651,6 +3571,22 @@ form.aui pre.aui-form {
   position: relative;
   vertical-align: text-top;
 }
+.aui-icon-small::before,
+.aui-icon-large::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: inherit;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+}
 .aui-icon-small {
   height: 16px;
   width: 16px;
@@ -3658,22 +3594,6 @@ form.aui pre.aui-form {
 .aui-icon-large {
   height: 32px;
   width: 32px;
-}
-.aui-icon-small:before,
-.aui-icon-large:before {
-  color: inherit;
-  font-family: "Atlassian Icons";
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
-  left: 0;
-  line-height: 1;
-  position: absolute;
-  text-indent: 0;
-  speak: none;
-  /* This prevents screen readers from pronouncing the pseudo element text content used to trigger the icon font */
-  top: 50%;
 }
 .aui-icon-small:before {
   font-size: 16px;
@@ -4398,18 +4318,18 @@ aui-message {
   /** deprecated; replaced with icon font */
 }
 .aui-message::after {
-  color: #fff;
-  font-family: "Atlassian Icons";
-  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
   font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: #fff;
+  font-size: 16px;
   left: 20px;
   line-height: 20px;
   position: absolute;
-  speak: none;
-  /* This prevents screen readers from pronouncing the pseudo element text content used to trigger the icon font */
   top: 20px;
 }
 .aui-message::before {
@@ -4425,13 +4345,15 @@ aui-message {
   text-indent: inherit;
 }
 .aui-message .aui-icon.icon-close::before {
-  content: "\f11b";
-  font-family: "Atlassian Icons";
-  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
   font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f11b";
+  font-size: 16px;
 }
 .aui-message .aui-icon.icon-close:hover {
   color: #172B4D;
@@ -5202,14 +5124,26 @@ aui-select button.aui-button:not(:hover) {
   border-right-color: transparent;
   border-bottom-color: transparent;
 }
-form.aui aui-select button.aui-button:not([aria-busy]):before,
-aui-select button.aui-button:not([aria-busy]):before {
-  border: 4px solid transparent;
-  border-top-color: #172B4D;
-  content: '';
-  left: calc(50% - 8px/2);
+form.aui aui-select button.aui-button:not([aria-busy])::before,
+aui-select button.aui-button:not([aria-busy])::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f15b";
+  font-size: 16px;
+  height: 16px;
+  line-height: 1;
+  margin-top: -8px;
   position: absolute;
-  top: calc(50% - 4px/2);
+  right: 4px;
+  top: 50%;
+  text-indent: 0;
+  width: 16px;
+  right: 2px;
 }
 form.aui aui-select[data-aui-notification-error] .text {
   border-color: #DE350B;
@@ -5271,13 +5205,20 @@ form.aui aui-select[data-aui-notification-success] .text {
   -webkit-appearance: none;
 }
 .aui-header .aui-quicksearch::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
   align-self: center;
   pointer-events: none;
   margin-left: -26px;
   margin-right: 10px;
   content: "\f18d";
   color: inherit;
-  font-family: "Atlassian Icons";
+  font-size: 16px;
   height: 16px;
   width: 16px;
 }
@@ -5447,27 +5388,26 @@ form.aui aui-select[data-aui-notification-success] .text {
   line-height: 0;
   position: relative;
 }
-.aui-icon-success:before,
-.aui-icon-warning:before,
-.aui-icon-info:before,
-.aui-icon-error:before,
-.aui-icon-hint:before,
-.aui-icon-generic:before {
+.aui-icon-success::before,
+.aui-icon-warning::before,
+.aui-icon-info::before,
+.aui-icon-error::before,
+.aui-icon-hint::before,
+.aui-icon-generic::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
   color: #707070;
   content: "\f16f";
   font-size: 16px;
-  font-family: "Atlassian Icons";
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
   left: 0;
   line-height: 1;
   margin-top: -8px;
-  /* (font-size/2) */
   position: absolute;
-  speak: none;
-  /* This prevents screen readers from pronouncing the pseudo element text content used to trigger the icon font */
   text-indent: 0;
   top: 50%;
 }
@@ -5493,265 +5433,6 @@ form.aui aui-select[data-aui-notification-success] .text {
   color: #f6c342;
   content: "\f1b3";
 }
-.ffi {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 3px #ddd;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #333;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 28px;
-  margin: 0;
-  max-width: 350px;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-  text-overflow: ellipsis;
-  vertical-align: top;
-  white-space: nowrap;
-  width: 100%;
-}
-.ffi input[type="file"] {
-  border: none;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: inherit;
-  height: 100%;
-  line-height: 28px;
-  left: 0;
-  margin: 0;
-  opacity: 0;
-  outline: none;
-  padding: 0 5px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.ffi input[type="file"]:hover {
-  cursor: pointer;
-}
-.ffi input[type="file"][disabled] {
-  cursor: not-allowed;
-}
-.ffi[data-ffi-value]:after {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #333;
-  content: attr(data-ffi-value);
-  display: block;
-  font-style: normal;
-  overflow: hidden;
-  padding: 0 5px;
-  text-overflow: ellipsis;
-  z-index: -1;
-}
-.ffi:before {
-  background: #eee;
-  border-left: 1px solid #ccc;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #333;
-  content: attr(data-ffi-button-text);
-  cursor: pointer;
-  float: right;
-  line-height: 28px;
-  margin: 0;
-  padding: 0 10px;
-  white-space: nowrap;
-}
-.ffi:hover:before {
-  background: #f7f7f7;
-  color: #000;
-}
-.ffi.is-focused {
-  border-color: #707070;
-  outline: none;
-}
-.ffi.is-disabled {
-  background-color: #eee;
-}
-.ffi.is-disabled:before {
-  border-color: #ccc;
-  color: #707070;
-}
-.ffi.is-disabled:hover:before,
-.ffi.is-disabled:active:before,
-.ffi.is-disabled:active:hover:before {
-  background: #eee;
-  box-shadow: none;
-}
-.ffi.is-disabled:hover:before {
-  color: #707070;
-}
-.ffi-clear {
-  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2016%2016%22%20style%3D%22background-color%3A%23ffffff00%22%20version%3D%221.1%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%3E%3Cg%3E%3Cpath%20d%3D%22M%208%200%20C%203.6%200%200%203.6%200%208%20C%200%2012.4%203.6%2016%208%2016%20C%2012.4%2016%2016%2012.4%2016%208%20C%2016%203.6%2012.4%200%208%200%20ZM%2012.8%2011%20L%2010.9%2012.8%20L%208%209.8%20L%205%2012.8%20L%203.1%2011%20L%206.1%208%20L%203.1%205%20L%205%203.2%20L%208%206.2%20L%2010.9%203.2%20L%2012.8%205%20L%209.8%208%20L%2012.8%2011%20Z%22%20fill%3D%22%23000000%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat 0 0;
-  border: none;
-  color: #333;
-  cursor: pointer;
-  float: right;
-  height: 16px;
-  line-height: 16px;
-  margin: 6px;
-  opacity: .56;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-  text-align: left;
-  text-indent: 999em;
-  white-space: nowrap;
-  width: 16px;
-}
-.ffi-clear:hover {
-  opacity: 1;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .ffi input[type="file"] {
-    line-height: normal;
-  }
-}
-.ffi {
-  background-color: #fff;
-  border-color: #DFE1E6;
-  border-radius: 3.01px;
-  box-shadow: none;
-  color: #172B4D;
-  font-size: 14px;
-  max-width: 250px;
-  /* The actual input - made opaque but styled so the cursor positions well */
-}
-form.aui .field-group .ffi {
-  float: none;
-  margin: 0;
-  padding: 0;
-  word-wrap: normal;
-  text-align: left;
-  width: 100%;
-}
-form.aui.top-label .field-group .ffi {
-  display: inline-block;
-  margin: 0;
-  width: 100%;
-}
-form.aui.long-label .field-group .ffi {
-  margin: 0;
-  width: 100%;
-}
-.ffi input[type="file"] {
-  padding: 0 5px;
-}
-.ffi[data-ffi-value]:after {
-  color: #172B4D;
-  padding: 0 5px;
-}
-.ffi:before {
-  background: rgba(9, 30, 66, 0.04);
-  border-left-color: #DFE1E6;
-  color: #42526E;
-  padding: 0 10px;
-}
-.ffi:hover:before {
-  background: rgba(9, 30, 66, 0.08);
-  color: #42526E;
-}
-.ffi:active:before,
-.ffi:active:hover:before {
-  background-color: #DEEBFF;
-  background-image: none;
-  color: #0052CC;
-  text-decoration: none;
-  text-shadow: none;
-}
-.ffi.is-focused {
-  border-color: #707070;
-}
-.ffi.is-disabled {
-  background-color: #f5f5f5;
-  color: #999;
-}
-.ffi.is-disabled:before,
-.ffi.is-disabled:hover:before,
-.ffi.is-disabled:active:before,
-.ffi.is-disabled:active:hover:before {
-  background-color: #F4F5F7;
-  border-color: #DFE1E6;
-  box-shadow: none;
-  color: #A5ADBA;
-  text-shadow: none;
-}
-.ffi.is-disabled:after {
-  color: #999;
-}
-/* The clear field button */
-.ffi-clear {
-  background-image: none;
-  opacity: 1;
-  -ms-filter: none;
-}
-.ffi-clear:hover {
-  opacity: 1;
-  -ms-filter: none;
-}
-.ffi-clear:before {
-  color: #707070;
-  content: "\f188";
-  font-family: "Atlassian Icons";
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
-  font-weight: normal;
-  left: 0;
-  line-height: 1;
-  margin-top: -8px;
-  position: absolute;
-  speak: none;
-  /* This prevents screen readers from pronouncing the pseudo element text content used to trigger the icon font */
-  text-indent: 0;
-  top: 50%;
-}
-.ffi-clear:hover:before {
-  color: #172B4D;
-}
-.aui-banner.aui-banner-error {
-  background-color: #DE350B;
-  box-shadow: none;
-  color: #fff;
-}
-.aui-banner.aui-banner-error::after {
-  color: #fff;
-  font-family: "Atlassian Icons";
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  /* Improves the rendering of icons */
-  font-style: normal;
-  font-weight: normal;
-  left: 20px;
-  line-height: 20px;
-  position: absolute;
-  speak: none;
-  /* This prevents screen readers from pronouncing the pseudo element text content used to trigger the icon font */
-  top: 20px;
-}
-.aui-banner.aui-banner-error::before {
-  display: none;
-}
-.aui-banner.aui-banner-error::after {
-  content: "\f15a";
-  color: #fff;
-}
-.aui-banner.aui-banner-error a,
-.aui-banner.aui-banner-error a:link,
-.aui-banner.aui-banner-error a:visited {
-  color: #fff;
-  text-decoration: underline;
-}
-.aui-banner.aui-banner-error::after {
-  left: 12px;
-  top: 10px;
-}
 /*
 * Icon Font
 * - use when you need to change the colour of the icon via CSS - eg on hover or to match Look and Feel customisations
@@ -5764,9 +5445,16 @@ form.aui.long-label .field-group .ffi {
 * UTF+EC00 - UTF+EFFF - Dev Tools
 */
 @font-face {
-  font-family: "Atlassian Icons";
-  src: url(fonts/atlassian-icons.eot);
-  src: url(fonts/atlassian-icons.eot?#iefix) format("embedded-opentype"), url(fonts/atlassian-icons.woff) format("woff"), url(fonts/atlassian-icons.ttf) format("truetype"), url(fonts/atlassian-icons.svg#atlassian-icons) format("svg");
+  font-family: "Adgs Icons";
+  src: url('fonts/adgs-icons.eot');
+  src: url('fonts/adgs-icons.eot?#iefix') format('embedded-opentype'), url('fonts/adgs-icons.woff') format('woff'), url('fonts/adgs-icons.ttf') format('truetype'), url('fonts/adgs-icons.svg#adgs-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adgs Icons";
+  src: url('fonts/adgs-icons.eot');
+  src: url('fonts/adgs-icons.eot?#iefix') format('embedded-opentype'), url('fonts/adgs-icons.woff') format('woff'), url('fonts/adgs-icons.ttf') format('truetype'), url('fonts/adgs-icons.svg#adgs-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6495,6 +6183,1140 @@ form.aui.long-label .field-group .ffi {
 }
 .aui-iconfont-user-large:before {
   content: "\f1f2";
+}
+@font-face {
+  font-family: "Atlassian Icons";
+  src: url('fonts/atlassian-icons.eot');
+  src: url('fonts/atlassian-icons.eot?#iefix') format('embedded-opentype'), url('fonts/atlassian-icons.woff') format('woff'), url('fonts/atlassian-icons.ttf') format('truetype'), url('fonts/atlassian-icons.svg#atlassian-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Atlassian Icons";
+  src: url('fonts/atlassian-icons.eot');
+  src: url('fonts/atlassian-icons.eot?#iefix') format('embedded-opentype'), url('fonts/atlassian-icons.woff') format('woff'), url('fonts/atlassian-icons.ttf') format('truetype'), url('fonts/atlassian-icons.svg#atlassian-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.aui-iconfont-autocomplete-date::before,
+.aui-iconfont-blogroll::before,
+.aui-iconfont-devtools-browse-up::before,
+.aui-iconfont-deploy::before,
+.aui-iconfont-custom-bullet::before,
+.aui-iconfont-hipchat::before,
+.aui-iconfont-file-code::before,
+.aui-iconfont-file-doc::before,
+.aui-iconfont-file-java::before,
+.aui-iconfont-file-pdf::before,
+.aui-iconfont-file-ppt::before,
+.aui-iconfont-file-txt::before,
+.aui-iconfont-file-wav::before,
+.aui-iconfont-file-xls::before,
+.aui-iconfont-file-zip::before,
+.aui-iconfont-page-blogpost::before,
+.aui-iconfont-page-template::before,
+.aui-iconfont-nav-children::before,
+.aui-iconfont-macro-default::before,
+.aui-iconfont-macro-gallery::before,
+.aui-iconfont-macro-status::before,
+.aui-iconfont-user-status::before,
+.aui-iconfont-view-card::before,
+.aui-iconfont-workbox-empty::before,
+.aui-iconfont-export-list::before,
+.aui-iconfont-admin-fusion::before,
+.aui-iconfont-admin-jira-fields::before,
+.aui-iconfont-admin-issue::before,
+.aui-iconfont-admin-notifications::before,
+.aui-iconfont-admin-jira-screens::before,
+.aui-iconfont-priority-highest::before,
+.aui-iconfont-priority-high::before,
+.aui-iconfont-priority-medium::before,
+.aui-iconfont-share-list::before,
+.aui-iconfont-version::before,
+.aui-iconfont-workflow::before,
+.aui-iconfont-admin-jira-settings::before,
+.aui-iconfont-reopen::before,
+.aui-iconfont-roadmap::before,
+.aui-iconfont-deploy-success::before,
+.aui-iconfont-deploy-fail::before,
+.aui-iconfont-file-generic::before,
+.aui-iconfont-file-video::before,
+.aui-iconfont-blogroll-large::before,
+.aui-iconfont-priority-low::before,
+.aui-iconfont-priority-lowest::before,
+.aui-iconfont-review::before,
+.aui-iconfont-rss::before,
+.aui-iconfont-sourcetree::before,
+.aui-iconfont-space-default::before,
+.aui-iconfont-table-bg::before,
+.aui-iconfont-table-no-bg::before,
+.aui-iconfont-devtools-folder-open::before,
+.aui-iconfont-devtools-compare::before,
+.aui-iconfont-devtools-file::before,
+.aui-iconfont-devtools-file-binary::before,
+.aui-iconfont-devtools-file-commented::before,
+.aui-iconfont-devtools-repository::before,
+.aui-iconfont-devtools-repository-forked::before,
+.aui-iconfont-devtools-repository-locked::before,
+.aui-iconfont-devtools-side-diff::before,
+.aui-iconfont-devtools-submodule::before,
+.aui-iconfont-table-copy-column::before,
+.aui-iconfont-table-paste-column::before,
+.aui-iconfont-table-cut-column::before,
+.aui-iconfont-maximise-small::before,
+.aui-iconfont-minimise-small::before,
+.aui-iconfont-more-small::before,
+.aui-iconfont-move-small::before,
+.aui-iconfont-version-unreleased::before,
+.aui-iconfont-puzzle::before,
+.aui-iconfont-editor-files::before,
+.aui-iconfont-bp-sprint::before,
+.aui-iconfont-jira-issues::before,
+.aui-iconfont-bitbucket::before,
+.aui-iconfont-jira-completed-task::before,
+.aui-iconfont-jira-test-session::before,
+.aui-iconfont-back-page::before,
+.aui-iconfont-macro-code::before {
+  font-family: "Atlassian Icons";
+}
+.aui-iconfont-add::before {
+  content: "\f101";
+}
+.aui-iconfont-add-comment::before {
+  content: "\f102";
+}
+.aui-iconfont-approve::before {
+  content: "\f104";
+}
+.aui-iconfont-menu::before {
+  content: "\f105";
+}
+.aui-iconfont-chevron-double-down::before {
+  content: "\f106";
+}
+.aui-iconfont-chevron-double-left::before {
+  content: "\f107";
+}
+.aui-iconfont-chevron-double-right::before {
+  content: "\f108";
+}
+.aui-iconfont-chevron-double-up::before {
+  content: "\f109";
+}
+.aui-iconfont-attachment::before {
+  content: "\f10a";
+}
+.aui-iconfont-documents::before {
+  content: "\f10f";
+}
+.aui-iconfont-refresh::before {
+  content: "\f119";
+}
+.aui-iconfont-calendar::before {
+  content: "\f11a";
+}
+.aui-iconfont-cross::before {
+  content: "\f11b";
+}
+.aui-iconfont-chevron-right::before {
+  content: "\f11c";
+}
+.aui-iconfont-comment::before {
+  content: "\f11d";
+}
+.aui-iconfont-settings::before {
+  content: "\f11e";
+}
+.aui-iconfont-confluence::before {
+  content: "\f11f";
+}
+.aui-iconfont-copy::before {
+  content: "\f120";
+}
+.aui-iconfont-trash::before {
+  content: "\f122";
+}
+.aui-iconfont-upload::before {
+  content: "\f123";
+}
+.aui-iconfont-detail-view::before {
+  content: "\f124";
+}
+.aui-iconfont-arrow-left::before {
+  content: "\f125";
+}
+.aui-iconfont-arrow-right::before {
+  content: "\f126";
+}
+.aui-iconfont-sign-in::before {
+  content: "\f12a";
+}
+.aui-iconfont-import::before {
+  content: "\f12b";
+}
+.aui-iconfont-branch::before {
+  content: "\f127";
+}
+.aui-iconfont-commits::before {
+  content: "\f12c";
+}
+.aui-iconfont-folder-filled::before {
+  content: "\f131";
+}
+.aui-iconfont-create-fork::before {
+  content: "\f133";
+}
+.aui-iconfont-export::before {
+  content: "\f134";
+}
+.aui-iconfont-tag::before {
+  content: "\f13a";
+}
+.aui-iconfont-incomplete-build::before {
+  content: "\f13c";
+}
+.aui-iconfont-plan-disabled::before {
+  content: "\f13d";
+}
+.aui-iconfont-queued-build::before {
+  content: "\f13e";
+}
+.aui-iconfont-document::before {
+  content: "\f13f";
+}
+.aui-iconfont-new-arrow-down::before {
+  content: "\f140";
+}
+.aui-iconfont-edit-filled::before {
+  content: "\f142";
+}
+.aui-iconfont-center-alignment::before {
+  content: "\f144";
+}
+.aui-iconfont-left-alignment::before {
+  content: "\f145";
+}
+.aui-iconfont-right-alignment::before {
+  content: "\f146";
+}
+.aui-iconfont-bold::before {
+  content: "\f147";
+}
+.aui-iconfont-text-color::before {
+  content: "\f148";
+}
+.aui-iconfont-emoji::before {
+  content: "\f149";
+}
+.aui-iconfont-new-help::before {
+  content: "\f14a";
+}
+.aui-iconfont-horizontal-rule::before {
+  content: "\f14b";
+}
+.aui-iconfont-indent-left::before {
+  content: "\f14c";
+}
+.aui-iconfont-italic::before {
+  content: "\f14d";
+}
+.aui-iconfont-page-layout-toggle::before {
+  content: "\f14e";
+}
+.aui-iconfont-bullet-list::before {
+  content: "\f14f";
+}
+.aui-iconfont-number-list::before {
+  content: "\f150";
+}
+.aui-iconfont-table-of-contents::before {
+  content: "\f151";
+}
+.aui-iconfont-mention::before {
+  content: "\f152";
+}
+.aui-iconfont-indent-right::before {
+  content: "\f153";
+}
+.aui-iconfont-advanced::before {
+  content: "\f154";
+}
+.aui-iconfont-symbol::before {
+  content: "\f155";
+}
+.aui-iconfont-table::before {
+  content: "\f156";
+}
+.aui-iconfont-task::before {
+  content: "\f157";
+}
+.aui-iconfont-underline::before {
+  content: "\f158";
+}
+.aui-iconfont-email::before {
+  content: "\f159";
+}
+.aui-iconfont-error::before {
+  content: "\f15a";
+}
+.aui-iconfont-chevron-down::before {
+  content: "\f15b";
+}
+.aui-iconfont-flag::before {
+  content: "\f165";
+}
+.aui-iconfont-vid-full-screen-on::before {
+  content: "\f166";
+}
+.aui-iconfont-group::before {
+  content: "\f167";
+}
+.aui-iconfont-more-vertical::before {
+  content: "\f168";
+}
+.aui-iconfont-question-circle::before {
+  content: "\f169";
+}
+.aui-iconfont-home-circle::before {
+  content: "\f16b";
+}
+.aui-iconfont-image::before {
+  content: "\f16c";
+}
+.aui-iconfont-info-circle::before {
+  content: "\f16f";
+}
+.aui-iconfont-jira::before {
+  content: "\f170";
+}
+.aui-iconfont-like::before {
+  content: "\f173";
+}
+.aui-iconfont-world::before {
+  content: "\f175";
+}
+.aui-iconfont-link::before {
+  content: "\f176";
+}
+.aui-iconfont-add-circle::before {
+  content: "\f177";
+}
+.aui-iconfont-cross-circle::before {
+  content: "\f178";
+}
+.aui-iconfont-lock-filled::before {
+  content: "\f179";
+}
+.aui-iconfont-more::before {
+  content: "\f17f";
+}
+.aui-iconfont-nav-children::before {
+  content: "\f180";
+}
+.aui-iconfont-file::before {
+  content: "\f183";
+}
+.aui-iconfont-quote::before {
+  content: "\f186";
+}
+.aui-iconfont-redo::before {
+  content: "\f187";
+}
+.aui-iconfont-search::before {
+  content: "\f18c";
+}
+.aui-iconfont-share::before {
+  content: "\f18e";
+}
+.aui-iconfont-shortcut::before {
+  content: "\f18f";
+}
+.aui-iconfont-person-circle::before {
+  content: "\f192";
+}
+.aui-iconfont-star-filled::before {
+  content: "\f193";
+}
+.aui-iconfont-check::before {
+  content: "\f194";
+}
+.aui-iconfont-insert-column-before::before {
+  content: "\f196";
+}
+.aui-iconfont-remove-column::before {
+  content: "\f197";
+}
+.aui-iconfont-insert-column-after::before {
+  content: "\f198";
+}
+.aui-iconfont-copy-table-row::before {
+  content: "\f199";
+}
+.aui-iconfont-cut-table-row::before {
+  content: "\f19a";
+}
+.aui-iconfont-heading-column::before {
+  content: "\f19b";
+}
+.aui-iconfont-heading-row::before {
+  content: "\f19c";
+}
+.aui-iconfont-merge-table-cells::before {
+  content: "\f19d";
+}
+.aui-iconfont-paste-table-row::before {
+  content: "\f19f";
+}
+.aui-iconfont-remove-table::before {
+  content: "\f1a0";
+}
+.aui-iconfont-insert-row-after::before {
+  content: "\f1a1";
+}
+.aui-iconfont-remove-row::before {
+  content: "\f1a2";
+}
+.aui-iconfont-insert-row-before::before {
+  content: "\f1a3";
+}
+.aui-iconfont-split-merged-table-cells::before {
+  content: "\f1a4";
+}
+.aui-iconfont-team-calendar::before {
+  content: "\f1a5";
+}
+.aui-iconfont-recent::before {
+  content: "\f1a6";
+}
+.aui-iconfont-undo::before {
+  content: "\f1a7";
+}
+.aui-iconfont-vid-full-screen-off::before {
+  content: "\f1a8";
+}
+.aui-iconfont-unlock-filled::before {
+  content: "\f1a9";
+}
+.aui-iconfont-new-star::before {
+  content: "\f1aa";
+}
+.aui-iconfont-new-watch::before {
+  content: "\f1ab";
+}
+.aui-iconfont-new-arrow-up::before {
+  content: "\f1ac";
+}
+.aui-iconfont-person::before {
+  content: "\f1ad";
+}
+.aui-iconfont-watch-filled::before {
+  content: "\f1af";
+}
+.aui-iconfont-room-menu::before {
+  content: "\f1b1";
+}
+.aui-iconfont-warning::before {
+  content: "\f1b3";
+}
+.aui-iconfont-tray::before {
+  content: "\f1b5";
+}
+.aui-iconfont-vid-pause::before {
+  content: "\f1c1";
+}
+.aui-iconfont-swap::before {
+  content: "\f1c9";
+}
+.aui-iconfont-component::before {
+  content: "\f1cd";
+}
+.aui-iconfont-arrow-down-small::before {
+  content: "\f1d3";
+}
+.aui-iconfont-arrow-up-small::before {
+  content: "\f1d4";
+}
+.aui-iconfont-filter::before {
+  content: "\f1d6";
+}
+.aui-iconfont-download::before {
+  content: "\f1de";
+}
+.aui-iconfont-single-column::before {
+  content: "\f1e8";
+}
+.aui-iconfont-two-column::before {
+  content: "\f1e9";
+}
+.aui-iconfont-right-side-bar::before {
+  content: "\f1ea";
+}
+.aui-iconfont-left-side-bar::before {
+  content: "\f1eb";
+}
+.aui-iconfont-three-column-side-bars::before {
+  content: "\f1ec";
+}
+.aui-iconfont-three-column::before {
+  content: "\f1ed";
+}
+.aui-iconfont-location::before {
+  content: "\f1ee";
+}
+.aui-iconfont-radio::before {
+  content: "\f256";
+}
+.aui-iconfont-activity::before {
+  content: "\f1f3";
+}
+.aui-iconfont-add-item::before {
+  content: "\f1f4";
+}
+.aui-iconfont-addon::before {
+  content: "\f1f5";
+}
+.aui-iconfont-app-access::before {
+  content: "\f1f6";
+}
+.aui-iconfont-app-switcher::before {
+  content: "\f1f7";
+}
+.aui-iconfont-arrow-down-circle::before {
+  content: "\f1f8";
+}
+.aui-iconfont-arrow-down-left::before {
+  content: "\f1f9";
+}
+.aui-iconfont-arrow-down-right::before {
+  content: "\f1fa";
+}
+.aui-iconfont-arrow-left-circle::before {
+  content: "\f1fb";
+}
+.aui-iconfont-arrow-right-circle::before {
+  content: "\f1fc";
+}
+.aui-iconfont-arrow-up-circle::before {
+  content: "\f1fd";
+}
+.aui-iconfont-audio-circle::before {
+  content: "\f1fe";
+}
+.aui-iconfont-audio::before {
+  content: "\f1ff";
+}
+.aui-iconfont-backlog::before {
+  content: "\f200";
+}
+.aui-iconfont-billing-filled::before {
+  content: "\f201";
+}
+.aui-iconfont-billing::before {
+  content: "\f202";
+}
+.aui-iconfont-board::before {
+  content: "\f203";
+}
+.aui-iconfont-book::before {
+  content: "\f204";
+}
+.aui-iconfont-calendar-filled::before {
+  content: "\f205";
+}
+.aui-iconfont-camera-filled::before {
+  content: "\f206";
+}
+.aui-iconfont-camera-rotate::before {
+  content: "\f207";
+}
+.aui-iconfont-camera-take-picture::before {
+  content: "\f208";
+}
+.aui-iconfont-camera::before {
+  content: "\f209";
+}
+.aui-iconfont-canvas::before {
+  content: "\f20a";
+}
+.aui-iconfont-cell-color-underline::before {
+  content: "\f20b";
+}
+.aui-iconfont-cell-color::before {
+  content: "\f20c";
+}
+.aui-iconfont-check-circle-filled::before {
+  content: "\f20d";
+}
+.aui-iconfont-check-circle::before {
+  content: "\f20e";
+}
+.aui-iconfont-checkbox::before {
+  content: "\f20f";
+}
+.aui-iconfont-chevron-down-circle::before {
+  content: "\f210";
+}
+.aui-iconfont-chevron-left-circle::before {
+  content: "\f211";
+}
+.aui-iconfont-chevron-left::before {
+  content: "\f212";
+}
+.aui-iconfont-chevron-right-circle::before {
+  content: "\f213";
+}
+.aui-iconfont-chevron-up-circle::before {
+  content: "\f214";
+}
+.aui-iconfont-chevron-up::before {
+  content: "\f215";
+}
+.aui-iconfont-clone-small::before {
+  content: "\f216";
+}
+.aui-iconfont-code::before {
+  content: "\f217";
+}
+.aui-iconfont-copy-table-column::before {
+  content: "\f218";
+}
+.aui-iconfont-create-branch::before {
+  content: "\f219";
+}
+.aui-iconfont-create-pull-request::before {
+  content: "\f21a";
+}
+.aui-iconfont-credit-card::before {
+  content: "\f21b";
+}
+.aui-iconfont-credit-card-filled::before {
+  content: "\f21c";
+}
+.aui-iconfont-cut-table-column::before {
+  content: "\f21d";
+}
+.aui-iconfont-dashboard::before {
+  content: "\f21e";
+}
+.aui-iconfont-decision::before {
+  content: "\f21f";
+}
+.aui-iconfont-discover-filled::before {
+  content: "\f220";
+}
+.aui-iconfont-discover::before {
+  content: "\f221";
+}
+.aui-iconfont-document-filled::before {
+  content: "\f222";
+}
+.aui-iconfont-dropbox::before {
+  content: "\f223";
+}
+.aui-iconfont-new-edit::before {
+  content: "\f224";
+}
+.aui-iconfont-failed-build::before {
+  content: "\f225";
+}
+.aui-iconfont-feedback::before {
+  content: "\f226";
+}
+.aui-iconfont-folder::before {
+  content: "\f227";
+}
+.aui-iconfont-followers::before {
+  content: "\f228";
+}
+.aui-iconfont-following::before {
+  content: "\f229";
+}
+.aui-iconfont-fork-small::before {
+  content: "\f22a";
+}
+.aui-iconfont-gallery::before {
+  content: "\f22b";
+}
+.aui-iconfont-google-drive::before {
+  content: "\f22c";
+}
+.aui-iconfont-google::before {
+  content: "\f22d";
+}
+.aui-iconfont-graph-bar::before {
+  content: "\f22e";
+}
+.aui-iconfont-graph-line::before {
+  content: "\f22f";
+}
+.aui-iconfont-highlights::before {
+  content: "\f230";
+}
+.aui-iconfont-home-filled::before {
+  content: "\f231";
+}
+.aui-iconfont-image-border::before {
+  content: "\f232";
+}
+.aui-iconfont-image-resize::before {
+  content: "\f233";
+}
+.aui-iconfont-info-filled::before {
+  content: "\f234";
+}
+.aui-iconfont-insert-numbered-column::before {
+  content: "\f235";
+}
+.aui-iconfont-invite-team::before {
+  content: "\f236";
+}
+.aui-iconfont-issue-raise::before {
+  content: "\f237";
+}
+.aui-iconfont-issue::before {
+  content: "\f238";
+}
+.aui-iconfont-issues::before {
+  content: "\f239";
+}
+.aui-iconfont-lightbulb-filled::before {
+  content: "\f23a";
+}
+.aui-iconfont-lightbulb::before {
+  content: "\f23b";
+}
+.aui-iconfont-link-filled::before {
+  content: "\f23c";
+}
+.aui-iconfont-list::before {
+  content: "\f23d";
+}
+.aui-iconfont-lock-circle-small::before {
+  content: "\f23e";
+}
+.aui-iconfont-lock::before {
+  content: "\f23f";
+}
+.aui-iconfont-marketplace::before {
+  content: "\f240";
+}
+.aui-iconfont-needs-work::before {
+  content: "\f241";
+}
+.aui-iconfont-notification-all::before {
+  content: "\f242";
+}
+.aui-iconfont-notification-direct::before {
+  content: "\f243";
+}
+.aui-iconfont-notification::before {
+  content: "\f244";
+}
+.aui-iconfont-office-building-filled::before {
+  content: "\f245";
+}
+.aui-iconfont-office-building::before {
+  content: "\f246";
+}
+.aui-iconfont-open::before {
+  content: "\f247";
+}
+.aui-iconfont-overview::before {
+  content: "\f248";
+}
+.aui-iconfont-page-filled::before {
+  content: "\f249";
+}
+.aui-iconfont-page::before {
+  content: "\f24a";
+}
+.aui-iconfont-paint-bucket::before {
+  content: "\f24b";
+}
+.aui-iconfont-paste-table-column::before {
+  content: "\f24c";
+}
+.aui-iconfont-pdf::before {
+  content: "\f24d";
+}
+.aui-iconfont-people-group::before {
+  content: "\f24e";
+}
+.aui-iconfont-people::before {
+  content: "\f24f";
+}
+.aui-iconfont-portfolio::before {
+  content: "\f250";
+}
+.aui-iconfont-preferences::before {
+  content: "\f251";
+}
+.aui-iconfont-progress::before {
+  content: "\f252";
+}
+.aui-iconfont-pull-requests::before {
+  content: "\f253";
+}
+.aui-iconfont-question-filled::before {
+  content: "\f254";
+}
+.aui-iconfont-queues::before {
+  content: "\f255";
+}
+.aui-iconfont-recent-filled::before {
+  content: "\f256";
+}
+.aui-iconfont-repository-small::before {
+  content: "\f257";
+}
+.aui-iconfont-running-build::before {
+  content: "\f258";
+}
+.aui-iconfont-schedule-filled::before {
+  content: "\f259";
+}
+.aui-iconfont-schedule::before {
+  content: "\f25a";
+}
+.aui-iconfont-screen::before {
+  content: "\f25b";
+}
+.aui-iconfont-send::before {
+  content: "\f25c";
+}
+.aui-iconfont-ship::before {
+  content: "\f25d";
+}
+.aui-iconfont-sign-out::before {
+  content: "\f25e";
+}
+.aui-iconfont-source::before {
+  content: "\f25f";
+}
+.aui-iconfont-subtask::before {
+  content: "\f260";
+}
+.aui-iconfont-successful-build::before {
+  content: "\f261";
+}
+.aui-iconfont-task-list::before {
+  content: "\f262";
+}
+.aui-iconfont-text-color-underline::before {
+  content: "\f263";
+}
+.aui-iconfont-tray-empty::before {
+  content: "\f264";
+}
+.aui-iconfont-unlink::before {
+  content: "\f265";
+}
+.aui-iconfont-unlock-circle::before {
+  content: "\f266";
+}
+.aui-iconfont-unlock::before {
+  content: "\f267";
+}
+.aui-iconfont-vid-audio-muted::before {
+  content: "\f268";
+}
+.aui-iconfont-vid-audio-on::before {
+  content: "\f269";
+}
+.aui-iconfont-vid-backward::before {
+  content: "\f26a";
+}
+.aui-iconfont-vid-forward::before {
+  content: "\f26b";
+}
+.aui-iconfont-vid-full-connection-circle::before {
+  content: "\f26c";
+}
+.aui-iconfont-vid-full-speaking-circle::before {
+  content: "\f26d";
+}
+.aui-iconfont-vid-hang-up::before {
+  content: "\f26e";
+}
+.aui-iconfont-vid-hd-circle::before {
+  content: "\f26f";
+}
+.aui-iconfont-vid-play::before {
+  content: "\f270";
+}
+.aui-iconfont-vid-raised-hand::before {
+  content: "\f271";
+}
+.aui-iconfont-vid-share-screen::before {
+  content: "\f272";
+}
+.aui-iconfont-video-camera-off::before {
+  content: "\f273";
+}
+.aui-iconfont-video-circle::before {
+  content: "\f274";
+}
+.aui-iconfont-video-filled::before {
+  content: "\f275";
+}
+.ffi {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px #ddd;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+  max-width: 350px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+}
+.ffi input[type="file"] {
+  border: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: inherit;
+  height: 100%;
+  line-height: 28px;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  outline: none;
+  padding: 0 5px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.ffi input[type="file"]:hover {
+  cursor: pointer;
+}
+.ffi input[type="file"][disabled] {
+  cursor: not-allowed;
+}
+.ffi[data-ffi-value]:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  content: attr(data-ffi-value);
+  display: block;
+  font-style: normal;
+  overflow: hidden;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  z-index: -1;
+}
+.ffi:before {
+  background: #eee;
+  border-left: 1px solid #ccc;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  content: attr(data-ffi-button-text);
+  cursor: pointer;
+  float: right;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+.ffi:hover:before {
+  background: #f7f7f7;
+  color: #000;
+}
+.ffi.is-focused {
+  border-color: #707070;
+  outline: none;
+}
+.ffi.is-disabled {
+  background-color: #eee;
+}
+.ffi.is-disabled:before {
+  border-color: #ccc;
+  color: #707070;
+}
+.ffi.is-disabled:hover:before,
+.ffi.is-disabled:active:before,
+.ffi.is-disabled:active:hover:before {
+  background: #eee;
+  box-shadow: none;
+}
+.ffi.is-disabled:hover:before {
+  color: #707070;
+}
+.ffi-clear {
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2016%2016%22%20style%3D%22background-color%3A%23ffffff00%22%20version%3D%221.1%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%3E%3Cg%3E%3Cpath%20d%3D%22M%208%200%20C%203.6%200%200%203.6%200%208%20C%200%2012.4%203.6%2016%208%2016%20C%2012.4%2016%2016%2012.4%2016%208%20C%2016%203.6%2012.4%200%208%200%20ZM%2012.8%2011%20L%2010.9%2012.8%20L%208%209.8%20L%205%2012.8%20L%203.1%2011%20L%206.1%208%20L%203.1%205%20L%205%203.2%20L%208%206.2%20L%2010.9%203.2%20L%2012.8%205%20L%209.8%208%20L%2012.8%2011%20Z%22%20fill%3D%22%23000000%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat 0 0;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  float: right;
+  height: 16px;
+  line-height: 16px;
+  margin: 6px;
+  opacity: .56;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  text-indent: 999em;
+  white-space: nowrap;
+  width: 16px;
+}
+.ffi-clear:hover {
+  opacity: 1;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ffi input[type="file"] {
+    line-height: normal;
+  }
+}
+.ffi {
+  background-color: #fff;
+  border-color: #DFE1E6;
+  border-radius: 3.01px;
+  box-shadow: none;
+  color: #172B4D;
+  font-size: 14px;
+  max-width: 250px;
+  /* The actual input - made opaque but styled so the cursor positions well */
+}
+form.aui .field-group .ffi {
+  float: none;
+  margin: 0;
+  padding: 0;
+  word-wrap: normal;
+  text-align: left;
+  width: 100%;
+}
+form.aui.top-label .field-group .ffi {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+form.aui.long-label .field-group .ffi {
+  margin: 0;
+  width: 100%;
+}
+.ffi input[type="file"] {
+  padding: 0 5px;
+}
+.ffi[data-ffi-value]:after {
+  color: #172B4D;
+  padding: 0 5px;
+}
+.ffi:before {
+  background: rgba(9, 30, 66, 0.04);
+  border-left-color: #DFE1E6;
+  color: #42526E;
+  padding: 0 10px;
+}
+.ffi:hover:before {
+  background: rgba(9, 30, 66, 0.08);
+  color: #42526E;
+}
+.ffi:active:before,
+.ffi:active:hover:before {
+  background-color: #DEEBFF;
+  background-image: none;
+  color: #0052CC;
+  text-decoration: none;
+  text-shadow: none;
+}
+.ffi.is-focused {
+  border-color: #707070;
+}
+.ffi.is-disabled {
+  background-color: #f5f5f5;
+  color: #999;
+}
+.ffi.is-disabled:before,
+.ffi.is-disabled:hover:before,
+.ffi.is-disabled:active:before,
+.ffi.is-disabled:active:hover:before {
+  background-color: #F4F5F7;
+  border-color: #DFE1E6;
+  box-shadow: none;
+  color: #A5ADBA;
+  text-shadow: none;
+}
+.ffi.is-disabled:after {
+  color: #999;
+}
+/* The clear field button */
+.ffi-clear {
+  background-image: none;
+  opacity: 1;
+  -ms-filter: none;
+}
+.ffi-clear:hover {
+  opacity: 1;
+  -ms-filter: none;
+}
+.ffi-clear::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: #707070;
+  content: "\f188";
+  font-size: 16px;
+  left: 0;
+  line-height: 1;
+  margin-top: -8px;
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+}
+.ffi-clear:hover::before {
+  color: #172B4D;
+}
+.aui-banner.aui-banner-error {
+  background-color: #DE350B;
+  box-shadow: none;
+  color: #fff;
+}
+.aui-banner.aui-banner-error::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  color: #fff;
+  font-size: 16px;
+  left: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 20px;
+}
+.aui-banner.aui-banner-error::before {
+  display: none;
+}
+.aui-banner.aui-banner-error::after {
+  content: "\f15a";
+  color: #fff;
+}
+.aui-banner.aui-banner-error a,
+.aui-banner.aui-banner-error a:link,
+.aui-banner.aui-banner-error a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+.aui-banner.aui-banner-error::after {
+  left: 12px;
+  top: 10px;
 }
 /* Inline Dialog Theme */
 /* Help block */
