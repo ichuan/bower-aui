@@ -1,12 +1,12 @@
-/*!
+/*!!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.6.3
+ * @version v7.7.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui/internal/deprecation/deprecated-adg2-icons.js
-(typeof window === 'undefined' ? global : window).__dc9600e3b63d62ade7dac1430dd84b82 = (function () {
+(typeof window === 'undefined' ? global : window).__ac524c2679e70c463a41309e6dacb4bb = (function () {
   var module = {
     exports: {}
   };
@@ -27,7 +27,7 @@
       newName: 'cross',
       oldName: 'close-dialog'
   }, {
-      newName: 'chevron-down',
+      newName: 'chevron-right',
       oldName: 'collapsed'
   }, {
       newName: 'settings',
@@ -421,7 +421,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__ed2448fa18a8167102899bd4d250ba4b = (function () {
+(typeof window === 'undefined' ? global : window).__48f9de6ee4f409c1b979195c3d533b81 = (function () {
   var module = {
     exports: {}
   };
@@ -429,13 +429,13 @@
   
   'use strict';
   
-  var _deprecation = __1f642ac889edd28b9a56a069e947b2fa;
+  var _deprecation = __3632ac12e0e2db0a58ef6348743599e5;
   
-  var _amdify = __5b6f140e41f96bdbfcd8f82ccf706510;
+  var _amdify = __fb114d9b531e09c60f5fdf12262b017c;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _deprecatedAdg2Icons = __dc9600e3b63d62ade7dac1430dd84b82;
+  var _deprecatedAdg2Icons = __ac524c2679e70c463a41309e6dacb4bb;
   
   var _deprecatedAdg2Icons2 = _interopRequireDefault(_deprecatedAdg2Icons);
   
