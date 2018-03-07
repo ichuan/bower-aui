@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.1.0
+ * @version v7.1.1
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // .tmp/compiled-soy/atlassian-deps.js
-(typeof window === 'undefined' ? global : window).__9e9dd665adc9464ab65448bfd5a3d4df = (function () {
+(typeof window === 'undefined' ? global : window).__84ae494f37712a2d90e55e018cfb8916 = (function () {
   var module = {
     exports: {}
   };
@@ -32,7 +32,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/soyutils.js
-(typeof window === 'undefined' ? global : window).__0af28ae85637fa4e15ad239cbcedaa4b = (function () {
+(typeof window === 'undefined' ? global : window).__e737d03402ba32b66c8cbfa9b9936efb = (function () {
   var module = {
     exports: {}
   };
@@ -5797,7 +5797,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/aui.js
-(typeof window === 'undefined' ? global : window).__fb9db0c1e46d2c0a215bfc94e4d5de62 = (function () {
+(typeof window === 'undefined' ? global : window).__9b4648c9c27b27c639abb8b21974c125 = (function () {
   var module = {
     exports: {}
   };
@@ -5863,7 +5863,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/avatar.js
-(typeof window === 'undefined' ? global : window).__dc60b2355811a307e92e3469386c9872 = (function () {
+(typeof window === 'undefined' ? global : window).__ba8ea698f0da83f767f6f08b2121165c = (function () {
   var module = {
     exports: {}
   };
@@ -5894,7 +5894,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/badges.js
-(typeof window === 'undefined' ? global : window).__9ea424983c4fae6da31b06461aabc875 = (function () {
+(typeof window === 'undefined' ? global : window).__84a307dbec3f803dbbd23a921b6822ba = (function () {
   var module = {
     exports: {}
   };
@@ -5925,7 +5925,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/buttons.js
-(typeof window === 'undefined' ? global : window).__fdc4f70020f03bcff428dd2de1f459e3 = (function () {
+(typeof window === 'undefined' ? global : window).__030c6e9d270baa470289366a077329ff = (function () {
   var module = {
     exports: {}
   };
@@ -6015,7 +6015,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dialog2.js
-(typeof window === 'undefined' ? global : window).__e5929381691e1b4d7808e375dcea02a4 = (function () {
+(typeof window === 'undefined' ? global : window).__927ecba85bb3d1d44ee987f2d841164a = (function () {
   var module = {
     exports: {}
   };
@@ -6091,7 +6091,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dropdown.js
-(typeof window === 'undefined' ? global : window).__37b774780f5b268935b86f60e8a31e4d = (function () {
+(typeof window === 'undefined' ? global : window).__ab15f983a5741e603c04f5108a1be27a = (function () {
   var module = {
     exports: {}
   };
@@ -6147,7 +6147,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/dropdown2.js
-(typeof window === 'undefined' ? global : window).__bf51870c5509ec895293b4780925a1ed = (function () {
+(typeof window === 'undefined' ? global : window).__4b1681554b43eb477d99c23b50894070 = (function () {
   var module = {
     exports: {}
   };
@@ -6262,7 +6262,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/expander.js
-(typeof window === 'undefined' ? global : window).__695877efcb3c5dcbf23fbfcb9e31d60b = (function () {
+(typeof window === 'undefined' ? global : window).__393961cc686e3a69288c7c5c225e9d6a = (function () {
   var module = {
     exports: {}
   };
@@ -6309,7 +6309,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/form.js
-(typeof window === 'undefined' ? global : window).__2565a9b12eb4dbd8671867cee3b74980 = (function () {
+(typeof window === 'undefined' ? global : window).__836615b3ed8812fb907e2a6c9745de94 = (function () {
   var module = {
     exports: {}
   };
@@ -6721,7 +6721,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/group.js
-(typeof window === 'undefined' ? global : window).__8b6c6892ac359ef8a4aae8d82859673c = (function () {
+(typeof window === 'undefined' ? global : window).__7aca0a697bff8e4f7aa231501fbf2286 = (function () {
   var module = {
     exports: {}
   };
@@ -6760,7 +6760,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/icons.js
-(typeof window === 'undefined' ? global : window).__964c6fb5876009ce9f7e8e35e9f7a500 = (function () {
+(typeof window === 'undefined' ? global : window).__2f79d877e7b764d828161d4eeb368e4b = (function () {
   var module = {
     exports: {}
   };
@@ -6791,7 +6791,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/inline-dialog2.js
-(typeof window === 'undefined' ? global : window).__c032244dcacf2562f34bac53bb3b2520 = (function () {
+(typeof window === 'undefined' ? global : window).__97ef5dbd66d3b5b3c3a39d0b72963fcc = (function () {
   var module = {
     exports: {}
   };
@@ -6830,7 +6830,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/labels.js
-(typeof window === 'undefined' ? global : window).__28920d62a00982d64624e374163a5949 = (function () {
+(typeof window === 'undefined' ? global : window).__1acd1fa12c76f2ed75b00c0c1d30090c = (function () {
   var module = {
     exports: {}
   };
@@ -6877,7 +6877,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/lozenges.js
-(typeof window === 'undefined' ? global : window).__ca52cc7344ad68428871389b9a8c1200 = (function () {
+(typeof window === 'undefined' ? global : window).__a41d0500bc2e212232521e12e9cbe36f = (function () {
   var module = {
     exports: {}
   };
@@ -6908,7 +6908,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/message.js
-(typeof window === 'undefined' ? global : window).__7474a676e6f56ccdd627b76f51b1f919 = (function () {
+(typeof window === 'undefined' ? global : window).__cb07a51ef0398a3b357f07a036a476e1 = (function () {
   var module = {
     exports: {}
   };
@@ -6991,7 +6991,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/navigation.js
-(typeof window === 'undefined' ? global : window).__5a2fbba2197a17c53240bd0de2270737 = (function () {
+(typeof window === 'undefined' ? global : window).__b2d5405a737c8c4f889caab766294a0e = (function () {
   var module = {
     exports: {}
   };
@@ -7038,7 +7038,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/page.js
-(typeof window === 'undefined' ? global : window).__f2f8f97c642b2e4067a6a4f71f1170c6 = (function () {
+(typeof window === 'undefined' ? global : window).__9d8fa43f2ed5c43cea46bce4d6420db0 = (function () {
   var module = {
     exports: {}
   };
@@ -7168,7 +7168,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/panel.js
-(typeof window === 'undefined' ? global : window).__95eed5173e628dfb726f2dbfe7d1cd47 = (function () {
+(typeof window === 'undefined' ? global : window).__fe97a064e0310db63d975f20d2b35986 = (function () {
   var module = {
     exports: {}
   };
@@ -7198,7 +7198,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/progress-tracker.js
-(typeof window === 'undefined' ? global : window).__a98ca9634c36b9fa75d267d72d64c030 = (function () {
+(typeof window === 'undefined' ? global : window).__1b478d889d82ec18c5ee93ba50a98a3c = (function () {
   var module = {
     exports: {}
   };
@@ -7273,7 +7273,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/sidebar.js
-(typeof window === 'undefined' ? global : window).__3ae4fcfc252b81ea8b5f01573f5df561 = (function () {
+(typeof window === 'undefined' ? global : window).__0d986f17c02be56f9921b9f5149586fe = (function () {
   var module = {
     exports: {}
   };
@@ -7304,7 +7304,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/table.js
-(typeof window === 'undefined' ? global : window).__42f58ecb0a677443a3e880f0ec5b4dbd = (function () {
+(typeof window === 'undefined' ? global : window).__11bb00ead24bf8307f79be34b11db367 = (function () {
   var module = {
     exports: {}
   };
@@ -7334,7 +7334,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/tabs.js
-(typeof window === 'undefined' ? global : window).__13367d781c9a9f2f765d477005cceb07 = (function () {
+(typeof window === 'undefined' ? global : window).__c73eebb187733b4b8b33709725de8b7c = (function () {
   var module = {
     exports: {}
   };
@@ -7388,7 +7388,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/toolbar.js
-(typeof window === 'undefined' ? global : window).__fb5b2231699ca1fe668ca610d1964032 = (function () {
+(typeof window === 'undefined' ? global : window).__30dce2ae7496ca697776c6f839a75301 = (function () {
   var module = {
     exports: {}
   };
@@ -7492,7 +7492,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/toolbar2.js
-(typeof window === 'undefined' ? global : window).__305251236d3f245399c9de01026b49e8 = (function () {
+(typeof window === 'undefined' ? global : window).__72fbae9ebca5a70974c56554cbd526c3 = (function () {
   var module = {
     exports: {}
   };
@@ -7539,7 +7539,7 @@
   return module.exports;
 }).call(this);
 // .tmp/compiled-soy/trigger.js
-(typeof window === 'undefined' ? global : window).__6b2b63ffe5d0a3ce250c58d13f3bb836 = (function () {
+(typeof window === 'undefined' ? global : window).__e69cd45db3763fb58ec11f395bf1ae38 = (function () {
   var module = {
     exports: {}
   };
@@ -7570,7 +7570,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-soy.js
-(typeof window === 'undefined' ? global : window).__3ff5976e3dfc390d3fdfb2d61349069e = (function () {
+(typeof window === 'undefined' ? global : window).__a30e192bc47a125806de84ea018260cf = (function () {
   var module = {
     exports: {}
   };
@@ -7582,59 +7582,59 @@
     value: true
   });
   
-  __9e9dd665adc9464ab65448bfd5a3d4df;
+  __84ae494f37712a2d90e55e018cfb8916;
   
-  __0af28ae85637fa4e15ad239cbcedaa4b;
+  __e737d03402ba32b66c8cbfa9b9936efb;
   
-  __fb9db0c1e46d2c0a215bfc94e4d5de62;
+  __9b4648c9c27b27c639abb8b21974c125;
   
-  __dc60b2355811a307e92e3469386c9872;
+  __ba8ea698f0da83f767f6f08b2121165c;
   
-  __9ea424983c4fae6da31b06461aabc875;
+  __84a307dbec3f803dbbd23a921b6822ba;
   
-  __fdc4f70020f03bcff428dd2de1f459e3;
+  __030c6e9d270baa470289366a077329ff;
   
-  __e5929381691e1b4d7808e375dcea02a4;
+  __927ecba85bb3d1d44ee987f2d841164a;
   
-  __37b774780f5b268935b86f60e8a31e4d;
+  __ab15f983a5741e603c04f5108a1be27a;
   
-  __bf51870c5509ec895293b4780925a1ed;
+  __4b1681554b43eb477d99c23b50894070;
   
-  __695877efcb3c5dcbf23fbfcb9e31d60b;
+  __393961cc686e3a69288c7c5c225e9d6a;
   
-  __2565a9b12eb4dbd8671867cee3b74980;
+  __836615b3ed8812fb907e2a6c9745de94;
   
-  __8b6c6892ac359ef8a4aae8d82859673c;
+  __7aca0a697bff8e4f7aa231501fbf2286;
   
-  __964c6fb5876009ce9f7e8e35e9f7a500;
+  __2f79d877e7b764d828161d4eeb368e4b;
   
-  __c032244dcacf2562f34bac53bb3b2520;
+  __97ef5dbd66d3b5b3c3a39d0b72963fcc;
   
-  __28920d62a00982d64624e374163a5949;
+  __1acd1fa12c76f2ed75b00c0c1d30090c;
   
-  __ca52cc7344ad68428871389b9a8c1200;
+  __a41d0500bc2e212232521e12e9cbe36f;
   
-  __7474a676e6f56ccdd627b76f51b1f919;
+  __cb07a51ef0398a3b357f07a036a476e1;
   
-  __5a2fbba2197a17c53240bd0de2270737;
+  __b2d5405a737c8c4f889caab766294a0e;
   
-  __f2f8f97c642b2e4067a6a4f71f1170c6;
+  __9d8fa43f2ed5c43cea46bce4d6420db0;
   
-  __95eed5173e628dfb726f2dbfe7d1cd47;
+  __fe97a064e0310db63d975f20d2b35986;
   
-  __a98ca9634c36b9fa75d267d72d64c030;
+  __1b478d889d82ec18c5ee93ba50a98a3c;
   
-  __3ae4fcfc252b81ea8b5f01573f5df561;
+  __0d986f17c02be56f9921b9f5149586fe;
   
-  __42f58ecb0a677443a3e880f0ec5b4dbd;
+  __11bb00ead24bf8307f79be34b11db367;
   
-  __13367d781c9a9f2f765d477005cceb07;
+  __c73eebb187733b4b8b33709725de8b7c;
   
-  __fb5b2231699ca1fe668ca610d1964032;
+  __30dce2ae7496ca697776c6f839a75301;
   
-  __305251236d3f245399c9de01026b49e8;
+  __72fbae9ebca5a70974c56554cbd526c3;
   
-  __6b2b63ffe5d0a3ce250c58d13f3bb836;
+  __e69cd45db3763fb58ec11f395bf1ae38;
   
   exports.default = window.aui;
   module.exports = exports['default'];
