@@ -488,6 +488,7 @@ a.aui-button:focus {
   color: #42526E;
   text-decoration: none;
 }
+.aui-button:active,
 .aui-button.aui-button-subtle:active,
 .aui-button.aui-button-subtle.active {
   background-image: none;
@@ -496,16 +497,7 @@ a.aui-button:focus {
   color: #0052CC;
   text-decoration: none;
 }
-.aui-button:active,
-.aui-button-subtle.aui-button:active {
-  background-image: none;
-  background-color: #DEEBFF;
-  border-color: transparent;
-  color: #0052CC;
-  text-decoration: none;
-}
 .aui-button.active,
-.aui-header .aui-button-split-more.active,
 .aui-button-subtle.aui-button.active {
   background-image: none;
   background-color: #344563;
@@ -982,9 +974,7 @@ aui-header {
   display: table;
 }
 .aui-nav-breadcrumbs > li,
-.aui-nav-pagination > li,
-.aui-nav-horizontal > li,
-.aui-navgroup-horizontal .aui-nav > li {
+.aui-nav-pagination > li {
   float: left;
 }
 /* Navigation headings
@@ -992,12 +982,13 @@ aui-header {
 .aui-nav-heading {
   color: #5E6C84;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.81818182;
+  padding: 0 10px;
   text-transform: uppercase;
 }
 .aui-nav-heading > strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 /* Breadcrumb navigation
 -------------------- */
@@ -1006,12 +997,6 @@ aui-header {
 }
 .aui-nav-breadcrumbs > li + li:before {
   content: "/";
-  padding-right: 10px;
-}
-/* Horizontal Navigation
--------------------- */
-.aui-navgroup-horizontal .aui-nav > li a,
-.aui-nav-horizontal > li a {
   padding-right: 10px;
 }
 /* Pagination
@@ -1067,21 +1052,25 @@ aui-header {
 -------------------- */
 .aui-navgroup-vertical .aui-nav > li > a,
 .aui-nav-vertical > li > a {
-  color: #42526E;
+  border-radius: 3px;
+  box-sizing: content-box;
   display: block;
   line-height: 1.14285714;
   padding: 7px 10px;
-  border-radius: 3px;
+  background-color: transparent;
+  color: #42526E;
+  text-decoration: none;
   word-wrap: break-word;
 }
 .aui-navgroup-vertical .aui-nav > li > a:hover,
 .aui-nav-vertical > li > a:hover {
-  background: rgba(9, 30, 66, 0.04);
+  background-color: #DFE1E6;
   text-decoration: none;
 }
 .aui-navgroup-vertical .aui-nav > li > a:active,
 .aui-nav-vertical > li > a:active {
-  background: #DEEBFF;
+  background-color: #DEEBFF;
+  color: #42526E;
   text-decoration: none;
 }
 .aui-navgroup-vertical .aui-nav > li > a:focus,
@@ -1090,58 +1079,37 @@ aui-header {
 }
 .aui-navgroup-vertical .aui-nav .aui-nav-selected > a,
 .aui-nav-vertical .aui-nav .aui-nav-selected > a {
-  background: rgba(9, 30, 66, 0.04);
-  color: #0052CC;
+  background-color: #DFE1E6;
+  color: #42526E;
+  font-weight: 500;
 }
 .aui-navgroup-vertical .aui-nav,
 .aui-navgroup-vertical .aui-nav-heading {
-  border-top: 1px solid #DFE1E6;
-  margin-top: 5px;
-  padding-top: 5px;
+  margin: 0;
 }
-.aui-navgroup-vertical .aui-nav-heading {
-  padding: 10px 10px 4px 10px;
+.aui-navgroup-vertical .aui-nav + .aui-nav {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #DFE1E6;
+}
+.aui-navgroup-vertical .aui-nav + .aui-nav-heading {
+  margin-top: 20px;
 }
 .aui-navgroup-vertical .aui-nav:first-child,
 .aui-navgroup-vertical .aui-navgroup-inner > .aui-nav-heading:first-child,
-.aui-navgroup-vertical .aui-navgroup-primary > .aui-nav-heading:first-child,
-.aui-navgroup-vertical .aui-nav-heading + .aui-nav {
-  border-top: 0;
+.aui-navgroup-vertical .aui-navgroup-primary > .aui-nav-heading:first-child {
   margin-top: 0;
   padding-top: 0;
 }
-/*  tree indication for nested aui-nav's */
+/* nested vertical navigation menus
+----------------------------------- */
 .aui-navgroup-vertical .aui-nav .aui-nav {
-  border-top: none;
   margin-top: 0;
-  padding: 0 0 0 26px;
+  padding: 0 0 0 20px;
 }
 .aui-navgroup-vertical .aui-nav .aui-nav > li {
   position: relative;
 }
-.aui-navgroup-vertical .aui-nav .aui-nav > li:before,
-.aui-navgroup-vertical .aui-nav .aui-nav > li:after {
-  background-color: #DFE1E6;
-  content: "";
-  left: -1px;
-  position: absolute;
-}
-.aui-navgroup-vertical .aui-nav .aui-nav > li:before {
-  bottom: 0;
-  top: 0;
-  width: 1px;
-}
-.aui-navgroup-vertical .aui-nav .aui-nav > li:after {
-  height: 1px;
-  top: 14px;
-  width: 5px;
-}
-.aui-navgroup-vertical .aui-nav .aui-nav > li:last-child:before,
-.aui-navgroup-vertical .aui-nav .aui-nav > li.aui-nav-more:before {
-  bottom: 50%;
-}
-/* twixi for nested navigation
------------------------------- */
 .aui-navgroup-vertical .aui-nav > li[aria-expanded] {
   position: relative;
 }
@@ -1149,13 +1117,22 @@ aui-header {
   padding-left: 0;
 }
 .aui-navgroup-vertical .aui-nav > li[aria-expanded] .aui-nav-subtree-toggle {
-  color: #999;
+  box-sizing: border-box;
+  color: #97A0AF;
   left: 0;
+  margin: 0;
   position: absolute;
-  padding-left: 0;
-  padding-right: 0;
-  top: 0;
-  width: 15px;
+  padding: 2px;
+  top: 5px;
+  width: 20px;
+  z-index: 1;
+}
+.aui-navgroup-vertical .aui-nav > li[aria-expanded] .aui-nav-subtree-toggle > .aui-icon {
+  display: block;
+  margin: 0 auto;
+}
+.aui-navgroup-vertical .aui-nav > li[aria-expanded] .aui-nav-subtree-toggle + .aui-nav-item {
+  padding-left: 30px;
 }
 .aui-navgroup-vertical .aui-nav > li[aria-expanded] li {
   position: relative;
@@ -1170,6 +1147,10 @@ aui-header {
 /* RHS actions dropdown
 ------------------------ */
 .aui-navgroup-vertical .aui-nav .aui-nav-item-actions {
+  background: transparent none;
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
   border-radius: 2px;
   display: block;
   height: 16px;
@@ -1182,100 +1163,145 @@ aui-header {
   top: 7px;
   width: 16px;
 }
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:after {
-  border: 4px solid transparent;
-  border-top-color: #172B4D;
-  content: "";
-  height: 0;
-  left: 4px;
+.aui-navgroup-vertical .aui-nav .aui-nav-item-actions::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  font-family: "Adgs Icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  content: "\f15b";
+  font-size: 12px;
+  height: 12px;
+  line-height: 1;
+  margin-top: -6px;
   position: absolute;
-  top: 6px;
-  width: 0;
+  right: 2px;
+  top: 50%;
+  text-indent: 0;
+  width: 12px;
+  content: "\f17f";
 }
 .aui-navgroup-vertical .aui-nav .aui-nav-item-actions:hover,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:focus,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:active,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions.active {
-  background-color: #DFE1E6;
+.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:focus {
+  background-color: rgba(9, 30, 66, 0.08);
+  border-color: transparent;
+  color: #42526E;
+  text-decoration: none;
 }
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:hover:after,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:focus:after,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:active:after,
-.aui-navgroup-vertical .aui-nav .aui-nav-item-actions.active:after {
+.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:active {
+  background-image: none;
+  background-color: #DEEBFF;
+  border-color: transparent;
+  color: #0052CC;
+  text-decoration: none;
+}
+.aui-navgroup-vertical .aui-nav .aui-nav-item-actions:active:after {
   border-top-color: #172B4D;
+}
+.aui-navgroup-vertical .aui-nav .aui-nav-item-actions.active {
+  background-image: none;
+  background-color: #344563;
+  border-color: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 .aui-navgroup-vertical .aui-nav .aui-nav-item-actions ~ .aui-nav-item-label {
   margin-right: 15px;
 }
+/* Horizontal Navigation
+-------------------- */
+.aui-nav-horizontal,
+.aui-navgroup-horizontal .aui-nav {
+  display: flex;
+  flex-direction: row;
+}
+.aui-nav-horizontal > li a,
+.aui-navgroup-horizontal .aui-nav > li a {
+  padding-right: 10px;
+}
 /* Horizontal Navgroup
 -------------------- */
 .aui-navgroup-horizontal {
-  background: #F4F5F7;
-  border-top: 1px solid #DFE1E6;
-  border-bottom: 1px solid #DFE1E6;
+  position: relative;
   margin: 0;
   padding: 0 10px;
+  /* Nav in a Navbar */
+  /* Horizontal navgroup + Dropdown2 integration. Note: ADG prohibits dropdowns in vertical nav. */
+  /* Breadcrumbs in navbar */
+  /* Bulletproofing - headings shouldn't be here but will at least not look heinously broken. */
 }
-.aui-page-panel-content > .aui-navgroup-horizontal {
-  margin-left: -20px;
-  margin-right: -20px;
+.aui-navgroup-horizontal::after {
+  background: #EBECF0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: initial;
+  z-index: auto;
 }
-.aui-navgroup-horizontal + .aui-page-panel {
-  border-top: 0;
-  margin-top: 0;
+.aui-navgroup-horizontal .aui-navgroup-inner,
+.aui-navgroup-horizontal .aui-navgroup-primary,
+.aui-navgroup-horizontal .aui-navgroup-secondary,
+.aui-navgroup-horizontal .aui-nav {
+  display: flex;
+  flex-wrap: wrap;
 }
-.aui-page-panel-content > .aui-navgroup-horizontal:first-child {
-  margin-top: -20px;
+.aui-navgroup-horizontal .aui-navgroup-inner {
+  justify-content: space-between;
 }
-/* Nav in a Navbar */
+.aui-navgroup-horizontal .aui-navgroup-primary {
+  flex-grow: 1;
+  order: 0;
+}
+.aui-navgroup-horizontal .aui-navgroup-secondary {
+  order: 1;
+}
 .aui-navgroup-horizontal .aui-nav > li a {
-  color: #42526E;
   display: block;
   margin: 0;
   padding: 9px 10px;
-  text-decoration: none;
-}
-.aui-navgroup-horizontal .aui-nav > li a.active,
-.aui-navgroup-horizontal .aui-nav > li a:focus,
-.aui-navgroup-horizontal .aui-nav > li a:hover {
-  background: rgba(9, 30, 66, 0.04);
-  text-decoration: none;
-}
-.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a {
-  color: #172B4D;
-  font-weight: 600;
   position: relative;
 }
-.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a:before,
-.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a:after {
-  border: 8px solid transparent;
-  border-style: outset outset solid outset;
-  /* fixes FF bug */
-  border-bottom-color: #DFE1E6;
+.aui-navgroup-horizontal .aui-nav > li a,
+.aui-navgroup-horizontal .aui-nav > li a:link,
+.aui-navgroup-horizontal .aui-nav > li a:visited {
+  color: #42526E;
+  text-decoration: none;
+}
+.aui-navgroup-horizontal .aui-nav > li a:focus,
+.aui-navgroup-horizontal .aui-nav > li a:hover {
+  color: #4C9AFF;
+}
+.aui-navgroup-horizontal .aui-nav > li a:focus {
+  z-index: 1;
+}
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a {
+  position: relative;
+  font-weight: 500;
+}
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a::after {
+  background: #0052CC;
   bottom: 0;
   content: "";
-  height: 0;
-  left: 50%;
-  margin-left: -8px;
-  overflow: hidden;
+  display: block;
+  height: 2px;
+  left: 10px;
   position: absolute;
-  width: 0;
+  right: 10px;
+  width: initial;
+  z-index: 1;
 }
-.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a:after {
-  background: transparent;
-  border-bottom-color: #fff;
-  bottom: -1px;
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a,
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a:link,
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a:visited,
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a.active {
+  color: #0052CC;
 }
-/* Split horizontal navgroups */
-.aui-navgroup-horizontal .aui-nav,
-.aui-navgroup-horizontal .aui-nav-heading,
-.aui-navgroup-horizontal .aui-navgroup-primary {
-  float: left;
-}
-.aui-navgroup-horizontal .aui-navgroup-secondary {
-  float: right;
-}
-/* Horizontal navgroup + Dropdown2 integration. Note: ADG prohibits dropdowns in vertical nav. */
 .aui-navgroup-horizontal .aui-dropdown2-trigger .aui-icon-dropdown {
   display: none;
 }
@@ -1298,7 +1324,6 @@ aui-header {
   text-indent: 0;
   width: 16px;
 }
-/* Breadcrumbs in navbar */
 .aui-navgroup-horizontal .aui-nav-breadcrumbs > li,
 .aui-navgroup-horizontal .aui-nav-breadcrumbs > li:before {
   padding: 0;
@@ -1306,7 +1331,6 @@ aui-header {
 .aui-navgroup-horizontal .aui-nav-breadcrumbs > li a {
   display: inline-block;
 }
-/* Bulletproofing - headings shouldn't be here but will at least not look heinously broken. */
 .aui-navgroup-horizontal .aui-nav-heading {
   padding: 10px 10px 0 10px;
   /* 0 bottom required to unfuck IE9 */
@@ -1551,9 +1575,59 @@ a:active {
 .aui-navbar + .aui-page-panel {
   border-top: none;
 }
-.aui-page-panel-nav > .aui-nav-vertical {
+.aui-page-panel-nav > .aui-nav-vertical,
+.aui-page-panel-nav > .aui-navgroup-vertical {
   margin-left: -10px;
   margin-right: -10px;
+  /* tree indication for nested aui-nav's.
+       it is expected that these are always expanded and no icons are added to the nav items. */
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav {
+  margin-top: 0;
+  padding: 0 0 0 20px;
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li {
+  position: relative;
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li::before,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li::before,
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li::after,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li::after {
+  background-color: #DFE1E6;
+  content: "";
+  left: -5px;
+  position: absolute;
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li::before,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li::before {
+  bottom: 0;
+  top: 0;
+  width: 1px;
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li::after,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li::after {
+  height: 1px;
+  top: 14px;
+  width: 5px;
+}
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li:last-child::before,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li:last-child::before,
+.aui-page-panel-nav > .aui-nav-vertical .aui-nav .aui-nav > li.aui-nav-more::before,
+.aui-page-panel-nav > .aui-navgroup-vertical .aui-nav .aui-nav > li.aui-nav-more::before {
+  bottom: 50%;
+}
+.aui-page-panel-content > .aui-navgroup-horizontal {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.aui-navgroup-horizontal + .aui-page-panel {
+  border-top: 0;
+  margin-top: 0;
+}
+.aui-page-panel-content > .aui-navgroup-horizontal:first-child {
+  margin-top: -20px;
 }
 /**
  * Page variations
@@ -4610,28 +4684,11 @@ aui-tabs {
 .aui-tabs > .tabs-menu .menu-item.active-tab a:active {
   color: #0052CC;
 }
-.aui-tabs > .tabs-menu .menu-item.active-tab a::after {
-  background: #0052CC;
-  z-index: 1;
-}
 .aui-tabs.vertical-tabs {
   flex-flow: row nowrap;
 }
-.aui-tabs.vertical-tabs > .tabs-menu,
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a {
-  position: relative;
-}
-.aui-tabs.vertical-tabs > .tabs-menu::after,
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a::after {
-  bottom: 5px;
-  content: "";
-  height: initial;
-  position: absolute;
-  right: 0;
-  top: 5px;
-  width: 2px;
-}
 .aui-tabs.vertical-tabs > .tabs-menu {
+  position: relative;
   width: 11em;
   list-style-type: none;
   margin: 0;
@@ -4639,8 +4696,32 @@ aui-tabs {
 }
 .aui-tabs.vertical-tabs > .tabs-menu::after {
   background: #EBECF0;
+  bottom: 5px;
+  content: "";
+  display: block;
+  height: initial;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 2px;
+  z-index: auto;
 }
-.aui-tabs.vertical-tabs > .tabs-menu > .menu-item > a {
+.aui-tabs.vertical-tabs > .tabs-menu > .menu-item.active-tab a {
+  position: relative;
+}
+.aui-tabs.vertical-tabs > .tabs-menu > .menu-item.active-tab a::after {
+  background: #0052CC;
+  bottom: 5px;
+  content: "";
+  display: block;
+  height: initial;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 2px;
+  z-index: 1;
+}
+.aui-tabs.vertical-tabs > .tabs-menu > .menu-item a {
   display: block;
   text-align: right;
   text-decoration: none;
@@ -4657,21 +4738,8 @@ aui-tabs {
 .aui-tabs.horizontal-tabs {
   flex-direction: column;
 }
-.aui-tabs.horizontal-tabs > .tabs-menu,
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a {
-  position: relative;
-}
-.aui-tabs.horizontal-tabs > .tabs-menu::after,
-.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a::after {
-  bottom: 0;
-  content: "";
-  height: 2px;
-  left: 10px;
-  position: absolute;
-  right: 10px;
-  width: initial;
-}
 .aui-tabs.horizontal-tabs > .tabs-menu {
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   list-style: none;
@@ -4680,6 +4748,30 @@ aui-tabs {
 }
 .aui-tabs.horizontal-tabs > .tabs-menu::after {
   background: #EBECF0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  width: initial;
+  z-index: auto;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a {
+  position: relative;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a::after {
+  background: #0052CC;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  width: initial;
+  z-index: 1;
 }
 .aui-tabs.horizontal-tabs > .tabs-pane {
   padding-left: 10px;
