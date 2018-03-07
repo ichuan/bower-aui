@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.9
+ * @version v6.1.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
  */
 // node_modules/@atlassian/aui/src/js/aui/polyfills/placeholder.js
-(typeof window === 'undefined' ? global : window).__abf5adbcd4387fa990df741bc7e30825 = (function () {
+(typeof window === 'undefined' ? global : window).__c2529721e056b137d5dc332217e3a9a0 = (function () {
   var module = {
     exports: {}
   };
@@ -14,11 +14,11 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -55,7 +55,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/banner.js
-(typeof window === 'undefined' ? global : window).__3ad706cbf23ce48c5828dc88c7c5b7ee = (function () {
+(typeof window === 'undefined' ? global : window).__86c5d8458771884814420d1e592e5434 = (function () {
   var module = {
     exports: {}
   };
@@ -67,21 +67,21 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __c0311e8841bd8637e025a8fb1474f693;
+  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _template = __eb201a36d4829c396b434af7bad3dea4;
+  var _template = __c33b5453d0277383a3121d7d42efa93d;
   
   var _template2 = _interopRequireDefault(_template);
   
@@ -144,7 +144,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/button.js
-(typeof window === 'undefined' ? global : window).__c9423b45ff2ac1541decd5ae4bfc4c99 = (function () {
+(typeof window === 'undefined' ? global : window).__ba22a6a0f9889bb04a6764c4bc4865a0 = (function () {
   var module = {
     exports: {}
   };
@@ -152,19 +152,19 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __cf890abdf040e0993fb71f2f839bc972;
+  var _log = __8139e9a1368a0224fc430963d21930c8;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -240,7 +240,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.tipsy.js
-(typeof window === 'undefined' ? global : window).__f673a5150978887490995d88aeec0c8d = (function () {
+(typeof window === 'undefined' ? global : window).__cc64a0d7c308ad5954e00f06c2bcc6ed = (function () {
   var module = {
     exports: {}
   };
@@ -590,7 +590,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/tooltip.js
-(typeof window === 'undefined' ? global : window).__8a6820c3d0bc5d638a8490d849a5b750 = (function () {
+(typeof window === 'undefined' ? global : window).__65bf2e9d62756879a7805c63dea11935 = (function () {
   var module = {
     exports: {}
   };
@@ -598,11 +598,11 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __f673a5150978887490995d88aeec0c8d;
+  __cc64a0d7c308ad5954e00f06c2bcc6ed;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -675,7 +675,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/checkbox-multiselect.js
-(typeof window === 'undefined' ? global : window).__4f4e1fd1304bf2a8d908367dabb67a5c = (function () {
+(typeof window === 'undefined' ? global : window).__de170d5d90568334e1ab26d28697cb93 = (function () {
   var module = {
     exports: {}
   };
@@ -687,23 +687,27 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __05701638a79b5b92cc62cfe475ac143b;
+  __71933b3476b0bdf1f1eaaf188014d1aa;
   
-  __8a6820c3d0bc5d638a8490d849a5b750;
+  __65bf2e9d62756879a7805c63dea11935;
   
-  __d74c881c8f23921c15438d0f30c99f80;
+  __ff21a71b857b101095156bf4ff8b27ac;
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
+  
+  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
+  
+  var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -834,7 +838,7 @@
               styleClass: $option.data('styleClass'),
               title: $option.attr('title'),
               disabled: $option.attr('disabled'),
-              selected: $option.attr('selected')
+              selected: $option.prop('selected')
           };
       });
   }
@@ -916,7 +920,7 @@
           // Ideally we should be templating the element within the "template"
           // hook which will ensure it's templated prior to calling the
           // "attached" callback.
-          var name = component.getAttribute('name') || AJS.id('aui-checkbox-multiselect-');
+          var name = component.getAttribute('name') || (0, _uniqueId2.default)('aui-checkbox-multiselect-');
           component.innerHTML = templates.furniture(name, component.innerHTML);
   
           component.$select = (0, _jquery2.default)('select', component).change(function () {
@@ -1018,7 +1022,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/dialog2.js
-(typeof window === 'undefined' ? global : window).__bdbf9d213bf319eb4577ef21ac6c491c = (function () {
+(typeof window === 'undefined' ? global : window).__abec049fae3e0e24b94d659c3600ba01 = (function () {
   var module = {
     exports: {}
   };
@@ -1030,23 +1034,23 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _layer = __fe0cd0a7ef176e2ef4e0e105d1ce31f5;
+  var _layer = __b16464bbf0aa314bacb753553ada098e;
   
   var _layer2 = _interopRequireDefault(_layer);
   
-  var _widget = __e3152236c406a356c24f20f7bfcccf21;
+  var _widget = __ecaadce486e7be7002d8453fc51f9873;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -1149,7 +1153,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/expander.js
-(typeof window === 'undefined' ? global : window).__1f32101163c43c11907101e4c1c0413f = (function () {
+(typeof window === 'undefined' ? global : window).__bdcd8cba16e83e973cb8146ddb843c38 = (function () {
   var module = {
     exports: {}
   };
@@ -1157,7 +1161,7 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
@@ -1269,7 +1273,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/flag.js
-(typeof window === 'undefined' ? global : window).__e243db5c139a94f8b4c4fe7a1d0dbab0 = (function () {
+(typeof window === 'undefined' ? global : window).__b50249c6901293cd03d256e40a6d0941 = (function () {
   var module = {
     exports: {}
   };
@@ -1281,29 +1285,29 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __c0311e8841bd8637e025a8fb1474f693;
+  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __509557c937caa8763def39004fcf3193;
+  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _template = __eb201a36d4829c396b434af7bad3dea4;
+  var _template = __c33b5453d0277383a3121d7d42efa93d;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _customEvent = __5a18a90cc502f556e87c4181f8a6b4ab;
+  var _customEvent = __2e94b36d616dffee0a6f911bf22a83ae;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
@@ -1428,7 +1432,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/form-notification.js
-(typeof window === 'undefined' ? global : window).__9803410207c491fb00e8f693e987aa8e = (function () {
+(typeof window === 'undefined' ? global : window).__1e855e59e13e8847a5ed5441e3fd1919 = (function () {
   var module = {
     exports: {}
   };
@@ -1436,25 +1440,25 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __f673a5150978887490995d88aeec0c8d;
+  __cc64a0d7c308ad5954e00f06c2bcc6ed;
   
-  var _log = __cf890abdf040e0993fb71f2f839bc972;
+  var _log = __8139e9a1368a0224fc430963d21930c8;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _keyCode = __509557c937caa8763def39004fcf3193;
+  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -1809,7 +1813,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/form-validation/validator-register.js
-(typeof window === 'undefined' ? global : window).__94a6aae68277f018287e916fc78c8f6f = (function () {
+(typeof window === 'undefined' ? global : window).__cb2668f6be8871c04f859d8f8e5a8ab1 = (function () {
   var module = {
     exports: {}
   };
@@ -1821,15 +1825,15 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __cf890abdf040e0993fb71f2f839bc972;
+  var _log = __8139e9a1368a0224fc430963d21930c8;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -1904,7 +1908,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/form-validation/basic-validators.js
-(typeof window === 'undefined' ? global : window).__77ff03c875a3139933c9425d867b4b55 = (function () {
+(typeof window === 'undefined' ? global : window).__fd675ae360bd5d9c547d27c9176b93ea = (function () {
   var module = {
     exports: {}
   };
@@ -1912,23 +1916,23 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _format = __57111a90131a66c211cf7209c7270167;
+  var _format = __0d2ce34ae8c23f21d43215f7cc5928d7;
   
   var _format2 = _interopRequireDefault(_format);
   
-  var _i18n = __d74c881c8f23921c15438d0f30c99f80;
+  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _validatorRegister = __94a6aae68277f018287e916fc78c8f6f;
+  var _validatorRegister = __cb2668f6be8871c04f859d8f8e5a8ab1;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
   
@@ -2166,7 +2170,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/form-validation.js
-(typeof window === 'undefined' ? global : window).__78dc5665b5e74967a85beca962aed6d5 = (function () {
+(typeof window === 'undefined' ? global : window).__2635f44381995ca51e130dad1479fffd = (function () {
   var module = {
     exports: {}
   };
@@ -2178,29 +2182,35 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __9803410207c491fb00e8f693e987aa8e;
+  __1e855e59e13e8847a5ed5441e3fd1919;
   
-  __77ff03c875a3139933c9425d867b4b55;
+  __fd675ae360bd5d9c547d27c9176b93ea;
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  
+  var deprecate = _interopRequireWildcard(_deprecation);
+  
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _validatorRegister = __94a6aae68277f018287e916fc78c8f6f;
+  var _validatorRegister = __cb2668f6be8871c04f859d8f8e5a8ab1;
   
   var _validatorRegister2 = _interopRequireDefault(_validatorRegister);
+  
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2361,9 +2371,9 @@
           $el: $field
       };
   
-      AJS.deprecate.prop(context, '$el', {
+      deprecate.prop(context, '$el', {
           sinceVersion: '5.9.0',
-          removeInVersion: '5.10.0',
+          removeInVersion: '8.0.0',
           alternativeName: 'el',
           extraInfo: 'See https://ecosystem.atlassian.net/browse/AUI-3263.'
       });
@@ -2576,7 +2586,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/constants.js
-(typeof window === 'undefined' ? global : window).__fa2d609d3773596cc2b702b68678a39c = (function () {
+(typeof window === 'undefined' ? global : window).__b2cfc977d45980ce4c29f90ea86d5180 = (function () {
   var module = {
     exports: {}
   };
@@ -2597,7 +2607,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/label.js
-(typeof window === 'undefined' ? global : window).__f5b87d288f6252359b1ecd0c6cf5783d = (function () {
+(typeof window === 'undefined' ? global : window).__bb2eb5d964bbb49080eaffc7a1d17cbf = (function () {
   var module = {
     exports: {}
   };
@@ -2609,19 +2619,19 @@
       value: true
   });
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _skatejsTemplateHtml = __f52b7059926ab2bdcd0aee12b4bc782b;
+  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _enforcer = __8339408c10b0a9052af9f3aad7b3a4e8;
+  var _enforcer = __da99b881b3bdaf63767de8d2780ca44c;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _constants = __fa2d609d3773596cc2b702b68678a39c;
+  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2684,7 +2694,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/progress-indicator.js
-(typeof window === 'undefined' ? global : window).__cb31fb29564cb1430c38ca8ab010b61f = (function () {
+(typeof window === 'undefined' ? global : window).__d3ebcf189654ce92803791fd3e76baad = (function () {
   var module = {
     exports: {}
   };
@@ -2696,13 +2706,13 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _animation = __c0311e8841bd8637e025a8fb1474f693;
+  var _animation = __1e5eff515fb8ea62ccd80d65455e88cd;
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -2777,7 +2787,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/backbone/backbone.js
-(typeof window === 'undefined' ? global : window).__2c84bbdd61b43f2115abf64994b2cc7a = (function () {
+(typeof window === 'undefined' ? global : window).__7f5160581b44ef9ed6fba14191814689 = (function () {
   var module = {
     exports: {}
   };
@@ -2785,10 +2795,10 @@
   var defineDependencies = {
     "module": module,
     "exports": exports,
-    "underscore": __61c16d543bfae33bb4747b45f7b91f35,
-    "jquery": __307d3e18fd611f85395c67cddeb1fe24,
-    "underscore": __61c16d543bfae33bb4747b45f7b91f35,
-    "jquery": __307d3e18fd611f85395c67cddeb1fe24
+    "underscore": __309cc7b5b5b5e38c9aaa43f19c161b66,
+    "jquery": __02fa0d2334b5d2f9701871403ba9d89a,
+    "underscore": __309cc7b5b5b5e38c9aaa43f19c161b66,
+    "jquery": __02fa0d2334b5d2f9701871403ba9d89a
   };
   var define = function defineReplacementWrapper(generatedModuleName) {
     return function defineReplacement(name, deps, func) {
@@ -2831,7 +2841,7 @@
         exports = module.exports = rval;
       }
     };
-  }("__2c84bbdd61b43f2115abf64994b2cc7a");
+  }("__7f5160581b44ef9ed6fba14191814689");
   define.amd = true;
   
   /*! THIS FILE HAS BEEN MODIFIED BY ATLASSIAN. Modified lines are marked below, search "ATLASSIAN" */
@@ -2858,8 +2868,8 @@
   
           // Next for Node.js or CommonJS. jQuery may not be needed as a module.
       } else if (typeof exports !== 'undefined') {
-          var _ = __61c16d543bfae33bb4747b45f7b91f35, $;
-          try { $ = __307d3e18fd611f85395c67cddeb1fe24; } catch(e) {}
+          var _ = __309cc7b5b5b5e38c9aaa43f19c161b66, $;
+          try { $ = __02fa0d2334b5d2f9701871403ba9d89a; } catch(e) {}
           factory(root, exports, _, $);
   
           // Finally, as a browser global.
@@ -2915,7 +2925,7 @@
     * // Require Underscore, if we're on the server, and it's not already present.
     * var _ = root._;
     *
-    * if (!_ && (typeof require !== 'undefined')) _ = __61c16d543bfae33bb4747b45f7b91f35;
+    * if (!_ && (typeof require !== 'undefined')) _ = __309cc7b5b5b5e38c9aaa43f19c161b66;
     *
     /** END ATLASSIAN */
   
@@ -4472,7 +4482,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/backbone.js
-(typeof window === 'undefined' ? global : window).__e3ce9f42f29f6bd2118d84461512f4a4 = (function () {
+(typeof window === 'undefined' ? global : window).__a0f8accf3e15b29165e7a143e435af91 = (function () {
   var module = {
     exports: {}
   };
@@ -4484,11 +4494,11 @@
       value: true
   });
   
-  var _underscore = __922acd0053a6de3ea4c53d8902766ab6;
+  var _underscore = __17253d01a5dbb7811399698870024390;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __2c84bbdd61b43f2115abf64994b2cc7a;
+  var _backbone = __7f5160581b44ef9ed6fba14191814689;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4504,7 +4514,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__c35ee65482ba222c97e480e4544e6569 = (function () {
+(typeof window === 'undefined' ? global : window).__f1c85bac91549fc7b83aaa27ba2694e9 = (function () {
   var module = {
     exports: {}
   };
@@ -4516,15 +4526,15 @@
       value: true
   });
   
-  var _underscore = __922acd0053a6de3ea4c53d8902766ab6;
+  var _underscore = __17253d01a5dbb7811399698870024390;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4591,6 +4601,8 @@
        * @param {String} query the query to run.
        */
       query: function query(_query) {
+          var _this = this;
+  
           var remote;
           var results;
   
@@ -4606,19 +4618,20 @@
   
           this.activeQueryCount++;
           this.trigger('activity', { activity: true });
-          remote.always(_underscore2.default.bind(function () {
-              this.activeQueryCount--;
-              this.trigger('activity', { activity: !!this.activeQueryCount });
-          }, this));
   
-          remote.done(_underscore2.default.bind(function (resp, succ, xhr) {
-              this.addQueryCache(_query, resp, xhr);
-          }, this));
-          remote.done(_underscore2.default.bind(function () {
-              _query = this.value;
-              results = this.getFilteredResults(_query);
-              this.respond(_query, results);
-          }, this));
+          remote.always(function () {
+              _this.activeQueryCount--;
+              _this.trigger('activity', { activity: !!_this.activeQueryCount });
+          });
+  
+          remote.done(function (resp, succ, xhr) {
+              _this.addQueryCache(_query, resp, xhr);
+          });
+          remote.done(function () {
+              _query = _this.value;
+              results = _this.getFilteredResults(_query);
+              _this.respond(_query, results);
+          });
       },
   
       /**
@@ -4765,7 +4778,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/query-input.js
-(typeof window === 'undefined' ? global : window).__55b68149799edca0b239413b936c10ce = (function () {
+(typeof window === 'undefined' ? global : window).__441c338a795b16645d3af32425aefa8e = (function () {
   var module = {
     exports: {}
   };
@@ -4777,15 +4790,15 @@
       value: true
   });
   
-  var _underscore = __922acd0053a6de3ea4c53d8902766ab6;
+  var _underscore = __17253d01a5dbb7811399698870024390;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -4818,7 +4831,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/class-names.js
-(typeof window === 'undefined' ? global : window).__17e04bba0bef0009cc832216dc2470d2 = (function () {
+(typeof window === 'undefined' ? global : window).__6cb6ba98d240ad8a464e632755835025 = (function () {
   var module = {
     exports: {}
   };
@@ -4856,7 +4869,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/custom-create-view.js
-(typeof window === 'undefined' ? global : window).__226d5785d36c6f3d2eaa19d9b986ea68 = (function () {
+(typeof window === 'undefined' ? global : window).__32dbabf183ece2a8f2812e96fdcf2494 = (function () {
   var module = {
     exports: {}
   };
@@ -4868,7 +4881,7 @@
     value: true
   });
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4880,7 +4893,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/custom-edit-view.js
-(typeof window === 'undefined' ? global : window).__a88f71998f64176b4467b73bf7f68708 = (function () {
+(typeof window === 'undefined' ? global : window).__1c6e1281c2c05202a8e43057ade05a58 = (function () {
   var module = {
     exports: {}
   };
@@ -4892,7 +4905,7 @@
     value: true
   });
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4904,7 +4917,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/custom-read-view.js
-(typeof window === 'undefined' ? global : window).__54897143fc7cd42cd80d313dd2bfdf55 = (function () {
+(typeof window === 'undefined' ? global : window).__5034e307049b45a668379b8f49ea940f = (function () {
   var module = {
     exports: {}
   };
@@ -4916,7 +4929,7 @@
     value: true
   });
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -4928,7 +4941,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/data-keys.js
-(typeof window === 'undefined' ? global : window).__b68b83266eb028cf402de39c4933799b = (function () {
+(typeof window === 'undefined' ? global : window).__92c78d58c645de42693045d4d3a79c1c = (function () {
   var module = {
     exports: {}
   };
@@ -4948,7 +4961,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/jquery/serializetoobject.js
-(typeof window === 'undefined' ? global : window).__c972538512dcf935ab0c75d63e2e3cff = (function () {
+(typeof window === 'undefined' ? global : window).__19de5a4e8be2c6def66eba17e3819f1c = (function () {
   var module = {
     exports: {}
   };
@@ -5012,7 +5025,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/events.js
-(typeof window === 'undefined' ? global : window).__f9e062e0834111cb42fed4e788d40075 = (function () {
+(typeof window === 'undefined' ? global : window).__a8a27edcadbb3291524b9ea43b8af4ce = (function () {
   var module = {
     exports: {}
   };
@@ -5056,7 +5069,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/throbber.js
-(typeof window === 'undefined' ? global : window).__f736a94af005df464b5cb85d70aeb4be = (function () {
+(typeof window === 'undefined' ? global : window).__efbadfd39f308c3a3e14a83c069d73fd = (function () {
   var module = {
     exports: {}
   };
@@ -5077,7 +5090,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/edit-row.js
-(typeof window === 'undefined' ? global : window).__306e5d088ae3093bce3a4ccc028d1000 = (function () {
+(typeof window === 'undefined' ? global : window).__6f6f93a6db384de956b5a3dcf20cd8cf = (function () {
   var module = {
     exports: {}
   };
@@ -5091,37 +5104,39 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __c972538512dcf935ab0c75d63e2e3cff;
+  __19de5a4e8be2c6def66eba17e3819f1c;
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __17e04bba0bef0009cc832216dc2470d2;
+  var _classNames = __6cb6ba98d240ad8a464e632755835025;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __b68b83266eb028cf402de39c4933799b;
+  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __f9e062e0834111cb42fed4e788d40075;
+  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __d74c881c8f23921c15438d0f30c99f80;
+  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __f736a94af005df464b5cb85d70aeb4be;
+  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') !== -1;
   
   /**
    * An abstract class that gives the required behaviour for the creating and editing entries. Extend this class and pass
@@ -5320,7 +5335,7 @@
   
           // firefox does not allow you to submit a form if there are 2 or more submit buttons in a form, even if all but
           // one is disabled. It also does not let you change the type="submit' to type="button". Therfore he lies the hack.
-          if (_jquery2.default.browser.mozilla) {
+          if (isFirefox) {
               $submit = this.$el.find(':submit');
   
               if ($submit.length) {
@@ -5346,7 +5361,7 @@
   
           // firefox does not allow you to submit a form if there are 2 or more submit buttons in a form, even if all but
           // one is disabled. It also does not let you change the type="submit' to type="button". Therfore he lies the hack.
-          if (_jquery2.default.browser.mozilla) {
+          if (isFirefox) {
               $placeholderSubmit = this.$el.find(this.classNames.SUBMIT);
               $submit = $placeholderSubmit.data(this.dataKeys.ENABLED_SUBMIT);
   
@@ -5591,7 +5606,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/entry-model.js
-(typeof window === 'undefined' ? global : window).__928a2470c59a6ae17c3b26224648a948 = (function () {
+(typeof window === 'undefined' ? global : window).__a957adf541e8046f4ec7d811fa0eec56 = (function () {
   var module = {
     exports: {}
   };
@@ -5605,21 +5620,21 @@
   
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _events = __1a99a68c34e660050a094f87fb28903d;
+  var _events = __bb9149f2450e3877631316cdb451280f;
   
-  var _underscore = __922acd0053a6de3ea4c53d8902766ab6;
+  var _underscore = __17253d01a5dbb7811399698870024390;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _events2 = __f9e062e0834111cb42fed4e788d40075;
+  var _events2 = __a8a27edcadbb3291524b9ea43b8af4ce;
   
   var _events3 = _interopRequireDefault(_events2);
   
@@ -5844,7 +5859,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table/row.js
-(typeof window === 'undefined' ? global : window).__db1289144ca525c25c4d90561fcced7d = (function () {
+(typeof window === 'undefined' ? global : window).__12a7ed474d5246bbe7870b97be386295 = (function () {
   var module = {
     exports: {}
   };
@@ -5856,35 +5871,35 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _dialog = __8eca5e5171c0c22be18ea931ed65c747;
+  var _dialog = __8c25237a63a4b0e116ea899da18a16d3;
   
   var dialog = _interopRequireWildcard(_dialog);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __17e04bba0bef0009cc832216dc2470d2;
+  var _classNames = __6cb6ba98d240ad8a464e632755835025;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _dataKeys = __b68b83266eb028cf402de39c4933799b;
+  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _events = __f9e062e0834111cb42fed4e788d40075;
+  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _i18n = __d74c881c8f23921c15438d0f30c99f80;
+  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _throbber = __f736a94af005df464b5cb85d70aeb4be;
+  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -6104,11 +6119,11 @@
               popup.element.find('.cancel').click(function () {
                   popup.hide();
               });
-              popup.element.find('form').submit(_.bind(function (e) {
+              popup.element.find('form').submit(function (e) {
                   popup.hide();
                   this.model.destroy();
                   e.preventDefault();
-              }, this));
+              }.bind(this));
           } else {
               this.model.destroy();
           }
@@ -6186,7 +6201,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/restful-table.js
-(typeof window === 'undefined' ? global : window).__abf29ef092b15abcf6c6c04fa65a04b4 = (function () {
+(typeof window === 'undefined' ? global : window).__c5e3bf15f76fa7bfc2443017a9e6dfb3 = (function () {
   var module = {
     exports: {}
   };
@@ -6198,63 +6213,63 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _log = __cf890abdf040e0993fb71f2f839bc972;
+  var _log = __8139e9a1368a0224fc430963d21930c8;
   
   var logger = _interopRequireWildcard(_log);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _classNames = __17e04bba0bef0009cc832216dc2470d2;
+  var _classNames = __6cb6ba98d240ad8a464e632755835025;
   
   var _classNames2 = _interopRequireDefault(_classNames);
   
-  var _customCreateView = __226d5785d36c6f3d2eaa19d9b986ea68;
+  var _customCreateView = __32dbabf183ece2a8f2812e96fdcf2494;
   
   var _customCreateView2 = _interopRequireDefault(_customCreateView);
   
-  var _customEditView = __a88f71998f64176b4467b73bf7f68708;
+  var _customEditView = __1c6e1281c2c05202a8e43057ade05a58;
   
   var _customEditView2 = _interopRequireDefault(_customEditView);
   
-  var _customReadView = __54897143fc7cd42cd80d313dd2bfdf55;
+  var _customReadView = __5034e307049b45a668379b8f49ea940f;
   
   var _customReadView2 = _interopRequireDefault(_customReadView);
   
-  var _dataKeys = __b68b83266eb028cf402de39c4933799b;
+  var _dataKeys = __92c78d58c645de42693045d4d3a79c1c;
   
   var _dataKeys2 = _interopRequireDefault(_dataKeys);
   
-  var _editRow = __306e5d088ae3093bce3a4ccc028d1000;
+  var _editRow = __6f6f93a6db384de956b5a3dcf20cd8cf;
   
   var _editRow2 = _interopRequireDefault(_editRow);
   
-  var _entryModel = __928a2470c59a6ae17c3b26224648a948;
+  var _entryModel = __a957adf541e8046f4ec7d811fa0eec56;
   
   var _entryModel2 = _interopRequireDefault(_entryModel);
   
-  var _events = __f9e062e0834111cb42fed4e788d40075;
+  var _events = __a8a27edcadbb3291524b9ea43b8af4ce;
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _i18n = __d74c881c8f23921c15438d0f30c99f80;
+  var _i18n = __ff21a71b857b101095156bf4ff8b27ac;
   
   var _i18n2 = _interopRequireDefault(_i18n);
   
-  var _row = __db1289144ca525c25c4d90561fcced7d;
+  var _row = __12a7ed474d5246bbe7870b97be386295;
   
   var _row2 = _interopRequireDefault(_row);
   
-  var _throbber = __f736a94af005df464b5cb85d70aeb4be;
+  var _throbber = __efbadfd39f308c3a3e14a83c069d73fd;
   
   var _throbber2 = _interopRequireDefault(_throbber);
   
@@ -6567,11 +6582,11 @@
                       context.row.hideLoading();
                   },
                   success: function success(xhr) {
-                      AJS.triggerEvtForInst(instance._event.REORDER_SUCCESS, instance, [xhr]);
+                      triggerEvtForInst(instance._event.REORDER_SUCCESS, instance, [xhr]);
                   },
                   error: function error(xhr) {
                       var responseData = _jquery2.default.parseJSON(xhr.responseText || xhr.data);
-                      AJS.triggerEvtForInst(instance._event.SERVER_ERROR, instance, [responseData, xhr, this]);
+                      triggerEvtForInst(instance._event.SERVER_ERROR, instance, [responseData, xhr, this]);
                   }
               });
   
@@ -7107,17 +7122,21 @@
        * @param rows {Array<Backbone.Model>} array of objects describing Backbone.Model's to render
        * @return {RestfulTable}
        */
-      renderRows: function renderRows(rows) {
+      renderRows: function renderRows() {
+          var _this = this;
+  
+          var rows = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  
           var comparator = this._models.comparator;
           var els = [];
   
           this._models.comparator = undefined; // disable temporarily, assume rows are sorted
   
-          var models = _.map(rows, function (row) {
-              var model = new this.options.model(row);
-              els.push(this._renderRow(model, -1).el);
+          var models = rows.map(function (row) {
+              var model = new _this.options.model(row);
+              els.push(_this._renderRow(model, -1).el);
               return model;
-          }, this);
+          });
   
           this._models.add(models, { silent: true });
           this._models.comparator = comparator;
@@ -7172,7 +7191,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/result-set.js
-(typeof window === 'undefined' ? global : window).__2e604c8d4586fd17aaa04c0b41a54547 = (function () {
+(typeof window === 'undefined' ? global : window).__3253a94b3187c508715567de7b3d976c = (function () {
   var module = {
     exports: {}
   };
@@ -7184,11 +7203,11 @@
       value: true
   });
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -7246,7 +7265,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/results-list.js
-(typeof window === 'undefined' ? global : window).__90d0c5854c951f5625b0f3dec297b832 = (function () {
+(typeof window === 'undefined' ? global : window).__c01675a5756b387d4597631183424a16 = (function () {
   var module = {
     exports: {}
   };
@@ -7258,19 +7277,19 @@
       value: true
   });
   
-  var _underscore = __922acd0053a6de3ea4c53d8902766ab6;
+  var _underscore = __17253d01a5dbb7811399698870024390;
   
   var _underscore2 = _interopRequireDefault(_underscore);
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _resultSet = __2e604c8d4586fd17aaa04c0b41a54547;
+  var _resultSet = __3253a94b3187c508715567de7b3d976c;
   
   var _resultSet2 = _interopRequireDefault(_resultSet);
   
@@ -7354,7 +7373,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/spin/spin.js
-(typeof window === 'undefined' ? global : window).__5948fbc87d30aef48e0301714319f1fd = (function () {
+(typeof window === 'undefined' ? global : window).__b0bead4f53ba672725336d6e7298cf51 = (function () {
   var module = {
     exports: {}
   };
@@ -7404,7 +7423,7 @@
         exports = module.exports = rval;
       }
     };
-  }("__5948fbc87d30aef48e0301714319f1fd");
+  }("__b0bead4f53ba672725336d6e7298cf51");
   define.amd = true;
   
   //fgnass.github.com/spin.js#v1.3.3
@@ -7772,7 +7791,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.spin.js
-(typeof window === 'undefined' ? global : window).__e9282c4286b6886c60cee0b1e3321cc6 = (function () {
+(typeof window === 'undefined' ? global : window).__d8ff3af7054b670547578cbb83ac113e = (function () {
   var module = {
     exports: {}
   };
@@ -7862,7 +7881,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/spin.js
-(typeof window === 'undefined' ? global : window).__e573296a636ce4ee054d5d3b9c8823fb = (function () {
+(typeof window === 'undefined' ? global : window).__e0a09f3ee5af5c6a891a000b0e664556 = (function () {
   var module = {
     exports: {}
   };
@@ -7870,14 +7889,14 @@
   
   'use strict';
   
-  __5948fbc87d30aef48e0301714319f1fd;
+  __b0bead4f53ba672725336d6e7298cf51;
   
-  __e9282c4286b6886c60cee0b1e3321cc6;
+  __d8ff3af7054b670547578cbb83ac113e;
   
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/select/option.js
-(typeof window === 'undefined' ? global : window).__e64a1b4aa0ee06b341d22777a0d316d3 = (function () {
+(typeof window === 'undefined' ? global : window).__66873f486bab0e75e472d0d0bcf053d7 = (function () {
   var module = {
     exports: {}
   };
@@ -7889,11 +7908,11 @@
       value: true
   });
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _escapeHtml = __d909216fe400315d9bcd3c1a7748d78f;
+  var _escapeHtml = __9429d2be869371d3ad2b23dcd7686108;
   
   var _escapeHtml2 = _interopRequireDefault(_escapeHtml);
   
@@ -7928,7 +7947,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/select/suggestion-model.js
-(typeof window === 'undefined' ? global : window).__813bb9831d275363710922a32f00151b = (function () {
+(typeof window === 'undefined' ? global : window).__4a26aa2a39d925726ccc2b585adc0d7d = (function () {
   var module = {
     exports: {}
   };
@@ -7940,7 +7959,7 @@
       value: true
   });
   
-  var _backbone = __e3ce9f42f29f6bd2118d84461512f4a4;
+  var _backbone = __a0f8accf3e15b29165e7a143e435af91;
   
   var _backbone2 = _interopRequireDefault(_backbone);
   
@@ -7957,7 +7976,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/select/suggestions-model.js
-(typeof window === 'undefined' ? global : window).__a4823e5d10c477132868b9494eab43b4 = (function () {
+(typeof window === 'undefined' ? global : window).__771c421e3b16ab7d7c1aebed0c4d3565 = (function () {
   var module = {
     exports: {}
   };
@@ -8040,7 +8059,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/select/suggestions-view.js
-(typeof window === 'undefined' ? global : window).__800041d503f5393e3ca42bfe3af67e46 = (function () {
+(typeof window === 'undefined' ? global : window).__9140d8f8d637e720a6ac5d96e732ad03 = (function () {
   var module = {
     exports: {}
   };
@@ -8052,17 +8071,17 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __d74c881c8f23921c15438d0f30c99f80;
+  __ff21a71b857b101095156bf4ff8b27ac;
   
-  var _alignment = __f420c577506564c314d7d5d82088641c;
+  var _alignment = __670509c3f39577904eaf81675f28b1a5;
   
   var _alignment2 = _interopRequireDefault(_alignment);
   
-  var _layer = __fe0cd0a7ef176e2ef4e0e105d1ce31f5;
+  var _layer = __b16464bbf0aa314bacb753553ada098e;
   
   var _layer2 = _interopRequireDefault(_layer);
   
@@ -8162,7 +8181,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/select/template.js
-(typeof window === 'undefined' ? global : window).__3aadbf67f3111ac08beb6cb7c0787b31 = (function () {
+(typeof window === 'undefined' ? global : window).__8f881de1614be8062f6a161bbb68468e = (function () {
   var module = {
     exports: {}
   };
@@ -8174,7 +8193,7 @@
       value: true
   });
   
-  var _skatejsTemplateHtml = __f52b7059926ab2bdcd0aee12b4bc782b;
+  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
@@ -8186,7 +8205,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/select.js
-(typeof window === 'undefined' ? global : window).__cb4c3a0c9245d333f29a31020266b44c = (function () {
+(typeof window === 'undefined' ? global : window).__fa8e9894e9fa2d4a0a3f4a619cdac6dc = (function () {
   var module = {
     exports: {}
   };
@@ -8198,69 +8217,69 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __c9423b45ff2ac1541decd5ae4bfc4c99;
+  __ba22a6a0f9889bb04a6764c4bc4865a0;
   
-  __d74c881c8f23921c15438d0f30c99f80;
+  __ff21a71b857b101095156bf4ff8b27ac;
   
-  __e573296a636ce4ee054d5d3b9c8823fb;
+  __e0a09f3ee5af5c6a891a000b0e664556;
   
-  var _option = __e64a1b4aa0ee06b341d22777a0d316d3;
+  var _option = __66873f486bab0e75e472d0d0bcf053d7;
   
   var _option2 = _interopRequireDefault(_option);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _customEvent = __5a18a90cc502f556e87c4181f8a6b4ab;
+  var _customEvent = __2e94b36d616dffee0a6f911bf22a83ae;
   
   var _customEvent2 = _interopRequireDefault(_customEvent);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _keyCode = __509557c937caa8763def39004fcf3193;
+  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
   
   var _keyCode2 = _interopRequireDefault(_keyCode);
   
-  var _progressiveDataSet = __c35ee65482ba222c97e480e4544e6569;
+  var _progressiveDataSet = __f1c85bac91549fc7b83aaa27ba2694e9;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _state = __fd7d82ce22cd33cac1609667ce8040f9;
+  var _state = __ed9b9aac7079f8ce29349f1a2c1b9701;
   
   var _state2 = _interopRequireDefault(_state);
   
-  var _suggestionModel = __813bb9831d275363710922a32f00151b;
+  var _suggestionModel = __4a26aa2a39d925726ccc2b585adc0d7d;
   
   var _suggestionModel2 = _interopRequireDefault(_suggestionModel);
   
-  var _suggestionsModel = __a4823e5d10c477132868b9494eab43b4;
+  var _suggestionsModel = __771c421e3b16ab7d7c1aebed0c4d3565;
   
   var _suggestionsModel2 = _interopRequireDefault(_suggestionsModel);
   
-  var _suggestionsView = __800041d503f5393e3ca42bfe3af67e46;
+  var _suggestionsView = __9140d8f8d637e720a6ac5d96e732ad03;
   
   var _suggestionsView2 = _interopRequireDefault(_suggestionsView);
   
-  var _template = __3aadbf67f3111ac08beb6cb7c0787b31;
+  var _template = __8f881de1614be8062f6a161bbb68468e;
   
   var _template2 = _interopRequireDefault(_template);
   
-  var _uniqueId = __9fa5e8acd81f0f9028180b8fcdcd9cb4;
+  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _constants = __fa2d609d3773596cc2b702b68678a39c;
+  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -8574,12 +8593,7 @@
           if (selectCanBeEmpty) {
               deselect(element);
           } else {
-              var selection = getSelectedLabel(element);
-              if (typeof selection === 'undefined') {
-                  deselect(element);
-              } else {
-                  element._input.value = selection;
-              }
+              element._input.value = getSelectedLabel(element);
           }
       }
   }
@@ -8796,7 +8810,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/jquery/plugins/jquery.select2.js
-(typeof window === 'undefined' ? global : window).__f8808db850ac1b5b58d33da133a8f08d = (function () {
+(typeof window === 'undefined' ? global : window).__541108ffa7d92ccfa7bbf8536d20dbb0 = (function () {
   var module = {
     exports: {}
   };
@@ -12061,7 +12075,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/select2.js
-(typeof window === 'undefined' ? global : window).__cbae0711ad03dade6eafbd2c419f6a9c = (function () {
+(typeof window === 'undefined' ? global : window).__0d8267f32c62ec811936d03ae0ef7267 = (function () {
   var module = {
     exports: {}
   };
@@ -12069,11 +12083,11 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __f8808db850ac1b5b58d33da133a8f08d;
+  __541108ffa7d92ccfa7bbf8536d20dbb0;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -12121,7 +12135,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/raf/raf.js
-(typeof window === 'undefined' ? global : window).__0e57a5ff611a3173e3f9aa2306aea259 = (function () {
+(typeof window === 'undefined' ? global : window).__5ca5c5ddaacf5652a879cfec07ca5db7 = (function () {
   var module = {
     exports: {}
   };
@@ -12172,7 +12186,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/has-touch.js
-(typeof window === 'undefined' ? global : window).__29f0b74d9ef495751062ec4e83e0b098 = (function () {
+(typeof window === 'undefined' ? global : window).__2d5f094064a34a526c3e143503c89b91 = (function () {
   var module = {
     exports: {}
   };
@@ -12191,7 +12205,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/is-input.js
-(typeof window === 'undefined' ? global : window).__f268bb685e7e11f511cb91a156a783b0 = (function () {
+(typeof window === 'undefined' ? global : window).__bd483f5e8ad6ed1962e7a119675a0b66 = (function () {
   var module = {
     exports: {}
   };
@@ -12212,7 +12226,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/internal/mediaQuery.js
-(typeof window === 'undefined' ? global : window).__e67a99ea27950f14c1291fb7cebabf6d = (function () {
+(typeof window === 'undefined' ? global : window).__233c61f178d7afeb305a2369d3ca4c77 = (function () {
   var module = {
     exports: {}
   };
@@ -12248,7 +12262,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/sidebar.js
-(typeof window === 'undefined' ? global : window).__c0275cfdb12ae34a5641a8e219403604 = (function () {
+(typeof window === 'undefined' ? global : window).__35ff1875ff47a73afe1c7cfa63c3b7f7 = (function () {
   var module = {
     exports: {}
   };
@@ -12260,45 +12274,53 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __f673a5150978887490995d88aeec0c8d;
+  __cc64a0d7c308ad5954e00f06c2bcc6ed;
   
-  __0e57a5ff611a3173e3f9aa2306aea259;
+  __5ca5c5ddaacf5652a879cfec07ca5db7;
   
-  __d74c881c8f23921c15438d0f30c99f80;
+  __ff21a71b857b101095156bf4ff8b27ac;
   
-  var _deprecation = __c8cfa00f1eba9ac7af89ee3d0d33961d;
+  var _clone = __8a777f37cbfa8f7456cf8bf6fd300c3f;
+  
+  var _clone2 = _interopRequireDefault(_clone);
+  
+  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
   
   var deprecate = _interopRequireWildcard(_deprecation);
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _hasTouch = __29f0b74d9ef495751062ec4e83e0b098;
+  var _hasTouch = __2d5f094064a34a526c3e143503c89b91;
   
   var _hasTouch2 = _interopRequireDefault(_hasTouch);
   
-  var _isInput = __f268bb685e7e11f511cb91a156a783b0;
+  var _isInput = __bd483f5e8ad6ed1962e7a119675a0b66;
   
   var _isInput2 = _interopRequireDefault(_isInput);
   
-  var _mediaQuery = __e67a99ea27950f14c1291fb7cebabf6d;
+  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  
+  var _keyCode2 = _interopRequireDefault(_keyCode);
+  
+  var _mediaQuery = __233c61f178d7afeb305a2369d3ca4c77;
   
   var _mediaQuery2 = _interopRequireDefault(_mediaQuery);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _uniqueId = __9fa5e8acd81f0f9028180b8fcdcd9cb4;
+  var _uniqueId = __327dbe0b6617f3273ea9b3fc2d1dda83;
   
   var _uniqueId2 = _interopRequireDefault(_uniqueId);
   
-  var _widget = __e3152236c406a356c24f20f7bfcccf21;
+  var _widget = __ecaadce486e7be7002d8453fc51f9873;
   
   var _widget2 = _interopRequireDefault(_widget);
   
@@ -12498,7 +12520,7 @@
               if (isAnimated) {
                   // We must trigger a CSS reflow (by accessing
                   // offsetHeight) otherwise the transition still runs.
-                  // jshint expr:true
+                  // eslint-disable-next-line
                   this.$el[0].offsetHeight;
                   this.$el.addClass('aui-is-animated');
               }
@@ -12740,7 +12762,7 @@
        * This function should come from the expander component.
        */
       function cloneExpander(element) {
-          var $clone = AJS.clone(element);
+          var $clone = (0, _clone2.default)(element);
           if ($clone.hasClass('aui-expander-content')) {
               $clone.find('.aui-expander-cutoff').remove();
               $clone.removeClass('aui-expander-content');
@@ -12811,7 +12833,7 @@
   }
   
   function lazilyInitializeSubmenus(sidebar) {
-      sidebar.$el.on('hover click focus', sidebar.collapsedTriggersSelector, function (e) {
+      sidebar.$el.on('mouseenter mouseleave click focus', sidebar.collapsedTriggersSelector, function (e) {
           var $trigger = (0, _jquery2.default)(e.target);
           constructSubmenu(sidebar, $trigger);
       });
@@ -12921,15 +12943,15 @@
       });
   
       function isNormalTab(e) {
-          return e.keyCode === AJS.keyCode.TAB && !e.shiftKey && !e.altKey;
+          return e.keyCode === _keyCode2.default.TAB && !e.shiftKey && !e.altKey;
       }
   
       function isNormalSquareBracket(e) {
-          return e.which === AJS.keyCode.LEFT_SQUARE_BRACKET && !e.shiftKey && !e.ctrlKey && !e.metaKey && !(0, _isInput2.default)(e.target);
+          return e.which === _keyCode2.default.LEFT_SQUARE_BRACKET && !e.shiftKey && !e.ctrlKey && !e.metaKey && !(0, _isInput2.default)(e.target);
       }
   
       function isShiftTab(e) {
-          return e.keyCode === AJS.keyCode.TAB && e.shiftKey;
+          return e.keyCode === _keyCode2.default.TAB && e.shiftKey;
       }
   
       function isFirstSubmenuItem(item, $submenuDialog) {
@@ -12990,7 +13012,7 @@
   });
   
   var sidebarSubmenuDeprecationLogger = deprecate.getMessageLogger('Sidebar.submenus', {
-      removeInVersion: '6.0',
+      removeInVersion: '8.0',
       sinceVersion: '5.8'
   });
   
@@ -13002,7 +13024,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js-vendor/jquery/jquery.tablesorter.js
-(typeof window === 'undefined' ? global : window).__c9edf5d8d2fcc7f0411bc8f50451f94a = (function () {
+(typeof window === 'undefined' ? global : window).__7cd6e2eeea92fd33dd52da951526a304 = (function () {
   var module = {
     exports: {}
   };
@@ -14907,7 +14929,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/tables-sortable.js
-(typeof window === 'undefined' ? global : window).__e447bd0d7692d52f66ca23f80e610893 = (function () {
+(typeof window === 'undefined' ? global : window).__7884db8256ff887adf7897ec0b66d820 = (function () {
   var module = {
     exports: {}
   };
@@ -14919,13 +14941,13 @@
       value: true
   });
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  __c9edf5d8d2fcc7f0411bc8f50451f94a;
+  __7cd6e2eeea92fd33dd52da951526a304;
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
@@ -15040,7 +15062,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/tipsy.js
-(typeof window === 'undefined' ? global : window).__e0e2fcbfe1adeeec3d129337203daa99 = (function () {
+(typeof window === 'undefined' ? global : window).__d14f0f297335aefa47f50a724842247b = (function () {
   var module = {
     exports: {}
   };
@@ -15048,12 +15070,12 @@
   
   'use strict';
   
-  __f673a5150978887490995d88aeec0c8d;
+  __cc64a0d7c308ad5954e00f06c2bcc6ed;
   
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/toggle.js
-(typeof window === 'undefined' ? global : window).__1840a42d6d7e6ab244ecf3cf5bcc56cd = (function () {
+(typeof window === 'undefined' ? global : window).__be71d4c22d5f8ec8e24cf5cbfc949106 = (function () {
   var module = {
     exports: {}
   };
@@ -15061,29 +15083,33 @@
   
   'use strict';
   
-  __e573296a636ce4ee054d5d3b9c8823fb;
+  __e0a09f3ee5af5c6a891a000b0e664556;
   
-  __8a6820c3d0bc5d638a8490d849a5b750;
+  __65bf2e9d62756879a7805c63dea11935;
   
-  var _attributes = __29fa312a51517f20df339a1900640e1d;
+  var _attributes = __82e760f4580e37eda172e78ba0378f6d;
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _enforcer = __8339408c10b0a9052af9f3aad7b3a4e8;
+  var _enforcer = __da99b881b3bdaf63767de8d2780ca44c;
   
   var _enforcer2 = _interopRequireDefault(_enforcer);
   
-  var _skatejsTemplateHtml = __f52b7059926ab2bdcd0aee12b4bc782b;
+  var _keyCode = __d92d89c196b4703777e79d25a9f94b7f;
+  
+  var _keyCode2 = _interopRequireDefault(_keyCode);
+  
+  var _skatejsTemplateHtml = __19c740e7a69d815ecec16b8dd69f0e00;
   
   var _skatejsTemplateHtml2 = _interopRequireDefault(_skatejsTemplateHtml);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
-  var _constants = __fa2d609d3773596cc2b702b68678a39c;
+  var _constants = __b2cfc977d45980ce4c29f90ea86d5180;
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -15167,7 +15193,7 @@
    */
   function bindEventsToInput(element) {
       element._input.addEventListener('keydown', function (e) {
-          if (element.busy && e.keyCode === AJS.keyCode.SPACE) {
+          if (element.busy && e.keyCode === _keyCode2.default.SPACE) {
               e.preventDefault();
           }
       });
@@ -15297,7 +15323,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/trigger.js
-(typeof window === 'undefined' ? global : window).__50e2876f514ad7c8f1fee05297cde9e2 = (function () {
+(typeof window === 'undefined' ? global : window).__ea2e55215adfd7d713f5dd9cd22093bf = (function () {
   var module = {
     exports: {}
   };
@@ -15305,15 +15331,15 @@
   
   'use strict';
   
-  var _jquery = __307d3e18fd611f85395c67cddeb1fe24;
+  var _jquery = __02fa0d2334b5d2f9701871403ba9d89a;
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
-  var _skate = __c1ce1f1e3e613f564fc234ff043570f1;
+  var _skate = __da172e72afc5a7088e3034df761062a6;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -15377,7 +15403,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui/truncating-progressive-data-set.js
-(typeof window === 'undefined' ? global : window).__330767d40b131b095055fa0d37f7384e = (function () {
+(typeof window === 'undefined' ? global : window).__2a380e6e7039c86b428d8010745343d0 = (function () {
   var module = {
     exports: {}
   };
@@ -15389,11 +15415,11 @@
       value: true
   });
   
-  var _globalize = __4d02fe17b8e885a34493e34af3d145dd;
+  var _globalize = __fb27ffae84b96c14bf339e62cefcf116;
   
   var _globalize2 = _interopRequireDefault(_globalize);
   
-  var _progressiveDataSet = __c35ee65482ba222c97e480e4544e6569;
+  var _progressiveDataSet = __f1c85bac91549fc7b83aaa27ba2694e9;
   
   var _progressiveDataSet2 = _interopRequireDefault(_progressiveDataSet);
   
@@ -15463,7 +15489,7 @@
   return module.exports;
 }).call(this);
 // node_modules/@atlassian/aui/src/js/aui-experimental.js
-(typeof window === 'undefined' ? global : window).__598a52c297ef6c78bf68a79b4d546d04 = (function () {
+(typeof window === 'undefined' ? global : window).__92bb2ab650fe75c101f95c7eb1533456 = (function () {
   var module = {
     exports: {}
   };
@@ -15475,55 +15501,55 @@
     value: true
   });
   
-  __abf5adbcd4387fa990df741bc7e30825;
+  __c2529721e056b137d5dc332217e3a9a0;
   
-  __3ad706cbf23ce48c5828dc88c7c5b7ee;
+  __86c5d8458771884814420d1e592e5434;
   
-  __c9423b45ff2ac1541decd5ae4bfc4c99;
+  __ba22a6a0f9889bb04a6764c4bc4865a0;
   
-  __4f4e1fd1304bf2a8d908367dabb67a5c;
+  __de170d5d90568334e1ab26d28697cb93;
   
-  __bdbf9d213bf319eb4577ef21ac6c491c;
+  __abec049fae3e0e24b94d659c3600ba01;
   
-  __1f32101163c43c11907101e4c1c0413f;
+  __bdcd8cba16e83e973cb8146ddb843c38;
   
-  __e243db5c139a94f8b4c4fe7a1d0dbab0;
+  __b50249c6901293cd03d256e40a6d0941;
   
-  __78dc5665b5e74967a85beca962aed6d5;
+  __2635f44381995ca51e130dad1479fffd;
   
-  __f5b87d288f6252359b1ecd0c6cf5783d;
+  __bb2eb5d964bbb49080eaffc7a1d17cbf;
   
-  __cb31fb29564cb1430c38ca8ab010b61f;
+  __d3ebcf189654ce92803791fd3e76baad;
   
-  __c35ee65482ba222c97e480e4544e6569;
+  __f1c85bac91549fc7b83aaa27ba2694e9;
   
-  __55b68149799edca0b239413b936c10ce;
+  __441c338a795b16645d3af32425aefa8e;
   
-  __abf29ef092b15abcf6c6c04fa65a04b4;
+  __c5e3bf15f76fa7bfc2443017a9e6dfb3;
   
-  __2e604c8d4586fd17aaa04c0b41a54547;
+  __3253a94b3187c508715567de7b3d976c;
   
-  __90d0c5854c951f5625b0f3dec297b832;
+  __c01675a5756b387d4597631183424a16;
   
-  __cb4c3a0c9245d333f29a31020266b44c;
+  __fa8e9894e9fa2d4a0a3f4a619cdac6dc;
   
-  __cbae0711ad03dade6eafbd2c419f6a9c;
+  __0d8267f32c62ec811936d03ae0ef7267;
   
-  __c0275cfdb12ae34a5641a8e219403604;
+  __35ff1875ff47a73afe1c7cfa63c3b7f7;
   
-  __e573296a636ce4ee054d5d3b9c8823fb;
+  __e0a09f3ee5af5c6a891a000b0e664556;
   
-  __e447bd0d7692d52f66ca23f80e610893;
+  __7884db8256ff887adf7897ec0b66d820;
   
-  __e0e2fcbfe1adeeec3d129337203daa99;
+  __d14f0f297335aefa47f50a724842247b;
   
-  __1840a42d6d7e6ab244ecf3cf5bcc56cd;
+  __be71d4c22d5f8ec8e24cf5cbfc949106;
   
-  __8a6820c3d0bc5d638a8490d849a5b750;
+  __65bf2e9d62756879a7805c63dea11935;
   
-  __50e2876f514ad7c8f1fee05297cde9e2;
+  __ea2e55215adfd7d713f5dd9cd22093bf;
   
-  __330767d40b131b095055fa0d37f7384e;
+  __2a380e6e7039c86b428d8010745343d0;
   
   exports.default = window.AJS;
   module.exports = exports['default'];
@@ -15531,7 +15557,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-experimental.js
-(typeof window === 'undefined' ? global : window).__0a2e9211c3be860d64c790ff8af08b0b = (function () {
+(typeof window === 'undefined' ? global : window).__f60ffcf7fb94c84ef0707703add84c8f = (function () {
   var module = {
     exports: {}
   };
@@ -15543,7 +15569,7 @@
     value: true
   });
   
-  var _auiExperimental = __598a52c297ef6c78bf68a79b4d546d04;
+  var _auiExperimental = __92bb2ab650fe75c101f95c7eb1533456;
   
   var _auiExperimental2 = _interopRequireDefault(_auiExperimental);
   

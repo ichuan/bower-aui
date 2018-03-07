@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v6.0.9
+ * @version v6.1.0
  * @link https://docs.atlassian.com/aui/latest/
  * @license Apache-2.0
  * @author [object Object]
  */
 // node_modules/@atlassian/aui/src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__91a2ecef332d5618330f22e07c6fa12b = (function () {
+(typeof window === 'undefined' ? global : window).__c22be8db3ffbf664504662dab34dad38 = (function () {
   var module = {
     exports: {}
   };
@@ -14,9 +14,9 @@
   
   'use strict';
   
-  var _deprecation = __c8cfa00f1eba9ac7af89ee3d0d33961d;
+  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
   
-  var _amdify = __574ac67f906effeb9d8ec2753b23cf28;
+  var _amdify = __8f23956215d754ca94df621efa6b0438;
   
   var _amdify2 = _interopRequireDefault(_amdify);
   
@@ -84,7 +84,7 @@
       if (Object.hasOwnProperty.call(fiveNineZero, name)) {
           (0, _deprecation.css)(name, {
               alternativeName: fiveNineZero[name],
-              removeVersion: '6.0.0',
+              removeVersion: '8.0.0',
               sinceVersion: '5.9.0'
           });
       }
@@ -95,7 +95,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-css-deprecations.js
-(typeof window === 'undefined' ? global : window).__c29c29560455719ef282b75f3fd996fc = (function () {
+(typeof window === 'undefined' ? global : window).__bfcf5eb3acc9872a89a083ccaa354528 = (function () {
   var module = {
     exports: {}
   };
@@ -103,7 +103,13 @@
   
   'use strict';
   
-  __91a2ecef332d5618330f22e07c6fa12b;
+  __c22be8db3ffbf664504662dab34dad38;
+  
+  var _deprecation = __9ea35e3451360b72ebe8cb8006239936;
+  
+  (0, _deprecation.css)(['.aui-header-logo-atlassian', '.aui-header-logo-aui', '.aui-header-logo-bamboo', '.aui-header-logo-bitbucket', '.aui-header-logo-stash', '.aui-header-logo-clover', '.aui-header-logo-confluence', '.aui-header-logo-crowd', '.aui-header-logo-crucible', '.aui-header-logo-fecru', '.aui-header-logo-fisheye', '.aui-header-logo-hipchat', '.aui-header-logo-jira', '.aui-header-logo-jira-core', '.aui-header-logo-jira-software', '.aui-header-logo-jira-service-desk', '.aui-header-logo-answer', '.aui-header-logo-community', '.aui-header-logo-developers', '.aui-header-logo-expert', '.aui-header-logo-partner-program', '.aui-header-logo-marketplace', '.aui-header-logo-support', '.aui-header-logo-university', '.aui-header-logo-cloud'], {
+      displayName: 'Atlassian Brand Logos'
+  });
   
   return module.exports;
 }).call(this);

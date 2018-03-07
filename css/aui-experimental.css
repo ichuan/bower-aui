@@ -1494,6 +1494,7 @@ disabled look for disabled choices in the results dropdown
   padding-top: 5px;
 }
 #aui-flag-container {
+  pointer-events: none;
   position: fixed;
   top: 71px;
   right: 30px;
@@ -1513,21 +1514,22 @@ disabled look for disabled choices in the results dropdown
   opacity: 0;
   overflow: hidden;
   top: 0;
-  transition: max-height 0.5s 0.5s, opacity 0.8s, left 1s;
+  transition: max-height 0.5s 0.5s, margin-bottom 0.5s 0.5s, opacity 0.8s, left 1s;
 }
 .aui-flag[aria-hidden="false"] {
+  margin-bottom: 20px;
   opacity: 1;
   top: 0;
   left: 0;
 }
 .aui-flag .aui-message {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-left-width: 1px;
   border-radius: 3px;
+  pointer-events: auto;
   width: 300px;
 }
 /*
