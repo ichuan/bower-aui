@@ -1,12 +1,12 @@
 /*!
  * @atlassian/aui - Atlassian User Interface Framework
- * @version v7.0.0
+ * @version v7.0.1
  * @link https://docs.atlassian.com/aui/latest/
  * @license SEE LICENSE IN LICENSE.md
  * @author Atlassian Pty Ltd.
  */
 // src/js/aui/header-async.js
-(typeof window === 'undefined' ? global : window).__30883de391de7caa40815c8a1e608de6 = (function () {
+(typeof window === 'undefined' ? global : window).__2099962405af1a8893c5b00b1120bf59 = (function () {
   var module = {
     exports: {}
   };
@@ -18,11 +18,11 @@
       value: true
   });
   
-  var _createHeader = __d96184a7554814af9eb3346b1a0bb73d;
+  var _createHeader = __fb3fd0e488fb6e56f8392c8bc7434da4;
   
   var _createHeader2 = _interopRequireDefault(_createHeader);
   
-  var _skate = __af0e5693c727d2f07dbf56c2d81cc4ce;
+  var _skate = __bb6ec7268c91759bbe10bd46d924551e;
   
   var _skate2 = _interopRequireDefault(_skate);
   
@@ -41,7 +41,7 @@
   return module.exports;
 }).call(this);
 // src/js/aui-header-async.js
-(typeof window === 'undefined' ? global : window).__dccd00fcacb4cee0ce0626db9bb7336b = (function () {
+(typeof window === 'undefined' ? global : window).__d1bf2850f98e3b981a4cc4cffe7c22fd = (function () {
   var module = {
     exports: {}
   };
@@ -53,7 +53,7 @@
     value: true
   });
   
-  __30883de391de7caa40815c8a1e608de6;
+  __2099962405af1a8893c5b00b1120bf59;
   
   exports.default = window.AJS;
   module.exports = exports['default'];
